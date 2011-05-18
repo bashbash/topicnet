@@ -1,0 +1,615 @@
+article_id	source_id	source
+acm721078	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721080	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721083	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721210	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721213	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721216	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721217	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm721218	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm760271	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+acm857576	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857577	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857578	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857579	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857580	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857581	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857582	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857583	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857584	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857585	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857587	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857589	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857590	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857591	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857592	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857593	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857597	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857598	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+acm857599	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857600	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857601	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857602	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857603	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857604	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857605	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857606	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857607	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857608	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857609	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857612	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857613	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857614	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857615	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857617	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857618	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857619	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857620	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+acm857624	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857625	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857626	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857627	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857630	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857631	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857632	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857638	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857639	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857640	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857641	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857642	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857643	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857644	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857645	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857646	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+acm857655	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857656	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857657	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857659	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857660	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857661	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857662	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857663	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857665	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857666	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857667	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857668	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857669	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857670	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857671	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857672	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857673	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857674	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857675	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+acm857679	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857680	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857681	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857682	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857683	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857684	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857685	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857686	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857687	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857688	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857689	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857690	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857691	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857692	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857693	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857694	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857697	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857698	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857699	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857700	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+acm857702	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857703	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857704	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857705	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857706	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857707	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857708	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857709	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857710	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857711	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857712	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857713	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857714	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857715	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857716	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857717	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857719	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857720	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857721	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857724	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857725	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857726	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+acm857729	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857731	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857732	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857733	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857734	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857735	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857736	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857737	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857738	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857739	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857740	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857741	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857742	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857746	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857747	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857748	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857749	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857750	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857751	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857752	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857753	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857754	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm857755	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+acm104428	acm65669	Neurocomputing foundations of research
+acm108361	acm108360	ACM Transactions on Graphics (TOG): Volume 10 , Issue 2 (April 1991): 
+acm108870	acm108844	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology
+acm108883	acm108844	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology
+acm115768	acm102377	ACM Transactions on Graphics (TOG): Volume 11 , Issue 1 (January 1992): 
+acm120788	acm120782	Symposium on User Interface Software and Technology: Proceedings of the 4th annual ACM symposium on User interface software and technology
+acm122758	acm122718	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 18th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 25 , Issue 4 (July 1991)
+acm122873	acm122860	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 14th annual international ACM SIGIR conference on Research and development in information retrieval
+acm122984	acm122974	Conference on Hypertext and Hypermedia: Proceedings of the third annual ACM conference on Hypertext
+acm130299	acm130283	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1992 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 21 , Issue 2 (June 1992)
+acm133215	acm133160	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 15th annual international ACM SIGIR conference on Research and development in information retrieval
+acm133216	acm133160	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 15th annual international ACM SIGIR conference on Research and development in information retrieval
+acm133261	acm133257	Discrete Applied Mathematics: Volume 36 , Issue 2 (April 1992): 
+acm134093	acm133994	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 19th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 26 , Issue 2 (July 1992)
+acm142751	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm142780	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm142817	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm142913	acm142868	Software Engineering Symposium on Practical Software Development Environments: Proceedings of the fifth ACM SIGSOFT symposium on Software development environments: ACM SIGSOFT Software Engineering Notes: Volume 17 , Issue 5 (December 1992)
+acm143054	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm146826	acm146802	ACM Transactions on Information Systems (TOIS): Volume 10 , Issue 2 (April 1992): 
+acm147206	acm147156	Symposium on Interactive 3D Graphics: Proceedings of the 1992 symposium on Interactive 3D graphics
+acm148286	null	ISBN: 0-521-43108-5
+acm153577	acm255950	Communications of the ACM: Volume 36 , Issue 4 (April 1993): Special issue on graphical user interfaces
+acm155359	acm159161	ACM Transactions on Information Systems (TOIS): Volume 11 , Issue 3 (July 1993): 
+acm160730	acm160688	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 16th annual international ACM SIGIR conference on Research and development in information retrieval
+acm162510	acm162477	Intelligent multimedia interfaces
+acm163402	acm163381	Communications of the ACM: Volume 36 , Issue 8 (August 1993): Special issue on internetworking
+acm163535	acm163531	Journal of Parallel and Distributed Computing: Volume 18 , Issue 2 (June 1993): Special issue on tools and methods for visualization of parallel systems and computations
+acm163550	acm163531	Journal of Parallel and Distributed Computing: Volume 18 , Issue 2 (June 1993): Special issue on tools and methods for visualization of parallel systems and computations
+acm166125	acm166117	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 20th annual conference on Computer graphics and interactive techniques
+acm166126	acm166117	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 20th annual conference on Computer graphics and interactive techniques
+acm168647	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+acm168650	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+acm168651	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+acm168657	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+acm168658	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+acm168818	acm168750	Conference on Hypertext and Hypermedia: Proceedings of the fifth ACM conference on Hypertext
+acm168823	acm168750	Conference on Hypertext and Hypermedia: Proceedings of the fifth ACM conference on Hypertext
+acm169209	acm169059	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm169426	acm169059	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm170095	acm170088	Conference on Information and Knowledge Management: Proceedings of the second international conference on Information and knowledge management
+acm172250	acm172247	Information Systems: Volume 18 , Issue 4 (June 1993): 
+acm180173	acm180171	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 1 , Issue 2 (June 1994): 
+acm180923	acm180895	Academic Press Graphics Gems Series: Graphics gems IV
+acm187157	acm186258	International Symposium on Software Testing and Analysis: Proceedings of the 1994 international symposium on Software testing and analysis
+acm187170	acm187156	Computers in Physics: Volume 8 , Issue 3 May/June 1994: 
+acm188563	acm188490	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 17th annual international ACM SIGIR conference on Research and development in information retrieval
+acm189245	acm189243	Machine Learning: Volume 14 , Issue 2 (February 1994): Special issue on evaluating and changing representation
+acm191095	acm191080	Conference on Object Oriented Programming Systems Languages and Applications: Proceedings of the ninth annual conference on Object-oriented programming systems, language, and applications: ACM SIGPLAN Notices: Volume 29 , Issue 10 (October 1994)
+acm191676	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191682	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191715	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191719	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191774	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191775	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191776	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191778	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191786	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm191790	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+acm192190	acm192161	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 21st annual conference on Computer graphics and interactive techniques
+acm192313	acm192309	AVI: Proceedings of the workshop on Advanced visual interfaces
+acm192357	acm192309	AVI: Proceedings of the workshop on Advanced visual interfaces
+acm192429	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192430	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192434	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192435	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192437	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192449	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192451	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192470	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192472	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+acm192835	acm192757	Conference on Hypertext and Hypermedia: Proceedings of the 1994 ACM European conference on Hypermedia technology
+acm198376	acm198366	Communications of the ACM: Volume 37 , Issue 12 (December 1994): 
+acm205326	acm205323	Communications of the ACM: Volume 38 , Issue 4 (April 1995): 
+acm208346	acm208344	Communications of the ACM: Volume 38 , Issue 8 (August 1995): 
+acm208350	acm208344	Communications of the ACM: Volume 38 , Issue 8 (August 1995): 
+acm212334	acm212332	ACM Transactions on Graphics (TOG): Volume 14 , Issue 3 (July 1995): 
+acm212782	acm212782	Ellis Horwood Series In Artificial Intelligence
+acm214456	acm214451	ACM Transactions on Computer Systems (TOCS): Volume 3 , Issue 1 (February 1985): 
+acm214799	acm213859	Communications of the ACM: Volume 38 , Issue 7 (July 1995): 
+acm215636	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+acm215654	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+acm215977	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+acm215978	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+acm217311	acm217306	Virtual Reality Modeling Language Symposium: Proceedings of the first symposium on Virtual reality modeling language
+acm217855	acm217853	ACM Transactions on Modeling and Computer Simulation (TOMACS): Volume 5 , Issue 3 (July 1995): Special issue on graphics, animation, and visualization for simulation environments
+acm218443	acm218380	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 22nd annual conference on Computer graphics and interactive techniques
+acm218454	acm218380	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 22nd annual conference on Computer graphics and interactive techniques
+acm223381	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm223394	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm22342	acm22627	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems: ACM SIGCHI Bulletin: Volume 17 , Issue 4 (April 1986)
+acm223435	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm223464	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm223745	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm223759	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm223812	acm223784	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1995 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 24 , Issue 2 (May 1995)
+acm223895	acm223784	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1995 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 24 , Issue 2 (May 1995)
+acm223911	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm223912	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm223934	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm223947	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm223956	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm223959	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm223960	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm227186	acm227181	interactions: Volume 3 , Issue 2 (March 1996): 
+acm22723	acm13677	ACM Transactions on Computer Systems (TOCS): Volume 5 , Issue 2 (May 1987): 
+acm227811	acm227726	International Conference on Software Engineering: Proceedings of the 18th international conference on Software engineering
+acm22950	acm22949	ACM Transactions on Graphics (TOG): Volume 5 , Issue 2 (April 1986): 
+acm229763	acm229737	Computers in Physics: Volume 10 , Issue 3 May/June 1996: 
+acm230563	acm230562	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 3 , Issue 2 (June 1996): 
+acm230577	acm230562	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 3 , Issue 2 (June 1996): 
+acm233315	acm233269	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1996 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 25 , Issue 2 (June 1996)
+acm233324	acm233269	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1996 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 25 , Issue 2 (June 1996)
+acm233333	acm233269	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1996 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 25 , Issue 2 (June 1996)
+acm234423	acm234313	ACM Computing Surveys (CSUR): Volume 28 , Issue 1 (March 1996): 
+acm234538	acm234535	ACM Transactions on Graphics (TOG): Volume 15 , Issue 4 (October 1996): 
+acm235579	acmSERIES10317	Springer Virtual Laboratory Series
+acm237096	acm237091	Symposium on User Interface Software and Technology: Proceedings of the 9th annual ACM symposium on User interface software and technology
+acm237097	acm237091	Symposium on User Interface Software and Technology: Proceedings of the 9th annual ACM symposium on User interface software and technology
+acm237774	null	ISBN: 0-262-69191-4
+acm238396	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm238446	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm238450	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm238489	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm238493	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm238526	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm238587	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+acm240405	null	null
+acm242229	acm242224	ACM Computing Surveys (CSUR): Volume 28 , Issue 4es (December 1996): Special issue position statements on strategic directions in computing research
+acm243214	acm243199	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 19th annual international ACM SIGIR conference on Research and development in information retrieval
+acm243218	acm243199	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 19th annual international ACM SIGIR conference on Research and development in information retrieval
+acm245014	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245018	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245020	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245035	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245041	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245042	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245567	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245585	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245597	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+acm245890	acm245882	ACM SIGMOD Record: Volume 25 , Issue 4 (December 1996): 
+acm245891	acm245882	ACM SIGMOD Record: Volume 25 , Issue 4 (December 1996): 
+acm253335	acm253260	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1997 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 26 , Issue 2 (June 1997)
+acm253460	acm253437	D technologies for the World Wide Web: Proceedings of the second symposium on Virtual reality modeling language
+acm257364	acm257089	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems common ground
+acm257388	acm257089	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems common ground
+acm257408	acm257089	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems common ground
+acm257674	acm257572	International Conference on Software Engineering: Proceedings of the 15th international conference on Software Engineering
+acm257938	acm257938	ISBN: 0-262-56097-6
+acm258582	acm258525	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 20th annual international ACM SIGIR conference on Research and development in information retrieval: ACM SIGIR Forum: Volume 31 , Issue SI
+acm258591	acm258525	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 20th annual international ACM SIGIR conference on Research and development in information retrieval: ACM SIGIR Forum: Volume 31 , Issue SI
+acm258592	acm258549	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm258796	acm258734	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 24th annual conference on Computer graphics and interactive techniques
+acm258803	acm258549	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm258866	acm258549	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm260138	acm259964	Conference on Human Factors in Computing Systems: INTERACT '93 and CHI '93 conference companion on Human factors in computing systems
+acm260431	acm259963	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm260433	acm259963	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+acm260748	acm260627	Sigs Reference Library Series: C++ gems
+acm260799	acm260786	Computers &amp; Geosciences: Volume 23 , Issue 4 (May 1997): Special issue on exploratory cartographic visualization
+acm261082	acmSERIES10274	Springer Series In Information Sciences
+acm263545	acm263407	Symposium on User Interface Software and Technology: Proceedings of the 10th annual ACM symposium on User interface software and technology
+acm264657	acm264645	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 4 , Issue 3 (September 1997): 
+acm265453	acm265394	Proceedings of the third IFIP WG2.6 working conference on Visual database systems 3 (VDB-3)
+acm266265	acm266260	Intelligent multimedia information retrieval
+acm267052	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+acm267070	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+acm267116	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+acm267120	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+acm272980	null	ISBN: 0-13-954694-4
+acm274094	acm274093	Journal of the American Society for Information Science: Volume 49 , Issue 2 (February 1998): 
+acm274432	acm274430	interactions: Volume 5 , Issue 2 March/April 1998: 
+acm274698	acm274644	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm274699	acm274644	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm274701	acm274644	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm275521	acm275519	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1997 workshop on New paradigms in information visualization and manipulation
+acm275529	acm275519	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1997 workshop on New paradigms in information visualization and manipulation
+acm275531	acm275519	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1997 workshop on New paradigms in information visualization and manipulation
+acm27624	acm27623	ACM Transactions on Graphics (TOG): Volume 5 , Issue 4 (October 1986): Special issue on user interface software
+acm276377	acm276304	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1998 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 27 , Issue 2 (June 1998)
+acm276634	acm276627	Conference on Hypertext and Hypermedia: Proceedings of the ninth ACM conference on Hypertext and hypermedia links, objects, time and space---structure in hypermedia systems links, objects, time and space---structure in hypermedia systems
+acm276876	acm276698	Annual ACM Symposium on Theory of Computing: Proceedings of the thirtieth annual ACM symposium on Theory of computing
+acm28737	acm28697	Conference on Object Oriented Programming Systems Languages and Applications: Conference proceedings on Object-oriented programming systems, languages and applications: ACM SIGPLAN Notices: Volume 21 , Issue 11 (November 1986)
+acm288245	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+acm288247	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+acm288250	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+acm288306	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+acm288578	acm288392	Symposium on User Interface Software and Technology: Proceedings of the 11th annual ACM symposium on User interface software and technology
+acm288579	acm288392	Symposium on User Interface Software and Technology: Proceedings of the 11th annual ACM symposium on User interface software and technology
+acm288596	acm288392	Symposium on User Interface Software and Technology: Proceedings of the 11th annual ACM symposium on User interface software and technology
+acm291000	acm290941	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval
+acm291014	acm290941	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval
+acm293061	acm293055	Computers &amp; Geosciences: Volume 24 , Issue 4 (May 1998): Special issue on computers, geoscience and geocomputation
+acm299477	acm299432	Annual Conference on Research in Computational Molecular Biology: Proceedings of the third annual international conference on Computational molecular biology
+acm300683	acm300679	Readings in information visualization using vision to think
+acm300752	acm300679	Readings in information visualization using vision to think
+acm300803	acm300679	Readings in information visualization using vision to think
+acm300818	acm300679	Readings in information visualization using vision to think
+acm300826	acm300679	Readings in information visualization using vision to think
+acm300835	acm300679	Readings in information visualization using vision to think
+acm303148	acm302979	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems the CHI is the limit
+acm304482	acm304459	Conference on Human Factors in Computing Systems: Proceedings of the conference on Human factors in computing systems
+acm304503	acm304459	Conference on Human Factors in Computing Systems: Proceedings of the conference on Human factors in computing systems
+acm304872	acm304459	Conference on Human Factors in Computing Systems: Proceedings of the conference on Human factors in computing systems
+acm305097	acm305086	IEEE Transactions on Computers: Volume 47 , Issue 11 (November 1998): 
+acm305265	acm305260	Journal of Intelligent Information Systems: Volume 11 , Issue 3 Nov./Dec. 1998: Special issue on information visualization the next frontier
+acm306624	acm306607	Journal of the American Society for Information Science: Volume 49 , Issue 7 (May 1998): Special topic issue artificial intelligence techniques for emerging information systems applications
+acm30861	acm29933	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI/GI conference on Human factors in computing systems and graphics interface: ACM SIGCHI Bulletin: Volume 17 , Issue SI (May 1987)
+acm312634	acm312624	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in information retrieval
+acm314338	acm314161	Symposium on Discrete Algorithms: Proceedings of the eighth annual ACM-SIAM symposium on Discrete algorithms
+acm316229	acm316188	Applications, Technologies, Architectures,and Protocols for Computer Communication: Proceedings of the conference on Applications, technologies, architectures, and protocols for computer communication: ACM SIGCOMM Computer Communication Review: Volume 29 , Issue 4 (October 1999)
+acm317474	acm317456	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm319355	acm319351	IEEE Visualization: Proceedings of the conference on Visualization '99 celebrating ten years
+acm320410	acm320396	Journal of the American Society for Information Science: Volume 50 , Issue 13 (November 1999): Speical issue on integrating mutiple overlapping metadata standards
+acm320618	acm320613	ACM Transactions on Database Systems (TODS): Volume 5 , Issue 3 (September 1980): 
+acm322075	acm322063	Journal of the ACM (JACM): Volume 25 , Issue 2 (April 1978): 
+acm322601	acm320719	Symposium on User Interface Software and Technology: Proceedings of the 12th annual ACM symposium on User interface software and technology
+acm325249	acm325334	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 12th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 19 , Issue 3 (July 1985)
+acm329554	acmSERIES9819	Morgan Kaufmann Series In Interactive Technologies
+acm330576	acm330572	ACM SIGGRAPH Computer Graphics: Volume 33 , Issue 3 (August 1999): 
+acm331781	acm331770	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1999 workshop on new paradigms in information visualization and manipulation in conjunction with the eighth ACM internation conference on Information and knowledge management
+acm332423	acm332040	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm333181	acm333175	intelligence: Volume 11 , Issue 1 Spring 2000: 
+acm33404	null	ISBN: 0-9613921-0-
+acm338266	acm338219	Symposium on Discrete Algorithms: Proceedings of the eleventh annual ACM-SIAM symposium on Discrete algorithms
+acm345243	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm345271	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm345282	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm345323	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm345324	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm345353	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm345912	acm345910	International Conference on Mobile Computing and Networking: Proceedings of the 6th annual international conference on Mobile computing and networking
+acm346021	acm345966	ACM Computing Surveys (CSUR): Volume 31 , Issue 4es (December 1999): 
+acm351012	acm351006	Collaborative Virtual Environments: Proceedings of the third international conference on Collaborative virtual environments
+acm352893	acm352871	Electronic Commerce: Proceedings of the 2nd ACM conference on Electronic commerce
+acm354754	acm354401	Symposium on User Interface Software and Technology: Proceedings of the 13th annual ACM symposium on User interface software and technology
+acm356797	acm356789	ACM Computing Surveys (CSUR): Volume 11 , Issue 4 (December 1979): 
+acm357310	acm357306	ACM Transactions on Graphics (TOG): Volume 1 , Issue 3 (July 1982): 
+acm358464	acm182	Communications of the ACM: Volume 26 , Issue 11 (November 1983): 
+acm359563	acm359545	Communications of the ACM: Volume 21 , Issue 7 (July 1978): 
+acm360354	acm360349	Communications of the ACM: Volume 19 , Issue 10 (October 1976): 
+acm365097	acm365024	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm365309	acm365024	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm365438	acm362757	International Journal of Human-Computer Studies: Volume 53 , Issue 5 (November 2000): Empirical evaluation of information visualizations
+acm37086	acm37085	Technometrics: Volume 29 , Issue 2 (May 1987): 
+acm372188	acm371920	International World Wide Web Conference: Proceedings of the tenth international conference on World Wide Web
+acm372278	acm372252	Kluwer International Series In Engineering And Computer Science: Information organization and databases foundation of data organization
+acm375221	acm375213	IEEE Visualization: Proceedings of the conference on Visualization '00
+acm375245	acm375213	IEEE Visualization: Proceedings of the conference on Visualization '00
+acm375311	acm375213	IEEE Visualization: Proceedings of the conference on Visualization '00
+acm376383	acm205323	Communications of the ACM: Volume 38 , Issue 4 (April 1995): 
+acm376953	acm376944	Springer Lecture Notes In Computer Science: Drawing graphs methods and models
+acm377539	acm377537	Dr. Dobb's Journal: Volume 26 , Issue 4 (April 2001): 
+acm378476	acm54852	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 15th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 22 , Issue 4 (August 1988)
+acm378494	acm54852	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 15th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 22 , Issue 4 (August 1988)
+acm378497	acm54852	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 15th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 22 , Issue 4 (August 1988)
+acm39091	acmSERIES10238	Springer Grundlehren Der Mathematischen Wissenschaften
+acm4084	null	ISBN: 0-534-03730-5
+acm41997	acm41997	ACM SIGGRAPH Computer Graphics: Volume 21 , Issue 6 (November 1987)
+acm42414	acm42411	Communications of the ACM: Volume 31 , Issue 5 (May 1988): 
+acm43396	acmSERIES9055	Acm Distinguished Dissertation
+acm44652	acm44650	IEEE Computer Graphics and Applications: Volume 8 , Issue 3 (May 1988): 
+acm45432	acm45410	Conference on Supporting Group Work: Conference Sponsored by ACM SIGOIS and IEEECS TC-OA on Office information systems: ACM SIGOIS Bulletin: Volume 9 , Issue 2-3 April &amp; July 1988
+acm48514	acm48511	Communications of the ACM: Volume 31 , Issue 7 (July 1988): 
+acm50088	acm50087	Communications of the ACM: Volume 31 , Issue 11 (November 1988): 
+acm502574	acm502512	Conference on Knowledge Discovery in Data: Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining
+acm502580	acm502512	Conference on Knowledge Discovery in Data: Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining
+acm519400	null	ISBN: 0195135326
+acm5215	acm5212	Journal of Computer and System Sciences: Volume 31 , Issue 2 (September 1985): 
+acm523237	acm523237	ISBN: 0201694972
+acm524313	acm524313	ISBN: 9997887492
+acm529145	acm529145	ISBN: 0201550601
+acm529269	null	ISBN: 0963488406
+acm534175	null	ISBN: 9810200099
+acm540298	null	ISBN: 047135645
+acm548892	acm548892	ISBN: 0062514792
+acm549965	acm549965	ISBN: 0792396677
+acm549990	null	ISBN: 0516261819
+acm550196	acm550196	ISBN: 0262193957
+acm551884	acm551884	ISBN: 0133016153
+acm556493	acm556493	ISBN: 1861003625
+acm558656	acm558656	ISBN: 3540669388
+acm561081	acm561081	ISBN: 0070501688
+acm562139	acm562139	ISBN: 0818631023
+acm563003	null	ISBN: 3540564845
+acm571472	acm270563	ACM SIGACT News: Volume 28 , Issue 4 (December 1997): 
+acm571649	acm571647	ACM Transactions on Graphics (TOG): Volume 21 , Issue 4 (October 2002): 
+acm57182	acm57167	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+acm573164	null	ISBN: 1558600698
+acm574634	null	ISBN: 0201515601
+acm574978	acm574978	ISBN: 0816211043
+acm575201	null	ISBN: 0201517973
+acm576082	null	ISBN: 053409144
+acm580470	acm580470	ISBN: 0070131511
+acm580949	acm580949	ISBN: 0534954251
+acm583200	acm583200	ISBN: 1558602402
+acm593438	acm593414	Data Mining and Knowledge Discovery: Volume 1 , Issue 1 1997: 
+acm597197	acm597034	Multimedia Tools and Applications: Volume 14 , Issue 2 (June 2001): 
+acm606763	acm606760	Computers &amp; Geosciences: Volume 28 , Issue 10 (December 2002): 
+acm613931	acm613777	IEEE Parallel &amp; Distributed Technology Systems &amp; Technology: Volume 3 , Issue 4 (December 1995): 
+acm614078	acm614060	IEEE Concurrency: Volume 6 , Issue 1 (January 1998): 
+acm614292	acm614257	IEEE Transactions on Visualization and Computer Graphics: Volume 1 , Issue 1 (March 1995): 
+acm614294	acm614257	IEEE Transactions on Visualization and Computer Graphics: Volume 1 , Issue 1 (March 1995): 
+acm614306	acm614258	IEEE Transactions on Visualization and Computer Graphics: Volume 1 , Issue 2 (June 1995): 
+acm614447	acm614277	IEEE Transactions on Visualization and Computer Graphics: Volume 6 , Issue 1 (January 2000): 
+acm614457	acm614278	IEEE Transactions on Visualization and Computer Graphics: Volume 6 , Issue 2 (April 2000): 
+acm614509	acm614285	IEEE Transactions on Visualization and Computer Graphics: Volume 8 , Issue 1 (January 2002): 
+acm614510	acm614285	IEEE Transactions on Visualization and Computer Graphics: Volume 8 , Issue 1 (January 2002): 
+acm615681	acm615598	Computing in Science and Engineering: Volume 1 , Issue 2 (March 1999): 
+acm617498	acm616006	IEEE Computer Graphics and Applications: Volume 9 , Issue 4 (July 1989): 
+acm617723	acm616021	IEEE Computer Graphics and Applications: Volume 12 , Issue 1 (January 1992): 
+acm617761	acm616024	IEEE Computer Graphics and Applications: Volume 12 , Issue 4 (July 1992): 
+acm617913	acm616032	IEEE Computer Graphics and Applications: Volume 14 , Issue 5 (September 1994): 
+acm618447	acm616047	IEEE Computer Graphics and Applications: Volume 17 , Issue 4 (July 1997): 
+acm618448	acm616047	IEEE Computer Graphics and Applications: Volume 17 , Issue 4 (July 1997): 
+acm618451	acm616047	IEEE Computer Graphics and Applications: Volume 17 , Issue 4 (July 1997): 
+acm618455	acm616047	IEEE Computer Graphics and Applications: Volume 17 , Issue 4 (July 1997): 
+acm618538	acm616053	IEEE Computer Graphics and Applications: Volume 18 , Issue 4 (July 1998): 
+acm618540	acm616053	IEEE Computer Graphics and Applications: Volume 18 , Issue 4 (July 1998): 
+acm618590	acm616056	IEEE Computer Graphics and Applications: Volume 19 , Issue 1 (January 1999): 
+acm618679	acm616062	IEEE Computer Graphics and Applications: Volume 20 , Issue 1 (January 2000): 
+acm618853	acm616072	IEEE Computer Graphics and Applications: Volume 21 , Issue 5 (September 2001): 
+acm620306	acm619001	Computer: Volume 28 , Issue 9 (September 1995): 
+acm620372	acm619004	Computer: Volume 28 , Issue 12 (December 1995): 
+acm620421	acm619006	Computer: Volume 29 , Issue 4 (April 1996): 
+acm623999	acm623268	IEEE Micro: Volume 16 , Issue 2 (April 1996): 
+acm62420	acm62402	Symposium on User Interface Software and Technology: Proceedings of the 1st annual ACM SIGGRAPH symposium on User Interface Software
+acm624851	acm624576	IEEE Software: Volume 6 , Issue 4 (July 1989): 
+acm624852	acm624576	IEEE Software: Volume 6 , Issue 4 (July 1989): 
+acm624902	acm624579	IEEE Software: Volume 7 , Issue 1 (January 1990): 
+acm624963	acm624582	IEEE Software: Volume 7 , Issue 4 (July 1990): 
+acm625405	acm624604	IEEE Software: Volume 11 , Issue 6 (November 1994): 
+acm625443	acm624606	IEEE Software: Volume 12 , Issue 2 (March 1995): 
+acm627798	acm627307	IEEE Transactions on Knowledge and Data Engineering: Volume 8 , Issue 6 (December 1996): 
+acm628634	acm628315	IEEE Transactions on Pattern Analysis and Machine Intelligence: Volume 16 , Issue 8 (August 1994): 
+acm631037	acm630795	IEEE Transactions on Software Engineering: Volume 19 , Issue 3 (March 1993): 
+acm632834	acm632716	Conference on Human Factors in Computing Systems: CHI '99 extended abstracts on Human factors in computing systems
+acm63669	acm63666	Journal of Systems and Software: Volume 9 , Issue 3 (March 1989): 
+acm649649	acm645324	Lecture Notes In Computer Science: Proceedings of the 8th European Conference on Machine Learning
+acm64992	acm64789	ACM Transactions on Information Systems (TOIS): Volume 7 , Issue 1 (January 1989): 
+acm652239	acm645415	Lecture Notes In Computer Science: Proceedings of the 4th International Conference on Foundations of Data Organization and Algorithms
+acm655120	acm645479	Proceedings of the Tenth International Conference on Data Engineering
+acm662606	acm645604	Proceedings of the 8th International Symposium on Parallel Processing
+acm671516	acm645925	Proceedings of the 25th International Conference on Very Large Data Bases
+acm673155	acm645921	Proceedings of the 21th International Conference on Very Large Data Bases
+acm673478	acm645922	Proceedings of the 22th International Conference on Very Large Data Bases
+acm673502	acm645922	Proceedings of the 22th International Conference on Very Large Data Bases
+acm680887	acm646099	Lecture Notes In Computer Science: Proceedings of the 14th British National Conference on Databases Advances in Databases
+acm685681	acm646251	Lecture Notes In Computer Science: Proceedings of the 24th International Colloquium on Automata, Languages and Programming
+acm690165	acm646387	Lecture Notes In Computer Science: Proceedings of the Third Latin American Symposium on Theoretical Informatics
+acm69235	acm68210	Workshop on Parallel &amp; Distributed Debugging: Proceedings of the 1988 ACM SIGPLAN and SIGOPS workshop on Parallel and distributed debugging: ACM SIGPLAN Notices: Volume 24 , Issue 1 (January 1989)
+acm695311	acm646494	Proceedings of the Seventh International Working Conference on Scientific and Statistical Database Management
+acm702166	acm646678	Lecture Notes In Computer Science: Selected papers from the International Workshop on Algorithm Engineering and Experimentation
+acm702778	acm646685	Proceedings of HCI on People and Computers XIII
+acm721079	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+acm721081	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+acm721211	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+acm721212	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+acm721214	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+acm725689	acm647365	Scientific Visualization, Overviews, Methodologies, and Techniques
+acm728600	acm647547	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm728609	acm647547	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm728742	acm647547	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm728744	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm728745	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm728752	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm728899	acm647549	Lecture Notes In Computer Science: Proceedings of the 5th International Symposium on Graph Drawing
+acm728901	acm647549	Lecture Notes In Computer Science: Proceedings of the 5th International Symposium on Graph Drawing
+acm728911	acm647549	Lecture Notes In Computer Science: Proceedings of the 5th International Symposium on Graph Drawing
+acm729077	acm647550	Lecture Notes In Computer Science: Proceedings of the 6th International Symposium on Graph Drawing
+acm729095	acm647550	Lecture Notes In Computer Science: Proceedings of the 6th International Symposium on Graph Drawing
+acm729230	acm647551	Lecture Notes In Computer Science: Proceedings of the 7th International Symposium on Graph Drawing
+acm729409	acm647552	Lecture Notes In Computer Science: Proceedings of the 8th International Symposium on Graph Drawing
+acm729414	acm647552	Lecture Notes In Computer Science: Proceedings of the 8th International Symposium on Graph Drawing
+acm729561	acm647553	Lecture Notes In Computer Science: Revised Papers from the 9th International Symposium on Graph Drawing
+acm730920	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+acm730925	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+acm730930	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+acm730931	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+acm731363	acm647695	Lecture Notes In Computer Science: Selected Papers from the Digital Libraries, Research and Technology Advances
+acm73350	acm72910	Software Configuration Management Workshop: Proceedings of the 2nd International Workshop on Software configuration management: ACM SIGSOFT Software Engineering Notes: Volume 14 , Issue 7 (November 1989)
+acm73662	acm73660	Symposium on User Interface Software and Technology: Proceedings of the 2nd annual ACM SIGGRAPH symposium on User interface software and technology
+acm7478	acm7351	ACM Transactions on Computer Systems (TOCS): Volume 5 , Issue 1 (February 1987): 
+acm757113	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+acm757116	acm647550	Lecture Notes In Computer Science: Proceedings of the 6th International Symposium on Graph Drawing
+acm757117	acm647551	Lecture Notes In Computer Science: Proceedings of the 7th International Symposium on Graph Drawing
+acm757122	acm647554	Lecture Notes In Computer Science: Revised Papers from the 10th International Symposium on Graph Drawing
+acm760270	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+acm760413	acm647493	Lecture Notes In Computer Science: Selected Papers from the Digital Libraries Workshop on Digital Libraries Current Issues
+acm76334	acm76263	Conference on High Performance Networking and Computing: Proceedings of the 1989 ACM/IEEE conference on Supercomputing
+acm76897	acm76894	ACM Computing Surveys (CSUR): Volume 21 , Issue 4 (December 1989): 
+acm769924	acm769922	ACM International Conference Proceeding Series: Proceedings of the symposium on Data visualisation 2003
+acm775064	acm775047	Conference on Knowledge Discovery in Data: Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining
+acm776774	acm776751	IEEE Transactions on Visualization and Computer Graphics: Volume 9 , Issue 2 (April 2003): 
+acm778316	acm778212	Handbook of data mining and knowledge discovery
+acm779243	acm779232	Handbook of massive data sets
+acm78223	null	ISBN: 0-9613921-1-8
+acm785915	acm785905	ADL: Proceedings of the 3rd International Forum on Research and Technology Advances in Digital Libraries
+acm79026	acm79019	Software-Practice &amp; Experience: Volume 20 , Issue 7 (July 1990): 
+acm794386	acm794189	CVPR: Proceedings of the 1997 Conference on Computer Vision and Pattern Recognition (CVPR '97)
+acm794502	acm794189	CVPR: Proceedings of the 1997 Conference on Computer Vision and Pattern Recognition (CVPR '97)
+acm801140	acm800059	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 10th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 17 , Issue 3 (July 1983)
+acm801801	acm800049	Conference on Human Factors in Computing Systems: Proceedings of the 1982 conference on Human factors in computing systems
+acm806818	acm800224	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 8th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 15 , Issue 3 (August 1981)
+acm808590	acm800031	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 11th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 18 , Issue 3 (July 1984)
+acm808596	acm800031	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 11th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 18 , Issue 3 (July 1984)
+acm81354	acm81351	IEEE Spectrum: Volume 27 , Issue 3 (March 1990): 
+acm833835	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833844	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833846	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833851	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833862	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833874	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833884	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm833887	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+acm834348	acm832277	VL: Proceedings of the 1996 IEEE Symposium on Visual Languages
+acm834354	acm832277	VL: Proceedings of the 1996 IEEE Symposium on Visual Languages
+acm834481	acm832279	VL: Proceedings of the IEEE Symposium on Visual Languages
+acm834493	acm832279	VL: Proceedings of the IEEE Symposium on Visual Languages
+acm83821	null	ISBN: 0-201-12110-7
+acm850372	acm555607	IV: Proceedings of the 1999 International Conference on Information Visualisation
+acm856684	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+acm856685	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+acm856693	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+acm856694	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+acm863013	acm863013	ISBN: 1401469183
+acm864453	acm198366	Communications of the ACM 37(12)
+acm864484	acm864484	Brown University Technical Report CS-93-07
+acm142673	acm142750	Proceedings of the SIGCHI conference on Human factors in computing systems 1992
+acm864776	acm864776	Brown University Technical Report CS-89-09
+acm864808	acm864808	Brown University Technical Report CS-89-30
+acm864933	acm864933	Brown University Technical Report CS-95-20
+acm866599	acm866599	Cornell University Technical Report TR92-1286
+acm867322	acm867322	Cornell University Technical Report TR74-218
+acm869026	acm869026	Centre for Mathematics and Computer Science Technical Report INS-R9806
+acm891481	acm892623	Stanford University Technical Report CSL-TR-95-661
+acm892623	acm892623	Stanford University Technical Report CS-TR-98-1603
+acm893936	acm893936	University of California at Berkeley Technical Report S2K-95-64
+acm894742	acm894742	University of California at Berkeley Technical Report CSD-86-292
+acm896281	acm896281	Albert-Ludwigs University at Freiburg Technical Report report00014
+acm91412	acm91385	Symposium on Interactive 3D Graphics: Proceedings of the 1990 symposium on Interactive 3D graphics: ACM SIGGRAPH Computer Graphics: Volume 24 , Issue 2 (March 1990)
+acm92489	acm92449	Proceedings of the third international conference on human-computer interaction on Designing and using human-computer interfaces and knowledge based systems (2nd ed.)
+acm93885	acm93871	Mit Press Series Of Artificial Intelligence Series: Shape from shading
+acm948480	acm948449	AVI: Proceedings of the workshop on Advanced visual interfaces
+acm948505	acm948496	AVI: Proceedings of the working conference on Advanced visual interfaces
+acm949534	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+acm949553	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+acm949569	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+acm949571	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+acm949588	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+acm949614	acm949607	IEEE Visualization: Proceedings of the 2nd conference on Visualization '91
+acm949633	acm949607	IEEE Visualization: Proceedings of the 2nd conference on Visualization '91
+acm949654	acm949607	IEEE Visualization: Proceedings of the 2nd conference on Visualization '91
+acm949711	acm949685	IEEE Visualization: Proceedings of the 3rd conference on Visualization '92
+acm949724	acm949685	IEEE Visualization: Proceedings of the 3rd conference on Visualization '92
+acm949734	acm949685	IEEE Visualization: Proceedings of the 3rd conference on Visualization '92
+acm949893	acm949845	IEEE Visualization: Proceedings of the 4th conference on Visualization '93
+acm949901	acm949845	IEEE Visualization: Proceedings of the 4th conference on Visualization '93
+acm951144	acm951087	IEEE Visualization: Proceedings of the conference on Visualization '94
+acm951146	acm951087	IEEE Visualization: Proceedings of the conference on Visualization '94
+acm951894	acm951847	IEEE Transactions on Visualization and Computer Graphics: Volume 10 , Issue 1 (January 2004): 
+acm97273	acm97243	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems Empowering people
+acm97898	acm97879	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 17th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 24 , Issue 4 (August 1990)
+acm97919	acm97879	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 17th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 24 , Issue 4 (August 1990)
+acm97933	acm97924	Symposium on User Interface Software and Technology: Proceedings of the 3rd annual ACM SIGGRAPH symposium on User interface software and technology
+acm97975	acm97945	Conference on Object Oriented Programming Systems Languages and Applications: Proceedings of the European conference on object-oriented programming on Object-oriented programming systems, languages, and applications: ACM SIGPLAN Notices: Volume 25 , Issue 10 (October 1990)
+acm98599	acm98524	Annual Symposium on Computational Geometry: Proceedings of the sixth annual symposium on Computational geometry
+acm99361	acm99332	Computer Supported Cooperative Work: Proceedings of the 1990 ACM conference on Computer-supported cooperative work

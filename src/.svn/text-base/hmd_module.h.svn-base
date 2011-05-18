@@ -1,0 +1,19 @@
+/*
+ *  hmd_module.h
+ *  hmd
+ *
+ *  Created by basak alper on 1/18/10.
+ *  Copyright 2010 ucsb. All rights reserved.
+ *
+ */
+
+#ifndef	HMD_MODULE_HEADER_H
+#define HMD_MODULE_HEADER_H
+
+#define HMD_MODULE_NAME					    "hmd"
+#define HMD_UDATA_LIB_META				    "HMD_lib_meta"
+#define HMD_UDATA_INSTANCES_META			"HMD_instances_meta"
+#define HMD_UDATA_INSTANCES_METAFIELD		"__instances"
+
+
+#endif //HMD_MODULE_HEADER_H

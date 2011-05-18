@@ -1,0 +1,1601 @@
+acm721078 2 P573006 	Christian Panse
+acm721078 2 P146109 	John Stasko
+acm721078 2 P74502 	Ed H. Chi
+acm721078 2 P145715 	John Riedl
+acm721080 4 P317481 	T. C. Sprenger
+acm721080 4 P191495 	Markus H. Gross
+acm721080 4 P451420 	Daniel Bielser
+acm721080 4 P496745 	T. Strasser
+acm721083 3 P422521 	Randall M. Rohrer
+acm721083 3 P145991 	John L. Sibert
+acm721083 3 P61351 	David S. Ebert
+acm721210 1 P507545 	Mei Chuah
+acm721213 3 P477708 	Marc Hansen
+acm721213 3 P453201 	Doanna Meads
+acm721213 3 P13806 	Alex Pang
+acm721216 3 P200206 	Mihael Ankerst
+acm721216 3 P267223 	Stefan Berchtold
+acm721216 3 P438303 	Daniel Keim
+acm721217 4 P306422 	Yoram Moses
+acm721217 4 P505041 	Zvi Polunsky
+acm721217 4 P23315 	Ayellet Tal
+acm721217 4 P474753 	Leonid Ulitsky
+acm721218 1 P338272 	Barry Becker
+acm760271 2 P414344 	Chang-Sung Jeong
+acm760271 2 P13806 	Alex Pang
+acm857576 2 P47461 	Christopher Ahlberg
+acm857576 2 P78910 	Erik Wistrand
+acm857577 4 P507545 	Mei Chuah
+acm857577 4 P270271 	Steven F. Roth
+acm857577 4 P142064 	Joe Mattis
+acm857577 4 P144637 	John Kolojejchick
+acm857578 2 P113687 	I. G. Angus
+acm857578 2 P573119 	H. A. Sowizral
+acm857579 7 P133851 	James A. Wise
+acm857579 7 P128443 	J. J. Thomas
+acm857579 7 P573217 	K. Pennock
+acm857579 7 P573027 	D. Lantrip
+acm857579 7 P573276 	M. Pottier
+acm857579 7 P572919 	A. Schur
+acm857579 7 P573496 	V. Crow
+acm857580 2 P569393 	D. F. Jerding
+acm857580 2 P146109 	John Stasko
+acm857581 2 P152936 	K. C. Cox
+acm857581 2 P268230 	Stephen G. Eick
+acm857582 3 P234373 	R. Mitchell
+acm857582 3 P319187 	D. Day
+acm857582 3 P174793 	Lynette Hirschman
+acm857583 1 P158895 	Keith Andrews
+acm857584 4 P232840 	R. J. Hendley
+acm857584 4 P204628 	N. S. Drew
+acm857584 4 P9496 	A. M. Wood
+acm857584 4 P230591 	R. Beale
+acm857585 5 P470250 	Joshua Levasseur
+acm857585 5 P468897 	Joel Winstead
+acm857585 5 P573143 	J. Croall
+acm857585 5 P572910 	A. Pernicks
+acm857585 5 P299898 	William Ruh
+acm857587 1 P573474 	T. M. Rhyne
+acm857589 3 P572977 	C. A. Burton
+acm857589 3 P573237 	L. J. Johnston
+acm857589 3 P73755 	E. A. Sonenberg
+acm857590 3 P162366 	Klaus Reichenberger
+acm857590 3 P280938 	Thomas Kamps
+acm857590 3 P94710 	Gene Golovchinsky
+acm857591 4 P31332 	Bob Spence
+acm857591 4 P172581 	Lisa Tweedie
+acm857591 4 P113087 	Huw Dawkes
+acm857591 4 P112532 	Hua Su
+acm857592 2 P573340 	P. Luders
+acm857592 2 P231954 	R. Ernst
+acm857593 1 P573524 	W. Wright
+acm857597 2 P573142 	J. Carriere
+acm857597 2 P528641 	R. Kazman
+acm857598 4 P573494 	V. Anupam
+acm857598 4 P252998 	S. Dar
+acm857598 4 P573469 	T. Leibfried
+acm857598 4 P73302 	E. Petajan
+acm857599 5 P61351 	David S. Ebert
+acm857599 5 P38699 	C. Shaw
+acm857599 5 P572930 	A. Zwa
+acm857599 5 P72983 	E. L. Miller
+acm857599 5 P55986 	D. A. Roberts
+acm857600 2 P152936 	K. C. Cox
+acm857600 2 P573021 	D. Hackborn
+acm857601 2 P549550 	A. Varshney
+acm857601 2 P5110 	A. Kaufman
+acm857602 2 P572975 	C. L. Bentley
+acm857602 2 P194710 	Matthew O. Ward
+acm857603 3 P218971 	Pak Chung Wong
+acm857603 3 P572890 	A. H. Crabb
+acm857603 3 P230677 	R. Daniel Bergeron
+acm857604 3 P158895 	Keith Andrews
+acm857604 3 P573275 	M. Pichler
+acm857604 3 P218545 	P. Wolf
+acm857605 3 P266323 	Sougata Mukherjea
+acm857605 3 P164140 	Kyoji Hirata
+acm857605 3 P306682 	Yoshinori Hara
+acm857606 2 P275012 	T. Alan Keahey
+acm857606 2 P75487 	Edward L. Robertson
+acm857607 1 P99212 	Graham J. Wills
+acm857608 4 P183788 	M. Sheelagh
+acm857608 4 P273948 	T. Carpendale
+acm857608 4 P61111 	David J. Cowperthwaite
+acm857608 4 P81304 	F. David Fracchia
+acm857609 2 P172393 	Liqun Jin
+acm857609 2 P60509 	David Banks
+acm857612 2 P573031 	D. A. Rushall
+acm857612 2 P573264 	M. R. Ilgen
+acm857613 2 P573303 	N. Alper
+acm857613 2 P49467 	Clifford Stein
+acm857614 3 P179328 	M. Gray
+acm857614 3 P572885 	A. Badre
+acm857614 3 P179444 	M. Guzdial
+acm857615 4 P278221 	Tamara Munzner
+acm857615 4 P395282 	E. Hoffman
+acm857615 4 P152906 	K. Claffy
+acm857615 4 P394977 	B. Fenner
+acm857617 2 P199962 	Michelle X. Zhou
+acm857617 2 P269823 	Steven K. Feiner
+acm857618 8 P270271 	Steven F. Roth
+acm857618 8 P224682 	Peter Lucas
+acm857618 8 P573188 	Jeffrey Senn
+acm857618 8 P572982 	C. C. Gomberg
+acm857618 8 P573255 	M. B. Burks
+acm857618 8 P573346 	P. J. Stroffolino
+acm857618 8 P572900 	A. J. Kolojechick
+acm857618 8 P572981 	C. Dunmire
+acm857619 2 P528641 	R. Kazman
+acm857619 2 P573142 	J. Carriere
+acm857620 2 P507545 	Mei Chuah
+acm857620 2 P270271 	Steven F. Roth
+acm857624 3 P191495 	Markus H. Gross
+acm857624 3 P317481 	T. C. Sprenger
+acm857624 3 P573149 	J. Finger
+acm857625 2 P573476 	T. Teraoka
+acm857625 2 P181485 	M. Maruyama
+acm857626 4 P74502 	Ed H. Chi
+acm857626 4 P226873 	Phillip Barry
+acm857626 4 P145715 	John Riedl
+acm857626 4 P149126 	Joseph Konstan
+acm857627 1 P278221 	Tamara Munzner
+acm857630 1 P573368 	R. Brath
+acm857631 1 P14716 	Alfred Inselberg
+acm857632 2 P270635 	Stuart Card
+acm857632 2 P141918  Jock Mackinlay
+acm857638 3 P190105 	Mark Derthick
+acm857638 3 P270271 	Steven F. Roth
+acm857638 3 P144637 	John Kolojejchick
+acm857639 3 P75845 	Egemen Tanin
+acm857639 3 P241424 	Richard Beigel
+acm857639 3 P28685 	Ben Shneiderman
+acm857640 1 P338272 	Barry Becker
+acm857641 4 P52432 	D. Brodbeck
+acm857641 4 P177668 	M. Chalmers
+acm857641 4 P21240 	Aran Lunzer
+acm857641 4 P573332 	P. Cotture
+acm857642 4 P188513 	Margaret-Anne D. Storey
+acm857642 4 P155822 	K. Wong
+acm857642 4 P81304 	F. David Fracchia
+acm857642 4 P550593 	H. A. Mueller
+acm857643 1 P270242 	Steven P. Reiss
+acm857644 2 P507545 	Mei Chuah
+acm857644 2 P268230 	Stephen G. Eick
+acm857645 2 P573475 	T. Tenev
+acm857645 2 P238722 	Ramana Rao
+acm857646 2 P275012 	T. Alan Keahey
+acm857646 2 P75487 	Edward L. Robertson
+acm857655 4 P160714 	Kerry Rodden
+acm857655 4 P300695 	Wojciech Basalaj
+acm857655 4 P63826 	David Sinclair
+acm857655 4 P160462 	Kenneth Wood
+acm857656 2 P28811 	Benjamin B. Bederson
+acm857656 2 P18921 	Angela Boltman
+acm857657 2 P573004 	Chris Hendrickson Octavia Juarez Espinosa
+acm857657 2 P562400 	James H. Garrett Jr.
+acm857659 3 P572183 	Staffan Björk
+acm857659 3 P168847 	Lars Erik Holmquist
+acm857659 3 P573196 	Johan Redström
+acm857660 3 P110338 	Hidekazu Shiozawa
+acm857660 3 P159689 	Ken-ichi Okada
+acm857660 3 P308426 	Yutaka Matsushita
+acm857661 2 P243325 	Richard M. Wilson
+acm857661 2 P230677 	R. Daniel Bergeron
+acm857662 3 P305826 	Ying-Huey Fua
+acm857662 3 P194710 	Matthew O. Ward
+acm857662 3 P76910 	Elke A. Rundensteiner
+acm857663 2 P135241 	Jarke J. van Wijk
+acm857663 2 P113085 	Huub van de Wetering
+acm857665 2 P135241 	Jarke J. van Wijk
+acm857665 2 P573062 	Edward R. Van Selow
+acm857666 2 P74502 	Ed H. Chi
+acm857666 2 P270635 	Stuart Card
+acm857667 4 P337868 	Chris Stolte
+acm857667 4 P244239 	Robert Bosch
+acm857667 4 P219805 	Pat Hanrahan
+acm857667 4 P195900 	Mendel Rosenblum
+acm857668 3 P278221 	Tamara Munzner
+acm857668 3 P573088 	Francois Guimbretiere
+acm857668 3 P95917 	George G. Robertson
+acm857669 2 P14716 	Alfred Inselberg
+acm857669 2 P284947 	Tova Avidan
+acm857670 3 P218971 	Pak Chung Wong
+acm857670 3 P222451 	Paul Whitney
+acm857670 3 P140618 	Jim Thomas
+acm857671 5 P398046 	Ming Hao
+acm857671 5 P286769 	Umesh Dayal
+acm857671 5 P195684 	Meichun Hsu
+acm857671 5 P573192 	Jim Baker
+acm857671 5 P572970 	Bob Deletto
+acm857672 1 P573455 	Stuart J. Rose
+acm857673 1 P573181 	James K. Rayson
+acm857674 4 P190105 	Mark Derthick
+acm857674 4 P573180 	James Harrison
+acm857674 4 P18196 	Andrew Moore
+acm857674 4 P270271 	Steven F. Roth
+acm857675 3 P387576 	Michael Higgins
+acm857675 3 P224682 	Peter Lucas
+acm857675 3 P573188 	Jeffrey Senn
+acm857679 5 P398954 	Isaac Brewer
+acm857679 5 P12617 	Alan M. MacEachren
+acm857679 5 P573123 	Hadi Abdo
+acm857679 5 P573178 	Jack Gundrum
+acm857679 5 P95839 	George Otto
+acm857680 3 P421226 	Susan Havre
+acm857680 3 P29946 	Beth Hetzler
+acm857680 3 P335624 	Lucy Nowell
+acm857681 2 P281357 	Thomas J. Overbye
+acm857681 2 P536695 	Jamie D. Weber
+acm857682 2 P20682 	Anton Leuski
+acm857682 2 P131548 	James Allan
+acm857683 2 P146109 	John Stasko
+acm857683 2 P412760 	Eugene Zhang
+acm857684 3 P117429 	Ivan Herman
+acm857684 3 P421193 	M. Scott Marshall
+acm857684 3 P421167 	Guy Melançon
+acm857685 2 P131535 	James Abello
+acm857685 2 P137799 	Jeffrey Korn
+acm857686 2 P337868 	Chris Stolte
+acm857686 2 P219805 	Pat Hanrahan
+acm857687 2 P46262 	Chris Olston
+acm857687 2 P15550 	Allison Woodruff
+acm857688 3 P194797 	Matthias Kreuseler
+acm857688 3 P573318 	Norma Lopez
+acm857688 3 P108629 	Heidrun Schumann
+acm857689 4 P117266 	Issei Fujishiro
+acm857689 4 P315441 	Rika Furuhata
+acm857689 4 P306536 	Yoshihiko Ichikawa
+acm857689 4 P308348 	Yuriko Takeshima
+acm857690 2 P573204 	Julie Yang-Peláez
+acm857690 2 P342859 	Woodie C. Flowers
+acm857691 1 P74502 	Ed H. Chi
+acm857692 1 P572942 	André Skupin
+acm857693 5 P218971 	Pak Chung Wong
+acm857693 5 P573528 	Wendy Cowley
+acm857693 5 P107530 	Harlan Foote
+acm857693 5 P317072 	Elizabeth Jurrus
+acm857693 5 P140618 	Jim Thomas
+acm857694 2 P572183 	Staffan Björk
+acm857694 2 P573196 	Johan Redström
+acm857697 6 P572992 	C. Russo dos Santos
+acm857697 6 P215317 	P. Gros
+acm857697 6 P213559 	P. Abel
+acm857697 6 P54778 	D. Loisel
+acm857697 6 P482738 	N. Trichaud
+acm857697 6 P465902 	J. P. Paris
+acm857698 2 P342898 	Denis Lalanne
+acm857698 2 P222852 	Pearl Pu
+acm857699 2 P349300 	Randy L. Ribler
+acm857699 2 P187249 	Marc Abrams
+acm857700 5 P573301 	Monika Büscher
+acm857700 5 P58248 	Dan Shapiro
+acm857700 5 P196614 	Michael Christensen
+acm857700 5 P228270 	Preben Mogensen
+acm857700 5 P573359 	Peter Ørbæk
+acm857702 6 P466509 	James Agutter
+acm857702 6 P573317 	Noah Syroid
+acm857702 6 P553648 	Frank Drews
+acm857702 6 P547430 	Dwayne Westenskow
+acm857702 6 P470653 	Julio Bermudez
+acm857702 6 P573040 	David Strayer
+acm857703 3 P244730 	Robert Edsall
+acm857703 3 P12617 	Alan M. MacEachren
+acm857703 3 P413048 	Linda Pickle
+acm857704 2 P466953 	Janet M. Six
+acm857704 2 P116662 	Ioannis G. Tollis
+acm857705 4 P339321 	Ka-Ping Yee
+acm857705 4 P59778 	Danyel Fisher
+acm857705 4 P237355 	Rachna Dhamija
+acm857705 4 P191919 	Marti Hearst
+acm857706 3 P131535 	James Abello
+acm857706 3 P137799 	Jeffrey Korn
+acm857706 3 P362395 	Irene Finocchi
+acm857707 3 P573090 	Frank Van Ham
+acm857707 3 P113085 	Huub van de Wetering
+acm857707 3 P135241 	Jarke J. van Wijk
+acm857708 2 P343763 	Raimund Dachselt
+acm857708 2 P529470 	Jürgen Ebert
+acm857709 3 P573068 	Ernst Kleiberg
+acm857709 3 P113085 	Huub van de Wetering
+acm857709 3 P135241 	Jarke J. van Wijk
+acm857710 2 P28685 	Ben Shneiderman
+acm857710 2 P192713 	Martin Wattenberg
+acm857711 2 P573300 	Monica Tavanti
+acm857711 2 P194288 	Mats Lind
+acm857712 2 P573492 	Todd Barlow
+acm857712 2 P573350 	Padraic Neville
+acm857713 1 P14721 	Alfred Kobsa
+acm857714 2 P312796 	Jeffrey Brainerd
+acm857714 2 P338272 	Barry Becker
+acm857715 2 P573492 	Todd Barlow
+acm857715 2 P573350 	Padraic Neville
+acm857716 4 P573179 	James Eagan
+acm857716 4 P193125 	Mary Jean Harrold
+acm857716 4 P344298 	James A. Jones
+acm857716 4 P146109 	John Stasko
+acm857717 1 P275012 	T. Alan Keahey
+acm857719 3 P573287 	Marc Weber
+acm857719 3 P187254 	Marc Alexa
+acm857719 3 P527299 	Wolfgang Müller
+acm857720 3 P95381 	George S. Davidson
+acm857720 3 P33104 	Brian N. Wylie
+acm857720 3 P386218 	Kevin W. Boyack
+acm857721 3 P335624 	Lucy Nowell
+acm857721 3 P29946 	Beth Hetzler
+acm857721 3 P573488 	Ted Tanasse
+acm857724 3 P346684 	Robert Kosara
+acm857724 3 P265269 	Silvia Miksch
+acm857724 3 P109156 	Helwig Hauser
+acm857725 5 P421226 	Susan Havre
+acm857725 5 P29946 	Beth Hetzler
+acm857725 5 P573229 	Ken Perrine
+acm857725 5 P317072 	Elizabeth Jurrus
+acm857725 5 P206996 	Nancy Miller
+acm857726 5 P438303 	Daniel Keim
+acm857726 5 P398046 	Ming Hao
+acm857726 5 P286769 	Umesh Dayal
+acm857726 5 P195684 	Meichun Hsu
+acm857726 5 P573202 	Julain Ladisch
+acm857729 4 P573233 	Kreimir Matkovic
+acm857729 4 P109156 	Helwig Hauser
+acm857729 4 P511630 	Reinhard Sainitzer
+acm857729 4 P421191 	M. Eduard Gröller
+acm857731 2 P209431 	Nina Amenta
+acm857731 2 P573187 	Jeff Klingner
+acm857732 2 P136466 	Jean-Daniel Fekete
+acm857732 2 P42125 	Catherine Plaisant
+acm857733 1 P192713 	Martin Wattenberg
+acm857734 2 P573362 	Praveen R. Thiagarajan
+acm857734 2 P100128 	Guang R. Gao
+acm857735 3 P199962 	Michelle X. Zhou
+acm857735 3 P201116 	Min Chen
+acm857735 3 P305767 	Ying Feng
+acm857736 3 P337868 	Chris Stolte
+acm857736 3 P66646 	Diane Tang
+acm857736 3 P219805 	Pat Hanrahan
+acm857737 3 P46258 	Chris North
+acm857737 3 P345055 	Nathan Conklin
+acm857737 3 P507625 	Varun Saini
+acm857738 3 P572938 	Alistair Morrison
+acm857738 3 P573113 	Greg Ross
+acm857738 3 P177668 	M. Chalmers
+acm857739 3 P305301 	Yehuda Koren
+acm857739 3 P475072 	Liran Carmel
+acm857739 3 P61889 	David Harel
+acm857740 2 P286704 	Ulrik Brandes
+acm857740 2 P573453 	Steven R. Corman
+acm857741 3 P345055 	Nathan Conklin
+acm857741 3 P345085 	Sandeep Prabhakar
+acm857741 3 P46258 	Chris North
+acm857742 3 P109156 	Helwig Hauser
+acm857742 3 P573084 	Florian Ledermann
+acm857742 3 P515109 	Helmut Doleisch
+acm857746 2 P275012 	T. Alan Keahey
+acm857746 2 P268230 	Stephen G. Eick
+acm857747 1 P507545 	Mei Chuah
+acm857748 2 P573363 	Quang Vinh Nguyen
+acm857748 2 P187155 	Mao Lin Huang
+acm857749 3 P380981 	Jing Yang
+acm857749 3 P194710 	Matthew O. Ward
+acm857749 3 P76910 	Elke A. Rundensteiner
+acm857750 2 P421160 	Frank van Ham
+acm857750 2 P135241 	Jarke J. van Wijk
+acm857751 3 P335624 	Lucy Nowell
+acm857751 3 P416667 	Robert Schulman
+acm857751 3 P65018 	Deborah Hix
+acm857752 3 P42125 	Catherine Plaisant
+acm857752 3 P573190 	Jesse Grosjean
+acm857752 3 P28811 	Benjamin B. Bederson
+acm857753 3 P194288 	Mats Lind
+acm857753 3 P94945 	Geoffrey P. Bingham
+acm857753 3 P572997 	Camilla Forsell
+acm857754 2 P46262 	Chris Olston
+acm857754 2 P141918  Jock Mackinlay
+acm857755 4 P438303 	Daniel Keim
+acm857755 4 P268645 	Stephen C. North
+acm857755 4 P573006 	Christian Panse
+acm857755 4 P573206 	Jörn Schneidewind
+acm104428 1 P279588 	Teuvo Kohonen
+acm108361 1 P268092 	Stephen M. Casner
+acm108870 3 P141918  Jock Mackinlay
+acm108870 3 P95917 	George G. Robertson
+acm108870 3 P270635 	Stuart Card
+acm108883 3 P95917 	George G. Robertson
+acm108883 3 P141918  Jock Mackinlay
+acm108883 3 P270635 	Stuart Card
+acm115768 1 P28685 	Ben Shneiderman
+acm120788 2 P285684 	Tyson R. Henry
+acm120788 2 P260900 	Scott Hudson
+acm122758 2 P134688 	Jane Wilhelms
+acm122758 2 P15498 	Allen Van Gelder
+acm122873 1 P245454 	Robert R. Korfhage
+acm122984 3 P187423 	Marc Kaltenbach
+acm122984 3 P84959 	François Robillard
+acm122984 3 P48938 	Claude Frasson
+acm130299 1 P117016 	Isabel F. Cruz
+acm133215 2 P177668 	M. Chalmers
+acm133215 2 P221082 	Paul Chitson
+acm133216 2 P48006 	Christopher Williamson
+acm133216 2 P28685 	Ben Shneiderman
+acm133261 2 P192305 	Martin Juvan
+acm133261 2 P31473 	Bojan Mohar
+acm134093 3 P64995 	Deborah R. Fowler
+acm134093 3 P228400 	Przemyslaw Prusinkiewicz
+acm134093 3 P142560 	Johannes Battjes
+acm142751 4 P299195 	William C. Hill
+acm142751 4 P140403 	Jim Hollan
+acm142751 4 P60334 	Dave Wroblewski
+acm142751 4 P282347 	Tim McCandless
+acm142780 2 P262884 	Sharon R. Garber
+acm142780 2 P201858 	Mitch B. Grunes
+acm142817 1 P241617 	Richard Chimera
+acm142913 2 P261024 	Scott Meyers
+acm142913 2 P270242 	Steven P. Reiss
+acm143054 3 P47461 	Christopher Ahlberg
+acm143054 3 P48006 	Christopher Williamson
+acm143054 3 P28685 	Ben Shneiderman
+acm146826 3 P247663 	Rodrigo A. Botafogo
+acm146826 3 P75893 	Ehud Rivlin
+acm146826 3 P28685 	Ben Shneiderman
+acm147206 2 P190884 	Mark Phillips
+acm147206 2 P44203 	Charlie Gunn
+acm148286 4 P299801 	William H. Press
+acm148286 4 P260611 	Saul A. Teukolsky
+acm148286 4 P300194 	William T. Vetterling
+acm148286 4 P32602 	Brian P. Flannery
+acm153577 3 P95917 	George G. Robertson
+acm153577 3 P270635 	Stuart Card
+acm153577 3 P141918  Jock Mackinlay
+acm155359 3 P160797 	Kevin W. Arthur
+acm155359 3 P159248 	Kellogg S. Booth
+acm155359 3 P49781 	Colin Ware
+acm160730 5 P75202 	Edward A. Fox
+acm160730 5 P244867 	Robert K. France
+acm160730 5 P79285 	Eskinder Sahle
+acm160730 5 P16174 	Amjad Daoud
+acm160730 5 P28588 	Ben E. Cline
+acm162510 3 P305620 	Yigal Arens
+acm162510 3 P74902 	Eduard Hovy
+acm162510 3 P201630 	Mira Vossers
+acm163402 2 P198765 	Michael F. Schwartz
+acm163402 2 P64423 	David C. M. Wood
+acm163535 2 P280281 	Thomas Bemmerl
+acm163535 2 P223691 	Peter Braun
+acm163550 2 P146109 	John Stasko
+acm163550 2 P75982 	Eileen Kraemer
+acm166125 2 P159548 	Ken Perlin
+acm166125 2 P61568 	David Fox
+acm166126 5 P77911 	Eric A. Bier
+acm166126 5 P194963 	Maureen C. Stone
+acm166126 5 P159551 	Ken Pier
+acm166126 5 P298694 	William Buxton
+acm166126 5 P284281 	Tony D. DeRose
+acm168647 2 P28374 	Bay-Wei Chang
+acm168647 2 P64183 	David Ungar
+acm168650 4 P186929 	Manojit Sarkar
+acm168650 4 P261164 	Scott S. Snibbe
+acm168650 4 P212246 	Oren J. Tversky
+acm168650 4 P270242 	Steven P. Reiss
+acm168651 2 P187299 	Marc H. Brown
+acm168651 2 P187488 	Marc A. Najork
+acm168657 4 P269823 	Steven K. Feiner
+acm168657 4 P30991 	Blair MacIntyre
+acm168657 4 P188133 	Marcus Haupt
+acm168657 4 P76526 	Eliot Solomon
+acm168658 2 P250177 	Rudy P. Darken
+acm168658 2 P145991 	John L. Sibert
+acm168818 4 P164140 	Kyoji Hirata
+acm168818 4 P306682 	Yoshinori Hara
+acm168818 4 P207209 	Naoki Shibata
+acm168818 4 P87379 	Fusako Hirabayashi
+acm168823 1 P77263 	Emanuel G. Noik
+acm169209 4 P59313 	Daniel M. Russell
+acm169209 4 P191151 	Mark J. Stefik
+acm169209 4 P225001 	Peter Pirolli
+acm169209 4 P270635 	Stuart Card
+acm169426 2 P98829 	Gordon Kurtenbach
+acm169426 2 P298694 	William Buxton
+acm170095 1 P20144 	Anselm Spoerri
+acm172250 2 P300239 	William J. Weiland
+acm172250 2 P28685 	Ben Shneiderman
+acm180173 2 P303426 	Y. K. Leung
+acm180173 2 P176636 	M. D. Apperley
+acm180923 1 P150698 	Jules Bloomenthal
+acm187157 1 P96398 	Gerald M. Karam
+acm187170 4 P4486 	A. F. Hasler
+acm187170 4 P203609 	Murugappan Palaniappan
+acm187170 4 P181416 	M. Manyin
+acm187170 4 P121955 	J. Dodge
+acm188563 3 P194778 	Matthias Hemmje
+acm188563 3 P49314 	Clemens Kunkel
+acm188563 3 P14342 	Alexander Willett
+acm189245 2 P135155 	Janusz Wnek
+acm189245 2 P250840 	Ryszard S. Michalski
+acm191095 2 P137011 	Jean-Yves Vion-Dury
+acm191095 2 P200182 	Miguel Santana
+acm191676 1 P148747 	Joseph M. Ballay
+acm191682 2 P131144 	Jade Goldstein
+acm191682 2 P270271 	Steven F. Roth
+acm191715 3 P31915 	Brad A. Myers
+acm191715 3 P131144 	Jade Goldstein
+acm191715 3 P194513 	Matthew A. Goldberg
+acm191719 4 P270271 	Steven F. Roth
+acm191719 4 P144637 	John Kolojejchick
+acm191719 4 P142064 	Joe Mattis
+acm191719 4 P131144 	Jade Goldstein
+acm191774 3 P194963 	Maureen C. Stone
+acm191774 3 P159422 	Ken Fishkin
+acm191774 3 P77911 	Eric A. Bier
+acm191775 2 P47461 	Christopher Ahlberg
+acm191775 2 P28685 	Ben Shneiderman
+acm191776 2 P238722 	Ramana Rao
+acm191776 2 P270635 	Stuart Card
+acm191778 2 P95484 	George W. Furnas
+acm191778 2 P137466 	Jeff Zacks
+acm191786 5 P77911 	Eric A. Bier
+acm191786 5 P194963 	Maureen C. Stone
+acm191786 5 P159422 	Ken Fishkin
+acm191786 5 P298694 	William Buxton
+acm191786 5 P280273 	Thomas Baudel
+acm191790 2 P47461 	Christopher Ahlberg
+acm191790 2 P28685 	Ben Shneiderman
+acm192190 1 P187458 	Marc Levoy
+acm192313 2 P291541 	Vinit Jain
+acm192313 2 P28685 	Ben Shneiderman
+acm192357 2 P280938 	Thomas Kamps
+acm192357 2 P162366 	Klaus Reichenberger
+acm192429 1 P74380 	Earl Rennison
+acm192430 2 P144705 	John Lamping
+acm192430 2 P238722 	Ramana Rao
+acm192434 1 P109606 	Henry Lieberman
+acm192435 2 P28811 	Benjamin B. Bederson
+acm192435 2 P140403 	Jim Hollan
+acm192437 1 P21240 	Aran Lunzer
+acm192449 3 P187586 	Marc P. Stevens
+acm192449 3 P246990 	Robert Zeleznik
+acm192449 3 P144378 	John F. Hughes
+acm192451 2 P160097 	Kenneth P. Herndon
+acm192451 2 P283627 	Tom Meyer
+acm192470 3 P141918  Jock Mackinlay
+acm192470 3 P95917 	George G. Robertson
+acm192470 3 P244619 	Robert DeLine
+acm192472 1 P268230 	Stephen G. Eick
+acm192835 2 P173344 	Lothar Rostek
+acm192835 2 P298174 	Wiebke Möhr
+acm198376 4 P96421 	Gerald L. Lohse
+acm198376 4 P160814 	Kevin Biolsi
+acm198376 4 P207886 	Neff Walker
+acm198376 4 P109656 	Henry H. Rueter
+acm205326 8 P238722 	Ramana Rao
+acm205326 8 P134249 	Jan O. Pedersen
+acm205326 8 P191919 	Marti Hearst
+acm205326 8 P141918  Jock Mackinlay
+acm205326 8 P270635 	Stuart Card
+acm205326 8 P168592 	Larry Masinter
+acm205326 8 P223328 	Per-Kristian Halvorsen
+acm205326 8 P95917 	George G. Robertson
+acm208346 3 P283825 	Tomás Isakowitz
+acm208346 3 P75554 	Edward A. Stohr
+acm208346 3 P213763 	P. Balasubramanian
+acm208350 2 P42092 	Catherine C. Marshall
+acm208350 2 P86145 	Frank M. Shipman, III
+acm212334 3 P146843 	Jon Christensen
+acm212334 3 P142060 	Joe Marks
+acm212334 3 P270779 	Stuart Shieber
+acm212782 4 P68610 	Donald Michie
+acm212782 4 P56512 	D. J. Spiegelhalter
+acm212782 4 P39001 	C. C. Taylor
+acm212782 4 P143183 	John Campbell
+acm214456 2 P152820 	K. Mani Chandy
+acm214456 2 P171045 	Leslie Lamport
+acm214799 2 P150480 	Judy Kay
+acm214799 2 P243148 	Richard C. Thomas
+acm215636 2 P144936 	John H. Maloney
+acm215636 2 P239102 	Randall B. Smith
+acm215654 4 P507545 	Mei Chuah
+acm215654 4 P270271 	Steven F. Roth
+acm215654 4 P142064 	Joe Mattis
+acm215654 4 P144637 	John Kolojejchick
+acm215977 4 P174743 	Lyn Bartram
+acm215977 4 P13073 	Albert Ho
+acm215977 4 P143555 	John Dill
+acm215977 4 P85915 	Frank Henigman
+acm215978 3 P177594 	M. Sheelagh T. Carpendale
+acm215978 3 P61111 	David J. Cowperthwaite
+acm215978 3 P81304 	F. David Fracchia
+acm217311 2 P278221 	Tamara Munzner
+acm217311 2 P221003 	Paul Burchard
+acm217855 3 P47668 	Christopher G. Healey
+acm217855 3 P159248 	Kellogg S. Booth
+acm217855 3 P132154 	James T. Enns
+acm218443 3 P200330 	Mikako Harada
+acm218443 3 P18516 	Andrew Witkin
+acm218443 3 P60514 	David Baraff
+acm218454 3 P43568 	Charles E. Jacobs
+acm218454 3 P10635 	Adam Finkelstein
+acm218454 3 P63622 	David H. Salesin
+acm223381 2 P47461 	Christopher Ahlberg
+acm223381 2 P78910 	Erik Wistrand
+acm223394 2 P28811 	Benjamin B. Bederson
+acm223394 2 P140403 	Jim Hollan
+acm22342 1 P95484 	George W. Furnas
+acm223435 1 P172581 	Lisa Tweedie
+acm223464 4 P172581 	Lisa Tweedie
+acm223464 4 P31332 	Bob Spence
+acm223464 4 P113087 	Huw Dawkes
+acm223464 4 P112532 	Hua Su
+acm223745 2 P238722 	Ramana Rao
+acm223745 2 P270635 	Stuart Card
+acm223759 1 P194778 	Matthias Hemmje
+acm223812 2 P48043 	Christos Faloutsos
+acm223812 2 P161838 	King-Ip Lin
+acm223895 2 P438303 	Daniel Keim
+acm223895 2 P107222 	Hans-Peter Kriegel
+acm223911 2 P225001 	Peter Pirolli
+acm223911 2 P270635 	Stuart Card
+acm223912 1 P191919 	Marti Hearst
+acm223934 2 P95484 	George W. Furnas
+acm223934 2 P28811 	Benjamin B. Bederson
+acm223947 3 P266323 	Sougata Mukherjea
+acm223947 3 P132223 	James D. Foley
+acm223947 3 P260900 	Scott Hudson
+acm223956 3 P144705 	John Lamping
+acm223956 3 P238722 	Ramana Rao
+acm223956 3 P225001 	Peter Pirolli
+acm223959 2 P117142 	Ishantha Lokuge
+acm223959 2 P271174 	Suguru Ishizaki
+acm223960 2 P159422 	Ken Fishkin
+acm223960 2 P194963 	Maureen C. Stone
+acm227186 1 P290125 	Vannevar Bush
+acm22723 4 P137780 	Jeffrey Joyce
+acm22723 4 P99458 	Greg Lomow
+acm22723 4 P162803 	Konrad Slind
+acm22723 4 P33048 	Brian Unger
+acm227811 1 P270242 	Steven P. Reiss
+acm22950 1 P141918 	Jock Mackinlay
+acm229763 3 P29735 	Bernice E. Rogowitz
+acm229763 3 P172868 	Lloyd A. Treinish
+acm229763 3 P269137 	Steve Bryson
+acm230563 3 P47668 	Christopher G. Healey
+acm230563 3 P159248 	Kellogg S. Booth
+acm230563 3 P132154 	James T. Enns
+acm230577 7 P69536 	Doug Schaffer
+acm230577 7 P309831 	Zhengping Zuo
+acm230577 7 P260595 	Saul Greenberg
+acm230577 7 P174743 	Lyn Bartram
+acm230577 7 P143555 	John Dill
+acm230577 7 P263260 	Shelli Dubs
+acm230577 7 P190979 	Mark Roseman
+acm233315 3 P225212 	Peter G. Selfridge
+acm233315 3 P67578 	Divesh Srivastava
+acm233315 3 P174888 	Lynn O. Wilson
+acm233324 3 P282032 	Tian Zhang
+acm233324 3 P237644 	Raghu Ramakrishnan
+acm233324 3 P201750 	Miron Livny
+acm233333 3 P290421 	Venky Harinarayan
+acm233333 3 P16509 	Anand Rajaraman
+acm233333 3 P138064 	Jeffrey D. Ullman
+acm234423 1 P270242 	Steven P. Reiss
+acm234538 2 P248651 	Ron Davidson
+acm234538 2 P61889 	David Harel
+acm235579 2 P228400 	Przemyslaw Prusinkiewicz
+acm235579 2 P21449 	Aristid Lindenmayer
+acm237096 3 P177668 	M. Chalmers
+acm237096 3 P245269 	Robert Ingram
+acm237096 3 P47308 	Christoph Pfranger
+acm237097 3 P198916 	Michael Spenke
+acm237097 3 P46510 	Christian Beilken
+acm237097 3 P280294 	Thomas Berlage
+acm237774 1 P109930 	Herbert A. Simon
+acm238396 1 P49354 	Cleotilde Gonzalez
+acm238446 3 P270635 	Stuart Card
+acm238446 3 P95917 	George G. Robertson
+acm238446 3 P300312 	William York
+acm238450 3 P225001 	Peter Pirolli
+acm238450 3 P133254 	James Pitkow
+acm238450 3 P238722 	Ramana Rao
+acm238489 4 P225001 	Peter Pirolli
+acm238489 4 P220113 	Patricia Schank
+acm238489 4 P191919 	Marti Hearst
+acm238489 4 P47038 	Christine Diehl
+acm238493 5 P42125 	Catherine Plaisant
+acm238493 5 P32386 	Brett Milash
+acm238493 5 P19895 	Anne Rose
+acm238493 5 P262246 	Seth Widoff
+acm238493 5 P28685 	Ben Shneiderman
+acm238526 2 P31915 	Brad A. Myers
+acm238526 2 P62419 	David S. Kosbie
+acm238587 4 P172581 	Lisa Tweedie
+acm238587 4 P31332 	Bob Spence
+acm238587 4 P113087 	Huw Dawkes
+acm238587 4 P113040 	Hus Su
+acm240405 1 P85248 	Francesmary Modugno
+acm242229 1 P283451 	Tom Dietterich
+acm243214 5 P335624 	Lucy Nowell
+acm243214 5 P244867 	Robert K. France
+acm243214 5 P65018 	Deborah Hix
+acm243214 5 P170457 	Lenwood S. Heath
+acm243214 5 P75202 	Edward A. Fox
+acm243218 2 P21254 	Aravindan Veerasamy
+acm243218 2 P208397 	Nicholas J. Belkin
+acm245014 3 P173828 	Luc Beaudoin
+acm245014 3 P187648 	Marc-Antoine Parent
+acm245014 3 P173601 	Louis C. Vroomen
+acm245018 3 P298389 	Will Schroeder
+acm245018 3 P160215 	Kenneth M. Martin
+acm245018 3 P299459 	William E. Lorensen
+acm245020 1 P58480 	Daniel G. Aliaga
+acm245035 1 P177668 	M. Chalmers
+acm245041 6 P74502 	Ed H. Chi
+acm245041 6 P145715 	John Riedl
+acm245041 6 P76836 	Elizabeth Shoop
+acm245041 6 P143200 	John V. Carlis
+acm245041 6 P79076 	Ernest Retzel
+acm245041 6 P226873 	Phillip Barry
+acm245042 2 P218971 	Pak Chung Wong
+acm245042 2 P230677 	R. Daniel Bergeron
+acm245567 3 P290988 	Victoria Interrante
+acm245567 3 P109538 	Henry Fuchs
+acm245567 3 P268702 	Stephen Pizer
+acm245585 4 P271764 	Suresh K. Lodha
+acm245585 4 P13806 	Alex Pang
+acm245585 4 P246434 	Robert E. Sheehan
+acm245585 4 P50519 	Craig M. Wittenbrink
+acm245597 1 P47668 	Christopher G. Healey
+acm245890 1 P304694 	Yannis E. Ioannidis
+acm245891 3 P75845 	Egemen Tanin
+acm245891 3 P241424 	Richard Beigel
+acm245891 3 P28685 	Ben Shneiderman
+acm253335 8 P201750 	Miron Livny
+acm253335 8 P237644 	Raghu Ramakrishnan
+acm253335 8 P152643 	K. Beyer
+acm253335 8 P89146 	G. Chen
+acm253335 8 P53060 	D. Donjerkovic
+acm253335 8 P254852 	S. Lawande
+acm253335 8 P125936 	J. Myllymaki
+acm253335 8 P155762 	K. Wenger
+acm253460 2 P143674 	John D. M. Edwards
+acm253460 2 P46090 	Chris Hand
+acm257364 2 P260891 	Scott Henninger
+acm257364 2 P208397 	Nicholas J. Belkin
+acm257388 1 P247317 	Robin L. Kullberg
+acm257408 2 P187299 	Marc H. Brown
+acm257408 2 P246447 	Robert A. Shillner
+acm257674 2 P266323 	Sougata Mukherjea
+acm257674 2 P146109 	John Stasko
+acm257938 4 P286936 	Usama M. Fayyad
+acm257938 4 P99888 	Gregory Piatetsky-Shapiro
+acm257938 4 P218932 	Padhraic Smyth
+acm257938 4 P238744 	Ramasamy Uthurusamy
+acm258582 2 P191919 	Marti Hearst
+acm258582 2 P42765 	Chandu Karadi
+acm258591 5 P302830 	Y. Alp Aslandogan
+acm258591 5 P48241 	Chuck Thier
+acm258591 5 P49349 	Clement T. Yu
+acm258591 5 P147077 	Jon Zou
+acm258591 5 P207303 	Naphtali Rishe
+acm258592 1 P109606 	Henry Lieberman
+acm258796 1 P290988 	Victoria Interrante
+acm258803 1 P172581 	Lisa Tweedie
+acm258866 5 P15525 	Allison Druin
+acm258866 5 P135514 	Jason Stewart
+acm258866 5 P63394 	David Proft
+acm258866 5 P28811 	Benjamin B. Bederson
+acm258866 5 P140403 	Jim Hollan
+acm260138 1 P31332 	Bob Spence
+acm260431 2 P47461 	Christopher Ahlberg
+acm260431 2 P28685 	Ben Shneiderman
+acm260433 4 P172581 	Lisa Tweedie
+acm260433 4 P31332 	Bob Spence
+acm260433 4 P64373 	David Williams
+acm260433 4 P239621 	Ravinder Bhogal
+acm260748 1 P283259 	Todd Veldhuizen
+acm260799 2 P285087 	Trevor J. Davis
+acm260799 2 P37070 	C. Peter Keller
+acm261082 1 P279588 	Teuvo Kohonen
+acm263545 3 P190105 	Mark Derthick
+acm263545 3 P144637 	John Kolojejchick
+acm263545 3 P270271 	Steven F. Roth
+acm264657 1 P147188 	Jonathan D. Cohen
+acm265453 8 P15550 	Allison Woodruff
+acm265453 8 P12812 	Alan Su
+acm265453 8 P198980 	Michael Stonebraker
+acm265453 8 P41698 	Caroline Paxson
+acm265453 8 P146794 	Jolly Chen
+acm265453 8 P13911 	Alexander Aiken
+acm265453 8 P225590 	Peter Wisnovsky
+acm265453 8 P48629 	Cimarron Taylor
+acm266265 3 P507545 	Mei Chuah
+acm266265 3 P270271 	Steven F. Roth
+acm266265 3 P267773 	Stephan Kerpedjiev
+acm267052 2 P17980 	Andrew J. Hanson
+acm267052 2 P78576 	Eric A. Wernert
+acm267070 4 P117266 	Issei Fujishiro
+acm267070 4 P308348 	Yuriko Takeshima
+acm267070 4 P306536 	Yoshihiko Ichikawa
+acm267070 4 P164152 	Kyoko Nakamura
+acm267116 5 P220392 	Patrick Hoffman
+acm267116 5 P96173 	Georges Grinstein
+acm267116 5 P160218 	Kenneth Marx
+acm267116 5 P117589 	Ivo Grosse
+acm267116 5 P79621 	Eugene Stanley
+acm267120 2 P188881 	Maria Shneerson
+acm267120 2 P23315 	Ayellet Tal
+acm272980 3 P298389 	Will Schroeder
+acm272980 3 P160215 	Kenneth M. Martin
+acm272980 3 P299459 	William E. Lorensen
+acm274094 3 P2394 	A. Bookstein
+acm274094 3 P254574 	S. T. Klein
+acm274094 3 P276060 	T. Raita
+acm274432 3 P206639 	Nahum Gershon
+acm274432 3 P268230 	Stephen G. Eick
+acm274432 3 P270635 	Stuart Card
+acm274698 2 P199962 	Michelle X. Zhou
+acm274698 2 P269823 	Steven K. Feiner
+acm274699 6 P74502 	Ed H. Chi
+acm274699 6 P133254 	James Pitkow
+acm274699 6 P141918 	Jock Mackinlay
+acm274699 6 P225001 	Peter Pirolli
+acm274699 6 P241262 	Rich Gossweiler
+acm274699 6 P270635 	Stuart Card
+acm274701 2 P297809 	Wendy E. Mackay
+acm274701 2 P199512 	Michel Beaudouin-Lafon
+acm275521 2 P28355 	Bastiaan Schönhage
+acm275521 2 P20660 	Anton Eliëns
+acm275529 4 P115641 	Ian M. Soboroff
+acm275529 4 P43789 	Charles K. Nicholas
+acm275529 4 P132751 	James M. Kukla
+acm275529 4 P61351 	David S. Ebert
+acm275531 2 P40574 	Can Keskin
+acm275531 2 P292276 	Volker Vogelmann
+acm27624 1 P245284 	Robert J. K. Jacob
+acm276377 8 P46262 	Chris Olston
+acm276377 8 P15550 	Allison Woodruff
+acm276377 8 P13911 	Alexander Aiken
+acm276377 8 P196619 	Michael Chu
+acm276377 8 P292334 	Vuk Ercegovac
+acm276377 8 P190624 	Mark Lin
+acm276377 8 P203702 	Mybrid Spalding
+acm276377 8 P198980 	Michael Stonebraker
+acm276634 5 P248681 	Ron R. Hightower
+acm276634 5 P169127 	Laura T. Ring
+acm276634 5 P147271 	Jonathan I. Helfman
+acm276634 5 P28811 	Benjamin B. Bederson
+acm276634 5 P140403 	Jim Hollan
+acm276876 2 P227759 	Piotr Indyk
+acm276876 2 P237998 	Rajeev Motwani
+acm28737 1 P163836 	Kurt W. Piersol
+acm288245 2 P438303 	Daniel Keim
+acm288245 2 P20012 	Annemarie Herrmann
+acm288247 4 P206996 	Nancy Miller
+acm288247 4 P218969 	Pak Chung Wong
+acm288247 4 P192995 	Mary Brewster
+acm288247 4 P107530 	Harlan Foote
+acm288250 2 P68493 	Donald H. House
+acm288250 2 P47747 	Christopher J. Kocmoud
+acm288306 2 P61019 	David Cline
+acm288306 2 P219573 	Parris K. Egbert
+acm288578 2 P272369 	Susanne Jul
+acm288578 2 P95484 	George W. Furnas
+acm288579 2 P95484 	George W. Furnas
+acm288579 2 P302036 	Xiaolong Zhang
+acm288596 6 P95917 	George G. Robertson
+acm288596 6 P193037 	Mary Czerwinski
+acm288596 6 P161036 	Kevin Larson
+acm288596 6 P59283 	Daniel C. Robbins
+acm288596 6 P64087 	David Thiel
+acm288596 6 P185741 	Maarten van Dantzich
+acm291000 3 P142351 	Joemon M. Jose
+acm291000 3 P147232 	Jonathan Furner
+acm291000 3 P61896 	David J. Harper
+acm291014 1 P151647 	Justin Zobel
+acm293061 3 P86368 	Frans J. M. van der Wel
+acm293061 3 P172196 	Linda C. van der Gaag
+acm293061 3 P28611 	Ben G. H. Gorte
+acm299477 5 P21445 	Aris Floratos
+acm299477 5 P117166 	Isidore Rigoutsos
+acm299477 5 P169891 	Laxmi Parida
+acm299477 5 P100785 	Gustova Stolovitzky
+acm299477 5 P307553 	Yuan Gao
+acm300683 1 P120437 	J. Bertin
+acm300752 2 P268230 	Stephen G. Eick
+acm300752 2 P99212 	Graham J. Wills
+acm300803 1 P158895 	Keith Andrews
+acm300818 2 P95917 	George G. Robertson
+acm300818 2 P141918 	Jock Mackinlay
+acm300826 3 P270635 	Stuart Card
+acm300826 3 P141918 	Jock Mackinlay
+acm300826 3 P28685 	Ben Shneiderman
+acm300835 2 P225001 	Peter Pirolli
+acm300835 2 P238722 	Ramana Rao
+acm303148 2 P136466 	Jean-Daniel Fekete
+acm303148 2 P42125 	Catherine Plaisant
+acm304482 4 P170419 	Lennart E. Fahlén
+acm304482 4 P212078 	Olov Ståhl
+acm304482 4 P46471 	Christer Carlsson
+acm304482 4 P43203 	Charles Grant Brown
+acm304503 3 P146109 	John Stasko
+acm304503 3 P12980 	Albert Badro
+acm304503 3 P49282 	Clayton Lewis
+acm304872 1 P196535 	Michael D. Byrne
+acm305097 2 P10526 	Achilleas Papakostas
+acm305097 2 P116662 	Ioannis G. Tollis
+acm305265 5 P95381 	George S. Davidson
+acm305265 5 P33462 	Bruce Hendrickson
+acm305265 5 P62221 	David K. Johnson
+acm305265 5 P43749 	Charles E. Meyers
+acm305265 5 P33104 	Brian N. Wylie
+acm306624 2 P297313 	Wei-Ying Ma
+acm306624 2 P25750 	B. S. Manjunath
+acm30861 1 P239102 	Randall B. Smith
+acm312634 5 P187565 	Marc M. Sebrechts
+acm312634 5 P143434 	John V. Cugini
+acm312634 5 P262903 	Sharon J. Laskowski
+acm312634 5 P141720 	Joanna Vasilakis
+acm312634 5 P198118 	Michael S. Miller
+acm314338 6 P24614 	B. DasGupta
+acm314338 6 P301406 	X. He
+acm314338 6 P274888 	T. Jiang
+acm314338 6 P181080 	M. Li
+acm314338 6 P128597 	J. Tromp
+acm314338 6 P167944 	L. Zhang
+acm316229 3 P199459 	Michalis Faloutsos
+acm316229 3 P225799 	Petros Faloutsos
+acm316229 3 P48043 	Christos Faloutsos
+acm317474 1 P197160 	Michael Good
+acm319355 3 P305826 	Ying-Huey Fua
+acm319355 3 P194710 	Matthew O. Ward
+acm319355 3 P76910 	Elke A. Rundensteiner
+acm320410 1 P133851 	James A. Wise
+acm320618 2 P65458 	Denis Lee	
+acm320618 2 P39480 	C. K. Wong
+acm322075 1 P62732 	David Maier
+acm322601 7 P266789 	Staffan Björk
+acm322601 7 P168847 	Lars Erik Holmquist
+acm322601 7 P142466 	Johan Redström
+acm322601 7 P117392 	Ivan Bretan
+acm322601 7 P248369 	Rolf Danielsson
+acm322601 7 P151583 	Jussi Karlgren
+acm322601 7 P163321 	Kristofer Franzén
+acm325249 1 P150698 	Jules Bloomenthal
+acm329554 1 P49781 	Colin Ware
+acm330576 4 P131535 	James Abello
+acm330576 4 P76267 	Eleftherios Koutsofios
+acm330576 4 P77285 	Emden R. Gansner
+acm330576 4 P268645 	Stephen C. North
+acm331781 8 P12617 	Alan M. MacEachren
+acm331781 8 P244730 	Robert Edsall
+acm331781 8 P58874 	Daniel Haug
+acm331781 8 P250746 	Ryan Baxter
+acm331781 8 P95839 	George Otto
+acm331781 8 P239824 	Raymon Masters
+acm331781 8 P272623 	Sven Fuhrmann
+acm331781 8 P172684 	Liujian Qian
+acm332423 3 P74502 	Ed H. Chi
+acm332423 3 P225001 	Peter Pirolli
+acm332423 3 P133254 	James Pitkow
+acm333181 2 P269352 	Steve Lawrence
+acm333181 2 P36478 	C. Lee Giles
+acm33404 1 P75581 	Edward Tufte
+acm338266 5 P169891 	Laxmi Parida
+acm338266 5 P117166 	Isidore Rigoutsos
+acm338266 5 P21445 	Aris Floratos
+acm338266 5 P58197 	Dan Platt
+acm338266 5 P307553 	Yuan Gao
+acm345243 3 P192201 	Martin Graham
+acm345243 3 P139408 	Jessie B. Kennedy
+acm345243 3 P46090 	Chris Hand
+acm345271 3 P199957 	Michelle Q. Wang Baldonado
+acm345271 3 P15550 	Allison Woodruff
+acm345271 3 P15294 	Allan Kuchinsky
+acm345282 2 P46258 	Chris North
+acm345282 2 P28685 	Ben Shneiderman
+acm345323 4 P270747 	Stuart Pook
+acm345323 4 P78259 	Eric Lecolinet
+acm345323 4 P100960 	Guy Vaysseix
+acm345323 4 P77449 	Emmanuel Barillot
+acm345324 1 P266789 	Staffan Björk
+acm345353 2 P61889 	David Harel
+acm345353 2 P305301 	Yehuda Koren
+acm345912 2 P66646 	Diane Tang
+acm345912 2 P192970 	Mary Baker
+acm346021 8 P269119 	Steve Benford
+acm346021 8 P115664 	Ian Taylor
+acm346021 8 P60727 	David Brailsford
+acm346021 8 P31652 	Boriana Koleva
+acm346021 8 P200408 	Mike Craven
+acm346021 8 P200466 	Mike Fraser
+acm346021 8 P93543 	Gail Reynard
+acm346021 8 P46076 	Chris Greenhalgh
+acm351012 7 P202708 	Monika Büscher
+acm351012 7 P196614 	Michael Christensen
+acm351012 7 P156277 	Kaj Grønbæk
+acm351012 7 P224571 	Peter Krogh
+acm351012 7 P228270 	Preben Mogensen
+acm351012 7 P58248 	Dan Shapiro
+acm351012 7 P223495 	Peter Ørbæk
+acm352893 2 P80040 	Ewa Callahan
+acm352893 2 P119616 	Jürgen Koenemann
+acm354754 3 P28811 	Benjamin B. Bederson
+acm354754 3 P146953 	Jon Meyer
+acm354754 3 P168280 	Lance Good
+acm356797 2 P146822 	Jon Louis Bentley
+acm356797 2 P138882 	Jerome H. Friedman
+acm357310 1 P131722 	James F. Blinn
+acm358464 2 P239833 	Raymond E. Barber
+acm358464 2 P109611 	Henry C. Lucas, Jr.
+acm359563 1 P171045 	Leslie Lamport
+acm360354 1 P131909 	James H. Clark
+acm365097 4 P160714 	Kerry Rodden
+acm365097 4 P300695 	Wojciech Basalaj
+acm365097 4 P63826 	David Sinclair
+acm365097 4 P160462 	Kenneth Wood
+acm365309 2 P18742 	Andy Cockburn
+acm365309 2 P33622 	Bruce McKenzie
+acm365438 1 P146109 	John Stasko
+acm37086 2 P241419 	Richard A. Becker
+acm37086 2 P298777 	William S. Cleveland
+acm372188 2 P135425 	Jason I. Hong
+acm372188 2 P132781 	James Landay
+acm372278 4 P306536 	Yoshihiko Ichikawa
+acm372278 4 P314776 	Chiemi Watanabe
+acm372278 4 P315316 	Noriko Ukai
+acm372278 4 P315441 	Rika Furuhata
+acm375221 2 P316942 	Andrej Cedilnik
+acm375221 2 P223212 	Penny Rheingans
+acm375245 4 P139655 	Jian Huang
+acm375245 4 P247806 	Roger Crawfis
+acm375245 4 P206576 	Naeem Shareef
+acm375245 4 P162343 	Klaus Mueller
+acm375311 5 P53673 	D. L. Gresh
+acm375311 5 P29735 	Bernice E. Rogowitz
+acm375311 5 P236907 	R. L. Winslow
+acm375311 5 P317034 	D. F. Scollan
+acm375311 5 P317004 	C. K. Yung
+acm376383 11 P170457 	Lenwood S. Heath
+acm376383 11 P327501 	Kaushai Dalal
+acm376383 11 P75202 	Edward A. Fox
+acm376383 11 P65018 	Deborah Hix
+acm376383 11 P335624 	Lucy Nowell
+acm376383 11 P300211 	William C. Wake
+acm376383 11 P327358 	Guillermo A. Averboch
+acm376383 11 P327302 	Eric Labow
+acm376383 11 P327722 	Scott A. Guyer
+acm376383 11 P65623 	Dennis J. Brueni
+acm376383 11 P244867 	Robert K. France
+acm376953 1 P327405 	Jürgen Branke
+acm377539 10 P247234 	Roberto Tamassia
+acm377539 10 P328311 	Ulrick Barandes
+acm377539 10 P197164 	Michael T. Goodrich
+acm377539 10 P173985 	Luca Vismara
+acm377539 10 P328169 	Mark Handy
+acm377539 10 P327994 	Galina Shubina
+acm377539 10 P328241 	Robert Cohen
+acm377539 10 P327893 	Benoît Hudson
+acm377539 10 P250745 	Ryan S. Baker
+acm377539 10 P207534 	Natasha Gelfand
+acm378476 1 P335030 	Paolo Sabella
+acm378494 1 P335034 	Paul E. Haeberli
+acm378497 3 P196601 	Michael Chen
+acm378497 3 P255551 	S. Joy Mountford
+acm378497 3 P10438 	Abigail Sellen
+acm39091 3 P121439 	J. H. Conway
+acm39091 3 P206001 	N. J. A. Sloane
+acm39091 3 P71230 	E. Bannai
+acm4084 1 P298777 	William S. Cleveland
+acm41997 3 P25792 	B. H. McCormick
+acm41997 3 P274142 	T. A. DeFanti
+acm41997 3 P177411 	M. D. Brown
+acm42414 1 P61889 	David Harel
+acm43396 1 P187299 	Marc H. Brown
+acm44652 1 P187458 	Marc Levoy
+acm45432 1 P269823 	Steven K. Feiner
+acm48514 1 P86287 	Frank,G. Halasz
+acm50088 5 P77081 	Elliot Soloway
+acm50088 5 P247318 	Robin Lampert
+acm50088 5 P266847 	Stan Letovsky
+acm50088 5 P62645 	David Littman
+acm50088 5 P137128 	Jeannine Pinto
+acm502574 3 P222728 	Pavel Berkhin
+acm502574 3 P339941 	Jonathan D. Beche
+acm502574 3 P339922 	Dee Jay Randall
+acm502580 3 P279080 	Teresa Mah
+acm502580 3 P339934 	Hank Hoek
+acm502580 3 P305782 	Ying Li
+acm519400 1 P358220 	Robert L. Harris
+acm5215 2 P226688 	Philippe Flajolet
+acm5215 2 P91025 	G. Nigel Martin
+acm523237 1 P28685 	Ben Shneiderman
+acm524313 1 P145434 	John K. Ousterhout
+acm529145 1 P32208 	Brenda Laurel
+acm529269 1 P298777 	William S. Cleveland
+acm534175 1 P283968 	Tomihisa Kamada
+acm540298 1 P354952 	John A. Hartigan
+acm548892 2 P196780 	Michael L. Dertouzos
+acm548892 2 P30422 	Bill Gates
+acm549965 1 P86676 	Fred Petry
+acm549990 2 P355753 	Larry Dane Brimner
+acm549990 2 P365119 	Childrens Press
+acm550196 3 P146109 	John Stasko
+acm550196 3 P187299 	Marc H. Brown
+acm550196 3 P364260 	Blaine A. Price
+acm551884 4 P116662 	Ioannis G. Tollis
+acm551884 4 P247234 	Roberto Tamassia
+acm551884 4 P368178 	Giuseppe Di Battista
+acm551884 4 P223968 	Peter Eades
+acm556493 9 P371396 	Karl Avedal
+acm556493 9 P361665 	Ari Halberstadt
+acm556493 9 P59688 	Danny Ayers
+acm556493 9 P378471 	Timothy Briggs
+acm556493 9 P364772 	Carl Burnham
+acm556493 9 P375644 	Ray Haynes
+acm556493 9 P368727 	Hen
+acm556493 9 P267504 	Stefan Zeiger
+acm556493 9 P372726 	Mac Holden
+acm558656 1 P68529 	Donald Ervin Knuth
+acm561081 2 P371337 	Kan Pimentel
+acm561081 2 P161221 	Kevin Teixeira
+acm562139 2 P375094 	Peter R. Keller
+acm562139 2 P373292 	Mary M. Keller
+acm563003 3 P372655 	M. Nitzberg
+acm563003 3 P55261 	D. Mumford
+acm563003 3 P378107 	T. Shiota
+acm571472 1 P58060 	Dan Gusfield
+acm571649 3 P28811 	Benjamin B. Bederson
+acm571649 3 P28685 	Ben Shneiderman
+acm571649 3 P192713 	Martin Wattenberg
+acm57182 4 P120983 	J. Callahan
+acm57182 4 P54023 	D. Hopkins
+acm57182 4 P185050 	M. Weiser
+acm57182 4 P28685 	Ben Shneiderman
+acm573164 2 P144244 	John L. Hennessy
+acm573164 2 P63248 	David A. Patterson
+acm574634 3 P144264 	John Hertz
+acm574634 3 P242695 	Richard G. Palmer
+acm574634 3 P388072 	Anders S. Krogh
+acm574978 2 P367997 	George Edward Pelham Box
+acm574978 2 P390003 	Gwilym Jenkins
+acm575201 2 P32208 	Brenda Laurel
+acm575201 2 P255551 	S. Joy Mountford
+acm576082 2 P394247 	William C. Cleveland
+acm576082 2 P392018 	Marylyn E. McGill
+acm580470 4 P280448 	Thomas H. Cormen
+acm580470 4 P49467 	Clifford Stein
+acm580470 4 P249221 	Ronald L. Rivest
+acm580470 4 P43667 	Charles E. Leiserson
+acm580949 2 P210210 	Norman E. Fenton
+acm580949 2 P262823 	Shari Lawrence Pfleeger
+acm583200 1 P126795 	J. Ross Quinlan
+acm593438 8 P140361 	Jim Gray
+acm593438 8 P271709 	Surajit Chaudhuri
+acm593438 8 P10598 	Adam Bosworth
+acm593438 8 P18101 	Andrew Layman
+acm593438 8 P68131 	Don Reichart
+acm593438 8 P203471 	Murali Venkatrao
+acm593438 8 P86082 	Frank Pellow
+acm593438 8 P106482 	Hamid Pirahesh
+acm597197 3 P343060 	Edgar Chávez
+acm597197 3 P317210 	José L. Marroquín
+acm597197 3 P98679 	Gonzalo Navarro
+acm606763 2 P416800 	Masahiro Takatsuka
+acm606763 2 P190251 	Mark Gahegan
+acm613931 3 P197332 	Michael T. Heath
+acm613931 3 P15444 	Allen D. Malony
+acm613931 3 P66621 	Diane T. Rover
+acm614078 2 P75982 	Eileen Kraemer
+acm614078 2 P146109 	John Stasko
+acm614292 3 P241419 	Richard A. Becker
+acm614292 3 P268230 	Stephen G. Eick
+acm614292 3 P15351 	Allan R. Wilks
+acm614294 2 P191495 	Markus H. Gross
+acm614294 2 P248405 	Rolf Koch
+acm614306 2 P23315 	Ayellet Tal
+acm614306 2 P61269 	David Dobkin
+acm614447 3 P117429 	Ivan Herman
+acm614447 3 P421167 	Guy Melançon
+acm614447 3 P421193 	M. Scott Marshall
+acm614457 3 P305826 	Ying-Huey Fua
+acm614457 3 P194710 	Matthew O. Ward
+acm614457 3 P76910 	Elke A. Rundensteiner
+acm614509 4 P421226 	Susan Havre
+acm614509 4 P29946 	Beth Hetzler
+acm614509 4 P222451 	Paul Whitney
+acm614509 4 P335624 	Lucy Nowell
+acm614510 2 P131535 	James Abello
+acm614510 2 P137799 	Jeffrey Korn
+acm615681 1 P14289 	Alexander S. Szalay
+acm617498 8 P50498 	Craig Upson
+acm617498 8 P422617 	Thomas Faulhaber, Jr.
+acm617498 8 P62263 	David Kamins
+acm617498 8 P62495 	David Laidlaw
+acm617498 8 P422175 	David Schlegel
+acm617498 8 P422317 	Jefrey Vroom
+acm617498 8 P422541 	Robert Gurwitz
+acm617498 8 P18594 	Andries van Dam
+acm617723 2 P106192 	Haim Levkowitz
+acm617723 2 P93284 	Gabor T. Herman
+acm617761 2 P169789 	Lawrence J. Rosenblum
+acm617761 2 P422121 	Bruce E. Brown
+acm617913 2 P438303 	Daniel Keim
+acm617913 2 P422257 	Hans-Peter Krigel
+acm618447 3 P144637 	John Kolojejchick
+acm618447 3 P270271 	Steven F. Roth
+acm618447 3 P224682 	Peter Lucas
+acm618448 3 P177594 	M. Sheelagh T. Carpendale
+acm618448 3 P61111 	David J. Cowperthwaite
+acm618448 3 P81304 	F. David Fracchia
+acm618451 2 P172393 	Liqun Jin
+acm618451 2 P60509 	David Banks
+acm618455 1 P338272 	Barry Becker
+acm618538 1 P278221 	Tamara Munzner
+acm618540 4 P74502 	Ed H. Chi
+acm618540 4 P145715 	John Riedl
+acm618540 4 P226873 	Phillip Barry
+acm618540 4 P149126 	Joseph Konstan
+acm618590 2 P29533 	Bernd Lintermann
+acm618590 2 P211796 	Oliver Deussen
+acm618679 1 P141918 	Jock Mackinlay
+acm618853 3 P227961 	Pourang Irani
+acm618853 3 P422437 	Maureen Tingley
+acm618853 3 P49781 	Colin Ware
+acm620306 12 P203769 	Myron Flickner
+acm620306 12 P70180 	Dragutin Petkovic
+acm620306 12 P63937 	David Steele
+acm620306 12 P225624 	Peter Yanker
+acm620306 12 P107778 	Harpreet Sawhney
+acm620306 12 P297012 	Wayne Niblack
+acm620306 12 P147125 	Jonathan Ashley
+acm620306 12 P228635 	Qian Huang
+acm620306 12 P34285 	Byron Dom
+acm620306 12 P202714 	Monika Gorkani
+acm620306 12 P140370 	Jim Hafner
+acm620306 12 P65458 	Denis Lee
+acm620372 2 P285251 	Trung A. Diep
+acm620372 2 P145960 	John Paul Shen
+acm620421 2 P280253 	Thomas Ball
+acm620421 2 P268230 	Stephen G. Eick
+acm623999 1 P160466 	Kenneth C. Yeager
+acm62420 2 P58183 	Dan R. Olsen
+acm62420 2 P32007 	Bradley W. Halversen
+acm624851 5 P291365 	Vincent A. Guarna, Jr.
+acm624851 5 P65707 	Dennis Gannon
+acm624851 5 P62163 	David Jablonowski
+acm624851 5 P425010 	Allen D. Maloney
+acm624851 5 P306020 	Yogesh Gaur
+acm624852 3 P30329 	Bill Appelbe
+acm624852 3 P161205 	Kevin Smith
+acm624852 3 P44212 	Charlie McDowell
+acm624902 2 P77049 	Elliot J. Chikofsky
+acm624902 2 P425218 	James H. Cross II
+acm624963 1 P425537 	Sven Moen
+acm625405 1 P28685 	Ben Shneiderman
+acm625443 3 P42125 	Catherine Plaisant
+acm625443 3 P60891 	David Carr
+acm625443 3 P28685 	Ben Shneiderman
+acm627798 2 P438303 	Daniel Keim
+acm627798 2 P107222 	Hans-Peter Kriegel
+acm628634 2 P63826 	David Sinclair
+acm628634 2 P2329 	A. Blake
+acm631037 4 P77285 	Emden R. Gansner
+acm631037 4 P76267 	Eleftherios Koutsofios
+acm631037 4 P268645 	Stephen C. North
+acm631037 4 P508337 	K.-P. Vo
+acm632834 1 P192713 	Martin Wattenberg
+acm63669 2 P131935 	James S. Collofello
+acm63669 2 P261265 	Scott N. Woodfield
+acm649649 1 P248713 	Ron Kohavi
+acm64992 2 P160425 	Kenneth Utting
+acm64992 2 P208934 	Nicole Yankelovich
+acm652239 3 P238204 	Rakesh Agrawal
+acm652239 3 P48043 	Christos Faloutsos
+acm652239 3 P22325 	Arun N. Swami
+acm655120 3 P438303 	Daniel Keim
+acm655120 3 P107222 	Hans-Peter Kriegel
+acm655120 3 P281620 	Thomas Seidl
+acm662606 2 P75982 	Eileen Kraemer
+acm662606 2 P146109 	John Stasko
+acm671516 3 P21454 	Aristides Gionis
+acm671516 3 P227759 	Piotr Indyk
+acm671516 3 P237998 	Rajeev Motwani
+acm673155 4 P238204 	Rakesh Agrawal
+acm673155 4 P161838 	King-Ip Lin
+acm673155 4 P107778 	Harpreet Sawhney
+acm673155 4 P164294 	Kyuseok Shim
+acm673502 3 P267223 	Stefan Berchtold
+acm673502 3 P438303 	Daniel Keim
+acm673502 3 P107222 	Hans-Peter Kriegel
+acm680887 1 P177668 	M. Chalmers
+acm685681 3 P163821 	Kurt Mehlhorn
+acm685681 3 P267385 	Stefan Näher
+acm685681 3 P46852 	Christian Uhrig
+acm690165 2 P241424 	Richard Beigel
+acm690165 2 P75845 	Egemen Tanin
+acm69235 3 P63880 	David Socha
+acm69235 3 P192966 	Mary L. Bailey
+acm69235 3 P63144 	David Notkin
+acm695311 2 P49085 	Claudia Schmid
+acm695311 2 P106862 	Hans Hinterberger
+acm702166 2 P466953 	Janet M. Six
+acm702166 2 P116662 	Ioannis G. Tollis
+acm702778 4 P501877 	Wendy S. Ark
+acm702778 4 P53095 	D. Christopher Dryer
+acm702778 4 P278835 	Ted Selker
+acm702778 4 P264765 	Shumin Zhai
+acm721079 2 P77468 	Emmanuel Frécon
+acm721079 2 P93733 	Gareth Smith
+acm721081 4 P12617 	Alan M. MacEachren
+acm721081 4 P456941 	Francis P. Boscoe
+acm721081 4 P58874 	Daniel Haug
+acm721081 4 P413048 	Linda Pickle
+acm721211 1 P422060 	Alan Keahey
+acm721212 4 P29946 	Beth Hetzler
+acm721212 4 P222451 	Paul Whitney
+acm721212 4 P475248 	Lou Martucci
+acm721212 4 P140618 	Jim Thomas
+acm721214 2 P137799 	Jeffrey Korn
+acm721214 2 P17682 	Andrew W. Appel
+acm725689 2 P218971 	Pak Chung Wong
+acm725689 2 P230677 	R. Daniel Bergeron
+acm728600 2 P188513 	Margaret-Anne D. Storey
+acm728600 2 P108350 	Hausi A. Müller
+acm728609 2 P173848 	Luc Devroye
+acm728609 2 P221678 	Paul Kruszewski
+acm728742 1 P268645 	Stephen C. North
+acm728744 3 P499638 	Ugur Dogrusöz
+acm728744 3 P422114 	Brendan Madden
+acm728744 3 P485738 	Patrick Madden
+acm728745 2 P489574 	Reinhard Sablowski
+acm728745 2 P422089 	Arne Frick
+acm728752 3 P223968 	Peter Eades
+acm728752 3 P487877 	Qing-Wen Feng
+acm728752 3 P302504 	Xuemin Lin
+acm728899 2 P286704 	Ulrik Brandes
+acm728899 2 P69361 	Dorothea Wagner
+acm728901 2 P223968 	Peter Eades
+acm728901 2 P487877 	Qing-Wen Feng
+acm728911 1 P457399 	Franz-Josef Brandenburg
+acm729077 3 P46578 	Christian A. Duncan
+acm729077 3 P197164 	Michael T. Goodrich
+acm729077 3 P268478 	Stephen G. Kobourov
+acm729095 2 P187155 	Mao Lin Huang
+acm729095 2 P223968 	Peter Eades
+acm729230 2 P466953 	Janet M. Six
+acm729230 2 P116662 	Ioannis G. Tollis
+acm729409 2 P440936 	Aaron Quigley
+acm729409 2 P223968 	Peter Eades
+acm729414 1 P46410 	Chris Walshaw
+acm729561 2 P448313 	Carsten Friedrich
+acm729561 2 P197441 	Michael E. Houle
+acm730920 1 P77263 	Emanuel G. Noik
+acm730925 4 P69495 	Doug Kimelman
+acm730925 4 P447167 	Bruce Leban
+acm730925 4 P361128 	Tova Roth
+acm730925 4 P70234 	Dror Zernik
+acm730930 3 P157384 	Karlis Kaugars
+acm730930 3 P151571 	Juris Reinfelds
+acm730930 3 P442689 	Alvis Brazma
+acm730931 1 P270242 	Steven P. Reiss
+acm731363 4 P206639 	Nahum Gershon
+acm731363 4 P299898 	William Ruh
+acm731363 4 P470250 	Joshua Levasseur
+acm731363 4 P468897 	Joel Winstead
+acm73350 1 P82211 	F. J. Newbery
+acm73662 3 P95917 	George G. Robertson
+acm73662 3 P270635 	Stuart Card
+acm73662 3 P130574  Jack D. Mackinlay
+acm7478 2 P159920 	Kenneth P. Birman
+acm7478 2 P280919 	Thomas A. Joseph
+acm757113 2 P223968 	Peter Eades
+acm757113 2 P487877 	Qing-Wen Feng
+acm757116 1 P278221 	Tamara Munzner
+acm757117 3 P46578 	Christian A. Duncan
+acm757117 3 P197164 	Michael T. Goodrich
+acm757117 3 P268478 	Stephen G. Kobourov
+acm757122 2 P61889 	David Harel
+acm757122 2 P305301 	Yehuda Koren
+acm760270 1 P504109 	Young-Min Song
+acm760413 3 P464499 	Ira Smotroff
+acm760413 3 P174793 	Lynette Hirschman
+acm760413 3 P259151 	Samuel Bayer
+acm76334 2 P38039 	C. M. Pancake
+acm76334 2 P257593 	S. Utter
+acm76897 2 P44212 	Charlie McDowell
+acm76897 2 P61973 	David P. Helmbold
+acm769924 4 P380981 	Jing Yang
+acm769924 4 P194710 	Matthew O. Ward
+acm769924 4 P76910 	Elke A. Rundensteiner
+acm769924 4 P254127 	S. Huang
+acm775064 3 P337868 	Chris Stolte
+acm775064 3 P66646 	Diane Tang
+acm775064 3 P219805 	Pat Hanrahan
+acm776774 3 P286704 	Ulrik Brandes
+acm776774 3 P485726 	Patrick Kenis
+acm776774 3 P69361 	Dorothea Wagner
+acm778316 1 P99212 	Graham J. Wills
+acm779243 1 P138075 	Jeffrey Scott Vitter
+acm78223 1 P75581 	Edward Tufte
+acm785915 3 P161427 	Khoa Doan
+acm785915 3 P42125 	Catherine Plaisant
+acm785915 3 P28685 	Ben Shneiderman
+acm79026 1 P128972 	J. Q. Walker, II
+acm794386 3 P134270 	Jan Puzicha
+acm794386 3 P280843 	Thomas Hofmann
+acm794386 3 P141428 	Joachim M. Buhmann
+acm794502 2 P139748 	Jianbo Shi
+acm794502 2 P141155 	Jitendra Malik
+acm801140 1 P31915 	Brad A. Myers
+acm801801 2 P333992 	Teresa Bleser
+acm801801 2 P132223 	James D. Foley
+acm806818 2 P198482 	Michael Potmesil
+acm806818 2 P116372 	Indranil Chakravarty
+acm808590 3 P244499 	Robert L. Cook
+acm808590 3 P281425 	Thomas Porter
+acm808590 3 P173072 	Loren Carpenter
+acm808596 2 P187299 	Marc H. Brown
+acm808596 2 P246404 	Robert Sedgewick
+acm81354 3 P294966 	W. B. Rouse
+acm81354 3 P204767 	N. D. Geddes
+acm81354 3 P123305 	J. M. Hammer
+acm833835 6 P74502 	Ed H. Chi
+acm833835 6 P226873 	Phillip Barry
+acm833835 6 P76836 	Elizabeth Shoop
+acm833835 6 P143200 	John V. Carlis
+acm833835 6 P79076 	Ernest Retzel
+acm833835 6 P145715 	John Riedl
+acm833844 2 P549630 	Allen R. Martin
+acm833844 2 P194710 	Matthew O. Ward
+acm833846 3 P438303 	Daniel Keim
+acm833846 3 P200206 	Mihael Ankerst
+acm833846 3 P107222 	Hans-Peter Kriegel
+acm833851 4 P87141 	Frits H. Post
+acm833851 4 P421159 	Frank J. Post
+acm833851 4 P552775 	Theo Van Walsum
+acm833851 4 P65079 	Deborah Silver
+acm833862 3 P551247 	L. D. Bergman
+acm833862 3 P29735 	Bernice E. Rogowitz
+acm833862 3 P172868 	Lloyd A. Treinish
+acm833874 3 P94710 	Gene Golovchinsky
+acm833874 3 P162366 	Klaus Reichenberger
+acm833874 3 P280938 	Thomas Kamps
+acm833884 2 P465743 	J. P. Lee
+acm833884 2 P96173 	Georges Grinstein
+acm833887 2 P218971 	Pak Chung Wong
+acm833887 2 P230677 	R. Daniel Bergeron
+acm834348 2 P187299 	Marc H. Brown
+acm834348 2 P187488 	Marc A. Najork
+acm834354 1 P28685 	Ben Shneiderman
+acm834481 4 P277957 	Takeo Igarashi
+acm834481 4 P141918 	Jock Mackinlay
+acm834481 4 P28374 	Bay-Wei Chang
+acm834481 4 P227903 	Polle T. Zellweger
+acm834493 4 P46262 	Chris Olston
+acm834493 4 P198980 	Michael Stonebraker
+acm834493 4 P13911 	Alexander Aiken
+acm834493 4 P550814 	J. M. Hellerstein
+acm83821 4 P132223 	James D. Foley
+acm83821 4 P18594 	Andries van Dam
+acm83821 4 P269823 	Steven K. Feiner
+acm83821 4 P144378 	John F. Hughes
+acm856684 6 P127072 	J. S. Risch
+acm856684 6 P55930 	D. B. Rex
+acm856684 6 P253185 	S. T. Dowson
+acm856684 6 P276857 	T. B. Walters
+acm856684 6 P234137 	R. A. May
+acm856684 6 P25923 	B. D. Moon
+acm856685 3 P548253 	M. Campo
+acm856685 3 P528656 	R. Orosco
+acm856685 3 P547014 	A. Teyseyre
+acm856693 1 P200312 	Mikael Jern
+acm856694 1 P109606 	Henry Lieberman
+acm863013 1 P78888 	Erik Thomsen
+acm864453 2 P186929 	Manojit Sarkar
+acm864453 2 P187299 	Marc H. Brown
+acm864484 3 P212246 	Oren J. Tversky
+acm864484 3 P261164 	Scott S. Snibbe
+acm864484 3 P246990 	Robert Zeleznik
+acm142673 2 P186929 	Manojit Sarkar
+acm142673 2 P187299 	Marc H. Brown
+acm864776 2 P223968 	Peter Eades
+acm864776 2 P247234 	Roberto Tamassia
+acm864808 1 P146109 	John Stasko
+acm864933 1 P577440 	James Wen
+acm866599 3 P96664 	Gerard Salton
+acm866599 3 P131548 	James Allan
+acm866599 3 P45945 	Chris Buckley
+acm867322 3 P96664 	Gerard Salton
+acm867322 3 P9491 	A. Wong
+acm867322 3 P39545 	C. S. Yang
+acm869026 3 P117429 	Ivan Herman
+acm869026 3 P178140 	M. Delest
+acm869026 3 P579053 	Guy Melancon
+acm891481 2 P131687 	James E. Bennett
+acm891481 2 P196981 	Michael J. Flynn
+acm892623 1 P595681 	Stephen A Herrod
+acm893936 4 P13911 	Alexander Aiken
+acm893936 4 P146794 	Jolly Chen
+acm893936 4 P198980 	Michael Stonebraker
+acm893936 4 P15550 	Allison Woodruff
+acm894742 6 P169793 	Lawrence A. Rowe
+acm894742 6 P196751 	Michael Davis
+acm894742 6 P596416 	Eli Messinger
+acm894742 6 P596405 	Carl Meyer
+acm894742 6 P596408 	Charles Spirakis
+acm894742 6 P596396 	Allan Tuan
+acm896281 2 P596917 	Anne Brueggemann-Klein
+acm896281 2 P66171 	Derick Wood
+acm91412 2 P269823 	Steven K. Feiner
+acm91412 2 P49409 	Clifford Beshers
+acm92489 4 P123644 	J. G. Hollands
+acm92489 4 P273940 	T. T. Carey
+acm92489 4 P181534 	M. L. Matthews
+acm92489 4 P37652 	C. A. McCann
+acm93885 1 P13809 	Alex P. Pentland
+acm948480 4 P573192 	Jim Baker
+acm948480 4 P117016 	Isabel F. Cruz
+acm948480 4 P98198 	Giuseppe Liotta
+acm948480 4 P247234 	Roberto Tamassia
+acm948505 3 P15550 	Allison Woodruff
+acm948505 3 P132781 	James Landay
+acm948505 3 P198980 	Michael Stonebraker
+acm949534 6 P643582 	Gordon V. Bancroft
+acm949534 6 P643579 	Fergus J. Merritt
+acm949534 6 P643616 	Todd C. Plessel
+acm949534 6 P643602 	Paul G. Kelaita
+acm949534 6 P643609 	R. Kevin McCabe
+acm949534 6 P11952 	Al Globus
+acm949553 2 P643612 	Stephen Wehrend
+acm949553 2 P49282 	Clayton Lewis
+acm949569 1 P643590 	Jeff Beddow
+acm949571 4 P643562 	T. Mihalisin
+acm949571 4 P643577 	E. Gawlinski
+acm949571 4 P643533 	J. Timlin
+acm949571 4 P643532 	J. Schwegler
+acm949588 2 P14716 	Alfred Inselberg
+acm949588 2 P29231 	Bernard Dimsdale
+acm949614 3 P11952 	Al Globus
+acm949614 3 P37359 	C. Levit
+acm949614 3 P643561 	T. Lasinski
+acm949633 4 P17277 	Andreas Buja
+acm949633 4 P145051 	John Alan McDonald
+acm949633 4 P643537 	John Michalak
+acm949633 4 P298076 	Werner Stuetzle
+acm949654 2 P32711 	Brian Johnson
+acm949654 2 P28685 	Ben Shneiderman
+acm949711 2 P64168 	David Turo
+acm949711 2 P32711 	Brian Johnson
+acm949724 2 P268230 	Stephen G. Eick
+acm949724 2 P149483 	Joseph L. Steffen
+acm949734 1 P301689 	Xia Lin
+acm949893 2 P247806 	Roger Crawfis
+acm949893 2 P208157 	Nelson Max
+acm949901 5 P605971 	Dachywan Wu
+acm949901 5 P133367 	James Robergé
+acm949901 5 P608295 	Douglas J. Cork
+acm949901 5 P643781 	Bao Gia Nguyen
+acm949901 5 P280182 	Thom Grace
+acm951144 3 P299190 	William L. Hibbard
+acm951144 3 P43353 	Charles R. Dyer
+acm951144 3 P32896 	Brian E. Paul
+acm951146 1 P194710 	Matthew O. Ward
+acm951894 3 P438303 	Daniel Keim
+acm951894 3 P268645 	Stephen C. North
+acm951894 3 P573006 	Christian Panse
+acm97273 2 P270271 	Steven F. Roth
+acm97273 2 P142064 	Joe Mattis
+acm97898 3 P141918 	Jock Mackinlay
+acm97898 3 P270635 	Stuart Card
+acm97898 3 P95917 	George G. Robertson
+acm97919 1 P170179 	Lee Westover
+acm97933 2 P269823 	Steven K. Feiner
+acm97933 2 P49409 	Clifford Beshers
+acm97975 3 P145051 	John Alan McDonald
+acm97975 3 P298076 	Werner Stuetzle
+acm97975 3 P17277 	Andreas Buja
+acm98599 2 P58912 	Daniel P. Huttenlocher
+acm98599 2 P162173 	Klara Kedem
+acm99361 6 P60561 	David Beard
+acm99361 6 P203609 	Murugappan Palaniappan
+acm99361 6 P12515 	Alan Humm
+acm99361 6 P60509 	David Banks
+acm99361 6 P19124 	Anil Nair
+acm99361 6 P305340 	Yen-Ping Shan

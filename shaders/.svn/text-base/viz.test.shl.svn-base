@@ -1,0 +1,93 @@
+Shader{
+	name = "viz.test.shl",
+	description = [[ test normal interpolation ]],
+	language = "GLSL",
+	
+	parameters = {	},
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Vertex Program
+--------------------------------------------------------------------------
+Program{
+	type = "vertex",
+	
+	[[
+
+
+varying vec3 N;
+varying vec3 P;
+
+
+
+void main() {
+	
+	//get the vertices into eye space
+	P = (gl_ModelViewMatrix*gl_Vertex).xyz;
+
+	//get the normals into eye space
+	N = gl_NormalMatrix*normalize(gl_Normal);
+	
+	gl_Position = ftransform();
+}
+
+	]]
+},
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Fragment Program
+--------------------------------------------------------------------------
+Program{
+	type = "fragment",	--must be defined
+
+	[[
+	
+	
+vec3 lighting( vec3 N, vec3 V, vec3 L) {
+   
+    vec3 Ka = vec3(0.1, 0.1, 0.1);
+    vec3 Kd = vec3(0.6, 0.6, 0.6);
+    vec3 Ks = vec3(0.4, 0.4, 0.4);
+    float shineness = 100.0;
+    
+    vec3 lightColor = vec3 (0.8, 0.8, 0.8);
+    vec3 ambientLight = vec3(0.1, 0.1, 0.1);
+    vec3 H = normalize(L+V);
+    
+    vec3 ambient = Ka * ambientLight;
+    
+    float diffuseLight = max( dot(L, N), 0.0);
+    vec3 diffuse = Kd * lightColor * diffuseLight;
+   
+    
+    float specularLight = pow( max( dot(H, N), 0.0), shineness);
+    if(diffuseLight <= 0.0 ) specularLight = 0.0;
+    vec3 specular = Ks * lightColor * specularLight;
+    vec3 light = ambient + diffuse + specular;
+    return light;
+    
+}
+
+
+varying vec3 N;
+varying vec3 P;
+
+void main() {
+
+	
+	vec3 lightPosition = vec3(gl_LightSource[0].position);
+	vec3 L = normalize(lightPosition - P);
+	vec3 V = normalize(-P);
+	vec3 N = normalize(N);
+	gl_FragColor.rgb = lighting(N, V, L);
+	gl_FragColor.a = 1.;
+	
+
+	
+}
+
+	]],
+},
+
+--------------------------------------------------------------------------
+}

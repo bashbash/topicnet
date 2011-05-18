@@ -1,0 +1,178 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 36C2AEF10CD7A2DB0054F99E /* fibber */;
+		codeSenseManager = 36A50B8B10841381009ED765 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					522,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					482,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277233667;
+			PBXWorkspaceStateSaveDate = 277233667;
+		};
+		perUserProjectItems = {
+			36A54DBE1086463B00DFC64C /* PBXTextBookmark */ = 36A54DBE1086463B00DFC64C /* PBXTextBookmark */;
+			36A54DD01086506600DFC64C /* PBXTextBookmark */ = 36A54DD01086506600DFC64C /* PBXTextBookmark */;
+			36A54DD11086506600DFC64C /* PBXTextBookmark */ = 36A54DD11086506600DFC64C /* PBXTextBookmark */;
+			36A54DD21086506600DFC64C /* PBXTextBookmark */ = 36A54DD21086506600DFC64C /* PBXTextBookmark */;
+			36A54DD31086506600DFC64C /* PBXTextBookmark */ = 36A54DD31086506600DFC64C /* PBXTextBookmark */;
+			36A54DDB108650C200DFC64C /* PBXTextBookmark */ = 36A54DDB108650C200DFC64C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 36A50B8A10841381009ED765 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	36A50B8A10841381009ED765 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	36A50B8B10841381009ED765 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	36A54DBE1086463B00DFC64C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36A54DBF1086463B00DFC64C /* luaconf.h */;
+		name = "luaconf.h: 505";
+		rLen = 26;
+		rLoc = 14642;
+		rType = 0;
+		vrLen = 1379;
+		vrLoc = 13922;
+	};
+	36A54DBF1086463B00DFC64C /* luaconf.h */ = {
+		isa = PBXFileReference;
+		name = luaconf.h;
+		path = /Users/grahamwakefield/Source/LuaAV/LuaAV/trunk/dev_osx/include/luaconf.h;
+		sourceTree = "<absolute>";
+	};
+	36A54DC41086463B00DFC64C /* lua.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = lua.h;
+		path = /Users/grahamwakefield/Source/LuaAV/LuaAV/trunk/dev_osx/include/lua.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 5572}}";
+			sepNavSelRange = "{5806, 12}";
+			sepNavVisRange = "{4946, 1558}";
+		};
+	};
+	36A54DCE10864C2000DFC64C /* lauxlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = lauxlib.h;
+		path = /Users/grahamwakefield/Source/LuaAV/LuaAV/trunk/dev_osx/include/lauxlib.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 2394}}";
+			sepNavSelRange = "{1713, 0}";
+			sepNavVisRange = "{668, 2247}";
+		};
+	};
+	36A54DD01086506600DFC64C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36A54DCE10864C2000DFC64C /* lauxlib.h */;
+		name = "lauxlib.h: 55";
+		rLen = 0;
+		rLoc = 1713;
+		rType = 0;
+		vrLen = 2247;
+		vrLoc = 668;
+	};
+	36A54DD11086506600DFC64C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36A54DC41086463B00DFC64C /* lua.h */;
+		name = "lua.h: 201";
+		rLen = 12;
+		rLoc = 5806;
+		rType = 0;
+		vrLen = 1558;
+		vrLoc = 4946;
+	};
+	36A54DD21086506600DFC64C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9DAD776103B52AD000527A5 /* fibber.cpp */;
+		name = "fibber.cpp: 47";
+		rLen = 1;
+		rLoc = 680;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 452;
+	};
+	36A54DD31086506600DFC64C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36A54DC41086463B00DFC64C /* lua.h */;
+		name = "lua.h: 201";
+		rLen = 12;
+		rLoc = 5806;
+		rType = 0;
+		vrLen = 1558;
+		vrLoc = 4946;
+	};
+	36A54DDB108650C200DFC64C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9DAD776103B52AD000527A5 /* fibber.cpp */;
+		name = "fibber.cpp: 47";
+		rLen = 0;
+		rLoc = 698;
+		rType = 0;
+		vrLen = 801;
+		vrLoc = 721;
+	};
+	36C2AEF10CD7A2DB0054F99E /* fibber */ = {
+		activeExec = 0;
+	};
+	B9DAD776103B52AD000527A5 /* fibber.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 1316}}";
+			sepNavSelRange = "{698, 0}";
+			sepNavVisRange = "{721, 801}";
+		};
+	};
+}

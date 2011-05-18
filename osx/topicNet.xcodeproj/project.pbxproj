@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750EC8D912D99303000DBFBF /* plane.h in Headers */ = {isa = PBXBuildFile; fileRef = 750EC8D712D99303000DBFBF /* plane.h */; };
+		750EC8DA12D99303000DBFBF /* plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 750EC8D812D99303000DBFBF /* plane.cpp */; };
+		750F76671381D4F600C23E42 /* article.h in Headers */ = {isa = PBXBuildFile; fileRef = 750F76651381D4F600C23E42 /* article.h */; };
+		750F76681381D4F600C23E42 /* article.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 750F76661381D4F600C23E42 /* article.cpp */; };
+		7519F62211B332F9009D936A /* graph.h in Headers */ = {isa = PBXBuildFile; fileRef = 7519F62011B332F9009D936A /* graph.h */; };
+		7519F62311B332F9009D936A /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7519F62111B332F9009D936A /* graph.cpp */; };
+		7519F63A11B338B9009D936A /* xmlparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7519F63911B338B9009D936A /* xmlparse.h */; };
+		75214E2211B4A57F00DD920C /* FR_Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 75214E2011B4A57F00DD920C /* FR_Layout.h */; };
+		75214E2311B4A57F00DD920C /* FR_Layout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75214E2111B4A57F00DD920C /* FR_Layout.cpp */; };
+		7528AF1C11B0EA7C007D216B /* grid.h in Headers */ = {isa = PBXBuildFile; fileRef = 7528AF1A11B0EA7C007D216B /* grid.h */; };
+		7528AF1D11B0EA7C007D216B /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7528AF1B11B0EA7C007D216B /* grid.cpp */; };
+		7528AF3911B0EB7D007D216B /* graphNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7528AF3711B0EB7D007D216B /* graphNode.h */; };
+		7528AF3A11B0EB7D007D216B /* graphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7528AF3811B0EB7D007D216B /* graphNode.cpp */; };
+		75378DDD12DE161000E17DB3 /* grid2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 75378DDB12DE161000E17DB3 /* grid2d.h */; };
+		75378DDE12DE161000E17DB3 /* grid2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75378DDC12DE161000E17DB3 /* grid2d.cpp */; };
+		754A0C7411B0F00A00CCBE8C /* graphEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = 754A0C7211B0F00A00CCBE8C /* graphEdge.h */; };
+		754A0C7511B0F00A00CCBE8C /* graphEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754A0C7311B0F00A00CCBE8C /* graphEdge.cpp */; };
+		754A0D0D11B0FB0800CCBE8C /* gridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 754A0D0B11B0FB0800CCBE8C /* gridNode.h */; };
+		754A0D0E11B0FB0800CCBE8C /* gridNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754A0D0C11B0FB0800CCBE8C /* gridNode.cpp */; };
+		757338231106601F00E04911 /* lua_topnet.h in Headers */ = {isa = PBXBuildFile; fileRef = 757338221106601F00E04911 /* lua_topnet.h */; };
+		7579696411A73CE300400C72 /* topnet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7579696311A73CE300400C72 /* topnet.h */; };
+		757969FE11A750F700400C72 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 757969F811A750F700400C72 /* tinystr.cpp */; };
+		757969FF11A750F700400C72 /* tinystr.h in Headers */ = {isa = PBXBuildFile; fileRef = 757969F911A750F700400C72 /* tinystr.h */; };
+		75796A0011A750F700400C72 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 757969FA11A750F700400C72 /* tinyxml.cpp */; };
+		75796A0111A750F700400C72 /* tinyxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 757969FB11A750F700400C72 /* tinyxml.h */; };
+		75796A0211A750F700400C72 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 757969FC11A750F700400C72 /* tinyxmlerror.cpp */; };
+		75796A0311A750F700400C72 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 757969FD11A750F700400C72 /* tinyxmlparser.cpp */; };
+		758129F51105965000094BA8 /* topnet_module.h in Headers */ = {isa = PBXBuildFile; fileRef = 758129F41105965000094BA8 /* topnet_module.h */; };
+		758129F7110596C700094BA8 /* lua_topnet_udata.h in Headers */ = {isa = PBXBuildFile; fileRef = 758129F6110596C700094BA8 /* lua_topnet_udata.h */; };
+		75812A75110597CC00094BA8 /* lua_topnet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75812A73110597CC00094BA8 /* lua_topnet.cpp */; };
+		75812A9E11059A6800094BA8 /* topnet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75812A9D11059A6800094BA8 /* topnet.cpp */; };
+		75812AA711059BB200094BA8 /* topnet_udata.h in Headers */ = {isa = PBXBuildFile; fileRef = 75812AA511059BB200094BA8 /* topnet_udata.h */; };
+		75812AA811059BB200094BA8 /* topnet_udata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75812AA611059BB200094BA8 /* topnet_udata.cpp */; };
+		75EFBDF412B9A12600EFC750 /* vec2.h in Headers */ = {isa = PBXBuildFile; fileRef = 75EFBDF312B9A12600EFC750 /* vec2.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36C2AEF20CD7A2DB0054F99E /* topicNet.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = topicNet.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EC8D712D99303000DBFBF /* plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plane.h; sourceTree = "<group>"; };
+		750EC8D812D99303000DBFBF /* plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plane.cpp; sourceTree = "<group>"; };
+		750F76651381D4F600C23E42 /* article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = article.h; sourceTree = "<group>"; };
+		750F76661381D4F600C23E42 /* article.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = article.cpp; sourceTree = "<group>"; };
+		7519F62011B332F9009D936A /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		7519F62111B332F9009D936A /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		7519F63911B338B9009D936A /* xmlparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlparse.h; sourceTree = "<group>"; };
+		75214E2011B4A57F00DD920C /* FR_Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FR_Layout.h; sourceTree = "<group>"; };
+		75214E2111B4A57F00DD920C /* FR_Layout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FR_Layout.cpp; sourceTree = "<group>"; };
+		7528AF1A11B0EA7C007D216B /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		7528AF1B11B0EA7C007D216B /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		7528AF3711B0EB7D007D216B /* graphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphNode.h; sourceTree = "<group>"; };
+		7528AF3811B0EB7D007D216B /* graphNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphNode.cpp; sourceTree = "<group>"; };
+		75378DDB12DE161000E17DB3 /* grid2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid2d.h; sourceTree = "<group>"; };
+		75378DDC12DE161000E17DB3 /* grid2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid2d.cpp; sourceTree = "<group>"; };
+		754A0C7211B0F00A00CCBE8C /* graphEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphEdge.h; sourceTree = "<group>"; };
+		754A0C7311B0F00A00CCBE8C /* graphEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphEdge.cpp; sourceTree = "<group>"; };
+		754A0D0B11B0FB0800CCBE8C /* gridNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridNode.h; sourceTree = "<group>"; };
+		754A0D0C11B0FB0800CCBE8C /* gridNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gridNode.cpp; sourceTree = "<group>"; };
+		757338221106601F00E04911 /* lua_topnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_topnet.h; sourceTree = "<group>"; };
+		7579696311A73CE300400C72 /* topnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topnet.h; sourceTree = "<group>"; };
+		757969F811A750F700400C72 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		757969F911A750F700400C72 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		757969FA11A750F700400C72 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		757969FB11A750F700400C72 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		757969FC11A750F700400C72 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		757969FD11A750F700400C72 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		758129F41105965000094BA8 /* topnet_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topnet_module.h; sourceTree = "<group>"; };
+		758129F6110596C700094BA8 /* lua_topnet_udata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_topnet_udata.h; sourceTree = "<group>"; };
+		75812A73110597CC00094BA8 /* lua_topnet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_topnet.cpp; sourceTree = "<group>"; };
+		75812A9D11059A6800094BA8 /* topnet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = topnet.cpp; sourceTree = "<group>"; };
+		75812AA511059BB200094BA8 /* topnet_udata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topnet_udata.h; sourceTree = "<group>"; };
+		75812AA611059BB200094BA8 /* topnet_udata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = topnet_udata.cpp; sourceTree = "<group>"; };
+		75EFBDF312B9A12600EFC750 /* vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C2AEF00CD7A2DB0054F99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C2AEF20CD7A2DB0054F99E /* topicNet.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* cocoa_ogl */ = {
+			isa = PBXGroup;
+			children = (
+				757969F711A750F700400C72 /* tinyxml */,
+				DF00B63C0E17FD4700E60A0B /* src */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = cocoa_ogl;
+			sourceTree = "<group>";
+		};
+		757969F711A750F700400C72 /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				757969F811A750F700400C72 /* tinystr.cpp */,
+				757969F911A750F700400C72 /* tinystr.h */,
+				757969FA11A750F700400C72 /* tinyxml.cpp */,
+				757969FB11A750F700400C72 /* tinyxml.h */,
+				757969FC11A750F700400C72 /* tinyxmlerror.cpp */,
+				757969FD11A750F700400C72 /* tinyxmlparser.cpp */,
+			);
+			name = tinyxml;
+			path = ../tinyxml;
+			sourceTree = SOURCE_ROOT;
+		};
+		DF00B63C0E17FD4700E60A0B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				758129F41105965000094BA8 /* topnet_module.h */,
+				757338221106601F00E04911 /* lua_topnet.h */,
+				758129F6110596C700094BA8 /* lua_topnet_udata.h */,
+				75812A73110597CC00094BA8 /* lua_topnet.cpp */,
+				7519F63911B338B9009D936A /* xmlparse.h */,
+				7579696311A73CE300400C72 /* topnet.h */,
+				75812A9D11059A6800094BA8 /* topnet.cpp */,
+				75812AA511059BB200094BA8 /* topnet_udata.h */,
+				75812AA611059BB200094BA8 /* topnet_udata.cpp */,
+				7528AF1A11B0EA7C007D216B /* grid.h */,
+				7528AF1B11B0EA7C007D216B /* grid.cpp */,
+				7528AF3711B0EB7D007D216B /* graphNode.h */,
+				7528AF3811B0EB7D007D216B /* graphNode.cpp */,
+				754A0C7211B0F00A00CCBE8C /* graphEdge.h */,
+				754A0C7311B0F00A00CCBE8C /* graphEdge.cpp */,
+				754A0D0B11B0FB0800CCBE8C /* gridNode.h */,
+				754A0D0C11B0FB0800CCBE8C /* gridNode.cpp */,
+				7519F62011B332F9009D936A /* graph.h */,
+				7519F62111B332F9009D936A /* graph.cpp */,
+				75214E2011B4A57F00DD920C /* FR_Layout.h */,
+				75214E2111B4A57F00DD920C /* FR_Layout.cpp */,
+				75EFBDF312B9A12600EFC750 /* vec2.h */,
+				750EC8D712D99303000DBFBF /* plane.h */,
+				750EC8D812D99303000DBFBF /* plane.cpp */,
+				75378DDB12DE161000E17DB3 /* grid2d.h */,
+				75378DDC12DE161000E17DB3 /* grid2d.cpp */,
+				750F76651381D4F600C23E42 /* article.h */,
+				750F76661381D4F600C23E42 /* article.cpp */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36C2AEEE0CD7A2DB0054F99E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758129F51105965000094BA8 /* topnet_module.h in Headers */,
+				758129F7110596C700094BA8 /* lua_topnet_udata.h in Headers */,
+				75812AA711059BB200094BA8 /* topnet_udata.h in Headers */,
+				757338231106601F00E04911 /* lua_topnet.h in Headers */,
+				7579696411A73CE300400C72 /* topnet.h in Headers */,
+				757969FF11A750F700400C72 /* tinystr.h in Headers */,
+				75796A0111A750F700400C72 /* tinyxml.h in Headers */,
+				7528AF1C11B0EA7C007D216B /* grid.h in Headers */,
+				7528AF3911B0EB7D007D216B /* graphNode.h in Headers */,
+				754A0C7411B0F00A00CCBE8C /* graphEdge.h in Headers */,
+				754A0D0D11B0FB0800CCBE8C /* gridNode.h in Headers */,
+				7519F62211B332F9009D936A /* graph.h in Headers */,
+				7519F63A11B338B9009D936A /* xmlparse.h in Headers */,
+				75214E2211B4A57F00DD920C /* FR_Layout.h in Headers */,
+				75EFBDF412B9A12600EFC750 /* vec2.h in Headers */,
+				750EC8D912D99303000DBFBF /* plane.h in Headers */,
+				75378DDD12DE161000E17DB3 /* grid2d.h in Headers */,
+				750F76671381D4F600C23E42 /* article.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36C2AEF10CD7A2DB0054F99E /* topicNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C2AF000CD7A2EB0054F99E /* Build configuration list for PBXNativeTarget "topicNet" */;
+			buildPhases = (
+				36C2AEEE0CD7A2DB0054F99E /* Headers */,
+				36C2AEEF0CD7A2DB0054F99E /* Sources */,
+				36C2AEF00CD7A2DB0054F99E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = topicNet;
+			productName = testmod2;
+			productReference = 36C2AEF20CD7A2DB0054F99E /* topicNet.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "topicNet" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* cocoa_ogl */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C2AEF10CD7A2DB0054F99E /* topicNet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C2AEEF0CD7A2DB0054F99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75812A75110597CC00094BA8 /* lua_topnet.cpp in Sources */,
+				75812A9E11059A6800094BA8 /* topnet.cpp in Sources */,
+				75812AA811059BB200094BA8 /* topnet_udata.cpp in Sources */,
+				757969FE11A750F700400C72 /* tinystr.cpp in Sources */,
+				75796A0011A750F700400C72 /* tinyxml.cpp in Sources */,
+				75796A0211A750F700400C72 /* tinyxmlerror.cpp in Sources */,
+				75796A0311A750F700400C72 /* tinyxmlparser.cpp in Sources */,
+				7528AF1D11B0EA7C007D216B /* grid.cpp in Sources */,
+				7528AF3A11B0EB7D007D216B /* graphNode.cpp in Sources */,
+				754A0C7511B0F00A00CCBE8C /* graphEdge.cpp in Sources */,
+				754A0D0E11B0FB0800CCBE8C /* gridNode.cpp in Sources */,
+				7519F62311B332F9009D936A /* graph.cpp in Sources */,
+				75214E2311B4A57F00DD920C /* FR_Layout.cpp in Sources */,
+				750EC8DA12D99303000DBFBF /* plane.cpp in Sources */,
+				75378DDE12DE161000E17DB3 /* grid2d.cpp in Sources */,
+				750F76681381D4F600C23E42 /* article.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36C2AF010CD7A2EB0054F99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/Library/Frameworks/LuaAV.framework/Headers/,
+				);
+				INSTALL_PATH = "$(PROJECT_DIR)/../../../sysbuild/$(CONFIGURATION)/modules";
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = $TARGET_NAME;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				STRIP_STYLE = "non-global";
+				USER_HEADER_SEARCH_PATHS = "$inherited $(SRCROOT)/../../../dev_osx/include";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		36C2AF020CD7A2EB0054F99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/Library/Frameworks/LuaAV.framework/Headers/,
+				);
+				INSTALL_PATH = "$(PROJECT_DIR)/../../../sysbuild/$(CONFIGURATION)/modules";
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = $TARGET_NAME;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				STRIP_STYLE = "non-global";
+				USER_HEADER_SEARCH_PATHS = "$inherited $(SRCROOT)/../../../dev_osx/include";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lz",
+					"-lmysqlclient",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../dev/include/** $(PROJECT_DIR)/../../space/**";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lz",
+					"-lmysqlclient",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../dev/include/** $(PROJECT_DIR)/../../space/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C2AF000CD7A2EB0054F99E /* Build configuration list for PBXNativeTarget "topicNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C2AF010CD7A2EB0054F99E /* Debug */,
+				36C2AF020CD7A2EB0054F99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "topicNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

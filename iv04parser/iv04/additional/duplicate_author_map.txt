@@ -1,0 +1,112 @@
+duplicate original name
+P572973	P47461	Christopher Ahlberg
+P1602	P13911	Alexander Aiken
+P152460	P158895	Keith Andrews
+P131625	P573192	Jim Baker
+P550053 P60509	David Banks
+P60506	P60509	David Banks
+P573328	P226873	Phillip Barry
+P27937	P338272	Barry Becker
+P28568	P28811	Benjamin B. Bederson
+P552102	P230677	R. Daniel Bergeron
+P270634	P270635	Stuart Card
+P252641 P270635	Stuart Card
+P194436	P177668	M. Chalmers
+P573049	P74502	Ed H. Chi
+P74503	P74502	Ed H. Chi
+P573257	P507545	Mei Chuah
+P195636	P507545	Mei Chuah
+P573017	P61111	David J. Cowperthwaite
+P247805	P247806	Roger Crawfis
+P573115	P113087	Huw Dawkes
+P178184	P190105	Mark Derthick
+P53165	P61351	David S. Ebert
+P244729	P244730	Robert Edsall
+P429312	P268230	Stephen G. Eick
+P253376	P269823	Steven K. Feiner
+P269824	P269823	Steven K. Feiner
+P81303	P81304	F. David Fracchia
+P89788	P95484	George W. Furnas
+P72008	P77285	Emden R. Gansner
+P643517	P11952	Al Globus
+P573102	P94710	Gene Golovchinsky
+P317275	P191495	Markus H. Gross
+P303133	P306682	Yoshinori Hara
+P191918	P191919	Marti Hearst
+P76728	P29946	Beth Hetzler
+P335414	P29946	Beth Hetzler
+P322398	P164140	Kyoji Hirata
+P165991	P174793	Lynette Hirschman
+P132535	P140403	Jim Hollan
+P260899	P260900	Scott Hudson
+P4781	P14716	Alfred Inselberg
+P573464	P280938	Thomas Kamps
+P573465	P275012	T. Alan Keahey
+P58960	P438303	Daniel Keim
+P54451	P68529	Donald Ervin Knuth
+P573153	P144637	John Kolojejchick
+P573154	P149126	Joseph Konstan
+P467696	P137799	Jeffrey Korn
+P72601	P76267	Eleftherios Koutsofios
+P132780	P132781	James Landay
+P54659	P65458	Denis Lee	
+P573158	P470250	Joshua Levasseur
+P103786	P109606	Henry Lieberman
+P181151	P201750	Miron Livny
+P216353	P224682	Peter Lucas
+P572903 P21240	Aran Lunzer
+P125129 P141918 Jock Mackinlay
+P573161 P141918 Jock Mackinlay
+P130574 P141918 Jock Mackinlay
+P141917 P141918 Jock Mackinlay
+P573162	P142064	Joe Mattis
+P43727	P44212	Charlie McDowell
+P206995	P206996	Nancy Miller
+P546514	P266323	Sougata Mukherjea
+P275633	P278221	Tamara Munzner
+P255795	P268645	Stephen C. North
+P174140	P335624	Lucy Nowell
+P174141	P335624	Lucy Nowell
+P549923	P46262	Chris Olston
+P154716	P203609	Murugappan Palaniappan
+P86926	P86676	Fred Petry
+P235172	P237644	Raghu Ramakrishnan
+P235203	P238722	Ramana Rao
+P573218	P162366	Klaus Reichenberger
+P256437	P270242	Steven P. Reiss
+P127044	P145715	John Riedl
+P73472	P75487	Edward L. Robertson
+P26380	P29735	Bernice E. Rogowitz
+P573425	P270271	Steven F. Roth
+P573522	P299898	William Ruh
+P73522	P76910	Elke A. Rundensteiner
+P107777	P107778	Harpreet Sawhney
+P299957	P298389	Will Schroeder
+P341243	P573188	Jeffrey Senn
+P26599	P28685	Ben Shneiderman
+P28682	P28685	Ben Shneiderman
+P56402	P63826	David Sinclair
+P572966	P31332	Bob Spence
+P246545	P31332	Bob Spence
+P38883	P49467	Clifford Stein
+P184179	P198980	Michael Stonebraker
+P185572	P188513	Margaret-Anne D. Storey
+P167627	P172868	Lloyd A. Treinish
+P75580	P75581	Edward Tufte
+P573241	P172581	Lisa Tweedie
+P515115	P194710	Matthew O. Ward
+P422303	P135241	Jarke J. van Wijk
+P573108	P99212	Graham J. Wills
+P573176	P468897	Joel Winstead
+P573177	P133851	James A. Wise
+P573060	P78910	Erik Wistrand
+P129424	P380981	Jing Yang
+P246989	P246990	Robert Zeleznik
+P573284	P199962	Michelle X. Zhou
+P95918	P95917	George G. Robertson
+P95916	P95917	George G. Robertson
+P91941	P95917	George G. Robertson
+P125129 P130574 Jack D. Mackinlay
+P128084	P146109	John Stasko
+P577374	P146109	John Stasko
+P146108	P146109	John Stasko

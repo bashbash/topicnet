@@ -1,0 +1,589 @@
+<DNVGRAPH>
+	<Level value="0" numberOfNodes="44" numberOfEdges="89">
+		<DNVNODE Id="0" Level="0" Position="[24.154112 , 22.260601]" Color="[0.7882353 , 0.83137256 , 0.0]" Size="0.5" Label="ABSTRACT-Visual_analysis_tools_are_becoming_increasingly_important_as" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc1" ForceLabel="false" Alpha="0.8" LabelColor="[0.7882353 , 0.83137256 , 0.0]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="1" />
+			<NODEPROPERTY Key="radius" Value="42.77473831176758" />
+			<NODEPROPERTY Key="Contents" Value="" />
+			<NODEPROPERTY Key="angle" Value="4.178318229274425" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVNODE Id="1" Level="0" Position="[34.013554 , 18.068024]" Color="[0.78070587 , 0.80737257 , 0.023529412]" Size="1.8712871" Label="1-Introduction" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc2" ForceLabel="false" Alpha="0.8" LabelColor="[0.78070587 , 0.80737257 , 0.023529412]" LabelOutlineColor="null" OutlineColor="null" LabelSize="17" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="2" />
+			<NODEPROPERTY Key="radius" Value="42.706298828125" />
+			<NODEPROPERTY Key="Contents" Value="<br />The unprecedented growth in the amount of data accessible by theaverage web user highlights the need for more efficient and morepowerful data exploration tools.  In this paper, we propose thatinteractive visualization of salient topics within large data sets canhelp a user get to an understanding of the data more quickly and withless effort than with traditional data exploration mechanisms such astext based search, for example.  Since humans are unable to processlarge numbers of documents all at once, we need to focus on efficientways to navigate, group, organize, search and explore these sets.  Wedefine topics as probability distributions over the words in a set ofdocuments.  By leveraging topics as a means to group documents and/orauthors together, we create the basis of an informative, coherent,flexible and most importantly reproducible visualization,over which a user can interact to discover information in the datafrom many perspectives.This paper discusses the design and implementation ofTopicNets, a web-based topic visualization system for largesets of documents.  Documents and topics are treated as connectednodes on an interactive WiGi  graph.Several novel techniques for interactive topic-based documentexploration are proposed and tested.  Firstly, we describe a  layoutwhich exposes the linear structure of a single document and therelation of each section to a set of topics.  By adjusting theinfluence of section-to-topic edges in a force directed graph layout,a range of interesting visualizations are produced which highlight therelevance of individual sections to the central theme of the overalldocument.  To demonstrate this technique we topic-model and visualizea recent PhD thesis and discuss a usage scenario around the resultinggraphs.   Stepping back to the broader document set, we present amulti-dimensional scaling approach to the visualization of topic anddocument nodes. This approach incorporates a time-based visualizationin which an ordering of document nodes occurs along the circumferenceof a circle.  By examining size and centrality of connected topicnodes, we can intuitively learn about their relevance to the documentset.  To facilitate drill-down from very large graphs to a subset ofinterest, the system supports the standard overview and zoomcapability. Moreover, an iterative search and result visualizationallows an analyst to get to the relevant information quickly.  Wediscuss a second usage scenario showing relations between people in alarge organization (on the CALIT2 dataset) based on topic associationsover their published documents, and show several examples whereinteresting clusters and associations are highlighted by our newtechniques.  In addition to the usage secnarios, we perform afirst-use user study comparing our system against a text based topicsearch tool. Results of this study indicate that an understanding of abroad document set can be achieved in less time using our novelinteraction and visualization techniques.Related Work<br />" />
+			<NODEPROPERTY Key="angle" Value="4.429645641561608" />
+			<NODEPROPERTY Key="Size" Value="1.8712871" />
+		</DNVNODE>
+		<DNVEDGE Id="2" Level="0" Length="0.0" K="1.0" From="0" To="1" Label="" Directional="true" BBid="doc1->doc2" Color="[0.78070587 , 0.80737257 , 0.023529412]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.78070587 , 0.80737257 , 0.023529412]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="3" Level="0" Position="[44.588947 , 16.461792]" Color="[0.77317643 , 0.7833726 , 0.047058824]" Size="0.5" Label="2-Related_Work" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc3" ForceLabel="false" Alpha="0.8" LabelColor="[0.77317643 , 0.7833726 , 0.047058824]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="3" />
+			<NODEPROPERTY Key="radius" Value="42.63785934448242" />
+			<NODEPROPERTY Key="Contents" Value="To place this work into context, we examine related work from threeareas.  Firstly, an outline of other efforts to visualize and analyzelarge document sets is presented.  This is followed by a descriptionof the state of the art in Topic Modeling.  Lastly, we discuss commontools and techniques in the field of interactive graph visualization.Visualizing Large Document Sets<br />" />
+			<NODEPROPERTY Key="angle" Value="4.680973053848792" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="4" Level="0" Length="0.0" K="1.0" From="1" To="3" Label="" Directional="true" BBid="doc2->doc3" Color="[0.77317643 , 0.7833726 , 0.047058824]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.77317643 , 0.7833726 , 0.047058824]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="5" Level="0" Position="[55.21447 , 17.5344]" Color="[0.765647 , 0.7593726 , 0.07058824]" Size="1.7710396" Label="2.1-Visualizing_Large_Document_Sets" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc4" ForceLabel="false" Alpha="0.8" LabelColor="[0.765647 , 0.7593726 , 0.07058824]" LabelOutlineColor="null" OutlineColor="null" LabelSize="17" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="4" />
+			<NODEPROPERTY Key="radius" Value="42.569419860839844" />
+			<NODEPROPERTY Key="Contents" Value="Visualizing large quantities of text is a challenging problem.Because text can be unordered, ambiguous abstract and highlycombinatorial, many different approaches have been researched tosupport the visualization of text in large sets of documents, fromearly approaches such as  hearst:97:segmenting to more recent work in stasko:08:jigsaw, wanner:08:content-oriented, koch:09:patent-search .These systems employ a range of different techniques to provide theend user with new insights into the underlying data set.  However,many common design features exist. For example, since a human can'tprocess everything in a large document set quickly, all of thesesystems employ some form of overview and detail on demand.   Matheo Analyser (visual)  and Questel's q-pat (text-based)  are commercialpatent search tools that  use supporting meta data to refine aresult set based on a user's search.  TopicNets also supportsthis feature, but in an iterative fashion, in that search can beperformed over the currently visualized result set.   The Phrase Netssystem  performs a co-occurrence filteringbased on user provided regular expressions to produce a digestibleresult set for the end user, while Vuillmet's POSvis system uses part-of-speech tagging to achieve asimilar goal.  In TopicNets, models of salient topics areused in a variety of ways to produce tailored representations of thelarge document set for an analyst.  Previous research efforts haveexplored document-topic relations through visualization, however,using very different approaches.  For example, Iwata et al discuss a probabilistic latent semanticvisualization (PLSV) approach for exploring topics across the NIPS andEachMovie data sets, and show how this technique can producesemantically accurate graphs in comparison with a multidimensionalscaling approach.  Takama et al  exploredan ``immune system'' approach to the visualization of topics across alarge document set.  Using a `plastic clustering' method to create atopic-sensitive keyword map, important landmark terms were identifiedand visualized on a graph to help user's explore topics in Yahoo newsarticles.A key challenge in visualization design is to properly highlightimportant aspects of the data, in a flexible but very consistent andreproducible manner, to allow an analyst to easily spot anomalies,inconsistencies and other departures from the norm.  Pirolli and Card argue that this can be largely achievedthrough a combination of information foraging and sensemaking.Furthermore,  highlights the importance offacilitating multiple perspectives of the data, to avoid the problemof ``confirmation bias'', or overfitting an understanding based on aspecific representation of a larger data set. In TopicNets,we describe a graph interaction algorithm capable of rapidly producingnew perspectives in an intuitive way.Topic Modeling<br />" />
+			<NODEPROPERTY Key="angle" Value="4.932300466135976" />
+			<NODEPROPERTY Key="Size" Value="1.7710396" />
+		</DNVNODE>
+		<DNVEDGE Id="6" Level="0" Length="0.0" K="1.0" From="3" To="5" Label="" Directional="true" BBid="doc3->doc4" Color="[0.765647 , 0.7593726 , 0.07058824]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.765647 , 0.7593726 , 0.07058824]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="7" Level="0" Position="[65.22328 , 21.209965]" Color="[0.75811756 , 0.7353726 , 0.09411765]" Size="0.5" Label="2.2-Topic_Modeling" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc5" ForceLabel="false" Alpha="0.8" LabelColor="[0.75811756 , 0.7353726 , 0.09411765]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="5" />
+			<NODEPROPERTY Key="radius" Value="42.500980377197266" />
+			<NODEPROPERTY Key="Contents" Value="Topic modeling is a widely-used machine learning technique for learningsemantic topics from text corpora in an automated fashion.  Ourvisualization approach makes useof a Bayesian topic model known as Latent Dirichlet Allocation (LDA).In this section, we briefly review the LDA model and its applications.Latent Dirichlet Allocation<br />" />
+			<NODEPROPERTY Key="angle" Value="5.183627878423159" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="8" Level="0" Length="0.0" K="1.0" From="5" To="7" Label="" Directional="true" BBid="doc4->doc5" Color="[0.75811756 , 0.7353726 , 0.09411765]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.75811756 , 0.7353726 , 0.09411765]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="9" Level="0" Position="[73.98937 , 27.249487]" Color="[0.7505881 , 0.7113726 , 0.11764706]" Size="1.9832921" Label="2.2.1-Latent_Dirichlet_Allocation" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc6" ForceLabel="false" Alpha="0.8" LabelColor="[0.7505881 , 0.7113726 , 0.11764706]" LabelOutlineColor="null" OutlineColor="null" LabelSize="17" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="6" />
+			<NODEPROPERTY Key="radius" Value="42.43254089355469" />
+			<NODEPROPERTY Key="Contents" Value="With roots in dimensionality reduction techniques such asLatent Semantic Indexing (LSI) Deerwester1990 and ProbabilisticLSI Hofmann2001, Latent Dirichlet Allocation (LDA) is a Bayesianmodel suitable for analyzing sparse high-dimensional count data Blei2003.LDA and its variants are commonly referred to as ``topic models''since they are able to model objects as mixtures of ``topics'' which areshared across the data set.LDA is typically applied to text data.  Each document in the corpus isrepresented as a vector of word frequency counts over the vocabulary,where the vocabulary is the entire set of words in the corpus, withcommon stop-words removed.  This representation of the data iscommonly known as the ``bag of words'' representation.Formally, LDA is defined by the following generative process.Each of  documents is modeled as a discrete distribution over topics, and each topic is a discrete distribution over thevocabulary of  words.  For document , the distribution overtopics  is drawn from a Dirichlet distribution withparameter .  Likewise, each topic  is drawn froma Dirichlet with parameter .  Note that a sample from aDirichlet distribution is itself a distribution.A topic assignment variable  is associated to eachindividual word token  in each document  and is sampledfrom .  The actual word  is sampled fromthe associated topic  where .  InFigure fig:lda, we show the graphical model for LDA whichvisually depicts this generative process.graphics/LDAGraphical model for Latent Dirichlet Allocation.Boxes denote parameters, shaded/unshaded circles denoteobserved/hidden variables, and plates denote replicationof variables over the indices.Given the observed data  for a particular corpus,we can use Bayesian probability calculus to invert thegenerative model and automatically learn the topics and the documentmixtures.  One particularly accurate and efficient learningtechnique is collapsed Gibbs sampling Griffiths2004, where and are integrated out and sampling is performed on the topicassignments  according to the following conditional distribution,p(z_ij=k  z^ ij, x_ij=w)  (N^ ij_jk +                        N^ ij_wk + N^ ij_k + W, where  with the convention that missingindices are summed out, and where  denotes that the corresponding wordis excluded from the counts -- see  for more details.The samples obtained from this procedure provide us with estimates for boththe topics  and the document mixtures :_wk = N_wk + N_k + W  and        _kj = N_jk + N_j + K..It is important to note that this learning procedure isunsupervised, since no trainingdata or training labels are necessary to learn the LDA model.  Theonly required inputto this algorithm is the data set itself, as well as a prespecified number oftopics .  Note that the number of topics can also be automaticallylearned, usingnonparametric methods Teh2006.Recent advances have made it possible to learn LDA modelson very large data sets with millions of documents in a scalable fashion,using parallel and distributed computing Newman2009.  Furthermore,these topic models can be learned in near real-time on moderately sizeddata sets, using advanced variational techniques Asuncion2009.Applications of LDA<br />" />
+			<NODEPROPERTY Key="angle" Value="5.4349552907103424" />
+			<NODEPROPERTY Key="Size" Value="1.9832921" />
+		</DNVNODE>
+		<DNVEDGE Id="10" Level="0" Length="0.0" K="1.0" From="7" To="9" Label="" Directional="true" BBid="doc5->doc6" Color="[0.7505881 , 0.7113726 , 0.11764706]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.7505881 , 0.7113726 , 0.11764706]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="11" Level="0" Position="[80.96676 , 35.26645]" Color="[0.7430587 , 0.6873726 , 0.14117648]" Size="1.6008663" Label="2.2.2-Applications_of_LDA" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc7" ForceLabel="false" Alpha="0.8" LabelColor="[0.7430587 , 0.6873726 , 0.14117648]" LabelOutlineColor="null" OutlineColor="null" LabelSize="16" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="7" />
+			<NODEPROPERTY Key="radius" Value="42.36410140991211" />
+			<NODEPROPERTY Key="Contents" Value="Once an LDA model is learned, one can use the estimated topics  inEq. (eq:estimates) to display a list of high-probability wordsfor each topic.For instance, if topic 1 has high-probability words``politicians law debate bill votes'',one can assume this topic to be about politics.  Hence, the semantic content ofthe entire corpus can be summarized by displaying these topics. Examples of LDA topics learned on research papers      cl    Mathematical & theorem lemma proof follow constant<br />       Theory  & bound exist definition hold prove<br />        Software & software process tool project development     Engineering & design system developer processes community         Electrical & power amplifier circuit current noise     Devices   &  output device gain transistor voltage         Gene & protein genes expression network motif<br />    Expression & interaction pathway genome dna regulatory<br />        Politics and & political social policy economic china     Society   & law government national legal percent         Business & business firm services customer technology     and IT       & management market product production industry         Language & language verb theory sense structure<br />    Modeling  & word meaning subject science cognitive<br />        Fluid & flow velocity wall fluid turbulence<br />    Dynamics  & reynold pressure channel energy jet     In Table tbl:topics, we show example LDA topics learned on the CalIT2 dataset which contains research papers written by faculty at UC Irvine andUC San Diego.We see that these topics are semantically coherent and interpretable.One practicalissue that arises is whether one should provide names for the topics.An expert canprovide manual labels (as we have done in Table tbl:topics),or automated labeling techniques can also be performed Mei2007.Document 's learned distribution over topics,  provides thetopical content of the document.  For inxtance, if there are 4 topics, and if, then one can infer that thisdocument is mainly comprised of topics 1 and 3.  We can also compareagainst other , using similarity measures such as symmetricKullback-Leibler divergence or cosine distance, in order to find documentswith similar topic compositions.  Thus, LDA can be used to retrieve similardocuments and also visualize the topical content of each document.LDA has been applied to a wide variety of tasks, including informationretrieval ,entity resolution Newman2006, web spam filtering ,software artifact analysis Asuncion2010, and computer visiontasks Wang2008.Interactive Topic-based Visualizations<br />" />
+			<NODEPROPERTY Key="angle" Value="5.686282702997525" />
+			<NODEPROPERTY Key="Size" Value="1.6008663" />
+		</DNVNODE>
+		<DNVEDGE Id="12" Level="0" Length="0.0" K="1.0" From="9" To="11" Label="" Directional="true" BBid="doc6->doc7" Color="[0.7430587 , 0.6873726 , 0.14117648]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.7430587 , 0.6873726 , 0.14117648]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="13" Level="0" Position="[85.723404 , 44.751465]" Color="[0.73552924 , 0.66337264 , 0.16470589]" Size="1.1330446" Label="2.2.3-Interactive_Topic-based_Visualizations" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc8" ForceLabel="false" Alpha="0.8" LabelColor="[0.73552924 , 0.66337264 , 0.16470589]" LabelOutlineColor="null" OutlineColor="null" LabelSize="14" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="8" />
+			<NODEPROPERTY Key="radius" Value="42.29566192626953" />
+			<NODEPROPERTY Key="Contents" Value="Text-based browsers See http://www.ics.uci.edu/ smyth/topicsare typically used for the purpose of interacting with learned LDA models.In these browsers, the topics are usually listed using theirhigh-probability words.For each topic, a set of relevant documents can be displayed, and foreach document,the topic proportions can also be displayed.Network-based visualizations of topic models have typically beenlimited to staticgraphs. For instance, Blei and Lafferty have developed the correlatedtopic model (CTM),where topic correlations are explicitly learned, and using thesecorrelations, they areable to produce static graphs of topic relationships Blei2006.Similarly,Newman et al. have shown the possibility of inferring entities (suchas people andbusinesses) from text and relating them to topics, producing static entitynetworks Newman2006.  Furthermore, Iwata et al. study a probabilisticlatent semantic visualization (PLSV) model which provides analternative approach toplotting topics in a 2D graph Iwata2008.  While all thesemethods are useful and canbe incoporated into our framework, the primary difference to ourapproach is that our network-basedvisualization is interactive.  Topics, documents, and entities (suchas authors) can beinteractively analyzed by users at varying levels of granularity.A more interactive visualization has been applied to software traceability,where software architecture graphs are augmented with visual topicalinformation Asuncion2010; however, this particularvisualization is limited inscope and displays the predefined software architecture as a graph,rather than the connectionslearned by the topic model.  In contrast, our interactive approach canbe generally applied totext corpora, and the connections in the network are based on thelearned LDA model itself.Graph Visualization<br />" />
+			<NODEPROPERTY Key="angle" Value="5.937610115284709" />
+			<NODEPROPERTY Key="Size" Value="1.1330446" />
+		</DNVNODE>
+		<DNVEDGE Id="14" Level="0" Length="0.0" K="1.0" From="11" To="13" Label="" Directional="true" BBid="doc7->doc8" Color="[0.73552924 , 0.66337264 , 0.16470589]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.73552924 , 0.66337264 , 0.16470589]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="15" Level="0" Position="[87.96805 , 55.104683]" Color="[0.7279998 , 0.63937265 , 0.1882353]" Size="0.7258663" Label="2.3-Graph_Visualization" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc9" ForceLabel="false" Alpha="0.8" LabelColor="[0.7279998 , 0.63937265 , 0.1882353]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="9" />
+			<NODEPROPERTY Key="radius" Value="42.22722244262695" />
+			<NODEPROPERTY Key="Contents" Value="The interactive interface in TopicNets centers around anode-link of topics and documents.   Much research has been conductedon the visualization of such node-link graphs, e.g. eades00, cytoscape, tulip. Traditionally, these graph visualizationapplications have been desktop based. For example, Cytoscape, Pajek , Tulip , and someimplementations of Tom Sawyer Visualization . Over thepast few years, increased web-accessibility and bandwidth improvementshave triggered a general shift towards rich internet applications(RIAs) capable of providing interactive and responsive interfacesthrough a web browser.  For example, IBM's Many Eyes and Tom Sawyer Visualization .TopicNets builds on a range of interaction and layoutalgorithms. For example, a fast, scalable interaction algorithmadapted from original work in , whichwas based on a mesh deformation technique.  Several force directedlayout techniques are implemented in TopicNets, includingstandard and highly customized versions of Fruchterman Reingoldalgorithm , Dywer's (*********)  technique, a layered layout approaches similar to and a multidimensional scaling method similar tothat discussed in .How it works<br />" />
+			<NODEPROPERTY Key="angle" Value="6.188937527571893" />
+			<NODEPROPERTY Key="Size" Value="0.7258663" />
+		</DNVNODE>
+		<DNVNODE Id="17" Level="0" Position="[87.56798 , 65.67368]" Color="[0.72047037 , 0.61537266 , 0.21176471]" Size="0.5" Label="3-How_it_works" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc10" ForceLabel="false" Alpha="0.8" LabelColor="[0.72047037 , 0.61537266 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="10" />
+			<NODEPROPERTY Key="radius" Value="42.158782958984375" />
+			<NODEPROPERTY Key="Contents" Value="TopicNets visualizes texts of arbitrary size by organizingmodeled topics on an interactive graph. By harnessing topic-basedrelations the system can provide interesting insights both for a largecorpus of text and for individual subsections inside a singledocument.  The system computes a topic model of a document orcollection using LDA and generates a node-link graph to illustratedocument-topic relations.  The initial perspective on the graph is ahigh level overview, and a user can drill down to individualcomponents, or across the document through a range of novel,topic-based node selection  mechanisms.  Accordingly, the systemdesign adheres to Shneiderman's information visualization mantra of ``overview first, zoom and filter, then detailson demand''.Visualizing a large corpus of text<br />" />
+			<NODEPROPERTY Key="angle" Value="6.440264939859076" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="16" Level="0" Length="0.0" K="1.0" From="13" To="15" Label="" Directional="true" BBid="doc8->doc9" Color="[0.7279998 , 0.63937265 , 0.1882353]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.7279998 , 0.63937265 , 0.1882353]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="19" Level="0" Position="[84.55684 , 75.79469]" Color="[0.71294093 , 0.59137267 , 0.23529412]" Size="0.5" Label="3.1-Visualizing_a_large_corpus_of_text" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc11" ForceLabel="false" Alpha="0.8" LabelColor="[0.71294093 , 0.59137267 , 0.23529412]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="11" />
+			<NODEPROPERTY Key="radius" Value="42.0903434753418" />
+			<NODEPROPERTY Key="Contents" Value="In today's digital world, the problem of information overload isbecoming more frequent.  As humans, we find it inherently difficult toprocess large amounts of text quickly .Extracting and presenting relevant information quickly is anon-trivial task which we attempt to address with TopicNets.The system aids in the analytic process and facilitates easierdiscovery of information in large text corpora. In this section wedescribe the design choices and implementation details that supportfast, intuitive, perspective-based information discovery inTopicNets.Generating a document-topic graph<br />" />
+			<NODEPROPERTY Key="angle" Value="6.69159235214626" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="18" Level="0" Length="0.0" K="1.0" From="15" To="17" Label="" Directional="true" BBid="doc9->doc10" Color="[0.72047037 , 0.61537266 , 0.21176471]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.72047037 , 0.61537266 , 0.21176471]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="21" Level="0" Position="[79.13205 , 84.83413]" Color="[0.7054115 , 0.5673727 , 0.25882354]" Size="1.4344059" Label="3.1.1-Generating_a_document-topic_graph" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc12" ForceLabel="false" Alpha="0.8" LabelColor="[0.7054115 , 0.5673727 , 0.25882354]" LabelOutlineColor="null" OutlineColor="null" LabelSize="15" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="12" />
+			<NODEPROPERTY Key="radius" Value="42.02190399169922" />
+			<NODEPROPERTY Key="Contents" Value=" The first step in the generation of a document-topic graph is topicmodeling.  We run our implementation of the LDA topic modelingalgorithm over a provided text corpus.  Details of the LDA algorithmhave been discussed in Section . Output fromthe topic modeling algorithm gives us a probability for eachdocument-topic pairing. In order to generate a graph visualization ofthis data we first apply a minimum confidence threshold which can bealtered through a slider in the interface. This threshold is used todetermine if an edge should be created between a document and a topicnode in the graph. For example, assuming a threshold of <br />30<br />entities in the graph.  Selecting a default threshold value tooptimize all graphs is a challenging problem in itself. InTopicNets, the default threshold is set based on the computedtopic model, simply as the maximum probability value that produces atleast one edge to every topic node in the graph. We believe that thisis a reasonable default since it ensures that every topic isrepresented by at least one document without creating too many edgesfor other topics which would cause a cluttered visualization.Document-topic probability is also used to determine the thickness ofedges between nodes. Thus, a document-topic edge with a probability of<br />20<br />edge-thickness helps analysts to gain insight into the data beingexplored.In addition to probability values, the topic model also produces afrequency count for each topic in a single document, which is thenused to calculate a total ``count per topic'' over the entire corpus,which is mapped directly to topic-node size in the generated graph.This technique produces a broad scale of sizes, with common topicsbeing significantly larger than uncommon topics. In turn, documentnode size is set a function of document length.  By default a topicnode is labeled with the first  words of the topic, where  canbe specified by the user (default ).  Based on our experiences,these are usually reasonable labels for a topic.  However, in a smallnumber of cases we have asked domain experts to manually label topics,especially for complex subjects such as quantum mechanics forinstance, where a topic is difficult to understand.  In each of thesecases we use the label provided by the expert.Coloring nodes and edges<br />" />
+			<NODEPROPERTY Key="angle" Value="6.942919764433443" />
+			<NODEPROPERTY Key="Size" Value="1.4344059" />
+		</DNVNODE>
+		<DNVEDGE Id="20" Level="0" Length="0.0" K="1.0" From="17" To="19" Label="" Directional="true" BBid="doc10->doc11" Color="[0.71294093 , 0.59137267 , 0.23529412]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.71294093 , 0.59137267 , 0.23529412]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="23" Level="0" Position="[71.64181 , 92.22835]" Color="[0.69788206 , 0.5433727 , 0.28235295]" Size="1.5457921" Label="3.1.2-Coloring_nodes_and_edges" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc13" ForceLabel="false" Alpha="0.8" LabelColor="[0.69788206 , 0.5433727 , 0.28235295]" LabelOutlineColor="null" OutlineColor="null" LabelSize="16" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="13" />
+			<NODEPROPERTY Key="radius" Value="41.95346450805664" />
+			<NODEPROPERTY Key="Contents" Value="  graphics/calit2-overview Visualization of areas of expertise in large organizations.Layout is based on topic similarity over the content text of publishedworks only.  Clusters of well-known research disciplines emergenaturally.     A number of the data sets presented later contain meta data about thedocuments themselves.  In cases where such data is available, itbecomes possible to map it to various other dimensions of thevisualization.  Consider Figure  as an example.  Inthis graph, author affiliation in the CalIT2 data set (5000 researchpapers mined from the faculty pages of UCSD and CalIT2) has beenmapped onto color.  TopicNets provides an interface formapping meta-data information onto graph features. In this example,the departmental affiliation of each author is mapped onto a smallernumber of research fields.  Subsequently, each field was mapped ontocolor.  Both colors and mappings can be modified by the user in theinteractive interface, resulting in highly customizable graphvisualizations, capable of providing many perspectives on theunderlying data set.  When an author to color mapping has beenprovided, the system propagates color information to connecteddocuments, i.e documents written by a green author will be green.The visualization really becomes interesting when color information isbled along the document-topic edges in the graph.  At this point,there are potentially many incumbent edges to a given topic node.Color information from each document-topic edge is blended to producea final coloring for that topic node.  This color mapping is flexiblein that it allows for placing of topics within any meta data space, inthe specific case of CalIT2, shown in Figure , coloris used to map topics onto a field of study.Suppose for example that a user wants to map meta data that is lessdiscrete, such as time for example, onto document color.   Tofacilitate such mappings, TopicNets allows a user to specifyonly the color of the first and the last document node.  Nodes inbetween these are automatically provided with a color between the twoend colors relative to their position along the timeline.  A user thenhas the option to choose either a single color for all topic nodes, orto blend colors from connected documents to produce an informativevisualization.  If the user chooses the latter option then the topiccolor gives an indication of the position in the timeline where thattopic most frequently occurs.Computing layouts of large document-topic graphs<br />" />
+			<NODEPROPERTY Key="angle" Value="7.194247176720626" />
+			<NODEPROPERTY Key="Size" Value="1.5457921" />
+		</DNVNODE>
+		<DNVEDGE Id="22" Level="0" Length="0.0" K="1.0" From="19" To="21" Label="" Directional="true" BBid="doc11->doc12" Color="[0.7054115 , 0.5673727 , 0.25882354]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.7054115 , 0.5673727 , 0.25882354]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="25" Level="0" Position="[62.562775 , 97.51878]" Color="[0.6903526 , 0.5193727 , 0.30588236]" Size="2.0" Label="3.1.3-Computing_layouts_of_large_document-topic_graphs" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc14" ForceLabel="false" Alpha="0.8" LabelColor="[0.6903526 , 0.5193727 , 0.30588236]" LabelOutlineColor="null" OutlineColor="null" LabelSize="18" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="14" />
+			<NODEPROPERTY Key="radius" Value="41.88502502441406" />
+			<NODEPROPERTY Key="Contents" Value="Topic similarity based layout To maintain an aesthetically pleasing layout while preservinginformation about topics produced by the LDA algorithm, we compute thesymmetric Kullback-Leibler divergenceKullback-Leibler betweenevery pair of topics. The resulting dissimilarity matrix is then usedas an input into a multi-dimensional scaling algorithmMDS,which determines a position for each topic node.   Topic nodes arethen fixed into position and a standard force-directed layoutalgorithmfruchterman-reingold is applied to place the documentnodes in this topic space. We use the percentages described in Section to determine the optimum distance betweendocument and topic nodes, where a higher percentage value means thedocument node is more attracted to a particular topic. This strategygenerally produces semantically interpretable clusters of similartopics and their connected documents.Document order based layout Many tasks in visual analysis require ordering of documents in someparticular fashion to tell a story about the contents.For example an analyst might want to sort newspaper articles by timeof publishing.  To facilitate such orderings, an alternate layoutmethod was developed in which documents are laid out along thecircumference of a circle with a layout constraint that apre-specified node ordering is preserved. The circle is slightlyspiralling, meaning that the each node is slightly closer to thecenter than the previous one. This technique helps to create a finiteview by ensuring that both ends of the document don't meet at a singlepoint.  In this layout, the document nodes are first fixed in place,and the force directed layout is applied to the connected topic nodes. This layout achieves interesting perspectives on the underlying databecause the document order drives the layout of the topic nodes.  Forinstance, in the PhD thesis example of Figure  wecan clearly see topics that are not central to the thesis positionednear the edge of the circle, and more pervasive topics in the centerof the graph.  however we would like similar topics to end up close to each otherwhen possible. In order to achieve that, we introduce invisibletopic-topic edges which try to keep them at the distance specified bytheir dissimilarity. These edges are much more flexible than thedocument-topic edges and thus don't affect the layout too much. Theresulting visualization has many nice properties. Assuming thedocuments are ordered by time, the topics that are mostly used arounda certain time period will gravitate towards that part of the circle,while topics that are used all across the corpus will move towards thecenter. One potential drawback is that if a topic is only connected totwo documents and those two documents happen to be on opposide sidesof the circle then that topic will be close to the center of thecircle. However, that topic node will be very small since it is notfrequently represented across the entire corpus. In the end we have avisualization where topic node position represents centrality of atopic and topic node size represents frequency of that topic, so avery large topic node in the center of the graph should be the topicmost relevant to the corpus as a whole.Filtering the graph<br />" />
+			<NODEPROPERTY Key="angle" Value="7.44557458900781" />
+			<NODEPROPERTY Key="Size" Value="2.0" />
+		</DNVNODE>
+		<DNVEDGE Id="24" Level="0" Length="0.0" K="1.0" From="21" To="23" Label="" Directional="true" BBid="doc12->doc13" Color="[0.69788206 , 0.5433727 , 0.28235295]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.69788206 , 0.5433727 , 0.28235295]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="27" Level="0" Position="[52.4698 , 100.38036]" Color="[0.6828232 , 0.4953727 , 0.32941177]" Size="1.4071782" Label="3.1.4-Filtering_the_graph" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc15" ForceLabel="false" Alpha="0.8" LabelColor="[0.6828232 , 0.4953727 , 0.32941177]" LabelOutlineColor="null" OutlineColor="null" LabelSize="15" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="15" />
+			<NODEPROPERTY Key="radius" Value="41.816585540771484" />
+			<NODEPROPERTY Key="Contents" Value="When looking at a graph of a very large text corpus the user isusually interested in some subsection of the graph. TopicNetsprovides a few methods for filtering the graph in order to get to avisualization of the information of interest. The user can type in anytext and perform a search over the node labels, the top 10 words ofall the topics, and/or the entire documents. Once the search hascompleted the user can select a few of the returned nodes from a list,or simply select them all. Once the user has selected a set of nodesof interest he/she can click on a button to visualize only theselected nodes and their immediate neighbors in the graph. Once thatbutton is pressed, all the other nodes are removed from the graph anda new layout is computed. The system provides a smooth transition fromthe old layout to the new one. In case the user made a mistake orwants to explore another subset of the graph they can easily go backto the previous visualization with the click of a button. Thisfiltering can also be repeated multiple times to find a subset withinthe subset.An alternative filtering method we provide is to manually select oneor more nodes on the graph and then make the system remove all nodesnot in or connected to the selected set. TopicNets alsoprovides an easy method of expanding the selected set by one edge fromevery node in the selected set. Once the user has selected the set ofinterest he/she can click a button to visualize only the selected set.This can be a very powerful feature and for example it gives the useran easy way of getting to a graph of a selected topic, all thedocuments connected to that topic, and all the topics that thosedocuments are connected to. The selection expanding can be repeatedmultiple times, until all the nodes in that connected component havebeen selected.A third method of for filtering the data is to use author information(in a different way than just searching for the author names). Ifauthor information for the documents in the corpus is available thenour system gives the user the option of collapsing document nodes intoauthor nodes resulting in an author-topic graph. This graph is thenlaid out using the topic similarity based layout showing where authors``live'' in topic space.Details on demand<br />" />
+			<NODEPROPERTY Key="angle" Value="7.696902001294994" />
+			<NODEPROPERTY Key="Size" Value="1.4071782" />
+		</DNVNODE>
+		<DNVEDGE Id="26" Level="0" Length="0.0" K="1.0" From="23" To="25" Label="" Directional="true" BBid="doc13->doc14" Color="[0.6903526 , 0.5193727 , 0.30588236]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.6903526 , 0.5193727 , 0.30588236]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="29" Level="0" Position="[41.99939 , 100.64148]" Color="[0.67529374 , 0.47137272 , 0.3529412]" Size="0.56435645" Label="3.1.5-Details_on_demand" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc16" ForceLabel="false" Alpha="0.8" LabelColor="[0.67529374 , 0.47137272 , 0.3529412]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="16" />
+			<NODEPROPERTY Key="radius" Value="41.748146057128906" />
+			<NODEPROPERTY Key="Contents" Value="When a user selects a node in the graph all the details of that nodecan be seen in a panel on the right hand side. If the selected node isa document node a link to view that document is provided. If theselected node is a topic node then links to view all the connecteddocuments are provided. Additional options such as select all neighbornodes and delete node are also provided on this panel. If sectioninformation about the selected document node is available then theuser is given the option to expand that node into it's sections. Oncethat button is pressed, additional nodes representing each of thatdocument's sections are added to the graph and those section nodes areconnected to the related topic nodes. This can show the documentsections in the context of other documents or we can just look at thatdocument on it's own, which leads nicely into the next section.Visualizing a single large document<br />" />
+			<NODEPROPERTY Key="angle" Value="7.948229413582177" />
+			<NODEPROPERTY Key="Size" Value="0.56435645" />
+		</DNVNODE>
+		<DNVEDGE Id="28" Level="0" Length="0.0" K="1.0" From="25" To="27" Label="" Directional="true" BBid="doc14->doc15" Color="[0.6828232 , 0.4953727 , 0.32941177]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.6828232 , 0.4953727 , 0.32941177]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="31" Level="0" Position="[31.809755 , 98.29425]" Color="[0.6677643 , 0.44737273 , 0.3764706]" Size="0.5" Label="3.2-Visualizing_a_single_large_document" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc17" ForceLabel="false" Alpha="0.8" LabelColor="[0.6677643 , 0.44737273 , 0.3764706]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="17" />
+			<NODEPROPERTY Key="faded" Value="0.007999999" />
+			<NODEPROPERTY Key="radius" Value="41.67970657348633" />
+			<NODEPROPERTY Key="Contents" Value="Visualizing a large text corpus is an important task, however webelieve that taking it a step further and visualizing the contents ofindividual documents can help information discovery even more. Afterall, a user can find the document that he/she is interested in, but itthat document is dozens or even hundreds of pages long then it wouldcertainly be helpful to visualize the contents of that document tofind the most interesting sections. In addition to all the featuresavailable for a large corpus there are some other features that canhelp the user better understand an individual document. In thissection we will describe these additional features for visualizingindividual documents.Generating a section-topic graph<br />" />
+			<NODEPROPERTY Key="angle" Value="8.199556825869362" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="30" Level="0" Length="0.0" K="1.0" From="27" To="29" Label="" Directional="true" BBid="doc15->doc16" Color="[0.67529374 , 0.47137272 , 0.3529412]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.67529374 , 0.47137272 , 0.3529412]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="34" Level="0" Length="0.0" K="1.0" From="31" To="33" Label="" Directional="true" BBid="doc17->doc18" Color="[0.66023487 , 0.42337275 , 0.4]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.66023487 , 0.42337275 , 0.4]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="35" Level="0" Position="[14.766508 , 86.551384]" Color="[0.65270543 , 0.39937276 , 0.42352942]" Size="1.3459158" Label="3.2.2-Computing_layouts_of_section-topic_graphs" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc19" ForceLabel="false" Alpha="0.8" LabelColor="[0.65270543 , 0.39937276 , 0.42352942]" LabelOutlineColor="null" OutlineColor="null" LabelSize="15" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="19" />
+			<NODEPROPERTY Key="radius" Value="41.54282760620117" />
+			<NODEPROPERTY Key="Contents" Value="  graphics/deformation Three snapshots of topic-based deformation in asection-to-topic layout. Transitions in TopicNets are smoothanimations. (a.) shows linear structure of the document along thecircumference, (b.) shows the distribution of a single topic acrossthe document, and (c.) shows the relevance of each section to thecentral theme of the document. We use the inherent ordering on the sections in a document to lay outthe section nodes in a circle similar to the ``Document order basedlayout'' described in Section . Again, thecircle is slightly spiralling to avoid the two ends meeting in onepoint. Like before, the topic nodes are positioned by a force directedlayout algorithm with the addition of (weaker) topic-topic forcesattempting to keep the related topics close to each other. There are acouple of things that are different in this case though. First, theuser can select one or more topic node and then the circle will deformso that all the sections connected to the selected topic node getpulled toward that node. If the user selects multiple topic nodes thenthis will happen to all the sections connected to either one of them.The amount that they can move is defined by a user specifiableparameter. There is one important restriction on the section nodemovements -- they are only allowed to move along an axis defined bythe center of the circle and the center of the section node. Thismeans that the section nodes always maintain their order along thecircle and only move either towards or away from the center.Additionally this ensures that section-section edges will never crossand the linear structure of the text is maintained. Second, the usercan give all the document nodes the freedom to move along their axeswhich can totally deform the shape of the circle, while stillmaintaining the linear structure of the document since there will beno crossing of section-section edges. In the resulting graph, thesection nodes connected to the most central topics of the documentwill get pulled towards the center while the sections connected toless common topics will float to the perifery along with those topicnodes.Filtering and details on demand<br />" />
+			<NODEPROPERTY Key="angle" Value="8.702211650443727" />
+			<NODEPROPERTY Key="Size" Value="1.3459158" />
+		</DNVNODE>
+		<DNVEDGE Id="32" Level="0" Length="0.0" K="1.0" From="29" To="31" Label="" Directional="true" BBid="doc16->doc17" Color="[0.6677643 , 0.44737273 , 0.3764706]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.6677643 , 0.44737273 , 0.3764706]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="33" Level="0" Position="[22.539246 , 93.49449]" Color="[0.66023487 , 0.42337275 , 0.4]" Size="0.7747525" Label="3.2.1-Generating_a_section-topic_graph" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc18" ForceLabel="false" Alpha="0.8" LabelColor="[0.66023487 , 0.42337275 , 0.4]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="18" />
+			<NODEPROPERTY Key="radius" Value="41.61126708984375" />
+			<NODEPROPERTY Key="Contents" Value="When visualizing a single document and it's topics we need to firstdivide that document into it's sections. Then we need to run a topicdetection on the sections. The resulting topic model can then be usedto connect sections of the document to topics, just like we did forwhole documents before. One important difference here is that thesections have an inherent ordering amongs them, namely the order inwhich they appear in the document. In our visualization we representthis linear structure of the document by connecting each section nodewith a directed edge to the following section node. These edges arealso made rather thick, compared to the topic edges so that they willbe easily visible regardless of the layout method used. Here we alsouse the same coloring scheme as described in the second paragraph ofSection , i.e. the user can specify a color for thefirst and the last section and then the color fades from the startingcolor to the finishing color along the sections.  graphics/Thesis_single_topic_deformation Thesis visualization with deformation based on a singletopic of interest. Gaps in the outer circle highlight the distributionof a topic through the linear structure of the thesis.   Computing layouts of section-topic graphs<br />" />
+			<NODEPROPERTY Key="angle" Value="8.450884238156544" />
+			<NODEPROPERTY Key="Size" Value="0.7747525" />
+		</DNVNODE>
+		<DNVEDGE Id="38" Level="0" Length="0.0" K="1.0" From="35" To="37" Label="" Directional="true" BBid="doc19->doc20" Color="[0.645176 , 0.37537277 , 0.44705883]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.645176 , 0.37537277 , 0.44705883]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="39" Level="0" Position="[5.519474 , 68.11104]" Color="[0.63764656 , 0.35137278 , 0.47058824]" Size="0.5" Label="4-Usage_Examples" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc21" ForceLabel="false" Alpha="0.8" LabelColor="[0.63764656 , 0.35137278 , 0.47058824]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="21" />
+			<NODEPROPERTY Key="radius" Value="41.405948638916016" />
+			<NODEPROPERTY Key="Contents" Value="We now present three usage scenarios which highlight the informationdiscovery capabilities of the TopicNets system across adiverse set of data types.  Our examples focus on the controversial2009 US health reform bill, a PhD thesis in computer science and anexample of expertise categorization in large organisations (UCSD andCALIT).  For each use case, graphs were generated by the authors, butinteraction and exploration was performed by an individual with expertknowledge covering each data set (with the exception of the healthexample which focuses on a casual user).mention eyeplorer for wikipedia.Analyzing the 2009 Health Reform Bill<br />" />
+			<NODEPROPERTY Key="angle" Value="9.204866475018093" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="36" Level="0" Length="0.0" K="1.0" From="33" To="35" Label="" Directional="true" BBid="doc18->doc19" Color="[0.65270543 , 0.39937276 , 0.42352942]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.65270543 , 0.39937276 , 0.42352942]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="37" Level="0" Position="[8.974285 , 77.90759]" Color="[0.645176 , 0.37537277 , 0.44705883]" Size="0.5" Label="3.2.3-Filtering_and_details_on_demand" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc20" ForceLabel="false" Alpha="0.8" LabelColor="[0.645176 , 0.37537277 , 0.44705883]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="20" />
+			<NODEPROPERTY Key="radius" Value="41.474388122558594" />
+			<NODEPROPERTY Key="Contents" Value="All the methods used to filter a large corpus can also be used tofilter a single document. However, if section nodes are removed fromthe graph then that creates gaps in the linear structure of thedocument. The size of the missing part can be inferred by the amountof color change between the nodes on each side of the gap. We decidednot to increase the spacing between those nodes in order to make asmuch use of screen space as possible.Similar to the description in Section , if a section nodeis selected then the node details panel will provide a link to thecontents of that section. If a topic node is selected then the detailspanel will provide links to view the contents of all the connectedsections.Usage Examples<br />" />
+			<NODEPROPERTY Key="angle" Value="8.953539062730911" />
+			<NODEPROPERTY Key="Size" Value="0.5" />
+		</DNVNODE>
+		<DNVEDGE Id="42" Level="0" Length="0.0" K="1.0" From="39" To="41" Label="" Directional="true" BBid="doc21->doc22" Color="[0.6301171 , 0.3273728 , 0.49411765]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.6301171 , 0.3273728 , 0.49411765]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="43" Level="0" Position="[6.2978096 , 47.5649]" Color="[0.6225877 , 0.3033728 , 0.5176471]" Size="0.84653467" Label="4.2-Authoring_a_PhD_Thesis" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc23" ForceLabel="false" Alpha="0.8" LabelColor="[0.6225877 , 0.3033728 , 0.5176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="23" />
+			<NODEPROPERTY Key="radius" Value="41.26906967163086" />
+			<NODEPROPERTY Key="Contents" Value=" To provide an example of use with a single document from an authorsperspective, a recent PhD thesis entitled ``Trust on the social web,applications in recommender systems and online auctions'' was uploadedto TopicNets, modeled and then visualized.  The entiredocument contained approximately 20K words over 167 sections.  Figure shows an initial layout of the sectionswithin the document, each positioned along the circumference of acircle.  The linear structure of the original document is preserved inthe visualization, with the introductory sections shown with lighteryellow shading and fading to a darker blue color towards the end ofthe document.  Section size correlates to node size on the graph.Inside this outer circle of document content are the topic nodes.These nodes are associated with various section nodes based on athresholded probability value that was produced in the topic modelingstep.  graphics/Thesis_no_deformation Deformable topic-based layout of a PhD thesis entitled``Trust on the Social Web'' showing linear structure of the documentand topic associations for each section.  Initial layout with nodeformation.   graphics/Thesis_all_topic_deformation Thesis visualization with deformation based on all topicassociations. ``Leaf'' sections are less relevant to the central themeof the thesis.   Scenario 2: Exploring the CALIT2 Dataset<br />" />
+			<NODEPROPERTY Key="angle" Value="9.707521299592461" />
+			<NODEPROPERTY Key="Size" Value="0.84653467" />
+		</DNVNODE>
+		<DNVEDGE Id="40" Level="0" Length="0.0" K="1.0" From="37" To="39" Label="" Directional="true" BBid="doc20->doc21" Color="[0.63764656 , 0.35137278 , 0.47058824]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.63764656 , 0.35137278 , 0.47058824]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="41" Level="0" Position="[4.611122 , 57.780167]" Color="[0.6301171 , 0.3273728 , 0.49411765]" Size="1.362005" Label="4.1-Analyzing_the_2009_Health_Reform_Bill" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc22" ForceLabel="false" Alpha="0.8" LabelColor="[0.6301171 , 0.3273728 , 0.49411765]" LabelOutlineColor="null" OutlineColor="null" LabelSize="15" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="22" />
+			<NODEPROPERTY Key="radius" Value="41.33750915527344" />
+			<NODEPROPERTY Key="Contents" Value="Government acts are generally very lengthly, detailed and contain alarge amount of official terminology that can make the process offinding information relevant to a given query difficult for anon-expert. This problem is compounded when a query requires analysisof relations between different aspects of the document. For example,'how will the health reform bill affect mental health facilities interms of funding?'.  To discover the answer to this query, we uploadedthe 2100 page pdf file of the health reform act to TopicNets. The system parsed the file into titled sections (a delimiter that waspresent in the original document was manually identified). The systemthen automatically topic-modeled the data and produced a graphvisualization.  Figure  shows this initial layoutfor the data, produced using a multidimensional scaling to lay outtopic nodes, followed by individual sections.  Figure provides a coherent overview of the main impactsof the health bill:  Medial insurance, government policies/grants, andimpact on health care workers/facilities. In addition to providing ancategorized overview, the layout serves as a good starting point for abroad range of queries, including our example.  To learn about mentalhealth, the user either types a keyword in the search box, or clickson a node in the graph to highlight the appropriate topic.  Thisprocess is repeated for every entity the user wants to compare, inthis case, the topic ``grant program''.  Clicking on ``visualizeselected nodes'' instantly brings the user to the layout in Figure, which is fine-grained enough to highlight thefact that Sec 2512 of the health bill provides grants for NurseManaged Health Centers, with deal with Mental Health. The user canthen click on this section node to read the relevant paragraph in the2000 page document.  graphics/healthbill1 The 2009 US health reform bill, visualized by topic andclustered using a multidimensional scaling technique.   graphics/healthbill2 Example of drilling down and across the 2100 pages of theUS health reform bill through topic relations to answer the query: Howwill the bill affect mental health facilities in terms of availablegrants? Authoring a PhD Thesis<br />" />
+			<NODEPROPERTY Key="angle" Value="9.456193887305279" />
+			<NODEPROPERTY Key="Size" Value="1.362005" />
+		</DNVNODE>
+		<DNVEDGE Id="46" Level="0" Length="0.0" K="1.0" From="43" To="45" Label="" Directional="true" BBid="doc23->doc24" Color="[0.61505824 , 0.2793728 , 0.5411765]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.61505824 , 0.2793728 , 0.5411765]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="47" Level="0" Position="[16.843393 , 29.99375]" Color="[0.6075288 , 0.25537282 , 0.5647059]" Size="0.8613861" Label="5-Conclusion" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc25" ForceLabel="false" Alpha="0.8" LabelColor="[0.6075288 , 0.25537282 , 0.5647059]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="25" />
+			<NODEPROPERTY Key="radius" Value="41.1321907043457" />
+			<NODEPROPERTY Key="Contents" Value="We have presented TopicNets, a system for interactive visualanalysis of large document corpora, based on the associations formedby topic modeling.  Several techniques for incorporating topic modelsinto the mechanics of visualization have been presented, includingtopic-based deformation of ordered sets of nodes in a graph,collapsing of nodes based on semantic association, single or multipletopic influences, varying of topic association thresholds, interactionwith topic and document nodes through interpolation over mousemovements, iterative text-search-and-visualization steps, semanticclustering and a range of more generic graph interaction methods.  Tohighlight the flexibility of the TopicNets framework and itsability to quickly provide new perspectives on, and insights intolarge document sets, we presented four diverse use cases.  In the PhDthesis example, it was shown how the system can be used as an editorsor examiners tool to highlight the relevance of sections to thecentral theme of the document, and its ability to quickly illustrateesoteric sections of text which differ from the main theme.<br />DN has been supported by NICTA.  NICTA is funded by the AustralianGovernment as represented by the Department of Broadband,Communications and the Digital Economy and the Australian ResearchCouncil through the ICT Centre of Excellence program.abbrv<br /><br />topicnets<br />" />
+			<NODEPROPERTY Key="angle" Value="10.210176124166829" />
+			<NODEPROPERTY Key="Size" Value="0.8613861" />
+		</DNVNODE>
+		<DNVEDGE Id="44" Level="0" Length="0.0" K="1.0" From="41" To="43" Label="" Directional="true" BBid="doc22->doc23" Color="[0.6225877 , 0.3033728 , 0.5176471]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.6225877 , 0.3033728 , 0.5176471]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="45" Level="0" Position="[10.465126 , 38.105774]" Color="[0.61505824 , 0.2793728 , 0.5411765]" Size="1.9399753" Label="4.2.1-Scenario_2-_Exploring_the_CALIT2_Dataset" Mass="1.0" Fixed="false" Icon="" Type="document" BBid="doc24" ForceLabel="false" Alpha="0.8" LabelColor="[0.61505824 , 0.2793728 , 0.5411765]" LabelOutlineColor="null" OutlineColor="null" LabelSize="17" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="center" Value="[45.928234 , 59.07861]" />
+			<NODEPROPERTY Key="index" Value="24" />
+			<NODEPROPERTY Key="radius" Value="41.20063018798828" />
+			<NODEPROPERTY Key="Contents" Value="The California Institute for Telecommunications and InformationTechnology www.calit2.net (Calit2) is a researchinstitute within the University of California that is jointlyadministered by UCSD and UC Irvine. The institute encompasses abroad range of research projects and related activities intelecommunications and information technology. A key aspect of theinstitute is its interdisciplinary nature, bringing together over400 researchers in computer science, engineering, biology,physics, social science, the arts, and more. A significantchallenge facing the institute leadership is gaining a globalunderstanding of ``who does what,' i.e., understanding the breadthand depth of research expertise spanned by institute members.While the process of manually visiting researchers' Web pages andreading their papers could provide a detailed understanding ofwhat each individual researcher does, this would be a very slowmanual process for an institute with several hundred researchers.Furthermore it would not provide a coherent global overview of howthese researchers and their research projects are related. This isa common problem in many organizations, not just Calit2. Inparticular, as research disciplines change and evolve it becomesincreasingly difficult for organizational leaders (such asdepartment chairs, deans, and program managers) to have a globalview of researchers and research topics  within theirorganization.In response to a request from Calit2 director Dr. Larry Smarr,we crawled the Web pages of 464 Calit2-affiliatedresearchers and downloaded the text of 10,403 papers that they hadauthored. These papers contained 24,407,545 word tokens and aunique vocabulary of 43,295 words after removal of standard listof stopwords. We fit a topic model with  topics to thisdata set. In earlier work we demonstrated a text-based Webinterface for exploring this topic model [http://datalab-1.ics.uci.edu/calit2/gettopics.php?]. Thetext-based interface links topics and researchers in a sequentialfashion, but it does  not allow a user to gain an overall networkview of how researchers and research topics are related to eachother.Figure ?? shows a global view of the Calit2 topic model asvisualized by  TopicNet. The larger named nodes are learnedtopics and the smaller nodes are individual documents, wheredocuments are color-coded by the research affiliation of theresearcher whose page the document came from. The layout allows auser to quickly gain  a global sense of the research activities inCalit2. Papers from computer scientists, engineers, andmathematicians make up a large fraction of the graph, but thereare also considerable contributions from social science, biology,and chemistry and physics. Topics such as  graph theory andalgorithms,  data analysis,  evolution,  numericalmethods are seen to be highly interdisciplinary, while topicssuch as  immune signaling,  networked computer systems,and  mathematical theory are less so.  graphics/calit2-zoomed Thesis visualization with deformation based on all topicassociations. ``Leaf'' sections are less relevant to the central themeof the thesis.   Conclusion<br />" />
+			<NODEPROPERTY Key="angle" Value="9.958848711879645" />
+			<NODEPROPERTY Key="Size" Value="1.9399753" />
+		</DNVNODE>
+		<DNVNODE Id="51" Level="0" Position="[45.94984 , 64.27704]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.37241378" Label="method provide" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t3" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="11" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="18" />
+			<NODEPROPERTY Key="Full Label" Value=" method provide research author distribution order structure edges interactive search " />
+		</DNVNODE>
+		<DNVNODE Id="50" Level="0" Position="[40.64959 , 47.936394]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.47586206" Label="data content" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t2" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="23" />
+			<NODEPROPERTY Key="Full Label" Value=" data content probability author distribution method order structure edges interactive " />
+		</DNVNODE>
+		<DNVNODE Id="49" Level="0" Position="[55.081852 , 50.52502]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="3.0" Label="topic visualization" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t1" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="22" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="145" />
+			<NODEPROPERTY Key="Full Label" Value=" topic visualization document graph interactive model user thesis layout probability " />
+		</DNVNODE>
+		<DNVEDGE Id="48" Level="0" Length="0.0" K="1.0" From="45" To="47" Label="" Directional="true" BBid="doc24->doc25" Color="[0.6075288 , 0.25537282 , 0.5647059]" Type="" HasSetColor="true" Alpha="1.0" LabelColor="[0.6075288 , 0.25537282 , 0.5647059]" LabelOutlineColor="null" LabelSize="null" Thickness="3.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="55" Level="0" Position="[67.256546 , 49.73891]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="1.6137931" Label="lda topic" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t7" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="16" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="78" />
+			<NODEPROPERTY Key="Full Label" Value=" lda topic model distribution text author method order structure edges " />
+		</DNVNODE>
+		<DNVNODE Id="54" Level="0" Position="[67.80136 , 66.02389]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.33103448" Label="probability topic" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t6" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="11" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="16" />
+			<NODEPROPERTY Key="Full Label" Value=" probability topic section text author distribution method order structure edges " />
+		</DNVNODE>
+		<DNVNODE Id="53" Level="0" Position="[59.52962 , 65.530266]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="1.4689655" Label="topic order" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t5" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="16" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="71" />
+			<NODEPROPERTY Key="Full Label" Value=" topic order document layout probability author distribution method structure edges " />
+		</DNVNODE>
+		<DNVNODE Id="52" Level="0" Position="[58.34492 , 76.13156]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.4137931" Label="color thesis" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t4" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="12" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="20" />
+			<NODEPROPERTY Key="Full Label" Value=" color thesis author distribution method order structure edges interactive search " />
+		</DNVNODE>
+		<DNVNODE Id="59" Level="0" Position="[30.34498 , 54.189587]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.7241379" Label="calit2 research" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t11" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="35" />
+			<NODEPROPERTY Key="Full Label" Value=" calit2 research provide nodes probability author distribution method order structure " />
+		</DNVNODE>
+		<DNVNODE Id="58" Level="0" Position="[37.039837 , 66.88461]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.8689655" Label="corpus document" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t10" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="42" />
+			<NODEPROPERTY Key="Full Label" Value=" corpus document content large author distribution method order structure edges " />
+		</DNVNODE>
+		<DNVNODE Id="57" Level="0" Position="[34.42162 , 81.92267]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.9724138" Label="nodes selected" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t9" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="14" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="47" />
+			<NODEPROPERTY Key="Full Label" Value=" nodes selected node author distribution method order structure edges interactive " />
+		</DNVNODE>
+		<DNVNODE Id="56" Level="0" Position="[24.907606 , 68.38285]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="1.9241378" Label="section structure" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t8" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="18" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="93" />
+			<NODEPROPERTY Key="Full Label" Value=" section structure document thesis nodes visualization author distribution method order " />
+		</DNVNODE>
+		<DNVNODE Id="63" Level="0" Position="[43.363018 , 57.73359]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.76551723" Label="user search" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t15" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="37" />
+			<NODEPROPERTY Key="Full Label" Value=" user search calit2 large author distribution method order structure edges " />
+		</DNVNODE>
+		<DNVNODE Id="62" Level="0" Position="[26.110039 , 58.620403]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.35172415" Label="health data" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t14" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="11" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="17" />
+			<NODEPROPERTY Key="Full Label" Value=" health data topicnet author distribution method order structure edges interactive " />
+		</DNVNODE>
+		<DNVNODE Id="61" Level="0" Position="[44.52096 , 76.70425]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="2.1724138" Label="layout topic" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t13" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="19" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="105" />
+			<NODEPROPERTY Key="Full Label" Value=" layout topic connected circle edges node visualization lda author distribution " />
+		</DNVNODE>
+		<DNVNODE Id="60" Level="0" Position="[40.942116 , 83.411354]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.78620684" Label="document user" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t12" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="38" />
+			<NODEPROPERTY Key="Full Label" Value=" document user topic health large author distribution method order structure " />
+		</DNVNODE>
+		<DNVEDGE Id="68" Level="0" Length="0.0" K="1.0" From="23" To="52" Label="" Directional="true" BBid="doc13->t4" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7532468" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="16.883118" />
+			<EDGEPROPERTY Key="count" Value="13" />
+		</DNVEDGE>
+		<DNVEDGE Id="69" Level="0" Length="0.0" K="1.0" From="1" To="64" Label="" Directional="true" BBid="doc2->t16" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.76865673" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="17.910448" />
+			<EDGEPROPERTY Key="count" Value="12" />
+		</DNVEDGE>
+		<DNVEDGE Id="70" Level="0" Length="0.0" K="1.0" From="23" To="60" Label="" Directional="true" BBid="doc13->t12" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.8701299" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="24.675325" />
+			<EDGEPROPERTY Key="count" Value="19" />
+		</DNVEDGE>
+		<DNVEDGE Id="71" Level="0" Length="0.0" K="1.0" From="5" To="66" Label="" Directional="true" BBid="doc4->t18" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.73275864" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="15.517241" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVNODE Id="64" Level="0" Position="[37.009674 , 41.08532]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="1.2206897" Label="set data" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t16" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="15" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="59" />
+			<NODEPROPERTY Key="Full Label" Value=" set data large document author distribution method order structure edges " />
+		</DNVNODE>
+		<DNVNODE Id="65" Level="0" Position="[50.692074 , 69.50527]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.66206896" Label="graph author" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t17" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="32" />
+			<NODEPROPERTY Key="Full Label" Value=" graph author set distribution method order structure edges interactive search " />
+		</DNVNODE>
+		<DNVNODE Id="66" Level="0" Position="[48.152138 , 42.367584]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.9724138" Label="topicnet text" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t18" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="14" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="47" />
+			<NODEPROPERTY Key="Full Label" Value=" topicnet text large set color author distribution method order structure " />
+		</DNVNODE>
+		<DNVNODE Id="67" Level="0" Position="[65.50345 , 72.14954]" Color="[0.007843138 , 0.45882353 , 0.21176471]" Size="0.8689655" Label="node graph" Mass="1.0" Fixed="false" Icon="" Type="topic" BBid="t19" ForceLabel="true" Alpha="0.7" LabelColor="[0.007843138 , 0.45882353 , 0.21176471]" LabelOutlineColor="null" OutlineColor="null" LabelSize="13" Expandable="false" Visible="true">
+			<NODEPROPERTY Key="weight" Value="42" />
+			<NODEPROPERTY Key="Full Label" Value=" node graph research author distribution method order structure edges interactive " />
+		</DNVNODE>
+		<DNVEDGE Id="76" Level="0" Length="0.0" K="1.0" From="17" To="61" Label="" Directional="true" BBid="doc10->t13" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.5" />
+			<EDGEPROPERTY Key="count" Value="3" />
+		</DNVEDGE>
+		<DNVEDGE Id="77" Level="0" Length="0.0" K="1.0" From="17" To="67" Label="" Directional="true" BBid="doc10->t19" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.5" />
+			<EDGEPROPERTY Key="count" Value="3" />
+		</DNVEDGE>
+		<DNVEDGE Id="78" Level="0" Length="0.0" K="1.0" From="15" To="51" Label="" Directional="true" BBid="doc9->t3" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.5" />
+			<EDGEPROPERTY Key="count" Value="2" />
+		</DNVEDGE>
+		<DNVEDGE Id="79" Level="0" Length="0.0" K="1.0" From="15" To="49" Label="" Directional="true" BBid="doc9->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.34375" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="56.25" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVEDGE Id="72" Level="0" Length="0.0" K="1.0" From="5" To="63" Label="" Directional="true" BBid="doc4->t15" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.73275864" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="15.517241" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVEDGE Id="73" Level="0" Length="0.0" K="1.0" From="5" To="64" Label="" Directional="true" BBid="doc4->t16" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7844827" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="18.965517" />
+			<EDGEPROPERTY Key="count" Value="11" />
+		</DNVEDGE>
+		<DNVEDGE Id="74" Level="0" Length="0.0" K="1.0" From="27" To="57" Label="" Directional="true" BBid="doc15->t9" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.79605263" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="19.736843" />
+			<EDGEPROPERTY Key="count" Value="15" />
+		</DNVEDGE>
+		<DNVEDGE Id="75" Level="0" Length="0.0" K="1.0" From="17" To="66" Label="" Directional="true" BBid="doc10->t18" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.8125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="20.833332" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="85" Level="0" Length="0.0" K="1.0" From="27" To="65" Label="" Directional="true" BBid="doc15->t17" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.79605263" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="19.736843" />
+			<EDGEPROPERTY Key="count" Value="15" />
+		</DNVEDGE>
+		<DNVEDGE Id="84" Level="0" Length="0.0" K="1.0" From="27" To="63" Label="" Directional="true" BBid="doc15->t15" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.69736844" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="13.157895" />
+			<EDGEPROPERTY Key="count" Value="10" />
+		</DNVEDGE>
+		<DNVEDGE Id="87" Level="0" Length="0.0" K="1.0" From="5" To="50" Label="" Directional="true" BBid="doc4->t2" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.68103445" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.068965" />
+			<EDGEPROPERTY Key="count" Value="7" />
+		</DNVEDGE>
+		<DNVEDGE Id="86" Level="0" Length="0.0" K="1.0" From="5" To="49" Label="" Directional="true" BBid="doc4->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.9655172" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="31.034481" />
+			<EDGEPROPERTY Key="count" Value="18" />
+		</DNVEDGE>
+		<DNVEDGE Id="81" Level="0" Length="0.0" K="1.0" From="45" To="59" Label="" Directional="true" BBid="doc24->t11" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="41.666664" />
+			<EDGEPROPERTY Key="count" Value="20" />
+		</DNVEDGE>
+		<DNVEDGE Id="80" Level="0" Length="0.0" K="1.0" From="25" To="53" Label="" Directional="true" BBid="doc14->t5" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.0487804" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="36.585365" />
+			<EDGEPROPERTY Key="count" Value="30" />
+		</DNVEDGE>
+		<DNVEDGE Id="83" Level="0" Length="0.0" K="1.0" From="27" To="61" Label="" Directional="true" BBid="doc15->t13" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.81578946" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="21.052631" />
+			<EDGEPROPERTY Key="count" Value="16" />
+		</DNVEDGE>
+		<DNVEDGE Id="82" Level="0" Length="0.0" K="1.0" From="45" To="66" Label="" Directional="true" BBid="doc24->t18" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.5" />
+			<EDGEPROPERTY Key="count" Value="6" />
+		</DNVEDGE>
+		<DNVEDGE Id="93" Level="0" Length="0.0" K="1.0" From="37" To="56" Label="" Directional="true" BBid="doc20->t8" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.82608694" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="21.73913" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="92" Level="0" Length="0.0" K="1.0" From="37" To="57" Label="" Directional="true" BBid="doc20->t9" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.95652175" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="30.434782" />
+			<EDGEPROPERTY Key="count" Value="7" />
+		</DNVEDGE>
+		<DNVEDGE Id="95" Level="0" Length="0.0" K="1.0" From="13" To="65" Label="" Directional="true" BBid="doc8->t17" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6923077" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.820514" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="94" Level="0" Length="0.0" K="1.0" From="37" To="51" Label="" Directional="true" BBid="doc20->t3" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6956522" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="13.043478" />
+			<EDGEPROPERTY Key="count" Value="3" />
+		</DNVEDGE>
+		<DNVEDGE Id="89" Level="0" Length="0.0" K="1.0" From="41" To="62" Label="" Directional="true" BBid="doc22->t14" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.9736842" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="31.578945" />
+			<EDGEPROPERTY Key="count" Value="12" />
+		</DNVEDGE>
+		<DNVEDGE Id="88" Level="0" Length="0.0" K="1.0" From="21" To="49" Label="" Directional="true" BBid="doc12->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.0172414" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="34.482758" />
+			<EDGEPROPERTY Key="count" Value="20" />
+		</DNVEDGE>
+		<DNVEDGE Id="91" Level="0" Length="0.0" K="1.0" From="21" To="54" Label="" Directional="true" BBid="doc12->t6" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7844827" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="18.965517" />
+			<EDGEPROPERTY Key="count" Value="11" />
+		</DNVEDGE>
+		<DNVEDGE Id="90" Level="0" Length="0.0" K="1.0" From="41" To="60" Label="" Directional="true" BBid="doc22->t12" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7368421" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="15.789473" />
+			<EDGEPROPERTY Key="count" Value="6" />
+		</DNVEDGE>
+		<DNVEDGE Id="102" Level="0" Length="0.0" K="1.0" From="9" To="64" Label="" Directional="true" BBid="doc6->t16" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.775" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="18.333334" />
+			<EDGEPROPERTY Key="count" Value="11" />
+		</DNVEDGE>
+		<DNVEDGE Id="103" Level="0" Length="0.0" K="1.0" From="39" To="62" Label="" Directional="true" BBid="doc21->t14" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="41.666664" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="100" Level="0" Length="0.0" K="1.0" From="47" To="64" Label="" Directional="true" BBid="doc25->t16" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7586207" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="17.241379" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="101" Level="0" Length="0.0" K="1.0" From="1" To="49" Label="" Directional="true" BBid="doc2->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.0373135" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="35.820896" />
+			<EDGEPROPERTY Key="count" Value="24" />
+		</DNVEDGE>
+		<DNVEDGE Id="98" Level="0" Length="0.0" K="1.0" From="43" To="56" Label="" Directional="true" BBid="doc23->t8" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.25" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="50.0" />
+			<EDGEPROPERTY Key="count" Value="19" />
+		</DNVEDGE>
+		<DNVEDGE Id="99" Level="0" Length="0.0" K="1.0" From="47" To="66" Label="" Directional="true" BBid="doc25->t18" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7586207" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="17.241379" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="96" Level="0" Length="0.0" K="1.0" From="35" To="61" Label="" Directional="true" BBid="doc19->t13" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.9545455" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="30.303032" />
+			<EDGEPROPERTY Key="count" Value="20" />
+		</DNVEDGE>
+		<DNVEDGE Id="97" Level="0" Length="0.0" K="1.0" From="17" To="49" Label="" Directional="true" BBid="doc10->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="41.666664" />
+			<EDGEPROPERTY Key="count" Value="10" />
+		</DNVEDGE>
+		<DNVEDGE Id="110" Level="0" Length="0.0" K="1.0" From="37" To="58" Label="" Directional="true" BBid="doc20->t10" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6956522" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="13.043478" />
+			<EDGEPROPERTY Key="count" Value="3" />
+		</DNVEDGE>
+		<DNVEDGE Id="111" Level="0" Length="0.0" K="1.0" From="47" To="49" Label="" Directional="true" BBid="doc25->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.86206895" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="24.13793" />
+			<EDGEPROPERTY Key="count" Value="7" />
+		</DNVEDGE>
+		<DNVEDGE Id="108" Level="0" Length="0.0" K="1.0" From="13" To="49" Label="" Directional="true" BBid="doc8->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.1538461" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="43.589745" />
+			<EDGEPROPERTY Key="count" Value="17" />
+		</DNVEDGE>
+		<DNVEDGE Id="109" Level="0" Length="0.0" K="1.0" From="25" To="61" Label="" Directional="true" BBid="doc14->t13" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.0304878" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="35.365852" />
+			<EDGEPROPERTY Key="count" Value="29" />
+		</DNVEDGE>
+		<DNVEDGE Id="106" Level="0" Length="0.0" K="1.0" From="13" To="55" Label="" Directional="true" BBid="doc8->t7" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.9230769" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="28.20513" />
+			<EDGEPROPERTY Key="count" Value="11" />
+		</DNVEDGE>
+		<DNVEDGE Id="107" Level="0" Length="0.0" K="1.0" From="13" To="53" Label="" Directional="true" BBid="doc8->t5" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6923077" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.820514" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="104" Level="0" Length="0.0" K="1.0" From="39" To="64" Label="" Directional="true" BBid="doc21->t16" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="25.0" />
+			<EDGEPROPERTY Key="count" Value="3" />
+		</DNVEDGE>
+		<DNVEDGE Id="105" Level="0" Length="0.0" K="1.0" From="39" To="65" Label="" Directional="true" BBid="doc21->t17" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.75" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="16.666668" />
+			<EDGEPROPERTY Key="count" Value="2" />
+		</DNVEDGE>
+		<DNVEDGE Id="119" Level="0" Length="0.0" K="1.0" From="11" To="49" Label="" Directional="true" BBid="doc7->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.8" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="20.0" />
+			<EDGEPROPERTY Key="count" Value="8" />
+		</DNVEDGE>
+		<DNVEDGE Id="118" Level="0" Length="0.0" K="1.0" From="33" To="49" Label="" Directional="true" BBid="doc18->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.8375" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="22.5" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVEDGE Id="117" Level="0" Length="0.0" K="1.0" From="33" To="56" Label="" Directional="true" BBid="doc18->t8" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.025" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="35.0" />
+			<EDGEPROPERTY Key="count" Value="14" />
+		</DNVEDGE>
+		<DNVEDGE Id="116" Level="0" Length="0.0" K="1.0" From="47" To="56" Label="" Directional="true" BBid="doc25->t8" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7586207" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="17.241379" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="115" Level="0" Length="0.0" K="1.0" From="29" To="60" Label="" Directional="true" BBid="doc16->t12" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.76785713" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="17.857143" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="114" Level="0" Length="0.0" K="1.0" From="29" To="67" Label="" Directional="true" BBid="doc16->t19" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.98214287" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="32.142857" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVEDGE Id="113" Level="0" Length="0.0" K="1.0" From="15" To="67" Label="" Directional="true" BBid="doc9->t19" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.5" />
+			<EDGEPROPERTY Key="count" Value="2" />
+		</DNVEDGE>
+		<DNVEDGE Id="112" Level="0" Length="0.0" K="1.0" From="15" To="66" Label="" Directional="true" BBid="doc9->t18" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.78125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="18.75" />
+			<EDGEPROPERTY Key="count" Value="3" />
+		</DNVEDGE>
+		<DNVEDGE Id="127" Level="0" Length="0.0" K="1.0" From="35" To="56" Label="" Directional="true" BBid="doc19->t8" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="33.333336" />
+			<EDGEPROPERTY Key="count" Value="22" />
+		</DNVEDGE>
+		<DNVEDGE Id="126" Level="0" Length="0.0" K="1.0" From="9" To="55" Label="" Directional="true" BBid="doc6->t7" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.375" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="58.333332" />
+			<EDGEPROPERTY Key="count" Value="35" />
+		</DNVEDGE>
+		<DNVEDGE Id="125" Level="0" Length="0.0" K="1.0" From="33" To="61" Label="" Directional="true" BBid="doc18->t13" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="25.0" />
+			<EDGEPROPERTY Key="count" Value="10" />
+		</DNVEDGE>
+		<DNVEDGE Id="124" Level="0" Length="0.0" K="1.0" From="45" To="49" Label="" Directional="true" BBid="doc24->t1" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.03125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="35.416664" />
+			<EDGEPROPERTY Key="count" Value="17" />
+		</DNVEDGE>
+		<DNVEDGE Id="123" Level="0" Length="0.0" K="1.0" From="31" To="60" Label="" Directional="true" BBid="doc17->t12" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.8947369" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="26.31579" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="122" Level="0" Length="0.0" K="1.0" From="31" To="58" Label="" Directional="true" BBid="doc17->t10" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="1.2894738" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="52.63158" />
+			<EDGEPROPERTY Key="count" Value="10" />
+		</DNVEDGE>
+		<DNVEDGE Id="121" Level="0" Length="0.0" K="1.0" From="11" To="53" Label="" Directional="true" BBid="doc7->t5" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.9125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="27.5" />
+			<EDGEPROPERTY Key="count" Value="11" />
+		</DNVEDGE>
+		<DNVEDGE Id="120" Level="0" Length="0.0" K="1.0" From="11" To="55" Label="" Directional="true" BBid="doc7->t7" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.9125" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="27.5" />
+			<EDGEPROPERTY Key="count" Value="11" />
+		</DNVEDGE>
+		<DNVEDGE Id="129" Level="0" Length="0.0" K="1.0" From="11" To="58" Label="" Directional="true" BBid="doc7->t10" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.6875" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="12.5" />
+			<EDGEPROPERTY Key="count" Value="5" />
+		</DNVEDGE>
+		<DNVEDGE Id="128" Level="0" Length="0.0" K="1.0" From="35" To="53" Label="" Directional="true" BBid="doc19->t5" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.7045455" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="13.636364" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVEDGE Id="131" Level="0" Length="0.0" K="1.0" From="29" To="57" Label="" Directional="true" BBid="doc16->t9" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.82142854" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="21.428572" />
+			<EDGEPROPERTY Key="count" Value="6" />
+		</DNVEDGE>
+		<DNVEDGE Id="130" Level="0" Length="0.0" K="1.0" From="43" To="61" Label="" Directional="true" BBid="doc23->t13" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.8552632" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="23.684212" />
+			<EDGEPROPERTY Key="count" Value="9" />
+		</DNVEDGE>
+		<DNVEDGE Id="132" Level="0" Length="0.0" K="1.0" From="29" To="56" Label="" Directional="true" BBid="doc16->t8" Color="[0.8 , 0.8901961 , 0.78039217]" Type="topicEdge" HasSetColor="true" Alpha="1.0" LabelColor="[0.8 , 0.8901961 , 0.78039217]" LabelOutlineColor="null" LabelSize="null" Thickness="0.82142854" Visible="true">
+			<EDGEPROPERTY Key="percent" Value="21.428572" />
+			<EDGEPROPERTY Key="count" Value="6" />
+		</DNVEDGE>
+	</Level>
+</DNVGRAPH>

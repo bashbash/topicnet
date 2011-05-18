@@ -1,0 +1,2134 @@
+TtopicNet
+v7
+r0
+t327379932.098898
+cCheck dependencies
+cSymLink /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/topicNet.so /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/plane.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid2d.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/article.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cMasterObjectLink /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+cLd /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so normal i386
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers/lauxlib.h
+c000000004AC9B2AE000000000000168A
+t1254732462
+s5770
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers/lua.h
+c000000004AC9B2AE0000000000002DA0
+t1254732462
+s11680
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Muro.framework/Headers/glo_opengl.h
+c000000004BFC2ABF0000000000002EC7
+t1274817215
+s11975
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Muro.framework/Headers/vec3.h
+c000000004BFC2AC00000000000002F9B
+t1274817216
+s12187
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004702C63B0000000000001654
+t1191364155
+s5716
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004702C63B0000000000025B59
+t1191364155
+s154457
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004702C63B000000000003C74B
+t1191364155
+s247627
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004702C63B0000000000003F8D
+t1191364155
+s16269
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004B760CD4000000000000CB3C
+t1266027732
+s52028
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/ctype.h
+c0000000047BA99310000000000002C3A
+t1203411249
+s11322
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/standards.h
+c0000000047BA9930000000000000055B
+t1203411248
+s1371
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EAF10000000000000C7E
+t1242688241
+s3198
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EAF100000000000010DD
+t1242688241
+s4317
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EAF10000000000003197
+t1242688241
+s12695
+
+N/Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+t1274480408
+s31368
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/HmdDataNode.h
+c000000004B57F6440000000000000298
+t1264055876
+s664
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/hmdData.cpp
+c000000004BD5FD2C0000000000002672
+t1272315180
+s9842
+i"hmdData.h"
+i<fstream>
+i<math.h>
+i<time.h>
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/hmdData.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/hmdData_udata.cpp
+c000000004BD8A7650000000000000FE6
+t1272489829
+s4070
+i"hmdData_udata.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/hmdData_udata.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/hmd_module.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/lua_hmd.cpp
+c000000004B56281A0000000000000535
+t1263937562
+s1333
+i"lua_hmd.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_hmd_udata.h"
+i"hmdData_udata.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/lua_hmd.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/lua_hmd_udata.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.cpp
+c000000004BF705970000000000000575
+t1274480023
+s1397
+i"lua_topnet.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_topnet_udata.h"
+i"topnetData_udata.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.h
+c000000004BF7057900000000000001D9
+t1274479993
+s473
+i"lua.h"
+i"lauxlib.h"
+i"stdlib.h"
+i<windows.h>
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet_udata.h
+c000000004BF7059C00000000000038B7
+t1274480028
+s14519
+i"lua.h"
+i"lauxlib.h"
+i"topnet_module.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/topnetData.cpp
+c000000004BF70717000000000000022D
+t1274480407
+s557
+i<fstream>
+i<math.h>
+i"topnetData.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/topnetData.h
+c000000004BF7063D0000000000000195
+t1274480189
+s405
+i"lua_topnet.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.cpp
+c000000004BF705810000000000000525
+t1274480001
+s1317
+i"topnetData_udata.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.h
+c000000004BF70659000000000000035C
+t1274480217
+s860
+i"lua_topnet_udata.h"
+i"topnetData.h"
+
+N/Users/basakalper/Desktop/topicNet/osx/../src/topnet_module.h
+c000000004BF705A100000000000001CE
+t1274480033
+s462
+
+N/Users/basakalper/Desktop/topicNet/osx/build/Debug/topicNet.so
+t3
+s82
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/hmdData.o
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/hmdData_udata.o
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_hmd.o
+t2
+s0
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+t1274480221
+s22028
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList
+c000000004BF7063E000000000000007A
+t1274480190
+s122
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o
+t1274480407
+s79208
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o
+t1274480221
+s20936
+
+N/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+t1274480408
+s25248
+
+N/Users/basakalper/luaav3/dev_osx/include/lauxlib.h
+c000000004B4F763500000000000015A4
+t1263498805
+s5540
+i<stddef.h>
+i<stdio.h>
+i"lua.h"
+
+N/Users/basakalper/luaav3/dev_osx/include/lua.h
+c000000004B4F76350000000000002D9E
+t1263498805
+s11678
+i<stdarg.h>
+i<stddef.h>
+i"luaconf.h"
+
+N/Users/basakalper/luaav3/dev_osx/include/luaconf.h
+c000000004BBA63310000000000001160
+t1270506289
+s4448
+i<limits.h>
+i<stddef.h>
+i<assert.h>
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+t1275615360
+s327776
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.cpp
+c000000004C08561A000000000000151D
+t1275614746
+s5405
+i"FR_layout.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.h
+c000000004C06F1B3000000000000048A
+t1275523507
+s1162
+i"graph.h"
+i"grid.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.cpp
+c000000004C046F16000000000000018E
+t1275358998
+s398
+i"FR_layout.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.h
+c000000004C04AD0A0000000000000406
+t1275374858
+s1030
+i"graph.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp
+c000000004C00B8610000000000000152
+t1275115617
+s338
+i"GraphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.h
+c000000004C00B68000000000000001CB
+t1275115136
+s459
+i<fstream>
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.cpp
+c000000004C084B9F0000000000000C89
+t1275612063
+s3209
+i"graph.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.h
+c000000004C08586B00000000000003F4
+t1275615339
+s1012
+i"graphNode.h"
+i"graphEdge.h"
+i<vector>
+i<OpenGL/gl.h>
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.cpp
+c000000004C042CE600000000000002C1
+t1275342054
+s705
+i"graphEdge.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.h
+c000000004C042E2D0000000000000310
+t1275342381
+s784
+i"graphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp
+c000000004C057B2F00000000000004D5
+t1275427631
+s1237
+i"GraphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.h
+c000000004C084C830000000000000458
+t1275612291
+s1112
+i<fstream>
+i<vector>
+i"Muro/vec3.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.cpp
+c000000004C06F54B00000000000012FA
+t1275524427
+s4858
+i"grid.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.h
+c000000004C08587C00000000000003A5
+t1275615356
+s933
+i<fstream>
+i"gridNode.h"
+i"graph.h"
+i<OpenGL/gl.h>
+i"Muro/vec3.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.cpp
+c000000004C058E290000000000000120
+t1275432489
+s288
+i"gridNode.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.h
+c000000004C058DED0000000000000185
+t1275432429
+s389
+i<vector>
+i"graphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.cpp
+c000000004C034A22000000000000056D
+t1275284002
+s1389
+i"lua_topnet.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_topnet_udata.h"
+i"topnet_udata.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.h
+c000000004BF7057900000000000001D9
+t1274479993
+s473
+i"lua.h"
+i"lauxlib.h"
+i"stdlib.h"
+i<windows.h>
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet_udata.h
+c000000004BF7059C00000000000038B7
+t1274480028
+s14519
+i"lua.h"
+i"lauxlib.h"
+i"topnet_module.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.cpp
+c000000004C084CCA0000000000001817
+t1275612362
+s6167
+i<fstream>
+i<iostream>
+i<sstream>
+i"topnet.h"
+i"xmlparse.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.h
+c000000004C084C3400000000000002E8
+t1275612212
+s744
+i"lua_topnet.h"
+i"graph.h"
+i"grid.h"
+i"tinyxml.h"
+i"FR_Layout.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.cpp
+c000000004C0303710000000000000343
+t1275265905
+s835
+i<fstream>
+i<iostream>
+i<sstream>
+i"topnetData.h"
+i"xmlparse.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.cpp
+c000000004C0303710000000000000600
+t1275265905
+s1536
+i"topnetData_udata.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_module.h
+c000000004BF705A100000000000001CE
+t1274480033
+s462
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.cpp
+c000000004C084D630000000000000C77
+t1275612515
+s3191
+i"topnet_udata.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.h
+c000000004C084A0B000000000000041F
+t1275611659
+s1055
+i"lua_topnet_udata.h"
+i"topnet.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../src/xmlparse.h
+c000000004C085805000000000000115F
+t1275615237
+s4447
+i"tinyxml.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.cpp
+c000000004BA84EB40000000000000A2A
+t1269321396
+s2602
+i"tinystr.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.h
+c000000004BA84EB4000000000000224F
+t1269321396
+s8783
+i<assert.h>
+i<string.h>
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.cpp
+c000000004BA84EB40000000000008E53
+t1269321396
+s36435
+i<ctype.h>
+i<sstream>
+i<iostream>
+i"tinyxml.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.h
+c000000004BA84EB4000000000000FB3C
+t1269321396
+s64316
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlerror.cpp
+c000000004BA84EB400000000000006F4
+t1269321396
+s1780
+i"tinyxml.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlparser.cpp
+c000000004BA84EB40000000000009149
+t1269321396
+s37193
+i<ctype.h>
+i<stddef.h>
+i"tinyxml.h"
+i<windows.h>
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/untitled.cpp
+c000000004BFF1A2D0000000000000098
+t1275009581
+s152
+i"untitled.h"
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/untitled.h
+c000000004BFF1A2D000000000000007F
+t1275009581
+s127
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/topicNet.so
+t3
+s89
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o
+t1275615360
+s123352
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_layout.o
+t1275359015
+s89308
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/GraphNode.o
+t1275115586
+s43888
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o
+t1275615360
+s185732
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o
+t1275615268
+s61548
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o
+t1275615267
+s112752
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o
+t1275615359
+s139020
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o
+t1275615268
+s98424
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+t1275615358
+s130496
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o
+t1275615266
+s15740
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o
+t1275615267
+s161752
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o
+t1275615267
+s10644
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o
+t1275615267
+s90596
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList
+c000000004C0858220000000000000081
+t1275615266
+s129
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o
+t1275615359
+s490932
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o
+t1275277319
+s151352
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o
+t1275277320
+s93916
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o
+t1275615359
+s134696
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+t1275615360
+s397464
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+t1275618740
+s327776
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.cpp
+c000000004C08561A000000000000151D
+t1275614746
+s5405
+i"FR_layout.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.h
+c000000004C06F1B3000000000000048A
+t1275523507
+s1162
+i"graph.h"
+i"grid.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.cpp
+c000000004C084B9F0000000000000C89
+t1275612063
+s3209
+i"graph.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.h
+c000000004C085EC8000000000000045B
+t1275616968
+s1115
+i"graphNode.h"
+i"graphEdge.h"
+i<vector>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/graphEdge.cpp
+c000000004C042CE600000000000002C1
+t1275342054
+s705
+i"graphEdge.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/graphEdge.h
+c000000004C042E2D0000000000000310
+t1275342381
+s784
+i"graphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/graphNode.cpp
+c000000004C057B2F00000000000004D5
+t1275427631
+s1237
+i"GraphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/graphNode.h
+c000000004C084C830000000000000458
+t1275612291
+s1112
+i<fstream>
+i<vector>
+i"Muro/vec3.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.cpp
+c000000004C06F54B00000000000012FA
+t1275524427
+s4858
+i"grid.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.h
+c000000004C0860CD00000000000003D3
+t1275617485
+s979
+i<fstream>
+i"gridNode.h"
+i"graph.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"Muro/vec3.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/gridNode.cpp
+c000000004C058E290000000000000120
+t1275432489
+s288
+i"gridNode.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/gridNode.h
+c000000004C058DED0000000000000185
+t1275432429
+s389
+i<vector>
+i"graphNode.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.cpp
+c000000004C034A22000000000000056D
+t1275284002
+s1389
+i"lua_topnet.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_topnet_udata.h"
+i"topnet_udata.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.h
+c000000004BF7057900000000000001D9
+t1274479993
+s473
+i"lua.h"
+i"lauxlib.h"
+i"stdlib.h"
+i<windows.h>
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet_udata.h
+c000000004BF7059C00000000000038B7
+t1274480028
+s14519
+i"lua.h"
+i"lauxlib.h"
+i"topnet_module.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.cpp
+c000000004C085FA90000000000001817
+t1275617193
+s6167
+i<fstream>
+i<iostream>
+i<sstream>
+i"topnet.h"
+i"xmlparse.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.h
+c000000004C084C3400000000000002E8
+t1275612212
+s744
+i"lua_topnet.h"
+i"graph.h"
+i"grid.h"
+i"tinyxml.h"
+i"FR_Layout.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_module.h
+c000000004BF705A100000000000001CE
+t1274480033
+s462
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.cpp
+c000000004C084D630000000000000C77
+t1275612515
+s3191
+i"topnet_udata.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.h
+c000000004C084A0B000000000000041F
+t1275611659
+s1055
+i"lua_topnet_udata.h"
+i"topnet.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../src/xmlparse.h
+c000000004C0860BB0000000000001159
+t1275617467
+s4441
+i<map>
+i"tinyxml.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinystr.cpp
+c000000004BA84EB40000000000000A2A
+t1269321396
+s2602
+i"tinystr.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinystr.h
+c000000004BA84EB4000000000000224F
+t1269321396
+s8783
+i<assert.h>
+i<string.h>
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxml.cpp
+c000000004BA84EB40000000000008E53
+t1269321396
+s36435
+i<ctype.h>
+i<sstream>
+i<iostream>
+i"tinyxml.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxml.h
+c000000004BA84EB4000000000000FB3C
+t1269321396
+s64316
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp
+c000000004BA84EB400000000000006F4
+t1269321396
+s1780
+i"tinyxml.h"
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp
+c000000004BA84EB40000000000009149
+t1269321396
+s37193
+i<ctype.h>
+i<stddef.h>
+i"tinyxml.h"
+i<windows.h>
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/topicNet.so
+t3
+s89
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o
+t1275617494
+s102296
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o
+t1275616971
+s164684
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o
+t1275615268
+s61548
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o
+t1275615267
+s112752
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o
+t1275617494
+s118060
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o
+t1275615268
+s98424
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+t1275617493
+s109472
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o
+t1275615266
+s15740
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o
+t1275615267
+s161752
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o
+t1275615267
+s10644
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o
+t1275615267
+s90596
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList
+c000000004C085B340000000000000081
+t1275616052
+s129
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o
+t1275617494
+s471476
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o
+t1275617494
+s113640
+
+N/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+t1275617494
+s397464
+
+N/Users/basakalper/luaav4/trunk/dev/include/lua_utility.h
+c000000004D23A6860000000000006BC5
+t1294182022
+s27589
+i<string>
+i<vector>
+i<list>
+i<cstring>
+i"lua.h"
+i"lualib.h"
+i"lauxlib.h"
+
+N/Users/basakalper/luaav4/trunk/dev_osx/include/lauxlib.h
+c000000004CC8948B00000000000015A4
+t1288213643
+s5540
+i<stddef.h>
+i<stdio.h>
+i"lua.h"
+
+N/Users/basakalper/luaav4/trunk/dev_osx/include/lua.h
+c000000004CC8948B0000000000002D9E
+t1288213643
+s11678
+i<stdarg.h>
+i<stddef.h>
+i"luaconf.h"
+
+N/Users/basakalper/luaav4/trunk/dev_osx/include/luaconf.h
+c000000004CC8948B0000000000001160
+t1288213643
+s4448
+i<limits.h>
+i<stddef.h>
+i<assert.h>
+
+N/Users/basakalper/luaav4/trunk/dev_osx/include/lualib.h
+c000000004CC8948B0000000000000412
+t1288213643
+s1042
+i"lua.h"
+
+N/Users/basakalper/luaav4/trunk/modules/space/vec/vec3.h
+c000000004CC894C90000000000002F8D
+t1288213705
+s12173
+i<math.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+t1305687131
+s549324
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp
+c000000004D630B1A000000000000161C
+t1298336538
+s5660
+i"FR_Layout.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.h
+c000000004D55934B0000000000000395
+t1297453899
+s917
+i"graph.h"
+i"grid.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.cpp
+c000000004D096E860000000000001546
+t1292463750
+s5446
+i"FR_Layout_2D.h"
+i"vec2.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.h
+c000000004D0966720000000000000537
+t1292461682
+s1335
+i"graph.h"
+i"grid.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2d.h
+c000000004D09646C00000000000004AB
+t1292461164
+s1195
+i"graph.h"
+i"grid.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp
+c000000004DD3146D0000000000000219
+t1305678957
+s537
+i"article.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.h
+c000000004DD321AF000000000000033A
+t1305682351
+s826
+i<vector>
+i<string>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp
+c000000004D93803C0000000000004090
+t1301512252
+s16528
+i"graph.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.h
+c000000004D782967000000000000087B
+t1299720551
+s2171
+i"graphNode.h"
+i"graphEdge.h"
+i<vector>
+i<algorithm>
+i<stdlib.h>
+i<sstream>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp
+c000000004D5C5D7E0000000000000390
+t1297898878
+s912
+i"graphEdge.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.h
+c000000004D5C5D3900000000000003FC
+t1297898809
+s1020
+i"graphNode.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp
+c000000004DD3345900000000000006F8
+t1305687129
+s1784
+i"graphNode.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.h
+c000000004DD316CD0000000000000958
+t1305679565
+s2392
+i<fstream>
+i<vector>
+i<article.h>
+i"vec/vec3.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph_gl.h
+c000000004D78295200000000000005C2
+t1299720530
+s1474
+i<GL/glew.h>
+i"glew.h"
+i<OpenGL/OpenGL.h>
+i<OpenGL/gl.h>
+i<OpenGL/glext.h>
+i<OpenGL/glu.h>
+i<GL/glew.h>
+i<GL/gl.h>
+i<GL/glext.h>
+i<GL/glu.h>
+i<time.h>
+i<windows.h>
+i<gl/gl.h>
+i<gl/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp
+c000000004D630AD9000000000000145A
+t1298336473
+s5210
+i"grid.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.h
+c000000004D7827D3000000000000035E
+t1299720147
+s862
+i<fstream>
+i"gridNode.h"
+i"graph.h"
+i"vec/vec3.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp
+c000000004D630B210000000000000D39
+t1298336545
+s3385
+i"grid2d.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.h
+c000000004D2DECB90000000000000392
+t1294855353
+s914
+i<fstream>
+i"gridNode.h"
+i"graph.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"vec/vec3.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp
+c000000004C058E290000000000000120
+t1275432489
+s288
+i"gridNode.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.h
+c000000004C058DED0000000000000185
+t1275432429
+s389
+i<vector>
+i"graphNode.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp
+c000000004C034A22000000000000056D
+t1275284002
+s1389
+i"lua_topnet.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_topnet_udata.h"
+i"topnet_udata.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.h
+c000000004BF7057900000000000001D9
+t1274479993
+s473
+i"lua.h"
+i"lauxlib.h"
+i"stdlib.h"
+i<windows.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet_udata.h
+c000000004BF7059C00000000000038B7
+t1274480028
+s14519
+i"lua.h"
+i"lauxlib.h"
+i"topnet_module.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp
+c000000004D630B05000000000000040A
+t1298336517
+s1034
+i"plane.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.h
+c000000004D2F7EC8000000000000028B
+t1294958280
+s651
+i<vector>
+i<algorithm>
+i"graphNode.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp
+c000000004DD3342A00000000000042B6
+t1305687082
+s17078
+i<fstream>
+i<iostream>
+i<sstream>
+i"topnet.h"
+i"xmlparse.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.h
+c000000004DD32A5C00000000000006AB
+t1305684572
+s1707
+i"lua_topnet.h"
+i"graph.h"
+i"grid.h"
+i"tinyxml.h"
+i"plane.h"
+i"FR_Layout.h"
+i"article.h"
+i<map>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_module.h
+c000000004BF705A100000000000001CE
+t1274480033
+s462
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp
+c000000004DD31FC70000000000002FD0
+t1305681863
+s12240
+i"topnet_udata.h"
+i"lua_utility.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.h
+c000000004DD31F0B0000000000000797
+t1305681675
+s1943
+i"lua_topnet_udata.h"
+i"topnet.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/vec2.h
+c000000004D096EAC00000000000027C4
+t1292463788
+s10180
+i<math.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/xmlparse.h
+c000000004D5568C90000000000001D24
+t1297443017
+s7460
+i<map>
+i"tinyxml.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp
+c000000004BA84EB40000000000000A2A
+t1269321396
+s2602
+i"tinystr.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.h
+c000000004BA84EB4000000000000224F
+t1269321396
+s8783
+i<assert.h>
+i<string.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp
+c000000004BA84EB40000000000008E53
+t1269321396
+s36435
+i<ctype.h>
+i<sstream>
+i<iostream>
+i"tinyxml.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.h
+c000000004BA84EB4000000000000FB3C
+t1269321396
+s64316
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp
+c000000004BA84EB400000000000006F4
+t1269321396
+s1780
+i"tinyxml.h"
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp
+c000000004BA84EB40000000000009149
+t1269321396
+s37193
+i<ctype.h>
+i<stddef.h>
+i"tinyxml.h"
+i<windows.h>
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/topicNet.so
+t3
+s95
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o
+t1305682357
+s162272
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout_2D.o
+t1294554684
+s107956
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/article.o
+t1305682358
+s103812
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o
+t1305682357
+s432772
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o
+t1305682356
+s91300
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o
+t1305687129
+s219936
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o
+t1305682355
+s177344
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid2d.o
+t1305682358
+s174328
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o
+t1305682356
+s122268
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+t1305684602
+s215488
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/plane.o
+t1305682357
+s136896
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o
+t1305680808
+s15760
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o
+t1305680808
+s161784
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o
+t1305680808
+s10676
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o
+t1305680808
+s90628
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList
+c000000004DD31BA60000000000000087
+t1305680806
+s135
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o
+t1305687083
+s731760
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o
+t1305684603
+s358972
+
+N/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+t1305687131
+s679896
+
+N/usr/local/mysql/include/my_alloc.h
+c000000004CF92FC00000000000000753
+t1291399104
+s1875
+
+N/usr/local/mysql/include/my_list.h
+c000000004CF92FC000000000000005B1
+t1291399104
+s1457
+
+N/usr/local/mysql/include/mysql.h
+c000000004CF92FC00000000000006DB9
+t1291399104
+s28089
+i<standards.h>
+i<sys/types.h>
+i<winsock2.h>
+i"mysql_version.h"
+i"mysql_com.h"
+i"mysql_time.h"
+i"my_list.h"
+i"typelib.h"
+i"my_alloc.h"
+
+N/usr/local/mysql/include/mysql_com.h
+c000000004CF92FC0000000000000561D
+t1291399104
+s22045
+
+N/usr/local/mysql/include/mysql_time.h
+c000000004CF92FC00000000000000831
+t1291399104
+s2097
+
+N/usr/local/mysql/include/mysql_version.h
+c000000004CF9359D0000000000000333
+t1291400605
+s819
+i<custom_conf.h>
+
+N/usr/local/mysql/include/typelib.h
+c000000004CF92FC00000000000000706
+t1291399104
+s1798
+i"my_alloc.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327379932#327379932#0(0"0(0#1#0"8618915776#0"0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308159.827396
+e297308160.318225
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.cpp297308159#297308160#0(0"0(0#0#66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_Layout.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297310294.457679
+e297310294.891792
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o
+x/Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.cpp297310294#297310294#0(0"0(0#0#66"/Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicnet/osx/../src/FR_Layout.cpp -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375156.677446
+e327375157.361243
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp327375156#327375157#0(0"0(0#0#72"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp8611642976#1840"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout_2D.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s316247484.361741
+e316247484.948816
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout_2D.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.cpp316247484#316247484#0(0"0(0#0#75"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.cpp8613395296#1819"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/FR_Layout_2D.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout_2D.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_layout.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297051814.624648
+e297051815.061876
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_layout.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.cpp297051814#297051815#0(0"0(0#0#66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/FR_layout.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_layout.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/GraphNode.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s296808386.440406
+e296808386.765565
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/GraphNode.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp296808386#296808386#0(441"/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp: In member function 'void GraphNode::printname()':/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp:23: warning: cannot pass objects of non-POD type 'struct std::string' through '...'; call will abort at runtime/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp:23: warning: format '%s' expects type 'char*', but argument 2 has type 'int'2(22@98"Cannot pass objects of non-POD type 'struct std::string' through '...'; call will abort at runtime296808386#118#179#0(6@66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp296808386#23#0#23#0#0"0(22@63"Format '%s' expects type 'char*', but argument 2 has type 'int'296808386#297#144#0(6@66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp296808386#23#0#23#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/GraphNode.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/GraphNode.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/article.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375157.901040
+e327375158.241714
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/article.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp327375157#327375158#0(0"0(0#0#70"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp8612900192#1836"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/article.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/article.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308159.481358
+e297308160.067549
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.cpp297308159#297308160#0(0"0(0#0#62"/Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.cpp4300911832#1196"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/graph.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297309770.598049
+e297309771.362478
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o
+x/Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.cpp297309770#297309771#0(0"0(0#0#62"/Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.cpp4300911832#1196"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicnet/osx/../src/graph.cpp -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375156.204617
+e327375157.308149
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp327375156#327375157#0(0"0(0#0#68"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp8611826688#1832"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graph.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308067.826058
+e297308068.192771
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.cpp297308067#297308068#0(0"0(0#0#66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/graphEdge.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/graphEdge.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375155.641945
+e327375156.204527
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp327375155#327375156#0(0"0(0#0#72"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp8613542880#1840"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphEdge.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308067.456106
+e297308067.888101
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp: In member function 'void GraphNode::printname()':
+o/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp:45: warning: format '%s' expects type 'char*', but argument 2 has type 'int'
+lSLF07#2@74"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp297308067#297308067#0(262"/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp: In member function 'void GraphNode::printname()':/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp:45: warning: format '%s' expects type 'char*', but argument 2 has type 'int'1(22@63"Format '%s' expects type 'char*', but argument 2 has type 'int'297308067#118#144#0(6@66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp297120431#45#0#45#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#66"/Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/graphNode.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/graphNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327379931.040334
+e327379931.041420
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp327379931#327379931#0(0"0(0#0#72"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp8599746176#1840"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/graphNode.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308159.182545
+e297308159.827251
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.cpp297308159#297308159#0(0"0(0#0#61"/Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.cpp4300911832#1194"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/grid.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297310294.353998
+e297310294.844814
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o
+x/Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.cpp297310294#297310294#0(0"0(0#0#61"/Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.cpp4300911832#1194"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicnet/osx/../src/grid.cpp -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375154.948936
+e327375155.641857
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp327375154#327375155#0(0"0(0#0#67"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp8611354912#1830"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid2d.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375157.361344
+e327375158.095908
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid2d.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp327375157#327375158#0(0"0(0#0#69"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp8617683584#1834"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/grid2d.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid2d.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308067.888187
+e297308068.291228
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.cpp297308067#297308068#0(0"0(0#0#65"/Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.cpp4300911832#1202"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/gridNode.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/gridNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375156.099442
+e327375156.677300
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp327375156#327375156#0(0"0(0#0#71"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp8618777248#1838"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/gridNode.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/hmdData.o /Users/basakalper/Desktop/topicNet/osx/../src/hmdData.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/hmdData_udata.o /Users/basakalper/Desktop/topicNet/osx/../src/hmdData_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_hmd.o /Users/basakalper/Desktop/topicNet/osx/../src/lua_hmd.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s296173021.240417
+e296173021.350597
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+x/Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.cpp296173021#296173021#0(0"0(0#0#60"/Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.cpp4300911832#1143"    cd /Users/basakalper/Desktop/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/Desktop/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/Desktop/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/Desktop/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/Desktop/topicNet/osx/../src/lua_topnet.cpp -o /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308158.310943
+e297308158.869564
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.cpp297308158#297308158#0(0"0(0#0#67"/Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.cpp4300911832#1206"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/lua_topnet.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297310293.514362
+e297310293.992730
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+x/Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.cpp297310293#297310293#0(0"0(0#0#67"/Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.cpp4300911832#1206"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicnet/osx/../src/lua_topnet.cpp -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327377402.160434
+e327377402.879598
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp327377402#327377402#0(0"0(0#0#73"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp8618631360#1842"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/lua_topnet.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/plane.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327375157.308235
+e327375157.900949
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/plane.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp327375157#327375157#0(0"0(0#0#68"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp8618817408#1832"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/plane.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/plane.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308066.744082
+e297308066.800348
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.cpp297308066#297308066#0(0"0(0#0#68"/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinystr.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinystr.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327373607.978642
+e327373608.064498
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp327373607#327373608#0(0"0(0#0#74"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp8617719648#1840"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinystr.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308066.800453
+e297308067.081708
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.cpp297308066#297308067#0(0"0(0#0#68"/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.cpp4300911832#1204"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxml.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxml.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327373608.064588
+e327373608.516715
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp327373608#327373608#0(0"0(0#0#74"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp8609575424#1840"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxml.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308067.081804
+e297308067.145617
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlerror.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlerror.cpp297308067#297308067#0(0"0(0#0#73"/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlerror.cpp4300911832#1214"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlerror.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327373608.339864
+e327373608.433517
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp327373608#327373608#0(0"0(0#0#79"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp8613481728#1850"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlerror.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308067.145717
+e297308067.456014
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlparser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlparser.cpp297308067#297308067#0(0"0(0#0#74"/Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlparser.cpp4300911832#1216"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/tinyxmlparser.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav3/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327373608.433706
+e327373608.778900
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp327373608#327373608#0(0"0(0#0#80"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp8612900192#1852"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../tinyxml/tinyxmlparser.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308158.311808
+e297308159.182168
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.cpp297308158#297308159#0(0"0(0#0#63"/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.cpp4300911832#1198"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297310293.515143
+e297310294.353762
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o
+x/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.cpp297310293#297310294#0(0"0(0#0#63"/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.cpp4300911832#1198"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet.cpp -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327379884.127770
+e327379884.128774
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp327379884#327379884#0(0"0(0#0#69"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp8613152736#1834"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o /Users/basakalper/Desktop/topicNet/osx/../src/topnetData.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s296173208.830626
+e296173208.831397
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o
+x/Users/basakalper/Desktop/topicNet/osx/../src/topnetData.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/basakalper/Desktop/topicNet/osx/../src/topnetData.cpp296173208#296173208#0(0"0(0#0#60"/Users/basakalper/Desktop/topicNet/osx/../src/topnetData.cpp4300911832#1143"    cd /Users/basakalper/Desktop/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/Desktop/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/Desktop/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/Desktop/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/Desktop/topicNet/osx/../src/topnetData.cpp -o /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s296970119.213088
+e296970119.866586
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.cpp296970119#296970119#0(0"0(0#0#67"/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.cpp4300911832#1206"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o /Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s296173021.350681
+e296173021.433783
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o
+x/Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.cpp296173021#296173021#0(0"0(0#0#66"/Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.cpp4300911832#1155"    cd /Users/basakalper/Desktop/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/Desktop/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/Desktop/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/Desktop/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/Desktop/topicNet/osx/../src/topnetData_udata.cpp -o /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s296970119.780449
+e296970120.334949
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.cpp296970119#296970120#0(0"0(0#0#73"/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.cpp4300911832#1218"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnetData_udata.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297308158.869658
+e297308159.480426
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o
+x/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.cpp297308158#297308159#0(0"0(0#0#69"/Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.cpp4300911832#1210"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicNet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicNet/osx/../src/topnet_udata.cpp -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s297310293.992823
+e297310294.457399
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o
+x/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.cpp297310293#297310294#0(0"0(0#0#69"/Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.cpp4300911832#1210"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav3/modules/topicnet/osx/../src/topnet_udata.cpp -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s327377402.162251
+e327377403.040820
+r1
+xCompileC
+xbuild/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp327377402#327377403#0(0"0(0#0#75"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp8602991552#1846"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/topicNet.hmap -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I../../../dev/include -I../../../dev/include/allocore -I../../../dev/include/Gamma -I../../../dev/include/jack -I../../../dev/include/math -I../../../dev/include/protocol -I../../../dev/include/system -I../../../dev/include/types -I../../../dev/include/allocore/math -I../../../dev/include/allocore/protocol -I../../../dev/include/allocore/system -I../../../dev/include/allocore/types -I../../../dev/include/allocore/types/jack -I../../space -I../../space/osx -I../../space/src -I../../space/vec -I../../space/src/bindings -I../../space/src/neighand-0.2 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../dev_osx/include -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/include -I/usr/local/mysql/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources/i386 -I/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/DerivedSources -c /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../src/topnet_udata.cpp -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o0#
+
+CCompileC build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/untitled.o /Users/basakalper/luaav3/modules/topicNet/osx/../tinyxml/untitled.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so normal i386
+s296173208.851072
+e296173208.882953
+r1
+xLd
+x/Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+xnormal
+xi386
+lSLF07#2@87"Link /Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so296173208#296173208#0(0"0(0#0#0"4300911832#607"    cd /Users/basakalper/Desktop/topicNet/osx    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/basakalper/Desktop/topicNet/osx/build/Debug -F/Users/basakalper/Desktop/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -filelist /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList -mmacosx-version-min=10.4 -undefined dynamic_lookup -o /Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so0#
+
+CLd /Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so normal i386
+s297308160.340775
+e297308160.375007
+r1
+xLd
+x/Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+xnormal
+xi386
+lSLF07#2@94"Link /Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so297308160#297308160#0(0"0(0#0#0"4300911832#642"    cd /Users/basakalper/luaav3/modules/topicNet/osx    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -filelist /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -o /Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so0#
+
+CLd /Users/basakalper/luaav3/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so normal i386
+s297311540.776066
+e297311540.813285
+r1
+xLd
+x/Users/basakalper/luaav3/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+xnormal
+xi386
+lSLF07#2@94"Link /Users/basakalper/luaav3/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so297311540#297311540#0(0"0(0#0#0"4300911832#642"    cd /Users/basakalper/luaav3/modules/topicnet/osx    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Users/basakalper/luaav3/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -filelist /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -o /Users/basakalper/luaav3/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so0#
+
+CLd /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so normal i386
+s327379931.088607
+e327379931.148922
+r1
+xLd
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+xnormal
+xi386
+old: warning: in /usr/local/mysql/lib/libmysqlclient.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+lSLF07#2@100"Link /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so327379931#327379931#0(152"ld: warning: in /usr/local/mysql/lib/libmysqlclient.dylib, file was built for unsupported file format which is not the architecture being linked (i386)1(22@138"In /usr/local/mysql/lib/libmysqlclient.dylib, file was built for unsupported file format which is not the architecture being linked (i386)327379931#0#152#0(6@0"327379931#0#0#0#0#0"0(0#0#0"8618576320#717"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -L/usr/local/mysql/lib -F/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -filelist /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topicNet.LinkFileList -mmacosx-version-min=10.5 -undefined dynamic_lookup -lmysqlclient -lm -lz -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so0#
+
+CMasterObjectLink /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+s296173208.831509
+e296173208.850956
+r1
+xMasterObjectLink
+x/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+lSLF07#2@126"Link /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o296173208#296173208#0(0"0(0#0#121"/Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o4300911832#559"    cd /Users/basakalper/Desktop/topicNet/osx    /Developer/usr/bin/ld -r -arch i386 /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData.o /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnetData_udata.o -o /Users/basakalper/Desktop/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o0#
+
+CMasterObjectLink /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+s297308160.318312
+e297308160.340673
+r1
+xMasterObjectLink
+x/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+lSLF07#2@133"Link /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o297308160#297308160#0(0"0(0#0#128"/Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o4300911832#1779"    cd /Users/basakalper/luaav3/modules/topicNet/osx    /Developer/usr/bin/ld -r -arch i386 /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o -o /Users/basakalper/luaav3/modules/topicNet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o0#
+
+CMasterObjectLink /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+s297310294.891894
+e297310294.914705
+r1
+xMasterObjectLink
+x/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+lSLF07#2@133"Link /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o297310294#297310294#0(0"0(0#0#128"/Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o4300911832#1779"    cd /Users/basakalper/luaav3/modules/topicnet/osx    /Developer/usr/bin/ld -r -arch i386 /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o -o /Users/basakalper/luaav3/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o0#
+
+CMasterObjectLink /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+s327379931.041875
+e327379931.088521
+r1
+xMasterObjectLink
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o
+lSLF07#2@139"Link /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o327379931#327379931#0(0"0(0#0#134"/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o8618655104#2238"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    /Developer/usr/bin/ld -r -arch i386 /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/lua_topnet.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/topnet_udata.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinystr.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxml.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlerror.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/tinyxmlparser.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphNode.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graphEdge.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/gridNode.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/graph.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/FR_Layout.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/plane.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/grid2d.o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/i386/article.o -o /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/topicNet.build/Debug/topicNet.build/Objects-normal/topicNet.so-i386-master.o0#
+
+CSymLink /Users/basakalper/Desktop/topicNet/osx/build/Debug/topicNet.so /Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+s296172990.875662
+e296172990.878700
+r1
+xSymLink
+x/Users/basakalper/Desktop/topicNet/osx/build/Debug/topicNet.so
+x/Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+lSLF07#2@70"Process /Users/basakalper/Desktop/topicNet/osx/build/Debug/topicNet.so296172990#296172990#0(0"0(0#0#0"4300911832#208"    cd /Users/basakalper/Desktop/topicNet/osx    /bin/ln -sf /Users/basakalper/Desktop/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so /Users/basakalper/Desktop/topicNet/osx/build/Debug/topicNet.so0#
+
+CSymLink /Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/topicNet.so /Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+s297308066.218444
+e297308066.246969
+r1
+xSymLink
+x/Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/topicNet.so
+x/Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so
+lSLF07#2@77"Process /Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/topicNet.so297308066#297308066#0(0"0(0#0#0"4300911832#229"    cd /Users/basakalper/luaav3/modules/topicNet/osx    /bin/ln -sf /Users/basakalper/luaav3/modules/topicNet/osx/../../../sysbuild/Debug/modules/topicNet.so /Users/basakalper/luaav3/modules/topicNet/osx/build/Debug/topicNet.so0#
+
+CSymLink /Users/basakalper/luaav3/modules/topicnet/osx/build/Debug/topicNet.so /Users/basakalper/luaav3/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+r0
+
+CSymLink /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/topicNet.so /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+s327373606.456623
+e327373606.459093
+r1
+xSymLink
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/topicNet.so
+x/Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so
+lSLF07#2@83"Process /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/topicNet.so327373606#327373606#0(0"0(0#0#0"8613044096#247"    cd /Users/basakalper/luaav4/trunk/modules/topicnet/osx    /bin/ln -sf /Users/basakalper/luaav4/trunk/modules/topicnet/osx/../../../sysbuild/Debug/modules/topicNet.so /Users/basakalper/luaav4/trunk/modules/topicnet/osx/build/Debug/topicNet.so0#
+

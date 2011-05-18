@@ -1,0 +1,768 @@
+<DNVGRAPH>
+	<Level value="0" numberOfNodes="149" numberOfEdges="233">
+		<DNVNODE Id="5" Level="0" Position="[14.57346 , 11.121117]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Economic policy" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="17" Level="0" Position="[20.636745 , -13.004852]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Petroleum politics" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="566" Level="0" Position="[-2.5002851 , -15.621507]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Financial ratios" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="29" Level="0" Position="[6.2287226 , -13.94328]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Economic development" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="32" Level="0" Position="[6.082469 , -20.702185]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Monetary policy" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="71" Level="0" Position="[20.510763 , -11.907569]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Peak oil" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="639" Level="0" Position="[35.645027 , -5.422163]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Shotguns" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="102" Level="0" Position="[-3.1784408 , 15.758715]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Election technology" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="581" Level="0" Position="[37.174866 , -16.418356]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Air safety" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="124" Level="0" Position="[9.625953 , -6.181122]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Public finance" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="121" Level="0" Position="[5.9973764 , -5.479281]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Debt" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="120" Level="0" Position="[9.888931 , -25.12212]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Fair trade" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="680" Level="0" Position="[19.377914 , 3.3960495]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Competition law" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="131" Level="0" Position="[-3.1792707 , -21.875889]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Organic food" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="677" Level="0" Position="[31.449316 , -25.838392]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Monopoly (economics)" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="676" Level="0" Position="[7.1607933 , -9.523039]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Inflation" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="674" Level="0" Position="[7.7699857 , -14.371736]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Financial crises" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="668" Level="0" Position="[15.580209 , 1.7480675]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Unemployment" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="184" Level="0" Position="[-6.0130825 , -7.939131]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Forced disappearance" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="663" Level="0" Position="[21.930264 , -30.135578]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Employment law" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200207" Level="0" Length="7.0" K="1.0" From="835" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="747" Level="0" Position="[27.57824 , -6.1485972]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200206" Level="0" Length="7.0" K="1.0" From="835" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="746" Level="0" Position="[29.081697 , 4.035723]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200205" Level="0" Length="7.0" K="1.0" From="834" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="745" Level="0" Position="[1.2830455 , -16.489998]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200204" Level="0" Length="7.0" K="1.0" From="834" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="744" Level="0" Position="[12.685905 , -11.209934]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200203" Level="0" Length="7.0" K="1.0" From="833" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="751" Level="0" Position="[11.967808 , -18.834465]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200202" Level="0" Length="7.0" K="1.0" From="833" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="750" Level="0" Position="[7.040892 , -26.25394]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200201" Level="0" Length="7.0" K="1.0" From="832" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="749" Level="0" Position="[26.399378 , -5.262147]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200200" Level="0" Length="7.0" K="1.0" From="832" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="748" Level="0" Position="[28.849398 , -7.444774]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200199" Level="0" Length="7.0" K="1.0" From="831" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="739" Level="0" Position="[1.6316339 , -11.697524]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200198" Level="0" Length="7.0" K="1.0" From="831" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="738" Level="0" Position="[4.0640965 , -10.727235]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200197" Level="0" Length="7.0" K="1.0" From="830" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="737" Level="0" Position="[3.075941 , -8.929109]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200196" Level="0" Length="7.0" K="1.0" From="830" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="736" Level="0" Position="[0.35787898 , 13.892255]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200195" Level="0" Length="7.0" K="1.0" From="829" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="743" Level="0" Position="[12.633757 , -14.301095]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200194" Level="0" Length="7.0" K="1.0" From="829" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="742" Level="0" Position="[2.8499908 , -13.666744]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200193" Level="0" Length="7.0" K="1.0" From="828" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="741" Level="0" Position="[11.427492 , -17.36114]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200192" Level="0" Length="7.0" K="1.0" From="828" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="740" Level="0" Position="[1.0673236 , -18.603228]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200222" Level="0" Length="7.0" K="1.0" From="841" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="762" Level="0" Position="[13.24047 , -9.76067]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200223" Level="0" Length="7.0" K="1.0" From="842" To="668" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="763" Level="0" Position="[16.69146 , -16.199404]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200220" Level="0" Length="7.0" K="1.0" From="841" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="760" Level="0" Position="[31.656723 , 2.1728814]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200221" Level="0" Length="7.0" K="1.0" From="841" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="761" Level="0" Position="[27.844648 , -13.843982]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200218" Level="0" Length="7.0" K="1.0" From="840" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="766" Level="0" Position="[29.156286 , -16.599386]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200219" Level="0" Length="7.0" K="1.0" From="840" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="767" Level="0" Position="[27.835476 , -9.441196]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200216" Level="0" Length="7.0" K="1.0" From="839" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="764" Level="0" Position="[28.467838 , -12.531054]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200217" Level="0" Length="7.0" K="1.0" From="839" To="668" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="765" Level="0" Position="[24.118307 , -21.61778]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200214" Level="0" Length="7.0" K="1.0" From="838" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="754" Level="0" Position="[-0.55786276 , -8.25937]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200215" Level="0" Length="7.0" K="1.0" From="838" To="501" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="755" Level="0" Position="[6.822567 , -3.3135183]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200212" Level="0" Length="7.0" K="1.0" From="837" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="752" Level="0" Position="[5.3955436 , -9.021012]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200213" Level="0" Length="7.0" K="1.0" From="837" To="639" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="753" Level="0" Position="[11.565628 , -10.7424965]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200210" Level="0" Length="7.0" K="1.0" From="836" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="758" Level="0" Position="[27.215252 , -21.006744]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200211" Level="0" Length="7.0" K="1.0" From="836" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="759" Level="0" Position="[30.247818 , -10.720308]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200208" Level="0" Length="7.0" K="1.0" From="835" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="756" Level="0" Position="[3.8214314 , -19.997717]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200209" Level="0" Length="7.0" K="1.0" From="836" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="757" Level="0" Position="[3.9845347 , -15.913426]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200232" Level="0" Length="7.0" K="1.0" From="845" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200229" Level="0" Length="7.0" K="1.0" From="843" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200228" Level="0" Length="7.0" K="1.0" From="843" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200231" Level="0" Length="7.0" K="1.0" From="845" To="478" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200230" Level="0" Length="7.0" K="1.0" From="844" To="478" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200225" Level="0" Length="7.0" K="1.0" From="842" To="340" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200224" Level="0" Length="7.0" K="1.0" From="842" To="5" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200227" Level="0" Length="7.0" K="1.0" From="843" To="340" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200226" Level="0" Length="7.0" K="1.0" From="843" To="668" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="728" Level="0" Position="[6.326374 , 1.05726]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="729" Level="0" Position="[0.07854169 , -4.3331466]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="730" Level="0" Position="[4.470411 , 0.29920265]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="731" Level="0" Position="[2.3237536 , -10.239713]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="732" Level="0" Position="[12.929906 , -6.9045177]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="733" Level="0" Position="[10.599983 , -12.125417]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="734" Level="0" Position="[1.9592294 , 0.18261987]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="735" Level="0" Position="[5.974401 , -7.138216]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="727" Level="0" Position="[30.851276 , -15.055523]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200183" Level="0" Length="7.0" K="1.0" From="823" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="821" Level="0" Position="[17.291153 , -13.460996]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200182" Level="0" Length="7.0" K="1.0" From="823" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="820" Level="0" Position="[25.062654 , -15.5765915]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200181" Level="0" Length="7.0" K="1.0" From="822" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="823" Level="0" Position="[20.148966 , -9.24405]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200180" Level="0" Length="7.0" K="1.0" From="822" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="822" Level="0" Position="[20.829441 , -7.5109577]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200179" Level="0" Length="7.0" K="1.0" From="821" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="817" Level="0" Position="[23.93833 , -16.67387]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200178" Level="0" Length="7.0" K="1.0" From="821" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="816" Level="0" Position="[18.23265 , -8.182213]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200177" Level="0" Length="7.0" K="1.0" From="820" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="819" Level="0" Position="[18.178846 , -14.934515]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200176" Level="0" Length="7.0" K="1.0" From="820" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="818" Level="0" Position="[23.373129 , -14.359302]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200191" Level="0" Length="7.0" K="1.0" From="827" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="829" Level="0" Position="[17.482935 , -6.541345]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200190" Level="0" Length="7.0" K="1.0" From="827" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="828" Level="0" Position="[18.27929 , -10.054943]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200189" Level="0" Length="7.0" K="1.0" From="826" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="831" Level="0" Position="[22.48563 , -6.948319]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200188" Level="0" Length="7.0" K="1.0" From="826" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="830" Level="0" Position="[25.557308 , -12.479326]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200187" Level="0" Length="7.0" K="1.0" From="825" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="287" Level="0" Position="[5.9328213 , -30.841848]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Economic problems" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="825" Level="0" Position="[18.961546 , -6.749095]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200186" Level="0" Length="7.0" K="1.0" From="825" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="824" Level="0" Position="[25.150446 , -9.427999]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200185" Level="0" Length="7.0" K="1.0" From="824" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="827" Level="0" Position="[24.196957 , -8.031434]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200184" Level="0" Length="7.0" K="1.0" From="824" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="826" Level="0" Position="[23.788822 , -11.924354]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200166" Level="0" Length="7.0" K="1.0" From="815" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="804" Level="0" Position="[14.351156 , -19.913773]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200167" Level="0" Length="7.0" K="1.0" From="815" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="805" Level="0" Position="[14.146323 , -8.016087]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200164" Level="0" Length="7.0" K="1.0" From="814" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="806" Level="0" Position="[16.986706 , -11.65717]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200165" Level="0" Length="7.0" K="1.0" From="814" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="807" Level="0" Position="[16.765244 , -7.99118]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200162" Level="0" Length="7.0" K="1.0" From="813" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="800" Level="0" Position="[24.534004 , -5.8101087]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200163" Level="0" Length="7.0" K="1.0" From="813" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="801" Level="0" Position="[22.52858 , -4.1736693]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200160" Level="0" Length="7.0" K="1.0" From="812" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="802" Level="0" Position="[23.656876 , -4.6053476]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200161" Level="0" Length="7.0" K="1.0" From="812" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="803" Level="0" Position="[25.303476 , -4.3702207]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200174" Level="0" Length="7.0" K="1.0" From="819" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="812" Level="0" Position="[21.163809 , -15.559516]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200175" Level="0" Length="7.0" K="1.0" From="819" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="813" Level="0" Position="[19.564697 , -17.21071]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200172" Level="0" Length="7.0" K="1.0" From="818" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="814" Level="0" Position="[16.302591 , -9.649147]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200173" Level="0" Length="7.0" K="1.0" From="818" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="815" Level="0" Position="[25.9592 , -10.873118]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200170" Level="0" Length="7.0" K="1.0" From="817" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="808" Level="0" Position="[23.127604 , -10.378287]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200171" Level="0" Length="7.0" K="1.0" From="817" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="809" Level="0" Position="[18.045122 , -17.300629]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200168" Level="0" Length="7.0" K="1.0" From="816" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="810" Level="0" Position="[20.429794 , -6.1235867]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200169" Level="0" Length="7.0" K="1.0" From="816" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="811" Level="0" Position="[22.497818 , -8.734034]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200149" Level="0" Length="7.0" K="1.0" From="806" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="791" Level="0" Position="[11.726808 , -8.573257]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200148" Level="0" Length="7.0" K="1.0" From="806" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="790" Level="0" Position="[13.691428 , -5.912586]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200151" Level="0" Length="7.0" K="1.0" From="807" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="789" Level="0" Position="[19.574715 , -3.0401511]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200150" Level="0" Length="7.0" K="1.0" From="807" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="788" Level="0" Position="[17.350193 , -19.991287]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200145" Level="0" Length="7.0" K="1.0" From="804" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="787" Level="0" Position="[25.440699 , -20.715054]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200144" Level="0" Length="7.0" K="1.0" From="804" To="338" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="786" Level="0" Position="[25.420055 , -18.998617]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200147" Level="0" Length="7.0" K="1.0" From="805" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="785" Level="0" Position="[17.501776 , -21.736937]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200146" Level="0" Length="7.0" K="1.0" From="805" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="784" Level="0" Position="[27.641607 , -16.313347]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200157" Level="0" Length="7.0" K="1.0" From="810" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="799" Level="0" Position="[26.265707 , -6.9155345]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200156" Level="0" Length="7.0" K="1.0" From="810" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="798" Level="0" Position="[13.300216 , -17.997814]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200159" Level="0" Length="7.0" K="1.0" From="811" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="797" Level="0" Position="[13.781107 , -15.085572]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200158" Level="0" Length="7.0" K="1.0" From="811" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="796" Level="0" Position="[14.08394 , -16.920319]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200153" Level="0" Length="7.0" K="1.0" From="808" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="795" Level="0" Position="[12.53878 , -13.103506]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200152" Level="0" Length="7.0" K="1.0" From="808" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="794" Level="0" Position="[12.067508 , -15.473151]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200155" Level="0" Length="7.0" K="1.0" From="809" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="793" Level="0" Position="[12.934644 , -16.448416]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200154" Level="0" Length="7.0" K="1.0" From="809" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="792" Level="0" Position="[20.504675 , -23.900873]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200132" Level="0" Length="7.0" K="1.0" From="798" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="774" Level="0" Position="[22.167103 , -20.177864]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200133" Level="0" Length="7.0" K="1.0" From="799" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="775" Level="0" Position="[23.804329 , -19.774412]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200134" Level="0" Length="7.0" K="1.0" From="799" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="772" Level="0" Position="[21.043844 , -22.009535]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200135" Level="0" Length="7.0" K="1.0" From="800" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="773" Level="0" Position="[27.305542 , -19.217422]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200128" Level="0" Length="7.0" K="1.0" From="796" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="770" Level="0" Position="[26.728289 , -17.721346]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200129" Level="0" Length="7.0" K="1.0" From="797" To="674" Label="" Directional="true" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="771" Level="0" Position="[22.641394 , -21.863249]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200130" Level="0" Length="7.0" K="1.0" From="797" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="768" Level="0" Position="[28.594902 , -11.069802]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="294" Level="0" Position="[3.6701322 , 11.880496]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Electronic voting" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200131" Level="0" Length="7.0" K="1.0" From="798" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="769" Level="0" Position="[28.614326 , -18.03988]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200140" Level="0" Length="7.0" K="1.0" From="802" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="782" Level="0" Position="[18.788952 , -20.284798]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200141" Level="0" Length="7.0" K="1.0" From="803" To="323" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="783" Level="0" Position="[29.915623 , -13.050337]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200142" Level="0" Length="7.0" K="1.0" From="803" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="780" Level="0" Position="[29.129917 , -14.92384]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200143" Level="0" Length="7.0" K="1.0" From="803" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="781" Level="0" Position="[16.096312 , -20.946018]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200136" Level="0" Length="7.0" K="1.0" From="800" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="778" Level="0" Position="[16.080992 , -19.076788]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200137" Level="0" Length="7.0" K="1.0" From="801" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="779" Level="0" Position="[18.876886 , -4.6981006]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200138" Level="0" Length="7.0" K="1.0" From="801" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="776" Level="0" Position="[20.457048 , -20.537909]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200139" Level="0" Length="7.0" K="1.0" From="802" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="777" Level="0" Position="[19.225372 , -22.056578]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200115" Level="0" Length="7.0" K="1.0" From="791" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200114" Level="0" Length="7.0" K="1.0" From="790" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200113" Level="0" Length="7.0" K="1.0" From="790" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200112" Level="0" Length="7.0" K="1.0" From="789" To="680" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="340" Level="0" Position="[13.2946005 , 2.443134]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Retirement" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200119" Level="0" Length="7.0" K="1.0" From="792" To="433" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200118" Level="0" Length="7.0" K="1.0" From="792" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="338" Level="0" Position="[8.853683 , -20.126354]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Government budgets" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200117" Level="0" Length="7.0" K="1.0" From="791" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200116" Level="0" Length="7.0" K="1.0" From="791" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200123" Level="0" Length="7.0" K="1.0" From="794" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200122" Level="0" Length="7.0" K="1.0" From="793" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200121" Level="0" Length="7.0" K="1.0" From="793" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200120" Level="0" Length="7.0" K="1.0" From="792" To="663" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200127" Level="0" Length="7.0" K="1.0" From="796" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200126" Level="0" Length="7.0" K="1.0" From="795" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200125" Level="0" Length="7.0" K="1.0" From="795" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200124" Level="0" Length="7.0" K="1.0" From="794" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200098" Level="0" Length="7.0" K="1.0" From="776" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200099" Level="0" Length="7.0" K="1.0" From="777" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="327" Level="0" Position="[27.600002 , -1.672138]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Future pipelines" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200096" Level="0" Length="7.0" K="1.0" From="774" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200097" Level="0" Length="7.0" K="1.0" From="775" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200102" Level="0" Length="7.0" K="1.0" From="780" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="322" Level="0" Position="[35.03618 , -8.063278]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Oil platforms" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200103" Level="0" Length="7.0" K="1.0" From="781" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="323" Level="0" Position="[30.00776 , -1.365437]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Oil refineries" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200100" Level="0" Length="7.0" K="1.0" From="778" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200101" Level="0" Length="7.0" K="1.0" From="779" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200106" Level="0" Length="7.0" K="1.0" From="784" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200107" Level="0" Length="7.0" K="1.0" From="785" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200104" Level="0" Length="7.0" K="1.0" From="782" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200105" Level="0" Length="7.0" K="1.0" From="783" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200110" Level="0" Length="7.0" K="1.0" From="788" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200111" Level="0" Length="7.0" K="1.0" From="789" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200108" Level="0" Length="7.0" K="1.0" From="786" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200109" Level="0" Length="7.0" K="1.0" From="787" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200081" Level="0" Length="7.0" K="1.0" From="761" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200080" Level="0" Length="7.0" K="1.0" From="760" To="323" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200083" Level="0" Length="7.0" K="1.0" From="762" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200082" Level="0" Length="7.0" K="1.0" From="762" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200085" Level="0" Length="7.0" K="1.0" From="763" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200084" Level="0" Length="7.0" K="1.0" From="763" To="71" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200087" Level="0" Length="7.0" K="1.0" From="765" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200086" Level="0" Length="7.0" K="1.0" From="764" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200089" Level="0" Length="7.0" K="1.0" From="767" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200088" Level="0" Length="7.0" K="1.0" From="766" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200091" Level="0" Length="7.0" K="1.0" From="769" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200090" Level="0" Length="7.0" K="1.0" From="768" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200093" Level="0" Length="7.0" K="1.0" From="771" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200092" Level="0" Length="7.0" K="1.0" From="770" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200095" Level="0" Length="7.0" K="1.0" From="773" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200094" Level="0" Length="7.0" K="1.0" From="772" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200064" Level="0" Length="7.0" K="1.0" From="753" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="834" Level="0" Position="[25.664974 , -14.055599]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200065" Level="0" Length="7.0" K="1.0" From="753" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="835" Level="0" Position="[14.446308 , -12.289801]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200066" Level="0" Length="7.0" K="1.0" From="753" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="832" Level="0" Position="[22.5286 , -17.2477]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200067" Level="0" Length="7.0" K="1.0" From="754" To="184" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="833" Level="0" Position="[20.784836 , -17.947796]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200068" Level="0" Length="7.0" K="1.0" From="754" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="838" Level="0" Position="[21.355045 , -2.9939404]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200069" Level="0" Length="7.0" K="1.0" From="755" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="839" Level="0" Position="[17.242989 , -3.965814]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200070" Level="0" Length="7.0" K="1.0" From="755" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="836" Level="0" Position="[14.754558 , -13.837604]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200071" Level="0" Length="7.0" K="1.0" From="756" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="837" Level="0" Position="[29.880787 , -8.808884]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200072" Level="0" Length="7.0" K="1.0" From="756" To="32" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="842" Level="0" Position="[14.117961 , 6.639203]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200073" Level="0" Length="7.0" K="1.0" From="757" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="843" Level="0" Position="[15.339765 , -4.017916]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200074" Level="0" Length="7.0" K="1.0" From="757" To="32" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="840" Level="0" Position="[8.398403 , -0.9496207]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200075" Level="0" Length="7.0" K="1.0" From="758" To="677" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="841" Level="0" Position="[13.083595 , -8.605609]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200076" Level="0" Length="7.0" K="1.0" From="758" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200077" Level="0" Length="7.0" K="1.0" From="759" To="322" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200078" Level="0" Length="7.0" K="1.0" From="759" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="844" Level="0" Position="[-6.1293573 , 4.8747306]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200079" Level="0" Length="7.0" K="1.0" From="760" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="845" Level="0" Position="[0.4982249 , -1.3350494]" Color="[1.0 , 0.0 , 1.0]" Size="1.0" Label=" " Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200062" Level="0" Length="7.0" K="1.0" From="752" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200063" Level="0" Length="7.0" K="1.0" From="753" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200060" Level="0" Length="7.0" K="1.0" From="752" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200061" Level="0" Length="7.0" K="1.0" From="752" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200058" Level="0" Length="7.0" K="1.0" From="751" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200059" Level="0" Length="7.0" K="1.0" From="751" To="29" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200056" Level="0" Length="7.0" K="1.0" From="751" To="120" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200057" Level="0" Length="7.0" K="1.0" From="751" To="338" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200054" Level="0" Length="7.0" K="1.0" From="750" To="338" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200055" Level="0" Length="7.0" K="1.0" From="750" To="120" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200052" Level="0" Length="7.0" K="1.0" From="749" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200053" Level="0" Length="7.0" K="1.0" From="750" To="287" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200050" Level="0" Length="7.0" K="1.0" From="749" To="323" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200051" Level="0" Length="7.0" K="1.0" From="749" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200048" Level="0" Length="7.0" K="1.0" From="748" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200049" Level="0" Length="7.0" K="1.0" From="748" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200047" Level="0" Length="7.0" K="1.0" From="748" To="322" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200046" Level="0" Length="7.0" K="1.0" From="747" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200045" Level="0" Length="7.0" K="1.0" From="747" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200044" Level="0" Length="7.0" K="1.0" From="747" To="323" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200043" Level="0" Length="7.0" K="1.0" From="746" To="327" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200042" Level="0" Length="7.0" K="1.0" From="745" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200041" Level="0" Length="7.0" K="1.0" From="745" To="566" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200040" Level="0" Length="7.0" K="1.0" From="744" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200039" Level="0" Length="7.0" K="1.0" From="744" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200038" Level="0" Length="7.0" K="1.0" From="744" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200037" Level="0" Length="7.0" K="1.0" From="743" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200036" Level="0" Length="7.0" K="1.0" From="743" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200035" Level="0" Length="7.0" K="1.0" From="742" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200034" Level="0" Length="7.0" K="1.0" From="742" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200033" Level="0" Length="7.0" K="1.0" From="741" To="32" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200032" Level="0" Length="7.0" K="1.0" From="741" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200028" Level="0" Length="7.0" K="1.0" From="740" To="131" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200029" Level="0" Length="7.0" K="1.0" From="740" To="566" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200030" Level="0" Length="7.0" K="1.0" From="741" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200031" Level="0" Length="7.0" K="1.0" From="741" To="338" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200024" Level="0" Length="7.0" K="1.0" From="739" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200025" Level="0" Length="7.0" K="1.0" From="739" To="566" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200026" Level="0" Length="7.0" K="1.0" From="739" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200027" Level="0" Length="7.0" K="1.0" From="740" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200020" Level="0" Length="7.0" K="1.0" From="737" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="433" Level="0" Position="[18.844461 , -29.853388]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Nuclear strategies" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVEDGE Id="200021" Level="0" Length="7.0" K="1.0" From="738" To="676" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200022" Level="0" Length="7.0" K="1.0" From="738" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200023" Level="0" Length="7.0" K="1.0" From="738" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200016" Level="0" Length="7.0" K="1.0" From="735" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200017" Level="0" Length="7.0" K="1.0" From="736" To="294" Label="" Directional="true" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200018" Level="0" Length="7.0" K="1.0" From="736" To="102" Label="" Directional="true" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200019" Level="0" Length="7.0" K="1.0" From="737" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200013" Level="0" Length="7.0" K="1.0" From="734" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200012" Level="0" Length="7.0" K="1.0" From="733" To="338" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200015" Level="0" Length="7.0" K="1.0" From="735" To="29" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200014" Level="0" Length="7.0" K="1.0" From="734" To="478" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200009" Level="0" Length="7.0" K="1.0" From="733" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200008" Level="0" Length="7.0" K="1.0" From="732" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200011" Level="0" Length="7.0" K="1.0" From="733" To="124" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200010" Level="0" Length="7.0" K="1.0" From="733" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200005" Level="0" Length="7.0" K="1.0" From="731" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200004" Level="0" Length="7.0" K="1.0" From="730" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200007" Level="0" Length="7.0" K="1.0" From="732" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200006" Level="0" Length="7.0" K="1.0" From="731" To="674" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200001" Level="0" Length="7.0" K="1.0" From="727" To="581" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200000" Level="0" Length="7.0" K="1.0" From="727" To="17" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200003" Level="0" Length="7.0" K="1.0" From="729" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVEDGE Id="200002" Level="0" Length="7.0" K="1.0" From="728" To="121" Label="" Directional="false" BBid="" Color="[-1.0 , -1.0 , -1.0]" Type="" HasSetColor="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" LabelSize="null" Thickness="1.0" Visible="true">
+		</DNVEDGE>
+		<DNVNODE Id="478" Level="0" Position="[-2.2971544 , 2.5159452]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="World Bank" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+		<DNVNODE Id="501" Level="0" Position="[22.711128 , 3.5497637]" Color="[0.0 , 1.0 , 0.0]" Size="3.0" Label="Texas Revolution" Mass="1.0" Fixed="false" Icon="" Type="" BBid="" ForceLabel="false" Alpha="1.0" LabelColor="null" LabelOutlineColor="null" OutlineColor="null" LabelSize="null" Expandable="false" Visible="true">
+		</DNVNODE>
+	</Level>
+</DNVGRAPH>

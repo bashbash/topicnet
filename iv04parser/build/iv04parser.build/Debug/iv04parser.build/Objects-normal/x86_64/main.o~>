@@ -1,0 +1,2 @@
+/Users/basakalper/luaav4/trunk/modules/topicnet/iv04parser/main.cpp: In function 'void outputArticlesXML()':
+/Users/basakalper/luaav4/trunk/modules/topicnet/iv04parser/main.cpp:371: warning: unused variable 'numauth'

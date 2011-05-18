@@ -1,0 +1,14 @@
+9e9bfb1d7de23961057a89cb964821e8 8bdce4bc7c248e43dff74f35aa177056 ffffffffffffffffffffffffffffffff 73764 /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+2c66d8255c7df5d619d081cb41da5b7f b2fd23386b2b81921caa0800d7927a79 ffffffffffffffffffffffffffffffff 82924 /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+00000000475c73ee0000000000003a30 1a25af0684acdd804fa7514f6a45af92 ffffffffffffffffffffffffffffffff 87392 /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o
+000000004a6d58bb0000000000001dfc 8654a473d9df1580ba497d0b086ed94b ffffffffffffffffffffffffffffffff 229964 /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o
+000000000d57b21e0000000000003190 b017d3500168a49dec3ead8f23f13bfa ffffffffffffffffffffffffffffffff 87768 /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o
+00000000000000000000000000000000 cb47c5a4f1767b7772218b770c445cb2 ffffffffffffffffffffffffffffffff 79 /Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so
+2e1805f7fb51b2aa41ac843389b34310 dfd19123f24a6310707260b8627035f2 ffffffffffffffffffffffffffffffff 69192 /Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+66a5fcf9c0507babacbd80c6e68faf4a 48bdf90e71b58424ed1104f56f3cecb4 ffffffffffffffffffffffffffffffff 78072 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+000000000c20942100000000000014b5 0aa50df63ff61a70db7f2cb420a1359b ffffffffffffffffffffffffffffffff 217564 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o
+0000000047c27ee60000000000003a30 e33865364a71cedae33001517806f3cc ffffffffffffffffffffffffffffffff 87424 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o
+000000000c28046400000000000032a5 8f389439f21d41a294f2ad23be28753d ffffffffffffffffffffffffffffffff 87800 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o
+00000000000000000000000000000000 6f5d3da8d7ca70a0ad8ff1e7ec661fac ffffffffffffffffffffffffffffffff 84 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/hmd.so
+0000000001fbec070000000000003a6e 982f0306d080393e916e6ad695058bc2 ffffffffffffffffffffffffffffffff 4676 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/fibber.o

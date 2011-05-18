@@ -1,0 +1,74 @@
+/*
+ *  lua_hmd.cpp
+ *  hmd
+ *
+ *  Created by basak alper on 1/18/10.
+ *  Copyright 2010 ucsb. All rights reserved.
+ *
+ */
+
+#include "lua_hmd.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+	
+#include "lua.h"
+#include "lauxlib.h"
+	
+#ifdef __cplusplus
+}
+#endif
+
+#include "lua_hmd_udata.h"
+#include "hmdData_udata.h"
+
+void hmd_opentable(lua_State *L) {
+	
+	HmdData_udata::init_udata(L);
+}
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+	
+	int luaopen_hmd(lua_State *L) {
+		lua_getfield(L, LUA_REGISTRYINDEX, "L");
+		if (!lua_isthread(L, -1)) {
+			lua_pushthread(L);
+			lua_setfield(L, LUA_REGISTRYINDEX, "L");
+		}
+		lua_pop(L, 1);
+		
+		
+		lua_newtable(L);
+		lua_setglobal(L, HMD_MODULE_NAME);
+		hmd_opentable(L);
+		
+		lua_getglobal(L, HMD_MODULE_NAME);
+		
+		luaL_newmetatable(L, HMD_UDATA_LIB_META);
+		
+		//init instance counting field used in __gc for tracking
+		//multiple instances of the same variable
+		lua_pushstring(L, HMD_UDATA_INSTANCES_METAFIELD);
+		lua_newtable(L);
+		
+		if(luaL_newmetatable(L, HMD_UDATA_INSTANCES_META)) {
+			//make the instances table a weak table
+			//(should make instances table its own meta instead)
+			lua_pushstring(L, "__mode");
+			lua_pushstring(L, "v");
+			lua_settable(L, -3);
+		}
+		
+		lua_setmetatable(L, -2);
+		lua_settable(L, -3);
+		lua_setmetatable(L, -2);
+		
+		return 1;
+	}
+	
+#ifdef __cplusplus
+}
+#endif

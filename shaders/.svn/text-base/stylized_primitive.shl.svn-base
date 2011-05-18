@@ -1,0 +1,182 @@
+Shader{
+	name = "viz.test.shl",
+	description = [[ test normal interpolation ]],
+	language = "GLSL",
+	
+	parameters = {
+		Parameter {
+				1.,
+				name = "radyus", type = "float",
+				description = "radius",
+		},
+		
+		Parameter {
+				{0.5},
+				name = "alpha", type = "float",
+				description = "alpha component",
+		},
+		
+		
+		Parameter {
+				{0.7, 0.7, 0.7},
+				name = "Kd", type = "vec3",
+				description = "material diffuse parameter",
+		},
+		
+		Parameter {
+				{0.0, 0.0, 1.0},
+				name = "view", type = "vec3",
+				description = "camera view vector",
+		}
+	},
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Vertex Program
+--------------------------------------------------------------------------
+Program{
+	type = "vertex",
+	
+	[[
+
+
+varying vec3 N;
+varying vec3 P;
+varying vec3 texCoord;
+uniform float radyus;
+uniform vec3 view;
+
+
+
+vec3 closestPoint(vec3 norm, vec3 start, vec3 point){
+	vec3 v =  point - start;
+	v = normalize(v);
+	float dott = dot(norm, v); 
+	
+	vec3 res = norm * dott;
+	return res;
+}
+
+vec3 siluetPoint( vec3 t1, vec3 c1, vec3 view, float sign) {
+  
+	vec3 p1 = closestPoint(t1, c1, view);
+	vec3 u1 = p1 - view;
+	
+	vec3 y1 = normalize(cross(t1, u1));
+	vec3 x1 = normalize(cross(t1, y1));
+	
+	
+	float f1 = sqrt(1.0 - (radyus / length(u1)));
+	
+	
+	vec3 ei = y1 * radyus;
+	if(sign<0.0){
+		ei = ei * -1.0;
+	}
+	vec3 siluet =  c1 + ei;
+
+	
+	float k = sqrt(1.0 - (f1*f1));
+	vec3 nrm = (x1 * k);
+	if(sign>0.0){
+		nrm = nrm + (y1* f1);
+	}
+	else{
+		nrm = nrm - (y1* f1);
+	}
+	
+	N = nrm;
+	return siluet; //returns the siluet point 
+	
+}
+
+void main() {
+	
+	N = gl_NormalMatrix*normalize(gl_Normal);
+	
+	texCoord = gl_MultiTexCoord0.xyz;
+	
+	//vec4 viewVec = vec4(0.0, 0.0, -1.0, 0.0);
+	//vec3 view = (gl_ModelViewMatrixInverseTranspose * viewVec).xyz;
+	//view= abs(view);
+	
+	
+	vec3 pnt = siluetPoint( gl_Normal.xyz, gl_Vertex.xyz, view, texCoord.x);
+	
+	vec4 vrt = vec4(pnt, 1.0);
+	
+	P = (gl_ModelViewMatrix*vrt).xyz;
+	gl_Position = gl_ModelViewProjectionMatrix * vrt; 
+}
+
+	]]
+},
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Fragment Program
+--------------------------------------------------------------------------
+Program{
+	type = "fragment",	--must be defined
+
+	[[
+	
+varying vec3 N;
+varying vec3 P;
+varying vec3 texCoord;
+
+uniform vec3 view;
+
+uniform float alpha;
+//uniform vec3 Ka;
+uniform vec3 Kd;
+
+vec3 lighting( vec3 N, vec3 V, vec3 L) {
+   
+    vec3 Ka = Kd * 0.3;
+    vec3 Ks = vec3(0.3, 0.3, 0.3);
+    float shineness = 100.0;
+    
+    vec3 lightColor = vec3 (1.0, 1.0, 1.0);
+    vec3 ambientLight = vec3(0.3, 0.3, 0.3);
+    vec3 H = normalize(L+V);
+    
+    vec3 ambient = Ka * ambientLight;
+    
+    float diffuseLight = max( dot(L, N), 0.0);
+    vec3 diffuse = Kd * lightColor * diffuseLight;
+   
+    
+    float specularLight = pow( max( dot(H, N), 0.0), shineness);
+    if(diffuseLight <= 0.0 ) specularLight = 0.0;
+    vec3 specular = Ks * lightColor * specularLight;
+    vec3 light = ambient + diffuse + specular;
+    return light;
+    
+}
+
+
+
+
+void main() {
+
+	
+	vec3 lightPosition = vec3(gl_LightSource[0].position);
+	vec3 L = normalize(lightPosition - P);
+	vec3 V = normalize(-P);
+	vec3 N = normalize(N);
+	gl_FragColor.rgb = lighting(N, V, L);
+	gl_FragColor.rgb += texCoord.y;
+	//gl_FragColor.b = texCoord.y;
+	
+	gl_FragColor.a = alpha;
+	
+	
+
+	
+}
+
+	]],
+},
+
+--------------------------------------------------------------------------
+}

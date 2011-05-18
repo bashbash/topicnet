@@ -1,0 +1,615 @@
+1	article_id	title	source_id	source
+2	acm721078	An Operator Interaction Framework for Visualization Systems	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+3	acm721080	IVORY - An Object-Oriented Framework for Physics-Based Information Visualization in Java	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+4	acm721083	The Shape of Shakespeare: Visualizing Text using Implicit Surfaces	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+5	acm721210	Dynamic Aggregation with Circular Visual Designs	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+6	acm721213	Comparative Visualization of Protein Structure-Sequence Alignments	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+7	acm721216	Similarity Clustering of Dimensions for an Enhanced Visualization of Multidimensional Data	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+8	acm721217	Algorithm Visualization For Distributed Environments	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+9	acm721218	Visualizing Decision Table Classifiers	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+10	acm760271	Reconfigurable Disc Trees for Visualizing Large Hierarchical Information Space	acm647341	Proceedings of the 1998 IEEE Symposium Information Visualization
+11	acm857576	IVEE: an Information Visualization and Exploration Environment	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+12	acm857577	SDM: malleable information graphics	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+13	acm857578	VRMosaic: WEB access from within a virtual environment	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+14	acm857579	Visualizing the non-visual: spatial analysis and interaction with information from text documents	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+15	acm857580	The information mural: a technique for displaying and navigating large information spaces	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+16	acm857581	Case study: 3D displays of Internet traffic	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+17	acm857582	Case study: fishing for information on the Internet	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+18	acm857583	Case study: Visualising cyberspace: information visualisation in the Harmony Internet browser	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+19	acm857584	Case study: Narcissus: visualising information	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+20	acm857585	Case study: visualizing Internet resources	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+21	acm857587	Case study: A WWW viewpoint on scientific visualization: an EPA case study for technology transfer	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+22	acm857589	Case study: an empirical investigation of thumbnail image recognition	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+23	acm857590	Towards a generative theory of diagram design	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+24	acm857591	Visualization for functional design	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+25	acm857592	Research report: improving browsing in information by the automatic display layout	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+26	acm857593	Research report: information animation applications in the capital markets	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+27	acm857597	Research report: Interacting with huge hierarchies: beyond cone trees	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+28	acm857598	Research report: DataSpace: 3-D visualizations of large databases	acm857186	Proceedings of the 1995 IEEE Symposium Information Visualization
+29	acm857599	Minimally-immersive interactive volumetric information visualization	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+30	acm857600	Interactive visualization of multiway tables	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+31	acm857601	FINESSE: a financial information spreadsheet	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+32	acm857602	Animating multidimensional scaling to visualize N-dimensional data sets	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+33	acm857603	Dual multiresolution HyperSlice for multivariate data visualization	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+34	acm857604	Towards rich information landscapes for visualising structured Web spaces	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+35	acm857605	Visualizing the results of multimedia Web search engines	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+36	acm857606	Techniques for non-linear magnification transformations	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+37	acm857607	288 ways to say "this is interesting"	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+38	acm857608	Distortion viewing techniques for 3-dimensional data	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+39	acm857609	Visualizing a tennis match	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+40	acm857612	DEPICT: Documents Evaluated as Pictures. Visualizing information using context vectors and self-organizing maps	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+41	acm857613	Geospatial metadata querying and visualization on the WWW using Java/sup TM/ applets	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+42	acm857614	Visualizing usability log data	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+43	acm857615	Visualizing the global topology of the MBone	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+44	acm857617	Data characterization for automatically visualizing heterogeneous information	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+45	acm857618	Visage: a user interface environment for exploring information	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+46	acm857619	Rapid prototyping of information visualizations using VANISH	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+47	acm857620	On the semantics of interactive visualizations	acm857187	Proceedings of the 1996 IEEE Symposium on Information Visualization (INFOVIS '96) 
+48	acm857624	Visualizing Information on a Sphere	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+49	acm857625	Adaptive information visualization based on the user's multiple viewpoints-interactive 3D visualization of the WWW	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+50	acm857626	A spreadsheet approach to information visualization	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+51	acm857627	H3: laying out large directed graphs in 3D hyperbolic space	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+52	acm857630	Metrics for effective information visualization	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+53	acm857631	Multidimensional detective	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+54	acm857632	The structure of the information visualization design space	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+55	acm857638	Coordinating declarative queries with a direct manipulation data exploration environment	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+56	acm857639	Design and Evaluation of Incremental Data Structures and Algorithms for Dynamic Query Interfaces	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+57	acm857640	Research Report: Volume Rendering for Relational Data	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+58	acm857641	Domesticating Bead: adapting an information visualization system to a financial institution	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+59	acm857642	On Integrating Visualization Techniques for Effective Software Exploration	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+60	acm857643	Cacti: a front end for program visualization	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+61	acm857644	Managing Software with New Visual Representations	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+62	acm857645	Managing multiple focal levels in Table Lens	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+63	acm857646	Nonlinear Magnification Fields	acm857188	Proceedings of the 1997 IEEE Symposium on Information Visualization (InfoVis '97) 
+64	acm857655	Evaluating a Visualization of Image Similarity as a Tool for Image Browsing	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+65	acm857656	Does Animation Help Users Build Mental Maps of Spatial Information?	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+66	acm857657	Domain Analysis: A Technique to Design a User-Centered Visualization Framework	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+67	acm857659	A Framework for Focus+Context Visualization	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+68	acm857660	D Interactive Visualization for Inter-Cell Dependencies of Spreadsheets	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+69	acm857661	Dynamic Hierarchy Specification and Visualization	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+70	acm857662	Navigating Hierarchies with Structure-Based Brushes	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+71	acm857663	Cushion Treemaps: Visualization of Hierarchical Information	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+72	acm857665	Cluster and Calendar Based Visualization of Time Series Data	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+73	acm857666	Sensemaking of Evolving Web Sites Using Visualization Spreadsheets	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+74	acm857667	Visualizing Application Behavior on Superscalar Processors	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+75	acm857668	Constellation: A Visualization Tool for Linguistic Queries from MindNet	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+76	acm857669	The Automated Multidimensional Detective	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+77	acm857670	Visualizing Association Rules for Text Mining	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+78	acm857671	A Java-Based Visual Mining Infrastructure and Applications	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+79	acm857672	The Sunflower Visual Metaphor a New Paradigm for Dimensional Compression	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization
+80	acm857673	Aggregate Towers: Scale Sensitive Visualization and Decluttering of Geospatial Data	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+81	acm857674	Efficient Multi-Object Dynamic Query Histograms	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+82	acm857675	VisageWeb: Visualizing WWW Data in Visage	acm857189	Proceedings of the 1999 IEEE Symposium on Information Visualization 
+83	acm857679	Collaborative Geographic Visualization: Enabling Shared Understanding of Environmental Processes	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+84	acm857680	ThemeRiver: Visualizing Theme Changes over Time	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+85	acm857681	New Methods for the Visualization of Electric Power System Information	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+86	acm857682	Lighthouse: Showing the Way to Relevant Information	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+87	acm857683	Focus+Context Display and Navigation Techniques for Enhancing Radial Space-Filling Hierarchy Visualizations	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000
+88	acm857684	Density Functions for Visual Attributes and Effective Partitioning in Graph Visualization	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+89	acm857685	Visualizing Massive Multi-Digraphs	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+90	acm857686	Polaris: A System for Query Analysis and Visualization of Multi-Dimensional Relational Databases	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+91	acm857687	Getting Portals to Behave	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+92	acm857688	A Scalable Framework for Information Visualization	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+93	acm857689	GADGET/IV: A Taxonomic Approach to Semi-Automatic Design of Information Visualization Applications Using Modular Visualization Environment	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+94	acm857690	Information Content Measures of Visual Displays	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+95	acm857691	A Taxonomy of Visualization Techniques Using the Data State Reference Model	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+96	acm857692	From Metaphor to Method: Cartographic Perspectives on Information Visualization	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+97	acm857693	Visualizing Sequential Patterns for Text Mining	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+98	acm857694	Redefining the Focus and Context of Focus+Context Visualizations	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+99	acm857697	Metaphor-Aware 3D Navigation	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+100	acm857698	Interactive Problem Solving via Algorithm Visualization	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+101	acm857699	Using Visualization to Detect Plagiarism in Computer Science Classes	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+102	acm857700	Creativity Complexity and Precision: Information Visualization for (Landscape) Architecture	acm857190	Proceedings of the IEEE Symposium on Information Vizualization 2000 
+103	acm857702	Graphic Data Display for Cardiovascular System Case Study	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+104	acm857703	Case Study: Design and Assessment of an Enhanced Geographic Information System for Exploration of Multivariate Health Statistics	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+105	acm857704	Effective Graph Visualization Via Node Grouping	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+106	acm857705	Animated Exploration of Dynamic Graphs with Radial Layout	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+107	acm857706	Graph Sketches	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+108	acm857707	Visualization of State Transition Graphs	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+109	acm857708	Collapsible Cylindrical Trees: A Fast Hierarchical Navigation Technique	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+110	acm857709	Botanical Visualization of Huge Hierarchies	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+111	acm857710	Ordered Treemap Layouts	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+112	acm857711	D vs 3D: Implications on Spatial Memory	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+113	acm857712	A Comparison of 2-D Visualizations of Hierarchies	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+114	acm857713	An Empirical Comparison of Three Commercial Information Visualization Systems	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+115	acm857714	Case Study: E-Commerce Clickstream Visualization	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+116	acm857715	Case Study: Visualization for Decision Tree Analysis in Data Mining	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+117	acm857716	Technical Note: Visually Encoding Program Test Information to Find Faults in Software	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+118	acm857717	Getting Along: Composition of Visualization Paradigms	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+119	acm857719	Visualizing Time-Series on Spirals	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+120	acm857720	Cluster Stability and the Use of Noise in Interpretation of Clustering	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+121	acm857721	Change Blindness in Information Visualization: A Case Study	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+122	acm857724	Semantic Depth of Field	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+123	acm857725	Interactive Visualization of Multiple Query Results	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+124	acm857726	Pixel Bar Charts: A New Technique for Visualizing Large Multi-Attribute Data Sets without Aggregation	acm580582	Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) 
+125	acm857729	Process Visualization with Levels of Detail	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+126	acm857731	Case Study: Visualizing Sets of Evolutionary Trees	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+127	acm857732	Interactive Information Visualization of a Million Items	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+128	acm857733	Arc Diagrams: Visualizing Structure in Strings	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+129	acm857734	Visualizing Biosequence Data Using Texture Mapping	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+130	acm857735	Building a Visual Database for Example-based Graphics Generation	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+131	acm857736	Multiscale Visualization Using Data Cubes "InfoVis 2002 Best Paper"	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+132	acm857737	Visualization Schemas for Flexible Information Visualization	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+133	acm857738	A Hybrid Layout Algorithm for Sub-Quadratic Multidimensional Scaling	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+134	acm857739	ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+135	acm857740	Visual Unrolling of Network Evolution and the Analysis of Dynamic Discourse	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+136	acm857741	Multiple Foci Drill-Down through Tuple and Attribute Aggregation Polyarchies in Tabular Data	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+137	acm857742	Angular Brushing of Extended Parallel Coordinates	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+138	acm857746	Visual Path Analysis	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+139	acm857747	Demystifying Venture Capital Investing	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+140	acm857748	A Space-Optimized Tree Visualization	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+141	acm857749	InterRing: An Interactive Tool for Visually Navigating and Manipulating Hierarchical Structures	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+142	acm857750	Beamtrees: Compact Visualization of Large Hierarchies	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+143	acm857751	Graphical Encoding for Information Visualization: An Empirical Study	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+144	acm857752	SpaceTree: Supporting Exploration in Large Node Link Tree	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+145	acm857753	The Illusion of Perceived Metric 3D Structure	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+146	acm857754	Visualizing Data with Bounded Uncertainty	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+147	acm857755	Efficient Cartogram Generation: A Comparison	acm857191	Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 
+148	acm104428	Self-organized formation of topologically correct feature maps	acm65669	Neurocomputing foundations of research
+149	acm108361	Task-analytic approach to the automated design of graphic presentations	acm108360	ACM Transactions on Graphics (TOG): Volume 10 
+150	acm108870	The perspective wall: detail and context smoothly integrated	acm108844	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology
+151	acm108883	Cone Trees: animated 3D visualizations of hierarchical information	acm108844	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology
+152	acm115768	Tree visualization with tree-maps: 2-d space-filling approach	acm102377	ACM Transactions on Graphics (TOG): Volume 11 
+153	acm120788	Interactive graph layout	acm120782	Symposium on User Interface Software and Technology: Proceedings of the 4th annual ACM symposium on User interface software and technology
+154	acm122758	A coherent projection approach for direct volume rendering	acm122718	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 18th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 25 
+155	acm122873	To see or not to see- is That the query?	acm122860	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 14th annual international ACM SIGIR conference on Research and development in information retrieval
+156	acm122984	Screen management in hypertext systems with rubber sheet layouts	acm122974	Conference on Hypertext and Hypermedia: Proceedings of the third annual ACM conference on Hypertext
+157	acm130299	DOODLE: a visual language for object-oriented databases	acm130283	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1992 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 21 
+158	acm133215	Bead: explorations in information visualization	acm133160	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 15th annual international ACM SIGIR conference on Research and development in information retrieval
+159	acm133216	The dynamic HomeFinder: evaluating dynamic queries in a real-estate information exploration system	acm133160	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 15th annual international ACM SIGIR conference on Research and development in information retrieval
+160	acm133261	Optimal linear labelings and eigenvalues of graphs	acm133257	Discrete Applied Mathematics: Volume 36 
+161	acm134093	A collision-based model of spiral phyllotaxis	acm133994	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 19th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 26 
+162	acm142751	Edit wear and read wear	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+163	acm142780	The art of search: a study of art directors	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+164	acm142817	Value bars: an information visualization and navigation tool for multi-attribute listings	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+165	acm142913	An empirical study of multiple-view software development	acm142868	Software Engineering Symposium on Practical Software Development Environments: Proceedings of the fifth ACM SIGSOFT symposium on Software development environments: ACM SIGSOFT Software Engineering Notes: Volume 17 
+166	acm143054	Dynamic queries for information exploration: an implementation and evaluation	acm142750	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+167	acm146826	Structural analysis of hypertexts: identifying hierarchies and useful metrics	acm146802	ACM Transactions on Information Systems (TOIS): Volume 10 
+168	acm147206	Visualizing hyperbolic space: unusual uses of 4x4 matrices	acm147156	Symposium on Interactive 3D Graphics: Proceedings of the 1992 symposium on Interactive 3D graphics
+169	acm148286	Numerical recipes in C (2nd ed.): the art of scientific computing	null	ISBN: 0-521-43108-5
+170	acm153577	Information visualization using 3D interactive animation	acm255950	Communications of the ACM: Volume 36 
+171	acm155359	Evaluating 3D task performance for fish tank virtual worlds	acm159161	ACM Transactions on Information Systems (TOIS): Volume 11 
+172	acm160730	Development of a modern OPAC: from REVTOLC to MARIAN	acm160688	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 16th annual international ACM SIGIR conference on Research and development in information retrieval
+173	acm162510	On the knowledge underlying multimedia presentations	acm162477	Intelligent multimedia interfaces
+174	acm163402	Discovering shared interests using graph analysis	acm163381	Communications of the ACM: Volume 36 
+175	acm163535	Visualization of message passing parallel programs with the TOPSYS parallel programming environment	acm163531	Journal of Parallel and Distributed Computing: Volume 18 
+176	acm163550	A methodology for building application-specific visualizations of parallel programs	acm163531	Journal of Parallel and Distributed Computing: Volume 18 
+177	acm166125	Pad: an alternative approach to the computer interface	acm166117	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 20th annual conference on Computer graphics and interactive techniques
+178	acm166126	Toolglass and magic lenses: the see-through interface	acm166117	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 20th annual conference on Computer graphics and interactive techniques
+179	acm168647	Animation: from cartoons to the user interface	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+180	acm168650	Stretching the rubber sheet: a metaphor for viewing large layouts on small screens	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+181	acm168651	Algorithm animation using 3D interactive graphics	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+182	acm168657	Windows on the world: 2D windows for 3D augmented reality	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+183	acm168658	A toolset for navigation in virtual environments	acm168642	Symposium on User Interface Software and Technology: Proceedings of the 6th annual ACM symposium on User interface software and technology
+184	acm168818	Media-based navigation for hypermedia systems	acm168750	Conference on Hypertext and Hypermedia: Proceedings of the fifth ACM conference on Hypertext
+185	acm168823	Exploring large hyperdocuments: fisheye views of nested networks	acm168750	Conference on Hypertext and Hypermedia: Proceedings of the fifth ACM conference on Hypertext
+186	acm169209	The cost structure of sensemaking	acm169059	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+187	acm169426	The limits of expert performance using hierarchic marking menus	acm169059	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+188	acm170095	InfoCrystal: a visual tool for information retrieval &amp; management	acm170088	Conference on Information and Knowledge Management: Proceedings of the second international conference on Information and knowledge management
+189	acm172250	A graphical query interface based on aggregation/generalization hierarchies	acm172247	Information Systems: Volume 18 
+190	acm180173	A review and taxonomy of distortion-oriented presentation techniques	acm180171	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 1 
+191	acm180923	An implicit surface polygonizer	acm180895	Academic Press Graphics Gems Series: Graphics gems IV
+192	acm187157	Visualization using timelines	acm186258	International Symposium on Software Testing and Analysis: Proceedings of the 1994 international symposium on Software testing and analysis
+193	acm187170	A high performance Interactive Image Spreadsheet (IISS)	acm187156	Computers in Physics: Volume 8 
+194	acm188563	LyberWorld-a visualization user interface supporting fulltext retrieval	acm188490	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 17th annual international ACM SIGIR conference on Research and development in information retrieval
+195	acm189245	Hypothesis-Driven Constructive Induction in AQ17-HCI: A Method and Experiments	acm189243	Machine Learning: Volume 14 
+196	acm191095	Virtual images: interactive visualization of distributed object-oriented systems	acm191080	Conference on Object Oriented Programming Systems Languages and Applications: Proceedings of the ninth annual conference on Object-oriented programming systems
+197	acm191676	Designing Workscape: an interdisciplinary experience	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+198	acm191682	Using aggregation and dynamic queries for exploring large data sets	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+199	acm191715	Creating charts by demonstration	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+200	acm191719	Interactive graphic design using automatic presentation knowledge	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+201	acm191774	The movable filter as a user interface tool	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+202	acm191775	Visual information seeking: tight coupling of dynamic query filters with starfield displays	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+203	acm191776	The table lens: merging graphical and symbolic representations in an interactive focus + context visualization for tabular information	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+204	acm191778	Multitrees: enriching and reusing hierarchical structure	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+205	acm191786	A taxonomy of see-through tools	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+206	acm191790	The alphaslider: a compact and rapid selector	acm191666	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems celebrating interdependence
+207	acm192190	Spreadsheets for images	acm192161	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 21st annual conference on Computer graphics and interactive techniques
+208	acm192313	Data structures for dynamic queries: an analytical and experimental evaluation	acm192309	AVI: Proceedings of the workshop on Advanced visual interfaces
+209	acm192357	Automatic layout based on formal semantics	acm192309	AVI: Proceedings of the workshop on Advanced visual interfaces
+210	acm192429	Galaxy of news: an approach to visualizing and understanding expansive news landscapes	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+211	acm192430	Laying out and visualizing large trees using a hyperbolic space	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+212	acm192434	Powers of ten thousand: navigating in large information spaces	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+213	acm192435	Pad++: a zooming graphical interface for exploring alternate interface physics	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+214	acm192437	Reconnaissance support for juggling multiple processing options	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+215	acm192449	An architecture for an extensible 3D interface toolkit	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+216	acm192451	D widgets for exploratory scientific visualization	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+217	acm192470	Developing calendar visualizers for the information visualizer	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+218	acm192472	Data visualization sliders	acm192426	Symposium on User Interface Software and Technology: Proceedings of the 7th annual ACM symposium on User interface software and technology
+219	acm192835	An Editor's Workbench for an art history reference work	acm192757	Conference on Hypertext and Hypermedia: Proceedings of the 1994 ACM European conference on Hypermedia technology
+220	acm198376	A classification of visual representations	acm198366	Communications of the ACM: Volume 37 
+221	acm205326	Rich interaction in the digital library	acm205323	Communications of the ACM: Volume 38 
+222	acm208346	RMM: a methodology for structured hypermedia design	acm208344	Communications of the ACM: Volume 38 
+223	acm208350	Spatial hypertext: designing for change	acm208344	Communications of the ACM: Volume 38 
+224	acm212334	An empirical study of algorithms for point-feature label placement	acm212332	ACM Transactions on Graphics (TOG): Volume 14 
+225	acm212782	Machine learning: neural and statistical classification	acm212782	Ellis Horwood Series In Artificial Intelligence
+226	acm214456	Distributed snapshots: determining global states of distributed systems	acm214451	ACM Transactions on Computer Systems (TOCS): Volume 3 
+227	acm214799	Studying long-term system use	acm213859	Communications of the ACM: Volume 38 
+228	acm215636	Directness and liveness in the morphic user interface construction environment	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+229	acm215654	SDM: selective dynamic manipulation of visualizations	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+230	acm215977	The continuous zoom: a constrained fisheye technique for viewing and navigating large information spaces	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+231	acm215978	dimensional pliable surfaces: for the effective presentation of visual information	acm215585	Symposium on User Interface Software and Technology: Proceedings of the 8th annual ACM symposium on User interface and software technology
+232	acm217311	Visualizing the structure of the World Wide Web in 3D hyperbolic space	acm217306	Virtual Reality Modeling Language Symposium: Proceedings of the first symposium on Virtual reality modeling language
+233	acm217855	Visualizing real-time multivariate data using preattentive processing	acm217853	ACM Transactions on Modeling and Computer Simulation (TOMACS): Volume 5 
+234	acm218443	Interactive physically-based manipulation of discrete/continuous models	acm218380	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 22nd annual conference on Computer graphics and interactive techniques
+235	acm218454	Fast multiresolution image querying	acm218380	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 22nd annual conference on Computer graphics and interactive techniques
+236	acm223381	IVEE: an environment for automatic creation of dynamic queries applications	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+237	acm223394	Pad++: a zoomable graphical interface system	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+238	acm22342	Generalized fisheye views	acm22627	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems: ACM SIGCHI Bulletin: Volume 17 
+239	acm223435	Describing interactive visualization artifacts-DIVA	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+240	acm223464	The influence explorer	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+241	acm223745	Exploring large tables with the table lens	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+242	acm223759	LyberWorld: a 3D graphical user interface for fulltext retrieval	acm223355	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+243	acm223812	FastMap: a fast algorithm for indexing data-mining and visualization of traditional and multimedia datasets	acm223784	null
+244	acm223895	VisDB: a system for visualizing large databases	acm223784	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1995 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 24 
+245	acm223911	Information foraging in information access environments	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+246	acm223912	TileBars: visualization of term distribution information in full text information access	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+247	acm223934	Space-scale diagrams: understanding multiscale interfaces	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+248	acm223947	Visualizing complex hypermedia networks through multiple hierarchical views	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+249	acm223956	A focus+context technique based on hyperbolic geometry for visualizing large hierarchies	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+250	acm223959	GeoSpace: an interactive visualization system for exploring complex information spaces	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+251	acm223960	Enhanced dynamic queries via movable filters	acm223904	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+252	acm227186	As we may think	acm227181	interactions: Volume 3 
+253	acm22723	Monitoring distributed systems	acm13677	ACM Transactions on Computer Systems (TOCS): Volume 5 
+254	acm227811	Simplifying data integration: the design of the desert software development environment	acm227726	International Conference on Software Engineering: Proceedings of the 18th international conference on Software engineering
+255	acm22950	Automating the design of graphical presentations of relational information	acm22949	ACM Transactions on Graphics (TOG): Volume 5 
+256	acm229763	How not to lie with visualization	acm229737	Computers in Physics: Volume 10 
+257	acm230563	High-speed visual estimation using preattentive processing	acm230562	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 3 
+258	acm230577	Navigating hierarchically clustered networks through fisheye and full-zoom methods	acm230562	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 3 
+259	acm233315	IDEA: interactive data exploration and analysis	acm233269	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1996 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 25 
+260	acm233324	BIRCH: an efficient data clustering method for very large databases	acm233269	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1996 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 25 
+261	acm233333	Implementing data cubes efficiently	acm233269	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1996 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 25 
+262	acm234423	Software tools and environments	acm234313	ACM Computing Surveys (CSUR): Volume 28 
+263	acm234538	Drawing graphs nicely using simulated annealing	acm234535	ACM Transactions on Graphics (TOG): Volume 15 
+264	acm235579	The algorithmic beauty of plants	acmSERIES10317	Springer Virtual Laboratory Series
+265	acm237096	Adding imageability features to information displays	acm237091	Symposium on User Interface Software and Technology: Proceedings of the 9th annual ACM symposium on User interface software and technology
+266	acm237097	FOCUS: the interactive table for product comparison and selection	acm237091	Symposium on User Interface Software and Technology: Proceedings of the 9th annual ACM symposium on User interface software and technology
+267	acm237774	The sciences of the artificial (3rd ed.)	null	ISBN: 0-262-69191-4
+268	acm238396	Does animation in user interfaces improve decision making?	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+269	acm238446	The WebBook and the Web Forager: an information workspace for the World-Wide Web	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+270	acm238450	Silk from a sow's ear: extracting usable structures from the Web	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+271	acm238489	Scatter/gather browsing communicates the topic structure of a very large text collection	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+272	acm238493	LifeLines: visualizing personal histories	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+273	acm238526	Reusable hierarchical command objects	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+274	acm238587	Externalising abstract mathematical models	acm238386	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground
+275	acm240405	Extending end-user programming in a visual shell with programming by demonstration and graphical language techniques	null	null
+276	acm242229	Machine learning	acm242224	ACM Computing Surveys (CSUR): Volume 28 
+277	acm243214	Visualizing search results: some alternatives to query-document similarity	acm243199	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 19th annual international ACM SIGIR conference on Research and development in information retrieval
+278	acm243218	Evaluation of a tool for visualization of information retrieval results	acm243199	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 19th annual international ACM SIGIR conference on Research and development in information retrieval
+279	acm245014	Cheops: a compact explorer for complex hierarchies	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+280	acm245018	The design and implementation of an object-oriented toolkit for 3D graphics and visualization	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+281	acm245020	Visualization of complex models using dynamic texture-based simplification	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+282	acm245035	A linear iteration time layout algorithm for visualising high-dimensional data	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+283	acm245041	Flexible information visualization of multivariate data from biological sequence similarity searches	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+284	acm245042	Multiresolution multidimensional wavelet brushing	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+285	acm245567	Illustrating transparent surfaces with curvature-directed strokes	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+286	acm245585	UFLOW: visualizing uncertainty in fluid flow	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+287	acm245597	Choosing effective colours for data visualization	acm244979	IEEE Visualization: Proceedings of the 7th conference on Visualization '96
+288	acm245890	Dynamic information visualization	acm245882	ACM SIGMOD Record: Volume 25 
+289	acm245891	Incremental data structures and algorithms for dynamic query interfaces	acm245882	ACM SIGMOD Record: Volume 25 
+290	acm253335	DEVise: integrated querying and visual exploration of large datasets	acm253260	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1997 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 26 
+291	acm253460	MaPS: movement and planning support for navigation in an immersive VRML browser	acm253437	D technologies for the World Wide Web: Proceedings of the second symposium on Virtual reality modeling language
+292	acm257364	Interface issues and interaction strategies for information retrieval systems	acm257089	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems common ground
+293	acm257388	Dynamic timelines: visualizing the history of photography	acm257089	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems common ground
+294	acm257408	The DeckScape web browser	acm257089	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems common ground
+295	acm257674	Applying algorithm animation techniques for program tracing debugging and understanding	null	null
+296	acm257938	Advances in knowledge discovery and data mining	acm257938	ISBN: 0-262-56097-6
+297	acm258582	Cat-a-Cone: an interactive interface for specifying searches and viewing retrieval results using a large category hierarchy	acm258525	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 20th annual international ACM SIGIR conference on Research and development in information retrieval: ACM SIGIR Forum: Volume 31 
+298	acm258591	Using semantic contents and WordNet in image retrieval	acm258525	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 20th annual international ACM SIGIR conference on Research and development in information retrieval: ACM SIGIR Forum: Volume 31 
+299	acm258592	Autonomous interface agents	acm258549	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+300	acm258796	Illustrating surface shape in volume data via principal direction-driven 3D line integral convolution	acm258734	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 24th annual conference on Computer graphics and interactive techniques
+301	acm258803	Characterizing interactive externalizations	acm258549	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+302	acm258866	KidPad: a design collaboration between children technologists and educators	null	null
+303	acm260138	A taxonomy of graphical presentation	acm259964	Conference on Human Factors in Computing Systems: INTERACT '93 and CHI '93 conference companion on Human factors in computing systems
+304	acm260431	Visual information seeking using the FilmFinder	acm259963	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+305	acm260433	The attribute explorer	acm259963	Conference on Human Factors in Computing Systems: Conference companion on Human factors in computing systems
+306	acm260748	Using C++ template metaprograms	acm260627	Sigs Reference Library Series: C++ gems
+307	acm260799	Modelling and visualizing multiple spatial uncertainties	acm260786	Computers &amp; Geosciences: Volume 23 
+308	acm261082	Self-organizing maps	acmSERIES10274	Springer Series In Information Sciences
+309	acm263545	An interactive visual query environment for exploring data	acm263407	Symposium on User Interface Software and Technology: Proceedings of the 10th annual ACM symposium on User interface software and technology
+310	acm264657	Drawing graphs to convey proximity: an incremental arrangement method	acm264645	ACM Transactions on Computer-Human Interaction (TOCHI): Volume 4 
+311	acm265453	Navigation and coordination primitives for multidimensional visual browsers	acm265394	Proceedings of the third IFIP WG2.6 working conference on Visual database systems 3 (VDB-3)
+312	acm266265	Sketching searching and customizing visualizations: a content-based approach to design retrieval	null	null
+313	acm267052	Constrained 3D navigation with 2D controllers	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+314	acm267070	GADGET: goal-oriented application design guidance for modular visualization environments	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+315	acm267116	DNA visual and analytic data mining	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+316	acm267120	Visualization of geometric algorithms in an electronic classroom	acm266989	IEEE Visualization: Proceedings of the 8th conference on Visualization '97
+317	acm272980	The visualization toolkit (2nd ed.): an object-oriented approach to 3D graphics	null	ISBN: 0-13-954694-4
+318	acm274094	Clumping properties of content-bearing words	acm274093	Journal of the American Society for Information Science: Volume 49 
+319	acm274432	Information visualization	acm274430	interactions: Volume 5 
+320	acm274698	Visual task characterization for automated visual discourse synthesis	acm274644	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+321	acm274699	Visualizing the evolution of Web ecologies	acm274644	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+322	acm274701	DIVA: exploratory data analysis with multimedia streams	acm274644	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+323	acm275521	A flexible architecture for user-adaptable visualization	acm275519	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1997 workshop on New paradigms in information visualization and manipulation
+324	acm275529	Visualizing document authorship using n-grams and latent semantic indexing	acm275519	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1997 workshop on New paradigms in information visualization and manipulation
+325	acm275531	Effective visualization of hierarchical graphs with the cityscape metaphor	acm275519	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1997 workshop on New paradigms in information visualization and manipulation
+326	acm27624	A specification language for direct-manipulation user interfaces	acm27623	ACM Transactions on Graphics (TOG): Volume 5 
+327	acm276377	DataSplash	acm276304	International Conference on Management of Data and Symposium on Principles of Database Systems: Proceedings of the 1998 ACM SIGMOD international conference on Management of data: ACM SIGMOD Record: Volume 27 
+328	acm276634	Graphical multiscale Web histories: a study of padprints	acm276627	Conference on Hypertext and Hypermedia: Proceedings of the ninth ACM conference on Hypertext and hypermedia links
+329	acm276876	Approximate nearest neighbors: towards removing the curse of dimensionality	acm276698	Annual ACM Symposium on Theory of Computing: Proceedings of the thirtieth annual ACM symposium on Theory of computing
+330	acm28737	Object-oriented spreadsheets: the analytic spreadsheet package	acm28697	Conference on Object Oriented Programming Systems Languages and Applications: Conference proceedings on Object-oriented programming systems
+331	acm288245	The Gridfit algorithm: an efficient and effective approach to visualizing large amounts of spatial data	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+332	acm288247	TOPIC ISLANDS-a wavelet-based text visualization system	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+333	acm288250	Continuous cartogram construction	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+334	acm288306	Interactive display of very large textures	acm288216	IEEE Visualization: Proceedings of the conference on Visualization '98
+335	acm288578	Critical zones in desert fog: aids to multiscale navigation	acm288392	Symposium on User Interface Software and Technology: Proceedings of the 11th annual ACM symposium on User interface software and technology
+336	acm288579	MuSE: a multiscale editor	acm288392	Symposium on User Interface Software and Technology: Proceedings of the 11th annual ACM symposium on User interface software and technology
+337	acm288596	Data mountain: using spatial memory for document management	acm288392	Symposium on User Interface Software and Technology: Proceedings of the 11th annual ACM symposium on User interface software and technology
+338	acm291000	Spatial querying for image retrieval: a user-oriented evaluation	acm290941	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval
+339	acm291014	How reliable are the results of large-scale information retrieval experiments?	acm290941	Annual ACM Conference on Research and Development in Information Retrieval: Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval
+340	acm293061	Visual exploration of uncertainty in remote-sensing classification	acm293055	Computers &amp; Geosciences: Volume 24 
+341	acm299477	Sequence homology detection through large scale pattern discovery	acm299432	Annual Conference on Research in Computational Molecular Biology: Proceedings of the third annual international conference on Computational molecular biology
+342	acm300683	Graphics and graphic information processing	acm300679	Readings in information visualization using vision to think
+343	acm300752	Navigating large networks with hierarchies	acm300679	Readings in information visualization using vision to think
+344	acm300803	Visualising cyberspace: information visualisation in the Harmony Internet browser	acm300679	Readings in information visualization using vision to think
+345	acm300818	The Document Lens	acm300679	Readings in information visualization using vision to think
+346	acm300826	Using vision to think	acm300679	Readings in information visualization using vision to think
+347	acm300835	Table Lens as a tool for making sense of data	acm300679	Readings in information visualization using vision to think
+348	acm303148	Excentric labeling: dynamic neighborhood labeling for data visualization	acm302979	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems the CHI is the limit
+349	acm304482	A space based model for user interaction in shared synthetic environments	acm304459	Conference on Human Factors in Computing Systems: Proceedings of the conference on Human factors in computing systems
+350	acm304503	Do algorithm animations assist learning? an empirical study and analysis	acm304459	Conference on Human Factors in Computing Systems: Proceedings of the conference on Human factors in computing systems
+351	acm304872	Using icons to find documents: simplicity is critical	acm304459	Conference on Human Factors in Computing Systems: Proceedings of the conference on Human factors in computing systems
+352	acm305097	Interactive Orthogonal Graph Drawing	acm305086	IEEE Transactions on Computers: Volume 47 
+353	acm305265	Knowledge Mining With VxInsight: Discovery ThroughInteraction	acm305260	Journal of Intelligent Information Systems: Volume 11 
+354	acm306624	A texture thesaurus for browsing large aerial photographs	acm306607	Journal of the American Society for Information Science: Volume 49 
+355	acm30861	Experiences with the alternate reality kit: an example of the tension between literalism and magic	acm29933	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI/GI conference on Human factors in computing systems and graphics interface: ACM SIGCHI Bulletin: Volume 17 
+356	acm312634	Visualization of search results: a comparative evaluation of text 2D and 3D interfaces	null	null
+357	acm314338	On distances between phylogenetic trees	acm314161	Symposium on Discrete Algorithms: Proceedings of the eighth annual ACM-SIAM symposium on Discrete algorithms
+358	acm316229	On power-law relationships of the Internet topology	acm316188	Applications
+359	acm317474	The use of logging data in the design of a new text editor	acm317456	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+360	acm319355	Hierarchical parallel coordinates for exploration of large datasets	acm319351	IEEE Visualization: Proceedings of the conference on Visualization '99 celebrating ten years
+361	acm320410	The ecological approach to text visualization	acm320396	Journal of the American Society for Information Science: Volume 50 
+362	acm320618	Quintary trees: a file structure for multidimensional database systems	acm320613	ACM Transactions on Database Systems (TODS): Volume 5 
+363	acm322075	The Complexity of Some Problems on Subsequences and Supersequences	acm322063	Journal of the ACM (JACM): Volume 25 
+364	acm322601	WEST: a Web browser for small terminals	acm320719	Symposium on User Interface Software and Technology: Proceedings of the 12th annual ACM symposium on User interface software and technology
+365	acm325249	Modeling the mighty maple	acm325334	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 12th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 19 
+366	acm329554	Information visualization: perception for design	acmSERIES9819	Morgan Kaufmann Series In Interactive Technologies
+367	acm330576	Large networks present visualization challenges	acm330572	ACM SIGGRAPH Computer Graphics: Volume 33 
+368	acm331781	Virtual environments for geographic visualization: potential and challenges	acm331770	New Paradigms in Information Visualization and Manipulation: Proceedings of the 1999 workshop on new paradigms in information visualization and manipulation in conjunction with the eighth ACM internation conference on Information and knowledge management
+369	acm332423	The scent of a site: a system for analyzing and predicting information scent usage and usability of a Web site	null	null
+370	acm333181	Accessibility of information on the Web	acm333175	intelligence: Volume 11 
+371	acm33404	The visual display of quantitative information	null	ISBN: 0-9613921-0-
+372	acm338266	Pattern discovery on character sets and real-valued data: linear bound on irredundant motifs and an efficient polynomial time algorithm	acm338219	Symposium on Discrete Algorithms: Proceedings of the eleventh annual ACM-SIAM symposium on Discrete algorithms
+373	acm345243	A comparison of set-based and graph-based visualisations of overlapping classification hierarchies	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+374	acm345271	Guidelines for using multiple views in information visualization	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+375	acm345282	Snap-together visualization a user interface for coordinating visualizations via relational schemata	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+376	acm345323	Context and interaction in zoomable user interfaces	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+377	acm345324	Hierarchical flip zooming enabling parallel exploration of hierarchical visualizations	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+378	acm345353	A fast multi-scale method for drawing large graphs	acm345513	AVI: Proceedings of the working conference on Advanced visual interfaces
+379	acm345912	Analysis of a local-area wireless network	acm345910	International Conference on Mobile Computing and Networking: Proceedings of the 6th annual international conference on Mobile computing and networking
+380	acm346021	Three dimensional visualization of the World Wide Web	acm345966	ACM Computing Surveys (CSUR): Volume 31 
+381	acm351012	Collaborative augmented reality environments: integrating VR working materials and distributed work spaces	null	null
+382	acm352893	A comparative usability evaluation of user interfaces for online product catalog	acm352871	Electronic Commerce: Proceedings of the 2nd ACM conference on Electronic commerce
+383	acm354754	Jazz: an extensible zoomable user interface graphics toolkit in Java	acm354401	Symposium on User Interface Software and Technology: Proceedings of the 13th annual ACM symposium on User interface software and technology
+384	acm356797	Data Structures for Range Searching	acm356789	ACM Computing Surveys (CSUR): Volume 11 
+385	acm357310	A Generalization of Algebraic Surface Drawing	acm357306	ACM Transactions on Graphics (TOG): Volume 1 
+386	acm358464	System response time operator productivity and job satisfaction	acm182	Communications of the ACM: Volume 26 
+387	acm359563	Time clocks and the ordering of events in a distributed system	acm359545	Communications of the ACM: Volume 21 
+388	acm360354	Hierarchical geometric models for visible surface algorithms	acm360349	Communications of the ACM: Volume 19 
+389	acm365097	Does organisation by similarity assist image browsing?	acm365024	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+390	acm365309	D or not 3D?: evaluating the effect of the third dimension in a document management system	acm365024	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+391	acm365438	An evaluation of space-filling information visualizations for depicting hierarchical structures	acm362757	International Journal of Human-Computer Studies: Volume 53 
+392	acm37086	Brushing scatterplots	acm37085	Technometrics: Volume 29 
+393	acm372188	WebQuilt: a framework for capturing and visualizing the web experience	acm371920	International World Wide Web Conference: Proceedings of the tenth international conference on World Wide Web
+394	acm372278	MWMD: a module-based workbench for multimedia database programmers and users	acm372252	Kluwer International Series In Engineering And Computer Science: Information organization and databases foundation of data organization
+395	acm375221	Procedural annotation of uncertain information	acm375213	IEEE Visualization: Proceedings of the conference on Visualization '00
+396	acm375245	FastSplats: optimized splatting on rectilinear grids	acm375213	IEEE Visualization: Proceedings of the conference on Visualization '00
+397	acm375311	WEAVE: a system for visually linking 3-D and statistical visualizations applied to cardiac simulation and measurement data	acm375213	null
+398	acm376383	Envision: a user-centered database of computer science literature	acm205323	Communications of the ACM: Volume 38 
+399	acm376953	Dynamic graph drawing	acm376944	Springer Lecture Notes In Computer Science: Drawing graphs methods and models
+400	acm377539	JDSL: The data structures library in java	acm377537	Dr. Dobb's Journal: Volume 26 
+401	acm378476	A rendering algorithm for visualizing 3D scalar fields	acm54852	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 15th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 22 
+402	acm378494	ConMan: a visual programming language for interactive graphics	acm54852	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 15th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 22 
+403	acm378497	A study in interactive 3-D rotation using 2-D control devices	acm54852	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 15th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 22 
+404	acm39091	Sphere-packings lattices and groups	acmSERIES10238	Springer Grundlehren Der Mathematischen Wissenschaften
+405	acm4084	The elements of graphing data	null	ISBN: 0-534-03730-5
+406	acm41997	Visualization in Scientific Computing (ViSC)	acm41997	ACM SIGGRAPH Computer Graphics: Volume 21 
+407	acm42414	On visual formalisms	acm42411	Communications of the ACM: Volume 31 
+408	acm43396	Algorithm animation using 3D interactive graphics	acmSERIES9055	Acm Distinguished Dissertation
+409	acm44652	Display of Surfaces from Volume Data	acm44650	IEEE Computer Graphics and Applications: Volume 8 
+410	acm45432	Seeing the forest for the trees: hierarchical displays of hypertext structures	acm45410	Conference on Supporting Group Work: Conference Sponsored by ACM SIGOIS and IEEECS TC-OA on Office information systems: ACM SIGOIS Bulletin: Volume 9 
+411	acm48514	Reflections on NoteCards: seven issues for the next generation of hypermedia systems	acm48511	Communications of the ACM: Volume 31 
+412	acm50088	Designing documentation to compensate for delocalized plans	acm50087	Communications of the ACM: Volume 31 
+413	acm502574	Interactive path analysis of web site traffic	acm502512	Conference on Knowledge Discovery in Data: Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining
+414	acm502580	Funnel report mining for the MSN network	acm502512	Conference on Knowledge Discovery in Data: Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining
+415	acm519400	Information Graphics: A Comprehensive Illustrated Reference	null	ISBN: 0195135326
+416	acm5215	Probabilistic counting algorithms for data base applications	acm5212	Journal of Computer and System Sciences: Volume 31 
+417	acm523237	Designing the User Interface: Strategies for Effective Human-Computer Interaction	acm523237	null
+418	acm524313	Tcl and the Tk Toolkit	acm524313	ISBN: 9997887492
+419	acm529145	Computers as Theatre	acm529145	ISBN: 0201550601
+420	acm529269	Visualizing Data	null	ISBN: 0963488406
+421	acm534175	Visualizing Abstract Objects and Relations	null	ISBN: 9810200099
+422	acm540298	Clustering Algorithms	null	ISBN: 047135645
+423	acm548892	What Will Be: How the New World of Information Will Change Our Lives	acm548892	ISBN: 0062514792
+424	acm549965	Principles and Applications	acm549965	ISBN: 0792396677
+425	acm549990	The World Wide Web	null	ISBN: 0516261819
+426	acm550196	Software Visualization	acm550196	ISBN: 0262193957
+427	acm551884	Graph Drawing: Algorithms for the Visualization of Graphs	acm551884	null
+428	acm556493	Professional JSP	acm556493	ISBN: 1861003625
+429	acm558656	Mmixware: A RISC Computer for the Third Millennium	acm558656	null
+430	acm561081	Virtual Reality: Through the New Looking Glass	acm561081	null
+431	acm562139	Visual Cues: Practical Data Visualization	acm562139	ISBN: 0818631023
+432	acm563003	Filtering Segmentation and Depth	null	ISBN: 3540564845
+433	acm571472	Algorithms on Stings Trees and Sequences: Computer Science and Computational Biology	acm270563	ACM SIGACT News: Volume 28 
+434	acm571649	Ordered and quantum treemaps: Making effective use of 2D space to display hierarchies	acm571647	ACM Transactions on Graphics (TOG): Volume 21 
+435	acm57182	An empirical comparison of pie vs. linear menus	acm57167	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems
+436	acm573164	Computer Architecture A Quantitative Approach	null	ISBN: 1558600698
+437	acm574634	Introduction to the Theory of Neural Computation	null	ISBN: 0201515601
+438	acm574978	Time Series Analysis Forecasting and Control	acm574978	null
+439	acm575201	The Art of Human-Computer Interface Design	null	ISBN: 0201517973
+440	acm576082	Dynamic Graphics for Statistics	null	ISBN: 053409144
+441	acm580470	Introduction to Algorithms	acm580470	ISBN: 0070131511
+442	acm580949	Software Metrics: A Rigorous and Practical Approach	acm580949	null
+443	acm583200	Programs for Machine Learning	acm583200	ISBN: 1558602402
+444	acm593438	Data Cube: A Relational Aggregation Operator Generalizing Group-By Cross-Tab and Sub-Totals	null	null
+445	acm597197	Fixed Queries Array: A Fast and Economical Data Structure for Proximity Searching	acm597034	Multimedia Tools and Applications: Volume 14 
+446	acm606763	GeoVISTA studio: a codeless visual programming environment for geoscientific data analysis and visualization	acm606760	Computers &amp; Geosciences: Volume 28 
+447	acm613931	Parallel Performance Visualization: From Practice to Theory	acm613777	IEEE Parallel &amp; Distributed Technology Systems &amp; Technology: Volume 3 
+448	acm614078	Creating an Accurate Portrayal of Concurrent Executions	acm614060	IEEE Concurrency: Volume 6 
+449	acm614292	Visualizing Network Data	acm614257	IEEE Transactions on Visualization and Computer Graphics: Volume 1 
+450	acm614294	Visualization of Multidimensional Shape and Texture Features in Laser Range Data Using Complex-Valued Gabor Wavelets	acm614257	IEEE Transactions on Visualization and Computer Graphics: Volume 1 
+451	acm614306	Visualization of Geometric Algorithms	acm614258	IEEE Transactions on Visualization and Computer Graphics: Volume 1 
+452	acm614447	Graph Visualization and Navigation in Information Visualization: A Survey	acm614277	IEEE Transactions on Visualization and Computer Graphics: Volume 6 
+453	acm614457	Structure-Based Brushes: A Mechanism for Navigating Hierarchically Organized Data and Information Spaces	acm614278	IEEE Transactions on Visualization and Computer Graphics: Volume 6 
+454	acm614509	ThemeRiver: Visualizing Thematic Changes in Large Document Collections	acm614285	IEEE Transactions on Visualization and Computer Graphics: Volume 8 
+455	acm614510	MGV: A System for Visualizing Massive Multidigraphs	acm614285	IEEE Transactions on Visualization and Computer Graphics: Volume 8 
+456	acm615681	The Sloan Digital Sky Survey	acm615598	Computing in Science and Engineering: Volume 1 
+457	acm617498	The Application Visualization System: A Computational Environment for Scientific Visualization	acm616006	IEEE Computer Graphics and Applications: Volume 9 
+458	acm617723	Color Scales for Image Data	acm616021	IEEE Computer Graphics and Applications: Volume 12 
+459	acm617761	Guest Editors' Introduction: Visualization	acm616024	IEEE Computer Graphics and Applications: Volume 12 
+460	acm617913	VisDB: Database Exploration Using Multidimensional Visualization	acm616032	IEEE Computer Graphics and Applications: Volume 14 
+461	acm618447	Information Appliances and Tools in Visage	acm616047	IEEE Computer Graphics and Applications: Volume 17 
+462	acm618448	Extending Distortion Viewing from 2D to 3D	acm616047	IEEE Computer Graphics and Applications: Volume 17 
+463	acm618451	TennisViewer: A Browser for Competition Trees	acm616047	IEEE Computer Graphics and Applications: Volume 17 
+464	acm618455	Using MineSet for Knowledge Discovery	acm616047	IEEE Computer Graphics and Applications: Volume 17 
+465	acm618538	Exploring Large Graphs in 3D Hyperbolic Space	acm616053	IEEE Computer Graphics and Applications: Volume 18 
+466	acm618540	Principles for Information Visualization Spreadsheets	acm616053	IEEE Computer Graphics and Applications: Volume 18 
+467	acm618590	Interactive Modeling of Plants	acm616056	IEEE Computer Graphics and Applications: Volume 19 
+468	acm618679	Opportunities for Information Visualization	acm616062	IEEE Computer Graphics and Applications: Volume 20 
+469	acm618853	Using Perceptual Syntax to Enhance Semantic Content in Diagrams	acm616072	IEEE Computer Graphics and Applications: Volume 21 
+470	acm620306	Query by Image and Video Content: The QBIC System	acm619001	Computer: Volume 28 
+471	acm620372	VMW: A Visualization-Based Microarchitecture Workbench	acm619004	Computer: Volume 28 
+472	acm620421	Software Visualization in the Large	acm619006	Computer: Volume 29 
+473	acm623999	The MIPS R10000 Superscalar Microprocessor	acm623268	IEEE Micro: Volume 16 
+474	acm62420	Interface usage measurements in a user interface management system	acm62402	Symposium on User Interface Software and Technology: Proceedings of the 1st annual ACM SIGGRAPH symposium on User Interface Software
+475	acm624851	Faust: An Integrated Environment for Parallel Programming	acm624576	IEEE Software: Volume 6 
+476	acm624852	Start/Pat: A Parallel-Programming Toolkit	acm624576	IEEE Software: Volume 6 
+477	acm624902	Reverse Engineering and Design Recovery: A Taxonomy	acm624579	IEEE Software: Volume 7 
+478	acm624963	Drawing Dynamic Trees	acm624582	IEEE Software: Volume 7 
+479	acm625405	Dynamic Queries for Visual Information Seeking	acm624604	IEEE Software: Volume 11 
+480	acm625443	Image-Browser Taxonomy and Guidelines for Designers	acm624606	IEEE Software: Volume 12 
+481	acm627798	Visualization Techniques for Mining Large Databases: A Comparison	acm627307	IEEE Transactions on Knowledge and Data Engineering: Volume 8 
+482	acm628634	Isoperimetric Normalization of Planar Curves	acm628315	IEEE Transactions on Pattern Analysis and Machine Intelligence: Volume 16 
+483	acm631037	A Technique for Drawing Directed Graphs	acm630795	IEEE Transactions on Software Engineering: Volume 19 
+484	acm632834	Visualizing the stock market	acm632716	Conference on Human Factors in Computing Systems: CHI '99 extended abstracts on Human factors in computing systems
+485	acm63669	Evaluating the effectiveness of reliability-assurance techniques	acm63666	Journal of Systems and Software: Volume 9 
+486	acm649649	The Power of Decision Tables	acm645324	Lecture Notes In Computer Science: Proceedings of the 8th European Conference on Machine Learning
+487	acm64992	Context and orientation in hypermedia networks	acm64789	ACM Transactions on Information Systems (TOIS): Volume 7 
+488	acm652239	Efficient Similarity Search In Sequence Databases	acm645415	Lecture Notes In Computer Science: Proceedings of the 4th International Conference on Foundations of Data Organization and Algorithms
+489	acm655120	Supporting Data Mining of Large Databases by Visual Feedback Queries	acm645479	Proceedings of the Tenth International Conference on Data Engineering
+490	acm662606	Toward Flexible Control of the Temporal Mapping from Concurrent Program Events to Animations	acm645604	Proceedings of the 8th International Symposium on Parallel Processing
+491	acm671516	Similarity Search in High Dimensions via Hashing	acm645925	Proceedings of the 25th International Conference on Very Large Data Bases
+492	acm673155	Fast Similarity Search in the Presence of Noise Scaling and Translation in Time-Series Databases	acm645921	Proceedings of the 21th International Conference on Very Large Data Bases
+493	acm673478	MineSet(tm): A System for High-End Data Mining and Visualization	acm645922	Proceedings of the 22th International Conference on Very Large Data Bases
+494	acm673502	The X-tree: An Index Structure for High-Dimensional Data	acm645922	Proceedings of the 22th International Conference on Very Large Data Bases
+495	acm680887	Pearls Swines and Sow's Ears: Interface Research Inside a Multinational Bank	acm646099	null
+496	acm685681	The LEDA Platform of Combinatorial and Geometric Computing	acm646251	Lecture Notes In Computer Science: Proceedings of the 24th International Colloquium on Automata
+497	acm690165	The Geometry of Browsing	acm646387	Lecture Notes In Computer Science: Proceedings of the Third Latin American Symposium on Theoretical Informatics
+498	acm69235	Voyeur graphical views of parallel programs	acm68210	Workshop on Parallel &amp; Distributed Debugging: Proceedings of the 1988 ACM SIGPLAN and SIGOPS workshop on Parallel and distributed debugging: ACM SIGPLAN Notices: Volume 24 
+499	acm695311	Comparative Multivariate Visualization Across Conceptually Different Graphic Displays	acm646494	Proceedings of the Seventh International Working Conference on Scientific and Statistical Database Management
+500	acm702166	Circular Drawings of Biconnected Graphs	acm646678	Lecture Notes In Computer Science: Selected papers from the International Workshop on Algorithm Engineering and Experimentation
+501	acm702778	Representation Matters: The Effect of 3D Objects and a Spatial Metaphor in a Graphical User Interface	acm646685	Proceedings of HCI on People and Computers XIII
+502	acm721079	WebPath - A Three-Dimensional Web History	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+503	acm721081	Geographic Visualization: Designing Manipulable Maps for Exploring Temporally Varying Georeferenced Statistics	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+504	acm721211	The Generalized Detail-In-Context Problem	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+505	acm721212	Multi-Faceted Insight Through Interoperable Visual Information Analysis Paradigms	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+506	acm721214	Traversal-Based Visualization of Data Structures	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+507	acm725689	Years of Multidimensional Multivariate Visualization	acm647365	Scientific Visualization
+508	acm728600	Graph Layout Adjustment Strategies	acm647547	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+509	acm728609	The Botanical Beauty of Random Binary Trees	acm647547	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+510	acm728742	Incremental Layout in DynaDAG	acm647547	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+511	acm728744	Circular Layout in the Graph Layout Toolkit	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+512	acm728745	Automatic Graph Clustering	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+513	acm728752	Straight-Line Drawing Algorithms for Hierarchical Graphs and Clustered Graphs	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+514	acm728899	A Bayesian Paradigm for Dynamic Graph Layout	acm647549	Lecture Notes In Computer Science: Proceedings of the 5th International Symposium on Graph Drawing
+515	acm728901	Drawing Clustered Graphs on an Orthogonal Grid	acm647549	Lecture Notes In Computer Science: Proceedings of the 5th International Symposium on Graph Drawing
+516	acm728911	Graph Clustering 1: Circles of Cliques	acm647549	Lecture Notes In Computer Science: Proceedings of the 5th International Symposium on Graph Drawing
+517	acm729077	Balanced Aspect Ratio Trees and Their Use for Drawing Very Large Graphs	acm647550	Lecture Notes In Computer Science: Proceedings of the 6th International Symposium on Graph Drawing
+518	acm729095	A Fully Animated Interactive System for Clustering and Navigating Huge Graphs	acm647550	Lecture Notes In Computer Science: Proceedings of the 6th International Symposium on Graph Drawing
+519	acm729230	A Framework for Circular Drawings of Networks	acm647551	Lecture Notes In Computer Science: Proceedings of the 7th International Symposium on Graph Drawing
+520	acm729409	FADE: Graph Drawing Clustering and Visual Abstraction	acm647551	Lecture Notes In Computer Science: Proceedings of the 7th International Symposium on Graph Drawing
+521	acm729414	A Multilevel Algorithm for Force-Directed Graph Drawing	acm647552	Lecture Notes In Computer Science: Proceedings of the 8th International Symposium on Graph Drawing
+522	acm729561	Graph Drawing in Motion II	acm647553	Lecture Notes In Computer Science: Revised Papers from the 9th International Symposium on Graph Drawing
+523	acm730920	Encoding Presentation Emphasis Algorithms for Graphs	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+524	acm730925	Reduction of Visual Complexity in Dynamic Graphs	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+525	acm730930	A Simple Algorithm for Drawing Large Graphs on Small Screens	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+526	acm730931	D Visualization of Program Information	acm647546	Lecture Notes In Computer Science: Proceedings of the DIMACS International Workshop on Graph Drawing
+527	acm731363	Searching and Discovery of Resources in Digital Libraries	acm647695	Lecture Notes In Computer Science: Selected Papers from the Digital Libraries
+528	acm73350	Edge concentration: a method for clustering directed graphs	acm72910	Software Configuration Management Workshop: Proceedings of the 2nd International Workshop on Software configuration management: ACM SIGSOFT Software Engineering Notes: Volume 14 
+529	acm73662	The cognitive coprocessor architecture for interactive user interfaces	acm73660	Symposium on User Interface Software and Technology: Proceedings of the 2nd annual ACM SIGGRAPH symposium on User interface software and technology
+530	acm7478	Reliable communication in the presence of failures	acm7351	ACM Transactions on Computer Systems (TOCS): Volume 5 
+531	acm757113	Multilevel Visualization of Clustered Graphs	acm647548	Lecture Notes In Computer Science: Proceedings of the Symposium on Graph Drawing
+532	acm757116	Drawing Large Graphs with H3Viewer and Site Manager	acm647550	Lecture Notes In Computer Science: Proceedings of the 6th International Symposium on Graph Drawing
+533	acm757117	Planarity-Preserving Clustering and Embedding for Large Planar Graphs	acm647551	Lecture Notes In Computer Science: Proceedings of the 7th International Symposium on Graph Drawing
+534	acm757122	Graph Drawing by High-Dimensional Embedding	acm647554	Lecture Notes In Computer Science: Revised Papers from the 10th International Symposium on Graph Drawing
+535	acm760270	BiblioMapper: A Cluster-Based Information Visualization Technique	acm647341	INFOVIS: Proceedings of the 1998 IEEE Symposium on Information Visualization
+536	acm760413	Integrating Natural Language With Large Dataspace Visualization	acm647493	Lecture Notes In Computer Science: Selected Papers from the Digital Libraries Workshop on Digital Libraries Current Issues
+537	acm76334	Models for visualization in parallel debuggers	acm76263	Conference on High Performance Networking and Computing: Proceedings of the 1989 ACM/IEEE conference on Supercomputing
+538	acm76897	Debugging concurrent programs	acm76894	ACM Computing Surveys (CSUR): Volume 21 
+539	acm769924	Visual hierarchical dimension reduction for exploration of high dimensional datasets	acm769922	ACM International Conference Proceeding Series: Proceedings of the symposium on Data visualisation 2003
+540	acm775064	Query analysis and visualization of hierarchically structured data using Polaris	acm775047	Conference on Knowledge Discovery in Data: Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining
+541	acm776774	Communicating Centrality in Policy Network Drawings	acm776751	IEEE Transactions on Visualization and Computer Graphics: Volume 9 
+542	acm778316	Visualization	acm778212	Handbook of data mining and knowledge discovery
+543	acm779243	External memory algorithms	acm779232	Handbook of massive data sets
+544	acm78223	Envisioning information	null	ISBN: 0-9613921-1-8
+545	acm785915	Query Previews in Networked Information Systems	acm785905	ADL: Proceedings of the 3rd International Forum on Research and Technology Advances in Digital Libraries
+546	acm79026	A node-positioning algorithm for general trees	acm79019	Software-Practice &amp; Experience: Volume 20 
+547	acm794386	Non-parametric Similarity Measures for Unsupervised Texture Segmentation and Image Retrieval	acm794189	CVPR: Proceedings of the 1997 Conference on Computer Vision and Pattern Recognition (CVPR '97)
+548	acm794502	Normalized Cuts and Image Segmentation	acm794189	CVPR: Proceedings of the 1997 Conference on Computer Vision and Pattern Recognition (CVPR '97)
+549	acm801140	INCENSE: A system for displaying data structures	acm800059	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 10th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 17 
+550	acm801801	Towards specifying and evaluating the human factors of user-computer interfaces	acm800049	Conference on Human Factors in Computing Systems: Proceedings of the 1982 conference on Human factors in computing systems
+551	acm806818	A lens and aperture camera model for synthetic image generation	acm800224	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 8th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 15 
+552	acm808590	Distributed ray tracing	acm800031	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 11th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 18 
+553	acm808596	A system for algorithm animation	acm800031	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 11th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 18 
+554	acm81354	Computer-aided fighter pilots	acm81351	IEEE Spectrum: Volume 27 
+555	acm833835	Visualization of Biological Sequence Similarity Search Results	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+556	acm833844	High Dimensional Brushing for Interactive Exploration of Multivariate Data	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+557	acm833846	Recursive Pattern: A Technique for Visualizing Very Large Amounts of Data	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+558	acm833851	Iconic Techniques for Feature Visualization	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+559	acm833862	A rule-based tool for assisting colormap selection	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+560	acm833874	Subverting Structure: Data-Driven Diagram Generation	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+561	acm833884	An Architecture for Retaining and Analyzing Visual Explorations of Databases	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+562	acm833887	Authenticity Analysis of Wavelet Approximations in Visualization	acm832271	IEEE Visualization: Proceedings of the 6th conference on Visualization '95
+563	acm834348	Collaborative Active Textbooks: A Web-Based Algorithm Animation System for an Electronic Classroom	acm832277	VL: Proceedings of the 1996 IEEE Symposium on Visual Languages
+564	acm834354	The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations	acm832277	VL: Proceedings of the 1996 IEEE Symposium on Visual Languages
+565	acm834481	Fluid Visualization of Spreadsheet Structures	acm832279	VL: Proceedings of the IEEE Symposium on Visual Languages
+566	acm834493	VIQING: Visual Interactive QueryING	acm832279	VL: Proceedings of the IEEE Symposium on Visual Languages
+567	acm83821	Computer graphics: principles and practice (2nd ed.)	null	ISBN: 0-201-12110-7
+568	acm850372	An Empirical Study of Task Support in 3D Information Visualizations	acm555607	IV: Proceedings of the 1999 International Conference on Information Visualisation
+569	acm856684	The STARLIGHT information visualization system	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+570	acm856685	Automatic abstraction management in information visualization systems	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+571	acm856693	Information Drill-down using Web tools	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+572	acm856694	A multi-scale multi-layer translucent virtual space	acm583017	IV: Proceedings of the IEEE Conference on Information Visualisation
+573	acm863013	OLAP Solutions: Building Multidimensional Information Systems	acm863013	ISBN: 1401469183
+574	acm864453	Graphical Fisheye Views	acm198366	Communications of the ACM 37(12)
+575	acm864484	Cone Trees in the UGA Graphics System: Suggestions for a More Robust Visualization Tool	acm864484	Brown University Technical Report CS-93-07
+576	acm142673	Graphical Fisheye Views of Graphs	acm142750	Proceedings of the SIGCHI conference on Human factors in computing systems 1992
+577	acm864776	Algorithms for Drawing Graphs: An Annotated Bibliography	acm864776	Brown University Technical Report CS-89-09
+578	acm864808	TANGO: A Framework and System for Algorithm Animation	acm864808	Brown University Technical Report CS-89-30
+579	acm864933	Exploiting Orthogonality in Three Dimensional Graphics for Visualizing Abstract Data	acm864933	Brown University Technical Report CS-95-20
+580	acm866599	Automatic Structuring and Retrieval of Large Text Files	acm866599	Cornell University Technical Report TR92-1286
+581	acm867322	A Vector Space Model for Automatic Indexing	acm867322	Cornell University Technical Report TR74-218
+582	acm869026	Tree Visualisation and Navigation Clues for Information Visualisation	acm869026	Centre for Mathematics and Computer Science Technical Report INS-R9806
+583	acm891481	Performance Factors for Superscalar Processors	acm892623	Stanford University Technical Report CSL-TR-95-661
+584	acm892623	Using Complete Machine Simulation to Understand Computer System Behavior	acm892623	Stanford University Technical Report CS-TR-98-1603
+585	acm893936	Tioga-2: A Direct Manipulation Database Visualization Environment	acm893936	University of California at Berkeley Technical Report S2K-95-64
+586	acm894742	A Browser for Directed Graphs	acm894742	University of California at Berkeley Technical Report CSD-86-292
+587	acm896281	Drawing Trees Nicely with TeX	acm896281	Albert-Ludwigs University at Freiburg Technical Report report00014
+588	acm91412	Visualizing n-dimensional virtual worlds with n-vision	acm91385	Symposium on Interactive 3D Graphics: Proceedings of the 1990 symposium on Interactive 3D graphics: ACM SIGGRAPH Computer Graphics: Volume 24 
+589	acm92489	Presenting a graphical network: a comparison of performance using fisheye and scrolling views	acm92449	Proceedings of the third international conference on human-computer interaction on Designing and using human-computer interfaces and knowledge based systems (2nd ed.)
+590	acm93885	Local shading analysis	acm93871	Mit Press Series Of Artificial Intelligence Series: Shape from shading
+591	acm948480	Algorithm animation over the World Wide Web	acm948449	AVI: Proceedings of the workshop on Advanced visual interfaces
+592	acm948505	Constant information density in zoomable interfaces	acm948496	AVI: Proceedings of the working conference on Advanced visual interfaces
+593	acm949534	FAST a multi-processed environment for visualization of computational fluid dynamics	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+594	acm949553	A problem-oriented classification of visualization techniques	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+595	acm949569	Shape coding of multidimensional data on a microcomputer display	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+596	acm949571	Visualizing a scalar field on an N-dimensional lattice	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+597	acm949588	Parallel coordinates a tool for visualizing multi-dimensional geometry	acm949531	IEEE Visualization: Proceedings of the 1st conference on Visualization '90
+598	acm949614	A tool for visualizing the topology of three-dimensional vector fields	acm949607	IEEE Visualization: Proceedings of the 2nd conference on Visualization '91
+599	acm949633	Interactive data visualization using focusing and linking	acm949607	IEEE Visualization: Proceedings of the 2nd conference on Visualization '91
+600	acm949654	Tree-Maps a space-filling approach to the visualization of hierarchical information structures	acm949607	IEEE Visualization: Proceedings of the 2nd conference on Visualization '91
+601	acm949711	Improving the visualization of hierarchies with treemaps design issues and experimentation	acm949685	IEEE Visualization: Proceedings of the 3rd conference on Visualization '92
+602	acm949724	Visualizing code profiling line oriented statistics	acm949685	IEEE Visualization: Proceedings of the 3rd conference on Visualization '92
+603	acm949734	Visualization for the document space	acm949685	IEEE Visualization: Proceedings of the 3rd conference on Visualization '92
+604	acm949893	Texture splats for 3D scalar and vector field visualization	acm949845	IEEE Visualization: Proceedings of the 4th conference on Visualization '93
+605	acm949901	Computer visualization of long genomic sequences	acm949845	IEEE Visualization: Proceedings of the 4th conference on Visualization '93
+606	acm951144	A lattice model for data display	acm951087	IEEE Visualization: Proceedings of the conference on Visualization '94
+607	acm951146	XmdvTool integrating multiple methods for visualizing multivariate data	acm951087	IEEE Visualization: Proceedings of the conference on Visualization '94
+608	acm951894	CartoDraw A Fast Algorithm for Generating Contiguous Cartograms	acm951847	IEEE Transactions on Visualization and Computer Graphics: Volume 10 
+609	acm97273	Data characterization for intelligent graphics presentation	acm97243	Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems Empowering people
+610	acm97898	Rapid controlled movement through a virtual 3D workspace	acm97879	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 17th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 24 
+611	acm97919	Footprint evaluation for volume rendering	acm97879	International Conference on Computer Graphics and Interactive Techniques: Proceedings of the 17th annual conference on Computer graphics and interactive techniques: ACM SIGGRAPH Computer Graphics: Volume 24 
+612	acm97933	Worlds within worlds: metaphors for exploring n-dimensional virtual worlds	acm97924	Symposium on User Interface Software and Technology: Proceedings of the 3rd annual ACM SIGGRAPH symposium on User interface software and technology
+613	acm97975	Painting multiple views of complex objects	acm97945	Conference on Object Oriented Programming Systems Languages and Applications: Proceedings of the European conference on object-oriented programming on Object-oriented programming systems
+614	acm98599	Computing the minimum Hausdorff distance for point sets under translation	acm98524	Annual Symposium on Computational Geometry: Proceedings of the sixth annual symposium on Computational geometry
+615	acm99361	A visual calendar for scheduling group meetings	acm99332	Computer Supported Cooperative Work: Proceedings of the 1990 ACM conference on Computer-supported cooperative work

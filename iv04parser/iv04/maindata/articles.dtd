@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT articles
+        (article)+>
+<!ELEMENT article
+        (title, source, pages?, url?, abstract?, keywords?, authors, date, references?)>
+<!-- *
+Could be
+<!ATTLIST article
+        id CDATA #REQUIRED>
+* -->
+<!ATTLIST article
+        id ID #REQUIRED>
+<!ELEMENT title
+        (#PCDATA)>
+<!ELEMENT source
+        (#PCDATA)>
+<!ATTLIST source
+        ref CDATA #IMPLIED>
+<!ELEMENT pages
+        EMPTY>
+<!ATTLIST pages
+        from CDATA #REQUIRED
+        to CDATA #IMPLIED>
+<!ELEMENT url
+        (#PCDATA)>
+<!ELEMENT abstract
+        (par+)>
+<!ELEMENT par
+        (#PCDATA)>
+<!ELEMENT keywords
+        (#PCDATA)>
+<!ELEMENT authors
+        (author_ref*)>
+<!ELEMENT author_ref
+        (#PCDATA)>
+<!ATTLIST author_ref
+        ref CDATA #IMPLIED>
+<!-- *
+Could be
+<!ATTLIST author_ref
+        ref IDREF #IMPLIED>
+* -->
+
+<!ELEMENT date
+        EMPTY>
+<!ATTLIST date
+        from CDATA #REQUIRED
+        to CDATA #IMPLIED>
+<!ELEMENT references
+        (ref*)>
+<!ELEMENT ref
+        (#PCDATA)>
+<!ATTLIST ref
+        ref CDATA #IMPLIED>
+<!-- *
+Could be
+        ref IDREF #IMPLIED>
+* -->
+<!ELEMENT author
+        (first_name?, middle_name?, last_name, suffix?, affiliation?, role?)>
+<!ATTLIST author
+        id ID #REQUIRED>

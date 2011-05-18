@@ -1,0 +1,306 @@
+<?xml version="1.0" standalone="no" ?>
+	<DNVGRAPH>
+		 <Level value="0" numberOfNodes=" 95" numberOfEdges="206">
+			<DNVNODE IntId="0" Id="P10526" Label="Achilleas Papakostas" />
+			<DNVNODE IntId="1" Id="P107222" Label="Hans-Peter Kriegel" />
+			<DNVNODE IntId="2" Id="P116662" Label="Ioannis G. Tollis" />
+			<DNVNODE IntId="3" Id="P117016" Label="Isabel F. Cruz" />
+			<DNVNODE IntId="4" Id="P12980" Label="Albert Badro" />
+			<DNVNODE IntId="5" Id="P131535" Label="James Abello" />
+			<DNVNODE IntId="6" Id="P132223" Label="James D. Foley" />
+			<DNVNODE IntId="7" Id="P137799" Label="Jeffrey Korn" />
+			<DNVNODE IntId="8" Id="P144378" Label="John F. Hughes" />
+			<DNVNODE IntId="9" Id="P146109" Label="John Stasko" />
+			<DNVNODE IntId="10" Id="P164140" Label="Kyoji Hirata" />
+			<DNVNODE IntId="11" Id="P173985" Label="Luca Vismara" />
+			<DNVNODE IntId="12" Id="P17682" Label="Andrew W. Appel" />
+			<DNVNODE IntId="13" Id="P18594" Label="Andries van Dam" />
+			<DNVNODE IntId="14" Id="P186929" Label="Manojit Sarkar" />
+			<DNVNODE IntId="15" Id="P187155" Label="Mao Lin Huang" />
+			<DNVNODE IntId="16" Id="P187299" Label="Marc H. Brown" />
+			<DNVNODE IntId="17" Id="P187488" Label="Marc A. Najork" />
+			<DNVNODE IntId="18" Id="P187586" Label="Marc P. Stevens" />
+			<DNVNODE IntId="19" Id="P188133" Label="Marcus Haupt" />
+			<DNVNODE IntId="20" Id="P193125" Label="Mary Jean Harrold" />
+			<DNVNODE IntId="21" Id="P195684" Label="Meichun Hsu" />
+			<DNVNODE IntId="22" Id="P197164" Label="Michael T. Goodrich" />
+			<DNVNODE IntId="23" Id="P199962" Label="Michelle X. Zhou" />
+			<DNVNODE IntId="24" Id="P20012" Label="Annemarie Herrmann" />
+			<DNVNODE IntId="25" Id="P200206" Label="Mihael Ankerst" />
+			<DNVNODE IntId="26" Id="P201116" Label="Min Chen" />
+			<DNVNODE IntId="27" Id="P207209" Label="Naoki Shibata" />
+			<DNVNODE IntId="28" Id="P207534" Label="Natasha Gelfand" />
+			<DNVNODE IntId="29" Id="P212246" Label="Oren J. Tversky" />
+			<DNVNODE IntId="30" Id="P223968" Label="Peter Eades" />
+			<DNVNODE IntId="31" Id="P246404" Label="Robert Sedgewick" />
+			<DNVNODE IntId="32" Id="P246447" Label="Robert A. Shillner" />
+			<DNVNODE IntId="33" Id="P246990" Label="Robert Zeleznik" />
+			<DNVNODE IntId="34" Id="P247234" Label="Roberto Tamassia" />
+			<DNVNODE IntId="35" Id="P250745" Label="Ryan S. Baker" />
+			<DNVNODE IntId="36" Id="P260900" Label="Scott Hudson" />
+			<DNVNODE IntId="37" Id="P261024" Label="Scott Meyers" />
+			<DNVNODE IntId="38" Id="P261164" Label="Scott S. Snibbe" />
+			<DNVNODE IntId="39" Id="P266323" Label="Sougata Mukherjea" />
+			<DNVNODE IntId="40" Id="P267223" Label="Stefan Berchtold" />
+			<DNVNODE IntId="41" Id="P268478" Label="Stephen G. Kobourov" />
+			<DNVNODE IntId="42" Id="P268645" Label="Stephen C. North" />
+			<DNVNODE IntId="43" Id="P269823" Label="Steven K. Feiner" />
+			<DNVNODE IntId="44" Id="P270242" Label="Steven P. Reiss" />
+			<DNVNODE IntId="45" Id="P281620" Label="Thomas Seidl" />
+			<DNVNODE IntId="46" Id="P285684" Label="Tyson R. Henry" />
+			<DNVNODE IntId="47" Id="P286769" Label="Umesh Dayal" />
+			<DNVNODE IntId="48" Id="P302504" Label="Xuemin Lin" />
+			<DNVNODE IntId="49" Id="P305767" Label="Ying Feng" />
+			<DNVNODE IntId="50" Id="P306682" Label="Yoshinori Hara" />
+			<DNVNODE IntId="51" Id="P30991" Label="Blair MacIntyre" />
+			<DNVNODE IntId="52" Id="P327893" Label="Benot Hudson" />
+			<DNVNODE IntId="53" Id="P327994" Label="Galina Shubina" />
+			<DNVNODE IntId="54" Id="P328169" Label="Mark Handy" />
+			<DNVNODE IntId="55" Id="P328241" Label="Robert Cohen" />
+			<DNVNODE IntId="56" Id="P328311" Label="Ulrick Barandes" />
+			<DNVNODE IntId="57" Id="P333992" Label="Teresa Bleser" />
+			<DNVNODE IntId="58" Id="P344298" Label="James A. Jones" />
+			<DNVNODE IntId="59" Id="P362395" Label="Irene Finocchi" />
+			<DNVNODE IntId="60" Id="P364260" Label="Blaine A. Price" />
+			<DNVNODE IntId="61" Id="P368178" Label="Giuseppe Di Battista" />
+			<DNVNODE IntId="62" Id="P398046" Label="Ming Hao" />
+			<DNVNODE IntId="63" Id="P412760" Label="Eugene Zhang" />
+			<DNVNODE IntId="64" Id="P422175" Label="David Schlegel" />
+			<DNVNODE IntId="65" Id="P422257" Label="Hans-Peter Krigel" />
+			<DNVNODE IntId="66" Id="P422317" Label="Jefrey Vroom" />
+			<DNVNODE IntId="67" Id="P422541" Label="Robert Gurwitz" />
+			<DNVNODE IntId="68" Id="P422617" Label="Thomas Faulhaber, Jr." />
+			<DNVNODE IntId="69" Id="P438303" Label="Daniel Keim" />
+			<DNVNODE IntId="70" Id="P440936" Label="Aaron Quigley" />
+			<DNVNODE IntId="71" Id="P46578" Label="Christian A. Duncan" />
+			<DNVNODE IntId="72" Id="P466953" Label="Janet M. Six" />
+			<DNVNODE IntId="73" Id="P487877" Label="Qing-Wen Feng" />
+			<DNVNODE IntId="74" Id="P49282" Label="Clayton Lewis" />
+			<DNVNODE IntId="75" Id="P49409" Label="Clifford Beshers" />
+			<DNVNODE IntId="76" Id="P50498" Label="Craig Upson" />
+			<DNVNODE IntId="77" Id="P508337" Label="K.-P. Vo" />
+			<DNVNODE IntId="78" Id="P569393" Label="D. F. Jerding" />
+			<DNVNODE IntId="79" Id="P572970" Label="Bob Deletto" />
+			<DNVNODE IntId="80" Id="P573006" Label="Christian Panse" />
+			<DNVNODE IntId="81" Id="P573179" Label="James Eagan" />
+			<DNVNODE IntId="82" Id="P573192" Label="Jim Baker" />
+			<DNVNODE IntId="83" Id="P573202" Label="Julain Ladisch" />
+			<DNVNODE IntId="84" Id="P573206" Label="Jorn Schneidewind" />
+			<DNVNODE IntId="85" Id="P573363" Label="Quang Vinh Nguyen" />
+			<DNVNODE IntId="86" Id="P62263" Label="David Kamins" />
+			<DNVNODE IntId="87" Id="P62495" Label="David Laidlaw" />
+			<DNVNODE IntId="88" Id="P643612" Label="Stephen Wehrend" />
+			<DNVNODE IntId="89" Id="P75982" Label="Eileen Kraemer" />
+			<DNVNODE IntId="90" Id="P76267" Label="Eleftherios Koutsofios" />
+			<DNVNODE IntId="91" Id="P76526" Label="Eliot Solomon" />
+			<DNVNODE IntId="92" Id="P77285" Label="Emden R. Gansner" />
+			<DNVNODE IntId="93" Id="P87379" Label="Fusako Hirabayashi" />
+			<DNVNODE IntId="94" Id="P98198" Label="Giuseppe Liotta" />
+			<DNVEDGE Id="564" To="P116662" From="P10526" />
+			<DNVEDGE Id="211" To="P107222" From="P438303" />
+			<DNVEDGE Id="1149" To="P281620" From="P107222" />
+			<DNVEDGE Id="1159" To="P107222" From="P267223" />
+			<DNVEDGE Id="1272" To="P107222" From="P200206" />
+			<DNVEDGE Id="892" To="P247234" From="P116662" />
+			<DNVEDGE Id="893" To="P368178" From="P116662" />
+			<DNVEDGE Id="894" To="P223968" From="P116662" />
+			<DNVEDGE Id="1167" To="P116662" From="P466953" />
+			<DNVEDGE Id="1682" To="P117016" From="P573192" />
+			<DNVEDGE Id="1685" To="P98198" From="P117016" />
+			<DNVEDGE Id="1686" To="P247234" From="P117016" />
+			<DNVEDGE Id="561" To="P12980" From="P146109" />
+			<DNVEDGE Id="563" To="P49282" From="P12980" />
+			<DNVEDGE Id="629" To="P76267" From="P131535" />
+			<DNVEDGE Id="630" To="P77285" From="P131535" />
+			<DNVEDGE Id="631" To="P268645" From="P131535" />
+			<DNVEDGE Id="1012" To="P137799" From="P131535" />
+			<DNVEDGE Id="1562" To="P362395" From="P131535" />
+			<DNVEDGE Id="213" To="P132223" From="P266323" />
+			<DNVEDGE Id="215" To="P260900" From="P132223" />
+			<DNVEDGE Id="1262" To="P132223" From="P333992" />
+			<DNVEDGE Id="1293" To="P18594" From="P132223" />
+			<DNVEDGE Id="1294" To="P269823" From="P132223" />
+			<DNVEDGE Id="1295" To="P144378" From="P132223" />
+			<DNVEDGE Id="1197" To="P17682" From="P137799" />
+			<DNVEDGE Id="1563" To="P362395" From="P137799" />
+			<DNVEDGE Id="129" To="P144378" From="P187586" />
+			<DNVEDGE Id="130" To="P144378" From="P246990" />
+			<DNVEDGE Id="1297" To="P144378" From="P18594" />
+			<DNVEDGE Id="1298" To="P144378" From="P269823" />
+			<DNVEDGE Id="53" To="P75982" From="P146109" />
+			<DNVEDGE Id="363" To="P146109" From="P266323" />
+			<DNVEDGE Id="562" To="P49282" From="P146109" />
+			<DNVEDGE Id="889" To="P187299" From="P146109" />
+			<DNVEDGE Id="890" To="P364260" From="P146109" />
+			<DNVEDGE Id="1340" To="P146109" From="P569393" />
+			<DNVEDGE Id="1500" To="P412760" From="P146109" />
+			<DNVEDGE Id="1574" To="P146109" From="P573179" />
+			<DNVEDGE Id="1576" To="P146109" From="P193125" />
+			<DNVEDGE Id="1577" To="P146109" From="P344298" />
+			<DNVEDGE Id="1756" To="P573006" From="P146109" />
+			<DNVEDGE Id="80" To="P306682" From="P164140" />
+			<DNVEDGE Id="81" To="P207209" From="P164140" />
+			<DNVEDGE Id="82" To="P87379" From="P164140" />
+			<DNVEDGE Id="1387" To="P164140" From="P266323" />
+			<DNVEDGE Id="817" To="P173985" From="P247234" />
+			<DNVEDGE Id="825" To="P173985" From="P328311" />
+			<DNVEDGE Id="832" To="P173985" From="P197164" />
+			<DNVEDGE Id="839" To="P328169" From="P173985" />
+			<DNVEDGE Id="840" To="P327994" From="P173985" />
+			<DNVEDGE Id="841" To="P328241" From="P173985" />
+			<DNVEDGE Id="842" To="P327893" From="P173985" />
+			<DNVEDGE Id="843" To="P250745" From="P173985" />
+			<DNVEDGE Id="844" To="P207534" From="P173985" />
+			<DNVEDGE Id="1019" To="P18594" From="P50498" />
+			<DNVEDGE Id="1025" To="P18594" From="P422617" />
+			<DNVEDGE Id="1030" To="P18594" From="P62263" />
+			<DNVEDGE Id="1034" To="P18594" From="P62495" />
+			<DNVEDGE Id="1037" To="P18594" From="P422175" />
+			<DNVEDGE Id="1039" To="P18594" From="P422317" />
+			<DNVEDGE Id="1040" To="P18594" From="P422541" />
+			<DNVEDGE Id="1296" To="P269823" From="P18594" />
+			<DNVEDGE Id="14" To="P187299" From="P186929" />
+			<DNVEDGE Id="66" To="P261164" From="P186929" />
+			<DNVEDGE Id="67" To="P212246" From="P186929" />
+			<DNVEDGE Id="68" To="P270242" From="P186929" />
+			<DNVEDGE Id="1219" To="P223968" From="P187155" />
+			<DNVEDGE Id="1630" To="P187155" From="P573363" />
+			<DNVEDGE Id="72" To="P187488" From="P187299" />
+			<DNVEDGE Id="362" To="P246447" From="P187299" />
+			<DNVEDGE Id="891" To="P364260" From="P187299" />
+			<DNVEDGE Id="1267" To="P246404" From="P187299" />
+			<DNVEDGE Id="128" To="P246990" From="P187586" />
+			<DNVEDGE Id="74" To="P188133" From="P269823" />
+			<DNVEDGE Id="76" To="P188133" From="P30991" />
+			<DNVEDGE Id="78" To="P76526" From="P188133" />
+			<DNVEDGE Id="1572" To="P193125" From="P573179" />
+			<DNVEDGE Id="1575" To="P344298" From="P193125" />
+			<DNVEDGE Id="1473" To="P195684" From="P398046" />
+			<DNVEDGE Id="1476" To="P195684" From="P286769" />
+			<DNVEDGE Id="1479" To="P573192" From="P195684" />
+			<DNVEDGE Id="1480" To="P572970" From="P195684" />
+			<DNVEDGE Id="1599" To="P195684" From="P438303" />
+			<DNVEDGE Id="1603" To="P573202" From="P195684" />
+			<DNVEDGE Id="816" To="P197164" From="P247234" />
+			<DNVEDGE Id="824" To="P197164" From="P328311" />
+			<DNVEDGE Id="833" To="P328169" From="P197164" />
+			<DNVEDGE Id="834" To="P327994" From="P197164" />
+			<DNVEDGE Id="835" To="P328241" From="P197164" />
+			<DNVEDGE Id="836" To="P327893" From="P197164" />
+			<DNVEDGE Id="837" To="P250745" From="P197164" />
+			<DNVEDGE Id="838" To="P207534" From="P197164" />
+			<DNVEDGE Id="1216" To="P197164" From="P46578" />
+			<DNVEDGE Id="1218" To="P268478" From="P197164" />
+			<DNVEDGE Id="452" To="P269823" From="P199962" />
+			<DNVEDGE Id="1612" To="P201116" From="P199962" />
+			<DNVEDGE Id="1613" To="P305767" From="P199962" />
+			<DNVEDGE Id="509" To="P20012" From="P438303" />
+			<DNVEDGE Id="1198" To="P267223" From="P200206" />
+			<DNVEDGE Id="1199" To="P438303" From="P200206" />
+			<DNVEDGE Id="1614" To="P305767" From="P201116" />
+			<DNVEDGE Id="83" To="P207209" From="P306682" />
+			<DNVEDGE Id="85" To="P87379" From="P207209" />
+			<DNVEDGE Id="823" To="P207534" From="P247234" />
+			<DNVEDGE Id="831" To="P207534" From="P328311" />
+			<DNVEDGE Id="849" To="P207534" From="P328169" />
+			<DNVEDGE Id="853" To="P207534" From="P327994" />
+			<DNVEDGE Id="856" To="P207534" From="P328241" />
+			<DNVEDGE Id="858" To="P207534" From="P327893" />
+			<DNVEDGE Id="859" To="P207534" From="P250745" />
+			<DNVEDGE Id="69" To="P212246" From="P261164" />
+			<DNVEDGE Id="71" To="P270242" From="P212246" />
+			<DNVEDGE Id="1647" To="P246990" From="P212246" />
+			<DNVEDGE Id="896" To="P223968" From="P247234" />
+			<DNVEDGE Id="897" To="P223968" From="P368178" />
+			<DNVEDGE Id="1212" To="P487877" From="P223968" />
+			<DNVEDGE Id="1213" To="P302504" From="P223968" />
+			<DNVEDGE Id="1220" To="P223968" From="P440936" />
+			<DNVEDGE Id="1648" To="P246990" From="P261164" />
+			<DNVEDGE Id="815" To="P328311" From="P247234" />
+			<DNVEDGE Id="818" To="P328169" From="P247234" />
+			<DNVEDGE Id="819" To="P327994" From="P247234" />
+			<DNVEDGE Id="820" To="P328241" From="P247234" />
+			<DNVEDGE Id="821" To="P327893" From="P247234" />
+			<DNVEDGE Id="822" To="P250745" From="P247234" />
+			<DNVEDGE Id="895" To="P368178" From="P247234" />
+			<DNVEDGE Id="1684" To="P247234" From="P573192" />
+			<DNVEDGE Id="1687" To="P247234" From="P98198" />
+			<DNVEDGE Id="830" To="P250745" From="P328311" />
+			<DNVEDGE Id="848" To="P250745" From="P328169" />
+			<DNVEDGE Id="852" To="P250745" From="P327994" />
+			<DNVEDGE Id="855" To="P250745" From="P328241" />
+			<DNVEDGE Id="857" To="P250745" From="P327893" />
+			<DNVEDGE Id="3" To="P260900" From="P285684" />
+			<DNVEDGE Id="214" To="P260900" From="P266323" />
+			<DNVEDGE Id="22" To="P270242" From="P261024" />
+			<DNVEDGE Id="70" To="P270242" From="P261164" />
+			<DNVEDGE Id="1388" To="P306682" From="P266323" />
+			<DNVEDGE Id="1158" To="P438303" From="P267223" />
+			<DNVEDGE Id="1217" To="P268478" From="P46578" />
+			<DNVEDGE Id="633" To="P268645" From="P76267" />
+			<DNVEDGE Id="634" To="P268645" From="P77285" />
+			<DNVEDGE Id="1142" To="P508337" From="P268645" />
+			<DNVEDGE Id="1641" To="P268645" From="P438303" />
+			<DNVEDGE Id="1644" To="P573006" From="P268645" />
+			<DNVEDGE Id="1645" To="P573206" From="P268645" />
+			<DNVEDGE Id="73" To="P30991" From="P269823" />
+			<DNVEDGE Id="75" To="P76526" From="P269823" />
+			<DNVEDGE Id="1675" To="P49409" From="P269823" />
+			<DNVEDGE Id="1148" To="P281620" From="P438303" />
+			<DNVEDGE Id="1472" To="P286769" From="P398046" />
+			<DNVEDGE Id="1477" To="P573192" From="P286769" />
+			<DNVEDGE Id="1478" To="P572970" From="P286769" />
+			<DNVEDGE Id="1598" To="P286769" From="P438303" />
+			<DNVEDGE Id="1602" To="P573202" From="P286769" />
+			<DNVEDGE Id="1214" To="P302504" From="P487877" />
+			<DNVEDGE Id="84" To="P87379" From="P306682" />
+			<DNVEDGE Id="77" To="P76526" From="P30991" />
+			<DNVEDGE Id="829" To="P327893" From="P328311" />
+			<DNVEDGE Id="847" To="P327893" From="P328169" />
+			<DNVEDGE Id="851" To="P327893" From="P327994" />
+			<DNVEDGE Id="854" To="P327893" From="P328241" />
+			<DNVEDGE Id="827" To="P327994" From="P328311" />
+			<DNVEDGE Id="845" To="P327994" From="P328169" />
+			<DNVEDGE Id="850" To="P328241" From="P327994" />
+			<DNVEDGE Id="826" To="P328169" From="P328311" />
+			<DNVEDGE Id="846" To="P328241" From="P328169" />
+			<DNVEDGE Id="828" To="P328241" From="P328311" />
+			<DNVEDGE Id="1573" To="P344298" From="P573179" />
+			<DNVEDGE Id="1474" To="P573192" From="P398046" />
+			<DNVEDGE Id="1475" To="P572970" From="P398046" />
+			<DNVEDGE Id="1597" To="P398046" From="P438303" />
+			<DNVEDGE Id="1601" To="P573202" From="P398046" />
+			<DNVEDGE Id="1016" To="P422175" From="P50498" />
+			<DNVEDGE Id="1022" To="P422175" From="P422617" />
+			<DNVEDGE Id="1027" To="P422175" From="P62263" />
+			<DNVEDGE Id="1031" To="P422175" From="P62495" />
+			<DNVEDGE Id="1035" To="P422317" From="P422175" />
+			<DNVEDGE Id="1036" To="P422541" From="P422175" />
+			<DNVEDGE Id="1043" To="P422257" From="P438303" />
+			<DNVEDGE Id="1017" To="P422317" From="P50498" />
+			<DNVEDGE Id="1023" To="P422317" From="P422617" />
+			<DNVEDGE Id="1028" To="P422317" From="P62263" />
+			<DNVEDGE Id="1032" To="P422317" From="P62495" />
+			<DNVEDGE Id="1038" To="P422541" From="P422317" />
+			<DNVEDGE Id="1018" To="P422541" From="P50498" />
+			<DNVEDGE Id="1024" To="P422541" From="P422617" />
+			<DNVEDGE Id="1029" To="P422541" From="P62263" />
+			<DNVEDGE Id="1033" To="P422541" From="P62495" />
+			<DNVEDGE Id="1013" To="P422617" From="P50498" />
+			<DNVEDGE Id="1020" To="P62263" From="P422617" />
+			<DNVEDGE Id="1021" To="P62495" From="P422617" />
+			<DNVEDGE Id="1600" To="P573202" From="P438303" />
+			<DNVEDGE Id="1642" To="P573006" From="P438303" />
+			<DNVEDGE Id="1643" To="P573206" From="P438303" />
+			<DNVEDGE Id="1705" To="P49282" From="P643612" />
+			<DNVEDGE Id="1014" To="P62263" From="P50498" />
+			<DNVEDGE Id="1015" To="P62495" From="P50498" />
+			<DNVEDGE Id="1140" To="P508337" From="P77285" />
+			<DNVEDGE Id="1141" To="P508337" From="P76267" />
+			<DNVEDGE Id="1481" To="P572970" From="P573192" />
+			<DNVEDGE Id="1646" To="P573206" From="P573006" />
+			<DNVEDGE Id="1683" To="P98198" From="P573192" />
+			<DNVEDGE Id="1026" To="P62495" From="P62263" />
+			<DNVEDGE Id="632" To="P77285" From="P76267" />
+	</Level>
+</DNVGRAPH>

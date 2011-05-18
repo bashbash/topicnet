@@ -1,0 +1,111 @@
+Shader{
+	name = "stylized_primitive.shl",
+	description = [[ test normal interpolation ]],
+	language = "GLSL",
+	
+	parameters = {
+		Parameter {
+				{0.0, 0.0, 1.0},
+				name = "viewvec", type = "vec3",
+				description = "camera eye point",
+		},
+		Parameter {
+			{1., 1., 1., 1.},
+			name = "Ka", type = "vec4",
+			description = "ambient material",
+		},
+		
+		Parameter {
+			{0.3, 0.3, 0.3, 1.},
+			name = "Kd", type = "vec4",
+			description = "diffuse material",
+		},
+		
+		Parameter {
+			{1., 1., 1., 1.},
+			name = "Ks", type = "vec4",
+			description = "specular material",
+		},
+		
+		Parameter {
+			10,
+			name = "Ns", type = "float",
+			description = "specular falloff",
+		}
+	},
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Vertex Program
+--------------------------------------------------------------------------
+Program{
+	type = "vertex",
+	
+	[[
+
+
+varying vec3 N;
+varying vec3 P;
+
+
+ 
+void main(void)
+{
+	//get the vertices into eye space
+	P = (gl_ModelViewMatrix*gl_Vertex).xyz;
+
+	//get the normals into eye space
+	N = gl_NormalMatrix*normalize(gl_Normal);
+	
+	gl_Position = ftransform();
+
+}
+
+	]]
+},
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Fragment Program
+--------------------------------------------------------------------------
+Program{
+	type = "fragment",	--must be defined
+
+	[[
+
+varying vec3 N;
+varying vec3 P;
+
+uniform vec4 Ka;
+uniform vec4 Kd;
+uniform vec4 Ks;
+uniform float Ns;
+
+
+void main (void)
+{
+	
+	vec3 norm = normalize(N);
+	
+	//ambient contribution
+	vec4 ambient = Ka * gl_FrontLightProduct[0].ambient;
+	
+	vec3 lightPosition = vec3(gl_LightSource[0].position);
+	
+	//diffuse contribution
+	vec3 L = normalize(lightPosition - P);
+	vec4 diffuse = Kd*gl_FrontLightProduct[0].diffuse*max(dot(norm, L), 0.);
+	
+	//calculate specular contribution
+	vec3 V = normalize(-P);
+	//average of lighting and view vector)  not true reflection vector
+	vec3 H = normalize(L + V); 
+	vec4 specular = Ks*gl_FrontLightProduct[0].specular * pow(max(dot(norm,H), 0.), Ns);
+	
+	gl_FragColor = ambient + diffuse + specular;
+	
+}
+	]],
+},
+
+--------------------------------------------------------------------------
+}

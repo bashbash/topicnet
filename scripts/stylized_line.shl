@@ -1,0 +1,224 @@
+Shader{
+	name = "stylized_primitive.shl",
+	description = [[ test normal interpolation ]],
+	language = "GLSL",
+	
+	parameters = {
+		
+		Parameter {
+				0,
+				name = "shapetex", type = "int",
+				description = "shape texture sampler 2d",
+		},
+		
+		Parameter {
+				{0.0, 0.0, 0.0, 1.0},
+				name = "haloColor", type = "vec4",
+				description = "halo color",
+		},
+		Parameter {
+				{0.0, 0.0, 1.0},
+				name = "viewvec", type = "vec3",
+				description = "camera eye point",
+		}
+	},
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Vertex Program
+--------------------------------------------------------------------------
+Program{
+	type = "vertex",
+	
+	[[
+
+varying vec4 Diffuse;
+varying vec3 upVec;
+varying vec3 sideVec;
+varying vec3 coord;
+varying vec2 depth0;
+varying vec2 depth1;
+
+
+varying vec3 N;
+
+vec3 closestPoint(vec3 path, vec3 start, vec3 Vpoint){
+	vec3 v =  Vpoint - start;
+	//v = normalize(v);
+	vec3 u = normalize(path);
+	vec3 pnt = dot(u, v) * u; 
+	//vec3 res = start * pnt;
+	return pnt;
+}
+
+vec3 normPoint( vec3 t1, vec3 c1, vec3 view, float radyus) {
+  
+	vec3 p1 = closestPoint(t1, c1, view);
+	vec3 u1 = p1 - view;
+	
+	vec3 y1 = normalize(cross(t1, u1));
+	vec3 x1 = normalize(cross(t1, y1));
+	
+	float sign = 1.0;
+	if(radyus < 0.0) {
+		sign = -1.0;
+		radyus = -1.0 * radyus;
+	}
+	
+	float f1 = sqrt(1.0 - (radyus / length(u1)));
+	
+	
+	vec3 ei = y1 * radyus;
+	if(sign<0.0){
+		ei = ei * -1.0;
+	}
+	vec3 siluet =  c1 + ei;
+
+	
+	float k = sqrt(1.0 - (f1*f1));
+	vec3 nrm = (x1 * k);
+	if(sign>0.0){
+		nrm = nrm + (y1* f1);
+	}
+	else{
+		nrm = nrm - (y1* f1);
+	}
+	
+	return nrm;
+}
+
+
+void main(void)
+{
+	vec4 pos;
+	vec3 norm;
+	vec3 viewVec;
+
+	// transform vertex to world space
+	pos	= gl_ModelViewMatrix * gl_Vertex;
+
+	// generate vector from camera viewpoint to our vertex
+	viewVec = normalize(-pos.xyz);
+
+	// transform tangent to world space
+	norm = gl_NormalMatrix * gl_Normal;
+
+	// calculate side and up extrusion vectors
+	sideVec = normalize(cross(-pos.xyz, norm));
+	upVec = normalize(cross(sideVec, norm));
+
+	// extrude the vertex by the transferred amount in side and up direction
+	pos.xyz += sideVec * gl_MultiTexCoord0.x;
+
+    
+    // write out position
+	gl_Position = gl_ProjectionMatrix * pos;
+
+	// determine diffuse color
+	Diffuse		= gl_Color * gl_LightSource[0].diffuse;
+
+	// transfer interpolation values for texture lookups to fragment shader (x and y texture coordinates, correct for radius)
+	coord.xyz = gl_MultiTexCoord0.xzy;
+	
+	N = normPoint( gl_Normal.xyz, gl_Vertex.xyz, viewVec, coord.x);
+
+	// copy over depth information
+
+	// depth0 = real position z and w values
+	depth0.xy = gl_Position.zw;
+
+	// depth1 = front extruded depth
+	// only extrude depth when we're not on a hybrid part to stop depth conflicts.
+	// approximate distance from center of the streamline to the infinite cylinder (clipped to ensure that no weird things happen)
+	float depth = min(1.0 / dot(upVec, -viewVec), 1.0) * abs(gl_MultiTexCoord0.x);
+
+	// mpos is our actual position moved into direction of the viewer by the calculated depth
+	vec4 mpos;
+	mpos.xyz = pos.xyz + viewVec * depth;
+	mpos.w = 1.0;
+	
+	// transfer front position z and w values to fragment shader
+	mpos = gl_ProjectionMatrix * mpos;
+	depth1.xy = mpos.zw;
+
+	// modify upvec in tangent direction
+	upVec += norm * gl_MultiTexCoord0.w;
+}
+
+	]]
+},
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--	Fragment Program
+--------------------------------------------------------------------------
+Program{
+	type = "fragment",	--must be defined
+
+	[[
+
+uniform vec4 haloColor;
+uniform vec3 viewvec;
+uniform sampler2D shapetex;
+
+
+varying vec4 Diffuse;
+varying vec3 upVec;
+varying vec3 sideVec;
+varying vec3 coord;
+varying vec2 depth0;
+varying vec2 depth1;
+
+varying vec3 N;
+
+
+void main (void)
+{
+	
+	vec2 tcd = coord.xy;
+	tcd.x = (coord.x / coord.z) * 0.5 + 0.5;
+	if (tcd.x < 0.0 || tcd.x > 1.0)
+	{
+		// we are outside of the actual streamline position on the horizontal, and thus need to draw the halo
+		// pixel color is set to the color of the halo
+	    gl_FragColor = haloColor;
+	    
+	    // pixel depth is set to that of the actual extruded quad (z / w)
+		gl_FragDepth = (depth0.x/depth0.y) * 0.5 + 0.5;
+	}
+	else
+	{
+		// we are inside of the streamline, so generate appropriate values
+		// use the horizontal and vertical position as texture lookup values for the streamline texture
+		vec3 tex = texture2D(shapetex, tcd.xy).xyz;
+		
+		// expand x value from [0..1] to [-1..1]
+		tex.x = tex.x * 2.0 - 1.0;
+    
+		// calculate real pixel normal as linear combination of side and upvector multiplied by x and y factor
+	    //vec3 norm = normalize(sideVec * tex.x + tex.y * upVec);
+	    
+	    vec3 norm = N;
+	    
+	    // compute diffuse factor based on the normal
+		vec3 lightpos = gl_LightSource[0].position.xyz;
+		float diff = clamp(dot(lightpos, norm), 0.0, 1.0);
+		
+		// compute specular factor based on the normal
+        float spec = pow(clamp(dot(gl_LightSource[0].halfVector.xyz, norm),0.0,1.0), gl_FrontMaterial.shininess);
+        vec4 amb = vec4(0.2, 0.2, 0.2, 1.0);
+		//gl_FragColor = diff * Diffuse + spec * gl_FrontLightProduct[0].specular + gl_FrontLightProduct[0].ambient;
+     	gl_FragColor = diff * Diffuse + spec * gl_FrontLightProduct[0].specular + amb;
+     	
+		
+		// calculate the pixel depth value as interpolation between quad and the quad extruded to the front
+		// to generate a near correct depth value
+		vec2 rdep = tex.y * depth1 + (1.0 - tex.y) * depth0;
+		// depth is z value divided by w value
+		gl_FragDepth = (rdep.x / rdep.y) * 0.5 + 0.5;
+	} 
+}
+	]],
+},
+
+--------------------------------------------------------------------------
+}

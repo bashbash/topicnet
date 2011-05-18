@@ -1,0 +1,29 @@
+local labels = {}
+
+labels[1] = {"AP", "HK", "IG", "IF", "AB", "JA", "JD", "JK", "JF", "JS", "KH", "LV", "AW", "Av", 
+"MS", "ML", "MH", "MA", "MP", "MH", "MJ", "MH", "MT", "MX", "AH", "MA", "MC", "NS", "NG", "OJ", 
+"PE", "RS", "RA", "RZ", "RT", "RS", "SH", "SM", "SS", "SM", "SB", "SG", "SC", "SK", "SP", "TS", 
+"TR", "UD", "XL", "YF", "YH", "BM", "BH", "GS", "MH", "RC", "UB", "TB", "JA", "IF", "BA", "GD", 
+"MH", "EZ", "DS", "HK", "JV", "RG", "TF", "DK", "AQ", "CA", "JM", "QF", "CL", "CB", "CU", "KV", 
+"DF", "BD", "CP", "JE", "JB", "JL", "JS", "QV", "DK", "DL", "SW", "EK", "EK", "ES", "ER", "FH", 
+"GL"}
+
+labels[2] = {"AS", "JD", "JG", "JD", "JL", "JP", "JO", "JF", "JZ", "AA", "JD", "JM", "JM", "JK", 
+"JL", "JC", "JM", "JI", "JL", "AK", "AR", "AW", "KD", "LG", "LM", "LT", "AM", "AB", "MD", "ML", 
+"MJ", "MA", "MH", "MW", "MA", "MC", "MC", "AR", "MS", "MQ", "MS", "NG", "PS", "PH", "PL", "PP", 
+"PW", "PT", "RD", "RR", "RG", "RA", "RB", "RD", "RA", "RR", "SW", "SK", "SG", "SF", "SC", "SJ", 
+"TA", "TI", "TB", "TM", "BC", "BS", "BB", "VJ", "VE", "WS", "WC", "WR", "WY", "XZ", "BA", "BM", 
+"BJ", "KY", "NC", "SP", "MH", "CP", "CP", "CK", "CN", "CO", "JW", "JL", "CD", "CA", "CW", "CT", 
+"VS", "JH", "JS", "JG", "DM", "DF", "DW", "DC", "DS", "DT", "DU", "EH", "EL", "ET", "ER", "EW", 
+"GW", "GC", "GG", "GJ"}
+
+labels[3] = {"JC", "AS", "JD", "JG", "JL", "JP", "JO", "JI", "JS", "JF", "JZ", "AA", "JH", 
+"JM", "JM", "JV", "JK", "JL", "JR", "JC", "JM", "JI", "JK", "JL", "KC", "KC", "AK", "AR", 
+"AD", "AW", "KL", "KD", "LG", "LM", "LT", "AM", "MW", "Mv", "AB", "MD", "ML", "MJ", "MH", 
+"MW", "MC", "MA", "MC", "AR", "MS", "MQ", "MS", "NG", "PS", "PB", "PH", "PL", "PP", "PW", 
+"PB", "PT", "RD", "RR", "RG", "RA", "RB", "RD", "RA", "RR", "SW", "SK", "SG", "SF", "SC", 
+"SJ", "TA", "TI", "TM", "TB", "TM", "BC", "BS", "BB", "VJ", "VE", "WS", "WC", "WR", "WJ", 
+"WY", "XZ", "BA", "BM", "BJ", "KY", "NC", "SP", "MH", "BF", "EH", "CP", "CP", "CK", "CN", 
+"CO", "JW", "JL", "CD", "CA", "CW", "CT", "MC", "VS", "DH", "JM", "AJ", "AP", "CD", "CC", 
+"DH", "FG", "JC", "JH", "JS", "JG", "MB", "PJ", "TT", "DC", "DM", "DF", "DW", "DC", "DS", 
+"DP", "DT", "DT", "DU", "EH", "EL", "ET", "ER", "ES", "EW", "ER", "GW", "GG", "GJ"}

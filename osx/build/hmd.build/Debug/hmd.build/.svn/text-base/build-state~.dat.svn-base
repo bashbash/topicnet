@@ -1,0 +1,519 @@
+Thmd
+v7
+r0
+t293950054.501916
+cCheck dependencies
+cSymLink /Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+cCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o /Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cMasterObjectLink /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+cLd /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so normal i386
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Muro.framework/Headers/glo_opengl.h
+c000000004BBA65180000000000002EC7
+t1270506776
+s11975
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/limits.h
+c0000000047BA9930000000000000145A
+t1203411248
+s5210
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/readline/history.h
+c0000000047BABCFC0000000000001AE2
+t1203420412
+s6882
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/readline/readline.h
+c0000000047BABCFC0000000000001AE2
+t1203420412
+s6882
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdarg.h
+c0000000047BA993000000000000000EA
+t1203411248
+s234
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stddef.h
+c0000000047BA99300000000000001404
+t1203411248
+s5124
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EAF10000000000000C7E
+t1242688241
+s3198
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EAF100000000000010DD
+t1242688241
+s4317
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EAF10000000000003197
+t1242688241
+s12695
+
+N/Users/basakalper/luaAV/trunk/dev_osx/include/lauxlib.h
+c000000004AAECD470000000000001691
+t1252969799
+s5777
+i<stddef.h>
+i<stdio.h>
+i"lua.h"
+
+N/Users/basakalper/luaAV/trunk/dev_osx/include/lua.h
+c000000004AAECD470000000000002DA8
+t1252969799
+s11688
+i<stdarg.h>
+i<stddef.h>
+i"luaconf.h"
+
+N/Users/basakalper/luaAV/trunk/dev_osx/include/luaconf.h
+c000000004AAECD47000000000000575C
+t1252969799
+s22364
+i<limits.h>
+i<stddef.h>
+i<unistd.h>
+i<io.h>
+i<stdio.h>
+i<stdio.h>
+i<readline/readline.h>
+i<readline/history.h>
+i<assert.h>
+i<math.h>
+i<unistd.h>
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+t1264449818
+s69192
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/HmdDataNode.h
+c000000004B57F6440000000000000298
+t1264055876
+s664
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/fibber.cpp
+c000000004AD618E200000000000005F2
+t1255545058
+s1522
+i"lua.h"
+i"lauxlib.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd.cpp
+c000000004B55214100000000000005E6
+t1263870273
+s1510
+i"lua.h"
+i"lauxlib.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp
+c000000004B5DF9180000000000000F6B
+t1264449816
+s3947
+i"hmdData.h"
+i<fstream>
+i<math.h>
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.h
+c000000004B5D641A000000000000029D
+t1264411674
+s669
+i<fstream>
+i<sstream>
+i<vector>
+i"lua_hmd.h"
+i"HmdDataNode.h"
+i"Muro/glo_opengl.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.cpp
+c000000004B55653C00000000000005E6
+t1263887676
+s1510
+i"hmdData_udata.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.h
+c000000004B5568B70000000000000349
+t1263888567
+s841
+i"lua_hmd_udata.h"
+i"hmdData.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd_module.h
+c000000004B555F130000000000000197
+t1263886099
+s407
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.cpp
+c000000004B56281A0000000000000535
+t1263937562
+s1333
+i"lua_hmd.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_hmd_udata.h"
+i"hmdData_udata.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.h
+c000000004B5628B100000000000001C9
+t1263937713
+s457
+i"lua.h"
+i"lauxlib.h"
+i"stdlib.h"
+i<windows.h>
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd_udata.h
+c000000004B5567B0000000000000387A
+t1263888304
+s14458
+i"lua.h"
+i"lauxlib.h"
+i"hmd_module.h"
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/hmd.so
+t3
+s84
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+t1264449818
+s78072
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/fibber.o
+t2
+s0
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.LinkFileList
+c000000004B5D4E0B0000000000000072
+t1264406027
+s114
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.o
+t1263870273
+s4676
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o
+t1264449816
+s217564
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o
+t1264411712
+s87424
+
+N/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o
+t1264411712
+s87800
+
+N/Users/basakalper/luaav3/dev_osx/include/lauxlib.h
+c000000004B4F763500000000000015A4
+t1263498805
+s5540
+i<stddef.h>
+i<stdio.h>
+i"lua.h"
+
+N/Users/basakalper/luaav3/dev_osx/include/lua.h
+c000000004B4F76350000000000002D9E
+t1263498805
+s11678
+i<stdarg.h>
+i<stddef.h>
+i"luaconf.h"
+
+N/Users/basakalper/luaav3/dev_osx/include/luaconf.h
+c000000004BBA63310000000000001160
+t1270506289
+s4448
+i<limits.h>
+i<stddef.h>
+i<assert.h>
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+t1272257254
+s73764
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/HmdDataNode.h
+c000000004B57F6440000000000000298
+t1264055876
+s664
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp
+c000000004BD51ACA0000000000001299
+t1272257226
+s4761
+i"hmdData.h"
+i<fstream>
+i<math.h>
+i<time.h>
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.h
+c000000004B5D641A000000000000029D
+t1264411674
+s669
+i<fstream>
+i<sstream>
+i<vector>
+i"lua_hmd.h"
+i"HmdDataNode.h"
+i"Muro/glo_opengl.h"
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp
+c000000004B55653C00000000000005E6
+t1263887676
+s1510
+i"hmdData_udata.h"
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.h
+c000000004B5568B70000000000000349
+t1263888567
+s841
+i"lua_hmd_udata.h"
+i"hmdData.h"
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/hmd_module.h
+c000000004B555F130000000000000197
+t1263886099
+s407
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp
+c000000004B56281A0000000000000535
+t1263937562
+s1333
+i"lua_hmd.h"
+i"lua.h"
+i"lauxlib.h"
+i"lua_hmd_udata.h"
+i"hmdData_udata.h"
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.h
+c000000004B5628B100000000000001C9
+t1263937713
+s457
+i"lua.h"
+i"lauxlib.h"
+i"stdlib.h"
+i<windows.h>
+
+N/Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd_udata.h
+c000000004B5567B0000000000000387A
+t1263888304
+s14458
+i"lua.h"
+i"lauxlib.h"
+i"hmd_module.h"
+
+N/Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so
+t3
+s79
+
+N/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+t1272257254
+s82924
+
+N/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.LinkFileList
+c000000004BD51AE5000000000000006D
+t1272257253
+s109
+
+N/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o
+t1272257254
+s229964
+
+N/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o
+t1272257254
+s87392
+
+N/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o
+t1272257253
+s87768
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293950053#293950053#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/fibber.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/fibber.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s285563073.618327
+e285563073.647616
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.o
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd.cpp285563073#285563073#0(0"0(0#0#60"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd.cpp4300885448#1147"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmd.cpp -o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.o0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s286142618.439334
+e286142618.440355
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp286142618#286142618#0(325"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp: In member function 'void HmdData::loadData(const char*)':/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp:79: warning: unused variable 'idd'/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp:63: warning: unused variable 'test'2(22@21"Unused variable 'idd'286142618#124#100#0(6@64"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp286142616#79#0#79#0#19"unused variable '*'0(22@22"Unused variable 'test'286142618#224#101#0(6@64"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp286142616#63#0#63#0#19"unused variable '*'0(0#0#64"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp4300885448#1155"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData.cpp -o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s293950053.293635
+e293950054.133730
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o
+x/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp293950053#293950054#0(0"0(0#0#59"/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp4300911832#1110"    cd /Users/basakalper/luaav3/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaav3/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData.cpp -o /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s286104512.139034
+e286104512.592415
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.cpp286104512#286104512#0(0"0(0#0#70"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.cpp4300885448#1167"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/hmdData_udata.cpp -o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s293950053.942163
+e293950054.475636
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o
+x/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp293950053#293950054#0(0"0(0#0#65"/Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp4300911832#1122"    cd /Users/basakalper/luaav3/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaav3/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaav3/modules/hmd/osx/../src/hmdData_udata.cpp -o /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s286104511.548135
+e286104512.200688
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.cpp286104511#286104512#0(0"0(0#0#64"/Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.cpp4300885448#1155"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaAV/trunk/modules/hmd/osx/../src/lua_hmd.cpp -o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o0#
+
+CCompileC build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o /Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s293950053.292987
+e293950053.942073
+r1
+xCompileC
+xbuild/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o
+x/Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp293950053#293950053#0(0"0(0#0#59"/Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp4300911832#1110"    cd /Users/basakalper/luaav3/modules/hmd/osx    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/hmd.hmap -F/Users/basakalper/luaav3/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -I/Users/basakalper/luaav3/modules/hmd/osx/../../../dev_osx/include -I/Users/basakalper/luaav3/modules/hmd/osx/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/LuaAV.framework/Headers -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources/i386 -I/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/DerivedSources -c /Users/basakalper/luaav3/modules/hmd/osx/../src/lua_hmd.cpp -o /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o0#
+
+CLd /Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so normal i386
+s286142618.447138
+e286142618.462519
+r1
+xLd
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+xnormal
+xi386
+lSLF07#2@89"Link /Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so286142618#286142618#0(0"0(0#0#0"4300885448#622"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug -F/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -filelist /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.LinkFileList -mmacosx-version-min=10.4 -undefined dynamic_lookup -o /Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so0#
+
+CLd /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so normal i386
+s293950054.485327
+e293950054.501873
+r1
+xLd
+x/Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+xnormal
+xi386
+lSLF07#2@84"Link /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so293950054#293950054#0(0"0(0#0#0"4300911832#597"    cd /Users/basakalper/luaav3/modules/hmd/osx    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/basakalper/luaav3/modules/hmd/osx/build/Debug -F/Users/basakalper/luaav3/modules/hmd/osx/build/Debug -F/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks -filelist /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmd.LinkFileList -mmacosx-version-min=10.4 -undefined dynamic_lookup -o /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so0#
+
+CMasterObjectLink /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+s286142618.440464
+e286142618.447074
+r1
+xMasterObjectLink
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+lSLF07#2@118"Link /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o286142618#286142618#0(0"0(0#0#113"/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o4300885448#540"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    /Developer/usr/bin/ld -r -arch i386 /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o -o /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o0#
+
+CMasterObjectLink /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+s293950054.475722
+e293950054.485109
+r1
+xMasterObjectLink
+x/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o
+lSLF07#2@113"Link /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o293950054#293950054#0(0"0(0#0#108"/Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o4300911832#515"    cd /Users/basakalper/luaav3/modules/hmd/osx    /Developer/usr/bin/ld -r -arch i386 /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/lua_hmd.o /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData.o /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/i386/hmdData_udata.o -o /Users/basakalper/luaav3/modules/hmd/osx/build/hmd.build/Debug/hmd.build/Objects-normal/hmd.so-i386-master.o0#
+
+CSymLink /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/hmd.so /Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+s286098827.862884
+e286098827.907688
+r1
+xSymLink
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/hmd.so
+x/Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+lSLF07#2@72"Process /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/hmd.so286098827#286098827#0(0"0(0#0#0"4300885448#219"    cd /Users/basakalper/luaAV/trunk/modules/hmd/osx    /bin/ln -sf /Users/basakalper/luaAV/trunk/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so /Users/basakalper/luaAV/trunk/modules/hmd/osx/build/Debug/hmd.so0#
+
+CSymLink /Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+s293950053.290642
+e293950053.292924
+r1
+xSymLink
+x/Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so
+x/Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so
+lSLF07#2@67"Process /Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so293950053#293950053#0(0"0(0#0#0"4300911832#204"    cd /Users/basakalper/luaav3/modules/hmd/osx    /bin/ln -sf /Users/basakalper/luaav3/modules/hmd/osx/../../../sysbuild/Debug/modules/hmd.so /Users/basakalper/luaav3/modules/hmd/osx/build/Debug/hmd.so0#
+

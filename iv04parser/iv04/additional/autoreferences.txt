@@ -1,0 +1,68 @@
+This is a list of variations of the same document (provided my Maylis Delest)
+
+Comments from contest organizers:
+<
+The first one is really a reference to a video with the same title also published at CHI, but is was mistranscribed as a self reference to the paper in the ACM dig. library.  It should say "Video program" instead of "Proceedings" and not have page numbers... This was found after the final main dataset was released and converted so we didn't not fix it in the main dataset. 
+The other are references to variant versions of the paper (e.g. a thesis or Technical reports).
+>
+
+
+
+acm238493
+	<article id="acm238493">
+		<title>LifeLines: visualizing personal histories</title>
+		<source ref="acm238386">Conference on Human Factors in Computing Systems: Proceedings of the SIGCHI conference on Human factors in computing systems common ground</source>
+		<pages from="221"/>
+		<keywords>history, justice, medical record, overview, personal record, screen design, screen management, timeline, visualization</keywords>
+		<authors>
+			<author_ref ref="P42125">Catherine Plaisant</author_ref>
+			<author_ref ref="P32386">Brett Milash</author_ref>
+			<author_ref ref="P19895">Anne Rose</author_ref>
+			<author_ref ref="P262246">Seth Widoff</author_ref>
+			<author_ref ref="P28685">Ben Shneiderman</author_ref>
+		</authors>
+			<ref ref="acm238493"> Catherine Plaisant , Brett Milash , Anne Rose , Seth Widoff , Ben Shneiderman, LifeLines: visualizing personal histories, Proceedings of the SIGCHI conference on Human factors in computing systems: common ground, p.221-ff., April 13-18, 1996, Vancouver, British Columbia, Canada  </ref>
+acm857707
+_______________________________________________________
+	<article id="acm857707"><title>Visualization of State Transition Graphs</title>
+		<source ref="acm580582">Proceedings of the IEEE Symposium on Information Visualization 2001 (INFOVIS'01) </source>
+		<pages from="59"/>
+		<authors><author_ref ref="P573090">Frank Van Ham</author_ref>
+			<author_ref ref="P113085">Huub van de Wetering</author_ref>
+			<author_ref ref="P422303">Jarke J. Van Wijk</author_ref>
+		</authors>
+<ref ref="acm857707">F. van Ham, "Visualization of State Transition Graphs", Master's thesis available from www.win.tue.nl/~vanwijk</ref>
+
+_______________________________________________________
+acm857729
+	<article id="acm857729"><title>Process Visualization with Levels of Detail</title>
+		<source ref="acm857191">Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) </source>
+		<pages from="67"/>
+		<authors><author_ref ref="P573233">Kre¿imir Matkovic</author_ref>
+			<author_ref ref="P109156">Helwig Hauser</author_ref>
+			<author_ref ref="P511630">Reinhard Sainitzer</author_ref>
+			<author_ref ref="P421191">M. Eduard Gröller</author_ref>
+		</authors>
+			
+<ref ref="acm857729">K. Matkovic, H. Hauser, R. Sainitzer, and M. E. Gröller. "Process Visualization with Levels of Detail". Technical Report TR-VRVIS-2002-016, VRVis Research Centar, Vienna, 2002.</ref>
+
+_______________________________________________________
+acm857739
+	<article id="acm857739"><title>ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs</title>
+		<source ref="acm857191">Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) </source>
+		<pages from="137"/>
+		<authors><author_ref ref="P305301">Yehuda Koren</author_ref>
+			<author_ref ref="P475072">Liran Carmel</author_ref>
+			<author_ref ref="P61889">David Harel</author_ref>
+		</authors>
+			<ref ref="acm857739">Y. Koren, L. Carmel and D. Harel "ACE A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs", Technical Report MCS01-17, The Weizmann Institute of Science, 2001. Available at www.wisdom.weizmann.ac.il/reports.html.</ref>
+_______________________________________________________________
+acm857754
+	<article id="acm857754"><title>Visualizing Data with Bounded Uncertainty</title>
+		<source ref="acm857191">Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) </source>
+		<pages from="37"/>
+		<authors><author_ref ref="P46262">Chris Olston</author_ref>
+			<author_ref ref="P141917">Jock D. Mackinlay</author_ref>
+		</authors>
+			<ref ref="acm857754">C. Olston and J. Mackinlay. "Visualizing data with bounded uncertainty". Technical report, Stanford University Computer Science Department, 2002. http //dbpubs.stanford.edu/pub/2002-20.</ref>
+

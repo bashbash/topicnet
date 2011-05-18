@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no" ?>
+<DNVGRAPH>
+	<Level value="0" numberOfNodes="10" numberOfEdges="20">
+		<DNVNODE Id="0" Level="0" Position="[0.05399561 , 0.053635184]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVNODE Id="1" Level="0" Position="[0.32304725 , 0.3838576]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="2" Level="0" Length="7.0" From="0" To="1" />
+		<DNVNODE Id="3" Level="0" Position="[0.92977965 , 0.52752876]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="4" Level="0" Length="7.0" From="3" To="0" />
+		<DNVEDGE Id="5" Level="0" Length="7.0" From="3" To="1" />
+		<DNVNODE Id="6" Level="0" Position="[0.6514224 , 0.35420886]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="7" Level="0" Length="7.0" From="6" To="0" />
+		<DNVEDGE Id="8" Level="0" Length="7.0" From="6" To="3" />
+		<DNVNODE Id="9" Level="0" Position="[0.24226391 , 0.4099758]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="10" Level="0" Length="7.0" From="9" To="0" />
+		<DNVEDGE Id="11" Level="0" Length="7.0" From="9" To="3" />
+		<DNVNODE Id="12" Level="0" Position="[0.58246446 , 0.8881768]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="13" Level="0" Length="7.0" From="12" To="0" />
+		<DNVEDGE Id="14" Level="0" Length="7.0" From="12" To="1" />
+		<DNVNODE Id="15" Level="0" Position="[0.06531407 , 0.59537256]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="17" Level="0" Length="7.0" From="15" To="6" />
+		<DNVEDGE Id="16" Level="0" Length="7.0" From="15" To="0" />
+		<DNVEDGE Id="19" Level="0" Length="7.0" From="18" To="0" />
+		<DNVNODE Id="18" Level="0" Position="[0.7799209 , 0.69009274]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVNODE Id="21" Level="0" Position="[0.92373633 , 0.017053686]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="20" Level="0" Length="7.0" From="18" To="9" />
+		<DNVEDGE Id="23" Level="0" Length="7.0" From="21" To="3" />
+		<DNVEDGE Id="22" Level="0" Length="7.0" From="21" To="0" />
+		<DNVEDGE Id="25" Level="0" Length="7.0" From="24" To="3" />
+		<DNVNODE Id="24" Level="0" Position="[0.48415396 , 0.5054932]" Color="[1.0 , 1.0 , 0.0]" Size="1.0" Label="" Mass="1.0" Fixed="false">
+		</DNVNODE>
+		<DNVEDGE Id="27" Level="0" Length="7.0" From="1" To="3" />
+		<DNVEDGE Id="26" Level="0" Length="7.0" From="24" To="1" />
+		<DNVEDGE Id="29" Level="0" Length="7.0" From="1" To="3" />
+		<DNVEDGE Id="28" Level="0" Length="7.0" From="1" To="0" />
+	</Level>
+</DNVGRAPH>
