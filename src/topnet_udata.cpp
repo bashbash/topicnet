@@ -300,8 +300,9 @@ int Topicnet_udata :: getnodepubs(lua_State *L) {
 		int nodeind = lua_tonumber(L, 2);
 		
 		GraphNode * gn = s->Base::getGraph()->getGraphNode(nodeind);
-		gn->printPublications();
+		string allpubs = gn->printPublications();
 		
+		lua_pushstring(L, allpubs.c_str());
 		
 		return 1;
 		

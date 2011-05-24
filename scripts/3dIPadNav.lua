@@ -79,6 +79,8 @@ local lasty = 0.0
 local ipadlastx = 0.0
 local ipadlasty = 0.0
 
+local ipadopos = {0.0, 0.0}
+
 local cvec1 = {0.0, 0.0, 0.0}
 local cvec2 ={0.0, 0.0, 0.0}
 
@@ -108,8 +110,9 @@ local TEMP = 0.5
 local st = 0
 
 
-local send_address = '127.0.0.1'	-- or another IP address, or hostname such as 'localhost'
-local send_port = 16447
+local send_address = '192.168.1.135'	-- or another IP address, or hostname such as 'localhost'
+--local send_address = 'localhost'	
+local send_port = 8080
 local receive_port = 16448
 
 local oscout = osc.Send(send_address, send_port) 
@@ -682,11 +685,23 @@ function selectNode()
 			local ind = l-1
 			local p = tpd:graphnodepos(ind)
 			
+			
+			
 			local intersects = rayintersect(cvec1, ray, p, 0.02)
 			--print(ind, " intersects=", intersects)
 			if(intersects) then
 				selectednodeindex = ind
-				--print(tpd:getnodeid(ind))
+				
+				local winw, winh = unpack(win.dim)
+				local screenpos = glu.Project(p[1], p[2], p[3])
+				
+				screenpos[1] = screenpos[1] / winw
+				screenpos[2] = (winh - screenpos[2]) / winh
+				
+				--oscout:send("/text", tpd:getnodepubs(ind), 1, tpd:getnodeid(ind) )
+				oscout:send("/text", screenpos[1], screenpos[2], tpd:getnodeid(ind) )
+				print("sent:  ", screenpos[1], screenpos[2])
+				--print(tpd:getnodepubs(ind))
 				break
 			else
 				n1high = false
@@ -741,127 +756,7 @@ end
 
 
 
-local 
-function question1(node, actdat, case)
-  
-  
-    activedata = actdat
-    tpd:loadData(sources[activedata], "author")
-    
-	clearAll()
-	tpd:selectedNode(node, false)
-	selnodes = tpd:selectedNode()
-	
-	if(case == "2D") then
-	    draw3d = false
-	    layout3d = false
-		loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-	    n1high = true 
-	    n1labels = false
-	elseif(case == "3D") then
-	    draw3d = true
-	    layout3d = true
-	    loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-		n1high = true
-		n1labels = false
-		
-	elseif(case == "2.5D") then
-	    draw3d = true
-	    layout3d = false
-	    loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-	    n1high = false 
-	    n1labels = true
-	    
-	    tpd:addPlane(1.0)
-	    tpd:addNodeToPlane(1, node) 
-	    tpd:bringN1(node)	
-	
-	elseif(case == "2.5DH") then
-	    draw3d = true
-	    layout3d = false
-	    
-	    loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-	    
-	    tpd:addPlane(1.5)
-	    tpd:addNodeToPlane(1, node) 
-	    tpd:bringN1(node)
-	    
-	    n1high = true 
-	    n1labels = false
-	end
-	
-end 
 
-
-local 
-function question2(node1, node2, actdat, case)
-    
-    activedata = actdat
-    tpd:loadData(sources[activedata], "author")
-  
-    clearAll()
-	tpd:selectedNode(node1, false)
-    tpd:selectedNode(node2, true)
-	
-	selnodes = tpd:selectedNode()
-	
-	if(case == "2D") then
-	    draw3d = false
-	    layout3d = false
-		loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-	    n1high = true 
-	    n1labels = false
-	elseif(case == "3D") then
-	    layout3d = true
-	    draw3d = true
-	    loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-		n1high = true
-		n1labels = false
-		
-	elseif(case == "2.5D") then
-	    draw3d = true
-	    layout3d = false
-	    loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-	    n1high = false 
-	    n1labels = true
-	    
-	    tpd:addPlane(1.0)
-	    tpd:addPlane(2.5)
-	    
-	    tpd:addNodeToPlane(1, node1) 
-	    tpd:addNodeToPlane(2, node2) 
-	    
-	    tpd:bringN1(node1)
-	    tpd:bringN1(node2)
-	elseif(case == "2.5DH") then
-	    draw3d = true
-	    layout3d = false
-	    loadGraph()
-	    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-	    
-	    
-	    tpd:addPlane(1.0)
-	    tpd:addPlane(2.5)
-	    
-	    tpd:addNodeToPlane(1, node1) 
-	    tpd:addNodeToPlane(2, node2) 
-	    
-	    tpd:bringN1(node1)
-	    tpd:bringN1(node2)
-	    
-	    n1high = true 
-	    n1labels = false
-	    
-	end
-	
-end
 
 local crr_cond = "2D"
 
@@ -870,42 +765,26 @@ function getOSC()
 	for msg in oscin:recv() do
 	    if(msg.addr == "/handshake") then 
 	    	print("hello ipad")
+	    ----[[
+	    elseif(msg.addr == "/text") then 
+	    	local id, num, pubs = unpack(msg)
+	    	print(pubs)
+	    --]]
 	    elseif(msg.addr == "/screencoord") then 
 	    	local scx, scy = unpack (msg)
-	    	print("ipad input: ", scx, scy)
+	    	print("received: ", scx, scy)
 	    	
 	    	local winw, winh = unpack(win.dim)
 	    	
+	    	ipadopos = {scx, scy}
 	    	ipadlastx = math.floor(scx*winw)
 	    	ipadlasty = math.floor(scy*winh)
-	    	
-	    	print ("screen coords: ", ipadlastx, ipadlasty)
-	    	
-	    elseif(msg.addr == "/quest1") then 
-	        local dt, tsk, cond, nd = unpack (msg)
-	        question1(nd, dt, cond)
-			crr_cond = cond
-		elseif(msg.addr == "/quest2") then 	
-		    local dt, tsk, cond, n1, n2 = unpack (msg)
-		    --if(tsk == 5) then boollabelall = true else boollabelall = false  end
-		    question2(n1, n2, dt, cond)
-			crr_cond = cond
-		elseif(msg.addr == "/blockview") then 	
-		    local boolv = unpack (msg)
-		    if(boolv == 1) then blockview = true else blockview = false end   
-		elseif(msg.addr == "/rotate") then 	
-			local boolr = unpack (msg)
-			boolrotate = boolr
-		elseif(msg.addr == "/cameye") then 
-			local cx, cy, cz =  unpack (msg)
-			--print("cameye", cy)
-			cam.eye = {cx, cy, cz}
-		
+	    	--print ("screen coords: ", ipadlastx, ipadlasty)
 		end
 	end
 end
 
-cam.eye = {-1.12, 2.63, 4.65}
+
 
 function win:draw(eye)
 	
@@ -914,15 +793,9 @@ function win:draw(eye)
     local w, h = unpack(self.dim)
     local h2 = h *0.5 -- half height
     
-    --gl.Viewport(0, h2, w, h)
-  
 	cam:step()
 	cam:enter((eye == "left") and 1 or 0)
 	
-	
-	
-	--self.clearcolor = winbgcolor
-	    
 	if(boolrotate) then
 	 	gl.PushMatrix()
 	 	gl.Rotate(now()*10, 0, 1, 0)
@@ -943,14 +816,16 @@ function win:draw(eye)
 	 
 	drawPlane()
 	 
-	 --[[
+	--[[
 	if(boolmousepress) then
 	    boolmousepress = false
 		selectNode()
 	end
     --]]
 
-     selectNode()
+
+    --print("addMode: ", addMode)
+    selectNode()
 	--hoverNode()
 	
 	if(not blockview) then
@@ -1008,7 +883,7 @@ function win:draw(eye)
 				end
 		end
 		
-		for i=1,2 do 
+		for i=1,5 do 
 			local selectednode = selnodes[i]
 			if(selectednode~=nil and selectednode > -1) then
 				local p = tpd:graphnodepos(selectednode)
@@ -1024,8 +899,7 @@ function win:draw(eye)
 					gl.PopMatrix()
 					shader:unbind()
 				else
-				
-					gl.PushMatrix()
+				    gl.PushMatrix()
 					gl.Translate(p)
 					gl.Color(yellow)
 					drawBillboardCircle(0)
@@ -1192,8 +1066,7 @@ function win:key(event, key)
 			draw3d = not draw3d
 		elseif(key == 110 or key == 78) then --N
 			tpd:bringN1(selnodes[1])
-		elseif(key == 109 or key == 77) then --M
-			addMode = not addMode	
+		
 		elseif(key == 103 or key == 71) then --G
 			mouseinteractmode = 1
 		elseif(key == 102 or key == 70) then --F
@@ -1221,34 +1094,8 @@ function win:key(event, key)
 		   if(activePlane == 0) then activePlane = 1 end
 		   
 		elseif(key == 99 or key == 67) then --C
-			addMode = true
-			--print("eye at", cam.eye[1], cam.eye[2], cam.eye[3])
-		--[[
-		elseif(key == 49) then --1
-			question2(84, 20 , 2, "2D")
-			--oscout:send("/quest", 2,  "2D", 84, 22)
-		elseif(key == 50) then --2
-			question2(84, 20, 2, "3D")
-			--oscout:send("/quest", 2,  "3D", 84, 22)
-		elseif(key == 51) then --3
-			question2(84, 20, 2, "2.5D")
-			--oscout:send("/quest", 2,  "2.5D", 84, 22)
-		elseif(key == 52) then --4
-			question2(84, 20, 2, "2.5DH")
-			--oscout:send("/quest", 1, "2D", 84, 22)
-		elseif(key == 53) then --5
-			question1(20, 1, "2D")
-			--oscout:send("/quest", 1,  "3D", 84, 22)
-		elseif(key == 54) then --6
-			question1(20, 1, "3D")
-			--oscout:send("/quest", 1,  "2.5D", 84, 22)
-		elseif(key == 55) then --7
-			question1(20, 1, "2.5D")
-			--oscout:send("/quest", 1,  "2.5D", 84, 22)
-		elseif(key == 56) then --7
-			question1(20, 1, "2.5DH")
-			--oscout:send("/quest", 1,  "2.5D", 84, 22)
-		--]]
+			addMode = true	
+			
 		end
 	
 	elseif(event == "up") then

@@ -277,19 +277,14 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_MASTER_OBJECT_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/mysql/include,
-					/Library/Frameworks/LuaAV.framework/Headers/,
-				);
+				HEADER_SEARCH_PATHS = /Library/Frameworks/LuaAV.framework/Headers/;
 				INSTALL_PATH = "$(PROJECT_DIR)/../../../sysbuild/$(CONFIGURATION)/modules";
+				LIBRARY_SEARCH_PATHS = "";
 				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-undefined",
 					dynamic_lookup,
-					"-lmysqlclient",
-					"-lm",
-					"-lz",
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = $TARGET_NAME;
@@ -318,19 +313,14 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GENERATE_MASTER_OBJECT_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/mysql/include,
-					/Library/Frameworks/LuaAV.framework/Headers/,
-				);
+				HEADER_SEARCH_PATHS = /Library/Frameworks/LuaAV.framework/Headers/;
 				INSTALL_PATH = "$(PROJECT_DIR)/../../../sysbuild/$(CONFIGURATION)/modules";
+				LIBRARY_SEARCH_PATHS = "";
 				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-undefined",
 					dynamic_lookup,
-					"-lmysqlclient",
-					"-lm",
-					"-lz",
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = $TARGET_NAME;
@@ -349,13 +339,9 @@
 				ARCHS = i386;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
-				OTHER_LDFLAGS = (
-					"-lm",
-					"-lz",
-					"-lmysqlclient",
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../dev/include/** $(PROJECT_DIR)/../../space/**";
@@ -368,13 +354,9 @@
 				ARCHS = i386;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
-				OTHER_LDFLAGS = (
-					"-lm",
-					"-lz",
-					"-lmysqlclient",
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../dev/include/** $(PROJECT_DIR)/../../space/**";

@@ -35,7 +35,7 @@ public:
 	void addAdjacentEdge(GraphEdge * e);
 	void addPub(Article * a);
 	void printAdjacentNodes();
-	void printPublications();
+	string printPublications();
 	
 	int getnodeid(){return nodeid;}
 	void setnodeid(int iddd){ nodeid = iddd; }
