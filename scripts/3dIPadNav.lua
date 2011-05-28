@@ -76,6 +76,10 @@ local boolrotate = false
 local lastx = 0.0
 local lasty = 0.0
 
+
+
+local activeipads = {}
+
 local ipadlastx = 0.0
 local ipadlasty = 0.0
 
@@ -91,6 +95,43 @@ local selnodes = {}
 selnodes[1] = -1
 selnodes[2] = -1
 
+
+local
+function exists(list, value)
+	local boolfound = false
+	local index = -1
+	for k,v in pairs(list) do
+		if(value == v) then 
+			boolfound = true
+			index = k
+			break
+		end
+	end
+	
+	return boolfound, index
+end
+
+local
+function existshover(list, value)
+	local boolfound = false
+	for k,v in pairs(list) do
+		if(value == v[1]) then 
+			boolfound = true
+			break
+		end
+	end
+	
+	return boolfound
+end
+
+local selectnodes = {}
+local hovernodes = {}
+local displaynodes = {}
+
+
+local lastselectnode = 0
+local lasthovernode = 0
+
 local boolmousepress = false
 local nodedragged = false
 
@@ -102,6 +143,7 @@ local n1high = false
 local n1labels = false
 
 local addMode = false
+local mouseDown = false
 
 local AREA = 5.0
 local MAXSTEP = 550
@@ -111,9 +153,9 @@ local st = 0
 
 
 local send_address = '192.168.1.135'	-- or another IP address, or hostname such as 'localhost'
---local send_address = 'localhost'	
+	
 local send_port = 8080
-local receive_port = 16448
+local receive_port = 8080
 
 local oscout = osc.Send(send_address, send_port) 
 local oscin  = osc.Recv(receive_port)   
@@ -557,10 +599,15 @@ local
 function drawBillboardCircle(sc)
 	
     
-    gl.Disable(GL.BLEND)
-	gl.Enable(GL.DEPTH_TEST)
-    gl.Enable(GL.ALPHA_TEST)
-    gl.AlphaFunc(GL.GREATER,0.9)
+    gl.Enable(GL.BLEND)
+	gl.Disable(GL.DEPTH_TEST)
+	
+	gl.Enable(GL.BLEND)
+	gl.Disable(GL.DEPTH_TEST)
+	gl.BlendFunc(GL.SRC_ALPHA, GL.ONE_MINUS_SRC_ALPHA)
+	
+    --gl.Enable(GL.ALPHA_TEST)
+    --gl.AlphaFunc(GL.GREATER,0.9)
   
     gl.PushMatrix()
     local scale = sc*0.05 + 0.22
@@ -589,7 +636,8 @@ function drawBillboardCircle(sc)
 	billshader:unbind()
 	
 	gl.PopMatrix()
-    gl.Disable(GL.ALPHA_TEST)
+    --gl.Disable(GL.ALPHA_TEST)
+    gl.Disable(GL.BLEND)
 end
 
 
@@ -619,8 +667,27 @@ function addNodeToPlane(thenode)
 	end	
 end
 
+
+
+---------------------------------------------------
+---------------clear all selection-----------------
+
+
+local 
+function clearAll()
+	tpd:selectedNode(-1, false)
+	n1high = false
+	while (tpd:planeCount() > 1) do 
+		tpd:removePlane()
+	end
+	activePlane = -1 	  
+end
+
+
 ---------------------------------------------------
 ---------calculate ray intersection----------------
+
+
 
 local function rayintersect(raypoint, raydir, spherepoint, sphereradius)
 
@@ -644,54 +711,35 @@ end
 
 local 
 function hoverNode()
+    
 	local p1, p2 = cam:picktheray(lastx, lasty)
+	--local p1, p2 = cam:picktheray(ipadlastx, ipadlasty)
 	cvec1 = p1[1]
 	cvec2 = p2[1]
-		
+	
 	ray = vec3.sub(cvec2, cvec1)
 	local rayscale = vec3.scale (ray, 0.01)
+	local selectednodeindex
+	--local preselected = selnodes[1]
+	
+	--deal with this later
+	--if( #hovernodes > 0 ) then  print( "num: ", #hovernodes ) preselected = hovernodes[ #hovernodes ][1] end
+	
+	local inselectlist, indx
 	
 	for l=1, tpd:graphsize() do
 		local ind = l-1
 		local p = tpd:graphnodepos(ind)
-			
+		
 		local intersects = rayintersect(cvec1, ray, p, 0.02)
+		--print(ind, " intersects=", intersects)
 		if(intersects) then
-			if( ind ~= selnodes[1] and ind ~=selnodes[2]) then 
-				local labelstr = tpd:getnodelabel(ind)
-				local p = tpd:graphnodepos(ind)
-				graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
-			end
-			break
-		end
-	    end
-	    
-end
-
-
-local 
-function selectNode()
-		
-	    --local p1, p2 = cam:picktheray(lastx, lasty)
-	    local p1, p2 = cam:picktheray(ipadlastx, ipadlasty)
-		cvec1 = p1[1]
-		cvec2 = p2[1]
-		
-		ray = vec3.sub(cvec2, cvec1)
-		local rayscale = vec3.scale (ray, 0.01)
-		local selectednodeindex
-		
-		for l=1, tpd:graphsize() do
-			local ind = l-1
-			local p = tpd:graphnodepos(ind)
+		    
+			selectednodeindex = ind
 			
-			
-			
-			local intersects = rayintersect(cvec1, ray, p, 0.02)
-			--print(ind, " intersects=", intersects)
-			if(intersects) then
-				selectednodeindex = ind
-				
+			inselectlist, indx = exists (selectnodes, selectednodeindex)
+		
+			if( not inselectlist and lasthovernode ~= selectednodeindex) then 
 				local winw, winh = unpack(win.dim)
 				local screenpos = glu.Project(p[1], p[2], p[3])
 				
@@ -699,21 +747,136 @@ function selectNode()
 				screenpos[2] = (winh - screenpos[2]) / winh
 				
 				--oscout:send("/text", tpd:getnodepubs(ind), 1, tpd:getnodeid(ind) )
-				oscout:send("/text", screenpos[1], screenpos[2], tpd:getnodeid(ind) )
-				print("sent:  ", screenpos[1], screenpos[2])
+				oscout:send("/rollover", screenpos[1], screenpos[2], tpd:getnodeid(ind), selectednodeindex )
+				print("sent /rollover:  ", screenpos[1], screenpos[2])
 				--print(tpd:getnodepubs(ind))
-				break
-			else
-				n1high = false
-			    tpd:highlightN1(selnodes[1], n1high)
-
-				selectednodeindex = -1
+				
 				
 			end
-	    end
-	    --print(selectednodeindex)
-	    tpd:selectedNode(selectednodeindex, addMode)
-	    selnodes = tpd:selectedNode()
+			
+			break
+		else
+			selectednodeindex = -1
+		end
+	end
+	
+	if(selectednodeindex ~= -1 and lasthovernode ~= selectednodeindex and not inselectlist) then 
+	   --add to hover list 
+	     local inlist = existshover (hovernodes, selectednodeindex)
+	     if(not inlist) then 
+	        local hoveritem = {selectednodeindex, now()}
+	     	table.insert(hovernodes, hoveritem)
+	     	--print("inserted node to hover: ", selectednodeindex)
+	     else
+	     	--print("item already in hover list: ", selectednodeindex)
+	     end
+	end
+	
+	lasthovernode = selectednodeindex
+	
+end
+
+local 
+function ipadSelectNode( indeks )
+	
+	local selectednodeindex = indeks
+	
+	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
+		
+		local inlist, ind = exists (selectnodes, selectednodeindex)
+	    if(not inlist) then 
+			--add to selected list
+			table.insert (selectnodes, selectednodeindex)
+			lastselectnode = selectednodeindex
+			--print("inserted node to selectnodes: ", selectednodeindex)
+		else
+			--print("item already in select list: ", selectednodeindex)
+			table.remove(selectnodes, ind)
+			selectednodeindex = -1
+			lastselectnode = -1
+		end
+	end
+	
+end
+
+
+local 
+function ipadDisplayNode( indeks )
+	
+	local selectednodeindex = indeks
+	
+	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
+		
+		local inlist, ind = exists (displaynodes, selectednodeindex)
+	    if(not inlist) then 
+			--add to selected list
+			table.insert (displaynodes, selectednodeindex)
+			print("inserted node to displaynodes: ", selectednodeindex)
+		else
+			--print("item already in select list: ", selectednodeindex)
+			table.remove(displaynodes, ind)
+			selectednodeindex = -1
+		end
+	end
+	
+end
+
+
+local 
+function selectNode()
+	local p1, p2 = cam:picktheray(lastx, lasty)
+	--local p1, p2 = cam:picktheray(ipadlastx, ipadlasty)
+	cvec1 = p1[1]
+	cvec2 = p2[1]
+	
+	ray = vec3.sub(cvec2, cvec1)
+	local rayscale = vec3.scale (ray, 0.01)
+	local selectednodeindex
+	
+	for l=1, tpd:graphsize() do
+		local ind = l-1
+		local p = tpd:graphnodepos(ind)
+		
+		local intersects = rayintersect(cvec1, ray, p, 0.02)
+		--print(ind, " intersects=", intersects)
+		if(intersects) then
+		    
+			selectednodeindex = ind
+			local winw, winh = unpack(win.dim)
+			local screenpos = glu.Project(p[1], p[2], p[3])
+			
+			screenpos[1] = screenpos[1] / winw
+			screenpos[2] = (winh - screenpos[2]) / winh
+			
+			--oscout:send("/select", screenpos[1], screenpos[2], tpd:getnodeid(ind), ind )
+			--print("sent:  ", screenpos[1], screenpos[2])
+			--print(tpd:getnodepubs(ind))
+			
+			break
+		else
+			selectednodeindex = -1
+			
+		end
+	end
+	--print(selectednodeindex)
+	
+	lastselectnode = -1
+	
+	if(selectednodeindex ~= -1 ) then 
+		
+		local inlist, ind = exists (selectnodes, selectednodeindex)
+	    if(not inlist) then 
+			--add to selected list
+			table.insert (selectnodes, selectednodeindex)
+			table.remove (hovernodes, selectednodeindex)
+		    print("inserted node to selectnodes: ", selectednodeindex)
+		    
+		    lastselectnode = selectednodeindex
+		else
+			--print("item already in select list: ", selectednodeindex)
+			table.remove(selectnodes, ind)
+		end
+	end
 end
 
 -------------------------------------------------
@@ -743,36 +906,18 @@ tpd:initGraphLayout()
 tpd:randomizeGraph(layout3d)
 
 
-local 
-function clearAll()
-	tpd:selectedNode(-1, false)
-	n1high = false
-	while (tpd:planeCount() > 1) do 
-		tpd:removePlane()
-	end
-	activePlane = -1 	  
-end
 
 
 
-
-
-
-local crr_cond = "2D"
 
 local 
 function getOSC() 
 	for msg in oscin:recv() do
 	    if(msg.addr == "/handshake") then 
 	    	print("hello ipad")
-	    ----[[
-	    elseif(msg.addr == "/text") then 
-	    	local id, num, pubs = unpack(msg)
-	    	print(pubs)
-	    --]]
 	    elseif(msg.addr == "/screencoord") then 
 	    	local scx, scy = unpack (msg)
-	    	print("received: ", scx, scy)
+	    	--print("received: ", scx, scy)
 	    	
 	    	local winw, winh = unpack(win.dim)
 	    	
@@ -780,11 +925,35 @@ function getOSC()
 	    	ipadlastx = math.floor(scx*winw)
 	    	ipadlasty = math.floor(scy*winh)
 	    	--print ("screen coords: ", ipadlastx, ipadlasty)
+	    elseif(msg.addr == "/selectNode") then 
+	        print("got it ?")
+	    	local strid, indid = unpack(msg)
+	    	print("selected node message: ", strid, indid)
+	    	
+	    	ipadSelectNode( indid )
+	    	
+	    	oscout:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
+	    	print(" sent /createNode", tpd:getnodelabel(indid) )
+	    	
+	    elseif(msg.addr == "/deselectNode") then
+	    	local indid = unpack(msg)
+	    	print("deselect: ", indid)
+	    	ipadSelectNode( indid )
+	    	
+	    elseif(msg.addr == "/displayNode") then
+	    	local indid = unpack(msg)
+	    	print("disp: ", indid)
+	    	ipadDisplayNode( indid )
+	    	
 		end
 	end
 end
 
 
+----[[  start with a pre-calculated graph 
+loadGraph()
+st = MAXSTEP
+--]]
 
 function win:draw(eye)
 	
@@ -816,17 +985,14 @@ function win:draw(eye)
 	 
 	drawPlane()
 	 
-	--[[
 	if(boolmousepress) then
+	    selectNode()
 	    boolmousepress = false
-		selectNode()
+	else
+		hoverNode()
 	end
-    --]]
 
-
-    --print("addMode: ", addMode)
-    selectNode()
-	--hoverNode()
+	
 	
 	if(not blockview) then
 		gl.Color(blue[1], blue[2], blue[3])
@@ -858,140 +1024,76 @@ function win:draw(eye)
 			
 			for l=1, tpd:graphsize() do
 				local ind = l-1
-				if(ind ~= selnodes[1] and ind ~= selnodes[2]) then 
-					local p = tpd:graphnodepos(ind)
-					gl.PushMatrix()
-					gl.Translate(p)
-					drawBillboardCircle(0)
-					gl.PopMatrix()
-				end
 				
+				local p = tpd:graphnodepos(ind)
+				gl.PushMatrix()
+				gl.Translate(p)
+				drawBillboardCircle(0)
+				gl.PopMatrix()
+	
 			end
 			
 		end
 		
 		--draw all labels
 		if(boollabelall) then
-				for l=1, tpd:graphsize() do
-					local ind = l-1
-					local p = tpd:graphnodepos(ind)
-					local labelstr = tpd:getnodelabel(ind)
-					p[2] = p[2]+0.01
-					gl.Color(1.0, 1.0, 1.0)
-					graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
-						
-				end
+			for l=1, tpd:graphsize() do
+				local ind = l-1
+				local p = tpd:graphnodepos(ind)
+				local labelstr = tpd:getnodelabel(ind)
+				p[2] = p[2]+0.01
+				gl.Color(1.0, 1.0, 1.0)
+				graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
+					
+			end
 		end
 		
-		for i=1,5 do 
-			local selectednode = selnodes[i]
-			if(selectednode~=nil and selectednode > -1) then
-				local p = tpd:graphnodepos(selectednode)
+		-----------------end draw graph-------------------------
+		-----------------begin draw highlights------------------
+		
+		for k,v in pairs(displaynodes) do  
+			local np = tpd:graphnodepos(v)
+			np[1] = np[1] + 0.5
+			graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, tpd:getnodepubs(indid))
+		end
+		
+		
+		for k,v in pairs(selectnodes) do
+			--print(k, v)
+			local np = tpd:graphnodepos(v)
+			gl.PushMatrix()
+			gl.Translate(np)
+			gl.Color(highcol[1])
+			
+			drawBillboardCircle(1)
+			
+			gl.PopMatrix()
+			
+		end
+		
+		for k,v in pairs(hovernodes) do
+			--print(k, v)
+			--adjust transparency and removel from list
+			local starttime = v[2]
+			
+			local timeelapsed = now() - starttime
+			
+			if(timeelapsed > 2) then 
+				table.remove( hovernodes, k)
+			else
+			    
+				local np = tpd:graphnodepos(v[1])
+				gl.PushMatrix()
+				gl.Translate(np)
+				local transcol = highcol[2]
+				transcol[4] = 2 - timeelapsed
+				gl.Color(transcol)
 				
-				if(draw3d) then 
-					shader:param ("Kd", {yellow[1], yellow[2], yellow[3]})
-					shader:bind()
-						
-					gl.PushMatrix()
-						gl.Translate(p)  
-						gl.Scale(0.0025*pointscale, 0.0025*pointscale, 0.0025*pointscale)
-						drawSphere (1.0, 10, 10)
-					gl.PopMatrix()
-					shader:unbind()
-				else
-				    gl.PushMatrix()
-					gl.Translate(p)
-					gl.Color(yellow)
-					drawBillboardCircle(0)
-					gl.PopMatrix()
-					
-				end
+				drawBillboardCircle(1)
 				
-				if( not boollabelall) then 
-					local labelstr = tpd:getnodelabel(selectednode)
-					p[2] = p[2]+0.01
-					gl.Color(1.0, 1.0, 1.0)
-					graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
-				end
-				
-				if(n1high) then
-				
-					p = tpd:graphnodepos(selectednode) --restore pos
-					gl.PushMatrix()
-					gl.Translate(p)
-					gl.Color(highcol[i])
-					drawBillboardCircle(1)
-					gl.PopMatrix()
-						
-					--neighbors are highligted
-					local neighbors = tpd:neighNodes(selectednode)
-					
-					for k,v in pairs(neighbors) do 
-						
-						local np = tpd:graphnodepos(v)
-						
-						--check if it is already in the other neighbor set
-						local found = false
-					    
-					    gl.PushMatrix()
-						gl.Translate(np)
-					    gl.Color(highcol[i])
-					    
-					    if(i == 2) then 
-					    	local otherneigh = tpd:neighNodes(selnodes[1])
-							for l,n in pairs(otherneigh) do
-								if (n == v) then
-									--print(tpd:getnodelabel(n))
-									found = true
-								end
-							end
-					    end
-					    
-					    if(found ) then 
-					    	drawBillboardCircle(2)
-					    else
-							drawBillboardCircle(1)
-					    end
-					    
-					    gl.PopMatrix()
-					
-						if( not boollabelall) then 
-							if(v ~= selnodes[1] and v ~= selnodes[2] ) then 
-								local neighlabelstr = tpd:getnodelabel(v)
-								np[2] = np[2]+0.01
-								gl.Color(1.0, 1.0, 1.0)
-								graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, neighlabelstr)
-							end
-						end
-					end
-				
-				   --[[
-				   shader:param ("Kd", {green[1], green[2], green[3]})
-				   shader:bind()
-				   tpd:drawNeighNodes(selectednode, 0.002*pointscale)
-				   shader:unbind()
-				   
-				   gl.Color(red[1], red[2], red[3])
-				   tpd:drawNeighEdges(selectednode, false, linescale)
-				   --]]
-				end
-				
-				if( not boollabelall) then 
-					if(n1labels) then
-						local neighbors = tpd:neighNodes(selectednode)
-						for k,v in pairs(neighbors) do 
-							local neighlabelstr = tpd:getnodelabel(v)
-							local np = tpd:graphnodepos(v)
-							np[2] = np[2]+0.01
-							gl.Color(1.0, 1.0, 1.0)
-							graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, neighlabelstr)
-						end
-					end
-				end
-				
-				
-			end
-		end	
+				gl.PopMatrix()
+			end	
+		end
 	end
 	
 	if(st < MAXSTEP and TEMP > 0.0001) then 
@@ -1064,16 +1166,10 @@ function win:key(event, key)
 			redrawgraph()
 		elseif(key == 116 or key == 84) then --T
 			draw3d = not draw3d
-		elseif(key == 110 or key == 78) then --N
-			tpd:bringN1(selnodes[1])
-		
 		elseif(key == 103 or key == 71) then --G
 			mouseinteractmode = 1
 		elseif(key == 102 or key == 70) then --F
 			mouseinteractmode = 2
-		elseif(key == 104 or key == 72) then --H
-			n1high = not n1high
-			tpd:highlightN1(selnodes[1], n1high)
         elseif(key == 111 or key == 79) then --O
 		  boolrotate = not boolrotate
 		elseif(key == 112 or key == 80) then --P
@@ -1120,7 +1216,7 @@ function win:mouse(event, btn, x, y, nclk)
 	    boolmousepress = false
 	    if(nodedragged) then
 	    	nodedragged = false
-	    	addNodeToPlane(selnodes[1])
+	    	addNodeToPlane(lastselectnode)
 	    end
 	    
 	elseif(event == "drag") then
@@ -1129,17 +1225,17 @@ function win:mouse(event, btn, x, y, nclk)
 	    if(mouseinteractmode == 2) then
 	      	tpd:movePlane(activePlane, xdiff)
 	    elseif(mouseinteractmode == 1) then
-			if(selnodes[1] > -1.0 ) then 
+			if(lastselectnode > -1.0 ) then 
 				
-				local currentpos = tpd:graphnodepos(selnodes[1])
+				local currentpos = tpd:graphnodepos(lastselectnode)
 				currentpos[3] = currentpos[3] + xdiff
-				tpd:graphnodepos(selnodes[1], currentpos)	
+				tpd:graphnodepos(lastselectnode, currentpos)	
 				nodedragged = true
 			end
 		elseif(mouseinteractmode == 0) then
-			if(selnodes[1] > -1.0 ) then 
+			if(lastselectnode > -1.0 ) then 
 				local amnt = {-xdiff, ydiff, 0.0}
-		        tpd:moveGraph(amnt)
+		        tpd:moveGraph(lastselectnode, amnt)
 			end
 		end
 	end
@@ -1154,3 +1250,6 @@ end
 function win:modifiers()
 	gui:modifiers(self)
 end
+
+
+

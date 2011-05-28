@@ -475,11 +475,11 @@ int Topicnet_udata :: moveGraph(lua_State *L){
 	Self *s = Self::to_udata(L, 1);
 	if(s) {
 		vec3d amount;
-		
-		
-		if(lua::to_vec_t<double>(L, 2, 3, &amount.x)) {
+		int node = lua_tonumber(L, 2);
+		if(node && lua::to_vec_t<double>(L, 3, 3, &amount.x)) {
+			
 		    //printf("move amnt x: %f \n", amount.x);
-			s->Base::getGraph()->move(amount);
+			s->Base::getGraph()->move(node, amount);
 			return 1;
 		}
 		else{

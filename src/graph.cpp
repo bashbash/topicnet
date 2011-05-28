@@ -93,38 +93,34 @@ GraphNode* Graph ::getNextGraphNode(){
 	
 }
 
-void Graph::move(vec3d amount){
-	if (selectednodes.size() > 0) {
-		int selectednodeindex = selectednodes.back();
-		GraphNode * selected = adjlist.at(selectednodeindex);
-		selected->visited(true);
-		vector<GraphNode * > level0  = selected-> nodesvec();
+void Graph::move(int nd, vec3d amount){
 	
-		 vector < vector< GraphNode* > > visitednodes;
-		 visitednodes.push_back(level0);
-		 
-		 traverse(visitednodes);
-		 
-		 //printf("size of visitednodes: %d \n", visitednodes.size());
-		 //do the actual move
-		
-		selected -> move(amount);
-		for (int v=0; v<visitednodes.size(); v++) {
-			amount = amount * 0.4;
-			vector<GraphNode * > lv = visitednodes.at(v);
-			for (int n=0; n<lv.size(); n++) {
-				GraphNode * g = lv.at(n);
-				g->move(amount);
-			}
+	GraphNode * selected = adjlist.at(nd);
+	selected->visited(true);
+	vector<GraphNode * > level0  = selected-> nodesvec();
+
+	 vector < vector< GraphNode* > > visitednodes;
+	 visitednodes.push_back(level0);
+	 
+	 traverse(visitednodes);
+	 
+	 //printf("size of visitednodes: %d \n", visitednodes.size());
+	 //do the actual move
+	
+	selected -> move(amount);
+	for (int v=0; v<visitednodes.size(); v++) {
+		amount = amount * 0.4;
+		vector<GraphNode * > lv = visitednodes.at(v);
+		for (int n=0; n<lv.size(); n++) {
+			GraphNode * g = lv.at(n);
+			g->move(amount);
 		}
-		 
-		 //unmark all nodes
-		for (int a=0; a<adjlist.size(); a++) {
-			adjlist.at(a)->visited(false);
-		}
-		 
 	}
-	else printf("Graph:move no valid selected node \n");
+	 
+	 //unmark all nodes
+	for (int a=0; a<adjlist.size(); a++) {
+		adjlist.at(a)->visited(false);
+	}
 }
 
 void Graph :: visitnodes(GraphNode * g){

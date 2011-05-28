@@ -57,7 +57,7 @@ public:
 	
 	void ramdomizePositions(bool td);
 	
-	void move(vec3d amount);
+	void move(int nd, vec3d amount);
 	
 	void clear();
 	
