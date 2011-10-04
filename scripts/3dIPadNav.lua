@@ -1,3 +1,6 @@
+--receive identify node and manage that
+--manage multiple ipad inputs from multiple devices
+
 local gl = require("opengl")
 local GL = gl
 local glu = require("opengl.glu")
@@ -23,12 +26,6 @@ local activedata = 3
 
 ------------------Parse Data---------------------
 local tpd = TopNet()
---local file = "/data/smallworld_1000_2000.xml"
---local file = "/data/4test.xml"
---local file = "/data/facebook_Donovan_music.xml"
---local file = "/data/UCI_venezuela.xml"
---local file = "/data/facebook_Brynjar Gretarsson_2.dnv"
-
 
 local data1 = "/data/coauthor_small.xml"
 local data2 = "/data/coauthor_mid.xml"
@@ -59,42 +56,85 @@ win = Window{
 win.sync = true
 win.stereo = false
 --win.cursor = false
+
+-----------------------------------------------------
+---------------ip handling---------------------------
+local cur_col = {{0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}, {1.0, 0.0, 0.0}, {1.0, 1.0, 0.0}}
+local MAX_DEVICE = 4
+local device = 1  --for mouse interaction do device=0
+local device_ips = {}
+device_ips[1] = '192.168.1.112'
+device_ips[2] = '192.168.1.121'
+device_ips[3] = '192.168.1.121'
+device_ips[4] = '192.168.1.121'
+
+
+local ipadlastx = {}
+local ipadlasty = {}
+
+
+
+local send_port = 8080
+local receive_port = 8080
+local oscin  = osc.Recv(receive_port) 
+--local oscout = osc.Send(send_address, send_port) 
+local oscout = {} 
+
+
+for i=1, MAX_DEVICE do
+	ipadlastx[i] = 0.0
+	ipadlasty[i] = 0.0
+	
+	local send_address = device_ips[i]	
+	oscout[i] = osc.Send(send_address, send_port) 
+	print(i, send_address, send_port)
+end
+
+  
+
 ------------------global variables---------------
-
-local RADIUS = 0.05
-local HALOSIZE = 1.1
-
-
 local boolstereo = false
 local layout3d = true
 local draw3d = true
 
 local activePlane = -1
 
+local boolmousepress = false
+local nodedragged = false
+
+local blockview = false
+
+local boollabelall = false
+
+local n1high = false
+local n1labels = false
+
+local addMode = false
+local mouseDown = false
+
+local AREA = 5.0
+local MAXSTEP = 550
+local TEMP = 0.5
+
+local st = 0
+
 local mouseinteractmode = 0
 local boolrotate = false
+
 local lastx = 0.0
 local lasty = 0.0
-
-
-
-local activeipads = {}
-
-local ipadlastx = 0.0
-local ipadlasty = 0.0
-
-local ipadopos = {0.0, 0.0}
 
 local cvec1 = {0.0, 0.0, 0.0}
 local cvec2 ={0.0, 0.0, 0.0}
 
 local ray = {0.0, 0.0, 0.0}
 
+local selectnodes = {}
+local hovernodes = {}
+local displaynodes = {}
 
-local selnodes = {}
-selnodes[1] = -1
-selnodes[2] = -1
-
+local lastselectnode = 0
+local lasthovernode = 0
 
 local
 function exists(list, value)
@@ -120,45 +160,8 @@ function existshover(list, value)
 			break
 		end
 	end
-	
 	return boolfound
 end
-
-local selectnodes = {}
-local hovernodes = {}
-local displaynodes = {}
-
-
-local lastselectnode = 0
-local lasthovernode = 0
-
-local boolmousepress = false
-local nodedragged = false
-
-local blockview = false
-
-local boollabelall = false
-
-local n1high = false
-local n1labels = false
-
-local addMode = false
-local mouseDown = false
-
-local AREA = 5.0
-local MAXSTEP = 550
-local TEMP = 0.5
-
-local st = 0
-
-
-local send_address = '192.168.1.135'	-- or another IP address, or hostname such as 'localhost'
-	
-local send_port = 8080
-local receive_port = 8080
-
-local oscout = osc.Send(send_address, send_port) 
-local oscin  = osc.Recv(receive_port)   
 
 
 -------------------------------------------------
@@ -419,6 +422,7 @@ local function redrawgraph()
 	
 end
 
+
 -------------------------------------------------
 local 
 function drawCircle(radius)
@@ -508,14 +512,15 @@ end
 -------------------------------------------------
 
 local 
-function drawMyCursor()
+function drawMyCursor(dev)
 	
 	local dim = win.dim
 	--local pos = glu.UnProject(lastx, lasty, 0.01)
-	local pos = glu.UnProject(ipadlastx, ipadlasty, 0.01)
+	local pos = glu.UnProject(ipadlastx[dev], ipadlasty[dev], 0.01)
 	local sc = 0.0015
 
-    gl.Color(0.7, 0.7, 0.7)
+    
+    gl.Color(cur_col[dev])
 	gl.Begin(GL.LINES)
 	    
 		gl.Vertex(pos[1], pos[2], pos[3]);
@@ -710,20 +715,21 @@ end
 
 
 local 
-function hoverNode()
+function hoverNode(d)
     
-	local p1, p2 = cam:picktheray(lastx, lasty)
-	--local p1, p2 = cam:picktheray(ipadlastx, ipadlasty)
+    local p1, p2
+    if (device == 0) then
+    	p1, p2 = cam:picktheray(lastx, lasty)
+    else
+    	p1, p2 = cam:picktheray(ipadlastx[d], ipadlasty[d])
+    end
+    
 	cvec1 = p1[1]
 	cvec2 = p2[1]
 	
 	ray = vec3.sub(cvec2, cvec1)
 	local rayscale = vec3.scale (ray, 0.01)
 	local selectednodeindex
-	--local preselected = selnodes[1]
-	
-	--deal with this later
-	--if( #hovernodes > 0 ) then  print( "num: ", #hovernodes ) preselected = hovernodes[ #hovernodes ][1] end
 	
 	local inselectlist, indx
 	
@@ -737,21 +743,18 @@ function hoverNode()
 		    
 			selectednodeindex = ind
 			
-			inselectlist, indx = exists (selectnodes, selectednodeindex)
-		
-			if( not inselectlist and lasthovernode ~= selectednodeindex) then 
+			inselectlist, indx = exists (selectnodes, ind)
+			if( not inselectlist and lasthovernode ~= ind) then 
+				
 				local winw, winh = unpack(win.dim)
 				local screenpos = glu.Project(p[1], p[2], p[3])
 				
 				screenpos[1] = screenpos[1] / winw
 				screenpos[2] = (winh - screenpos[2]) / winh
 				
-				--oscout:send("/text", tpd:getnodepubs(ind), 1, tpd:getnodeid(ind) )
-				oscout:send("/rollover", screenpos[1], screenpos[2], tpd:getnodeid(ind), selectednodeindex )
-				print("sent /rollover:  ", screenpos[1], screenpos[2])
-				--print(tpd:getnodepubs(ind))
-				
-				
+				local testoscout = osc.Send(device_ips[d], send_port)
+				testoscout:send("/rollover", screenpos[1], screenpos[2], ind, tpd:getnodelabel(ind))  --omit  tpd:getnodeid(ind)
+				print("sent /rollover:  ", screenpos[1], screenpos[2], ind)
 			end
 			
 			break
@@ -760,9 +763,11 @@ function hoverNode()
 		end
 	end
 	
+	
 	if(selectednodeindex ~= -1 and lasthovernode ~= selectednodeindex and not inselectlist) then 
 	   --add to hover list 
 	     local inlist = existshover (hovernodes, selectednodeindex)
+	     
 	     if(not inlist) then 
 	        local hoveritem = {selectednodeindex, now()}
 	     	table.insert(hovernodes, hoveritem)
@@ -777,12 +782,26 @@ function hoverNode()
 end
 
 local 
-function ipadSelectNode( indeks )
-	
+function displayNode( indeks )
 	local selectednodeindex = indeks
-	
+
 	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
-		
+		local inlist, ind = exists (displaynodes, selectednodeindex)
+	    if(not inlist) then 
+			table.insert (displaynodes, selectednodeindex)
+			print("inserted node to displaynodes: ", selectednodeindex)
+		else
+			table.remove(displaynodes, ind)
+			selectednodeindex = -1
+		end
+	end
+end
+
+
+local 
+function ipadSelectNode( indeks )
+	local selectednodeindex = indeks
+	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
 		local inlist, ind = exists (selectnodes, selectednodeindex)
 	    if(not inlist) then 
 			--add to selected list
@@ -795,37 +814,15 @@ function ipadSelectNode( indeks )
 			selectednodeindex = -1
 			lastselectnode = -1
 		end
-	end
-	
+	end	
 end
 
 
 local 
-function ipadDisplayNode( indeks )
-	
-	local selectednodeindex = indeks
-	
-	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
-		
-		local inlist, ind = exists (displaynodes, selectednodeindex)
-	    if(not inlist) then 
-			--add to selected list
-			table.insert (displaynodes, selectednodeindex)
-			print("inserted node to displaynodes: ", selectednodeindex)
-		else
-			--print("item already in select list: ", selectednodeindex)
-			table.remove(displaynodes, ind)
-			selectednodeindex = -1
-		end
-	end
-	
-end
-
-
-local 
-function selectNode()
+function mouseSelectNode()
+    print("ipad interaction should not visit here")
 	local p1, p2 = cam:picktheray(lastx, lasty)
-	--local p1, p2 = cam:picktheray(ipadlastx, ipadlasty)
+	--local p1, p2 = cam:picktheray(ipadlastx[dev], ipadlasty[dev])
 	cvec1 = p1[1]
 	cvec2 = p2[1]
 	
@@ -848,7 +845,8 @@ function selectNode()
 			screenpos[1] = screenpos[1] / winw
 			screenpos[2] = (winh - screenpos[2]) / winh
 			
-			--oscout:send("/select", screenpos[1], screenpos[2], tpd:getnodeid(ind), ind )
+			
+			--oscout[device]:send("/select", screenpos[1], screenpos[2], tpd:getnodeid(ind), ind )
 			--print("sent:  ", screenpos[1], screenpos[2])
 			--print(tpd:getnodepubs(ind))
 			
@@ -867,8 +865,9 @@ function selectNode()
 		local inlist, ind = exists (selectnodes, selectednodeindex)
 	    if(not inlist) then 
 			--add to selected list
-			table.insert (selectnodes, selectednodeindex)
 			table.remove (hovernodes, selectednodeindex)
+			table.insert (selectnodes, selectednodeindex)
+			
 		    print("inserted node to selectnodes: ", selectednodeindex)
 		    
 		    lastselectnode = selectednodeindex
@@ -902,63 +901,56 @@ function win:init()
 	
 end
 
-tpd:initGraphLayout()
-tpd:randomizeGraph(layout3d)
+--start graph layout algorithm
+--tpd:initGraphLayout()
+--tpd:randomizeGraph(layout3d)
 
-
-
-
+--start with a pre-calculated graph 
+loadGraph()
+st = MAXSTEP
 
 
 local 
 function getOSC() 
 	for msg in oscin:recv() do
+		
 	    if(msg.addr == "/handshake") then 
-	    	print("hello ipad")
+	    	local ipaddr = unpack(msg)
+	    	print("hello ipad: ", ipaddr)
+	    	--device_ips[1] = ipadddr
 	    elseif(msg.addr == "/screencoord") then 
-	    	local scx, scy = unpack (msg)
-	    	--print("received: ", scx, scy)
-	    	
+	    	local device_id, scx, scy = unpack (msg)
 	    	local winw, winh = unpack(win.dim)
 	    	
-	    	ipadopos = {scx, scy}
-	    	ipadlastx = math.floor(scx*winw)
-	    	ipadlasty = math.floor(scy*winh)
-	    	--print ("screen coords: ", ipadlastx, ipadlasty)
+	    	ipadlastx[device] = math.floor(scx*winw)
+	    	ipadlasty[device] = math.floor(scy*winh)
 	    elseif(msg.addr == "/selectNode") then 
-	        print("got it ?")
-	    	local strid, indid = unpack(msg)
-	    	print("selected node message: ", strid, indid)
+	    	local device_num, indid = unpack(msg)
+	    	print("selected node message: ", device_num, indid)
 	    	
 	    	ipadSelectNode( indid )
-	    	
-	    	oscout:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
+	    	local testoscout = osc.Send(device_ips[device], send_port)
+	    	testoscout:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
 	    	print(" sent /createNode", tpd:getnodelabel(indid) )
 	    	
 	    elseif(msg.addr == "/deselectNode") then
-	    	local indid = unpack(msg)
+	    	local device_num, indid = unpack(msg)
 	    	print("deselect: ", indid)
 	    	ipadSelectNode( indid )
 	    	
 	    elseif(msg.addr == "/displayNode") then
-	    	local indid = unpack(msg)
+	    	local device_num, indid = unpack(msg)
 	    	print("disp: ", indid)
-	    	ipadDisplayNode( indid )
-	    	
+	    	displayNode( indid )
 		end
 	end
 end
 
 
-----[[  start with a pre-calculated graph 
-loadGraph()
-st = MAXSTEP
---]]
-
 function win:draw(eye)
 	
 	getOSC() 
-   
+     
     local w, h = unpack(self.dim)
     local h2 = h *0.5 -- half height
     
@@ -969,94 +961,93 @@ function win:draw(eye)
 	 	gl.PushMatrix()
 	 	gl.Rotate(now()*10, 0, 1, 0)
 	end
-	--gl.Light(GL.LIGHT0, GL.POSITION, cam.eye)
+	
 	
 	gl.Translate(-2.5, 0, 0)
 	
 	gl.LineWidth(2.0)
 	drawAxes()
-	drawMyCursor()
 	
-	
-	
+	for d=1, MAX_DEVICE do
+		drawMyCursor(d) -- device number
+    end
+
 	local linescale = 1.5
 	local pointscale = pointsz.value
-	
 	 
 	drawPlane()
 	 
 	if(boolmousepress) then
-	    selectNode()
+	    mouseSelectNode() 
 	    boolmousepress = false
 	else
-		hoverNode()
+	    hoverNode(1) 
+		
 	end
 
+	gl.Color(blue[1], blue[2], blue[3])
+	if(draw3d) then 
+		shapeTexture:bind(0)
+		primshader:bind()
+			tpd:drawGraphEdges(true, 1.0)
+		primshader:unbind()
+		shapeTexture:unbind(0)
+		
+		
+		shader:param ("Kd", {red[1], red[2], red[3]})
+		shader:bind()
+			tpd:drawGraphNodes(true, 0.002*pointscale)
+		shader:unbind()
+		
+		gl.Disable(GL.LIGHTING)
 	
-	
-	if(not blockview) then
+	else
 		gl.Color(blue[1], blue[2], blue[3])
-		if(draw3d) then 
-			shapeTexture:bind(0)
-			primshader:bind()
-				tpd:drawGraphEdges(true, 1.0)
-			primshader:unbind()
-			shapeTexture:unbind(0)
-			
-			
-			shader:param ("Kd", {red[1], red[2], red[3]})
-			shader:bind()
-				tpd:drawGraphNodes(true, 0.002*pointscale)
-			shader:unbind()
-			
-			gl.Disable(GL.LIGHTING)
+		gl.Disable(GL.LIGHTING)
+		gl.PushMatrix()
+		gl.Translate(0, 0, -0.005)
+		tpd:drawGraphEdges(false, linescale)
+		gl.PopMatrix()
 		
-		else
-		    gl.Color(blue[1], blue[2], blue[3])
-			gl.Disable(GL.LIGHTING)
+		gl.Color(pink)
+		tpd:drawGraphNodes(false, 10)
+		--[[
+		for l=1, tpd:graphsize() do
+			local ind = l-1
+			
+			local p = tpd:graphnodepos(ind)
 			gl.PushMatrix()
-			gl.Translate(0, 0, -0.005)
-			tpd:drawGraphEdges(false, linescale)
+			gl.Translate(p)
+			drawBillboardCircle(0.01)
 			gl.PopMatrix()
-			
-			gl.Color(pink)
-			--tpd:drawGraphNodes(false, 10)
-			
-			for l=1, tpd:graphsize() do
-				local ind = l-1
-				
-				local p = tpd:graphnodepos(ind)
-				gl.PushMatrix()
-				gl.Translate(p)
-				drawBillboardCircle(0)
-				gl.PopMatrix()
+
+		end
+		--]]
+	end
 	
-			end
-			
+	--draw all labels
+	if(boollabelall) then
+		for l=1, tpd:graphsize() do
+			local ind = l-1
+			local p = tpd:graphnodepos(ind)
+			local labelstr = tpd:getnodelabel(ind)
+			p[2] = p[2]+0.01
+			gl.Color(1.0, 1.0, 1.0)
+			graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
+				
 		end
-		
-		--draw all labels
-		if(boollabelall) then
-			for l=1, tpd:graphsize() do
-				local ind = l-1
-				local p = tpd:graphnodepos(ind)
-				local labelstr = tpd:getnodelabel(ind)
-				p[2] = p[2]+0.01
-				gl.Color(1.0, 1.0, 1.0)
-				graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
-					
-			end
-		end
-		
-		-----------------end draw graph-------------------------
-		-----------------begin draw highlights------------------
-		
+	end
+	
+	-----------------end draw graph-------------------------
+	-----------------begin draw highlights------------------
+		----[[
+		--handle this in a way better
 		for k,v in pairs(displaynodes) do  
 			local np = tpd:graphnodepos(v)
 			np[1] = np[1] + 0.5
 			graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, tpd:getnodepubs(indid))
 		end
-		
+		--]]
 		
 		for k,v in pairs(selectnodes) do
 			--print(k, v)
@@ -1065,7 +1056,7 @@ function win:draw(eye)
 			gl.Translate(np)
 			gl.Color(highcol[1])
 			
-			drawBillboardCircle(1)
+			drawBillboardCircle(0.2)
 			
 			gl.PopMatrix()
 			
@@ -1089,12 +1080,12 @@ function win:draw(eye)
 				transcol[4] = 2 - timeelapsed
 				gl.Color(transcol)
 				
-				drawBillboardCircle(1)
+				drawBillboardCircle(0.2)
 				
 				gl.PopMatrix()
 			end	
 		end
-	end
+
 	
 	if(st < MAXSTEP and TEMP > 0.0001) then 
 		tpd:stepLayout(layout3d, TEMP)

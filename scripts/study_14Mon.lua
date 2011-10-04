@@ -427,6 +427,7 @@ function drawPlane()
         
 	   if( p == activePlane) then gl.Color(1.0, 0.4, 0.1, 1.0) 
 	   else  gl.Color(1.0, 1.0, 1.0, 0.5) end
+	   --[[
 	   gl.LineWidth(0.5)
 	  
 	   
@@ -439,7 +440,7 @@ function drawPlane()
 	   		  gl.Vertex(0.0, div, depth)
 	   		end
 	   gl.End()
-	   
+	   --]]
 	   --[[
 		gl.Color(1.0, 1.0, 1.0, 0.08)
 		gl.Begin(GL.POLYGON)
@@ -890,7 +891,8 @@ function getOSC()
 	end
 end
 
-cam.eye = {-1.12, 2.63, 4.65}
+--cam.eye = {-1.12, 2.63, 4.65}
+
 
 function win:draw(eye)
 	
@@ -903,7 +905,8 @@ function win:draw(eye)
   
 	cam:step()
 	cam:enter((eye == "left") and 1 or 0)
-	
+    --cam:enter(1)
+
 	
 	
 	--self.clearcolor = winbgcolor
@@ -1019,7 +1022,7 @@ function win:draw(eye)
 					local labelstr = tpd:getnodelabel(selectednode)
 					p[2] = p[2]+0.01
 					gl.Color(1.0, 1.0, 1.0)
-					graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
+					--graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
 				end
 				
 				if(n1high) then
@@ -1068,7 +1071,7 @@ function win:draw(eye)
 								local neighlabelstr = tpd:getnodelabel(v)
 								np[2] = np[2]+0.01
 								gl.Color(1.0, 1.0, 1.0)
-								graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, neighlabelstr)
+								--graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, neighlabelstr)
 							end
 						end
 					end
@@ -1092,7 +1095,7 @@ function win:draw(eye)
 							local np = tpd:graphnodepos(v)
 							np[2] = np[2]+0.01
 							gl.Color(1.0, 1.0, 1.0)
-							graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, neighlabelstr)
+							--graphlabels:draw_3d(win.dim, {np[1], np[2], np[3]}, neighlabelstr)
 						end
 					end
 				end
@@ -1206,28 +1209,28 @@ function win:key(event, key)
 			addMode = true
 			--print("eye at", cam.eye[1], cam.eye[2], cam.eye[3])
 		elseif(key == 49) then --1
-			question2(84, 20 , 2, "2D")
+			question2(84, 20 , 2, "2.5D")
 			--oscout:send("/quest", 2,  "2D", 84, 22)
 		elseif(key == 50) then --2
-			question2(84, 20, 2, "3D")
+			question2(84, 20, 2, "2.5DH")
 			--oscout:send("/quest", 2,  "3D", 84, 22)
 		elseif(key == 51) then --3
-			question2(84, 20, 2, "2.5D")
+			question2(8, 80, 2, "2.5D")
 			--oscout:send("/quest", 2,  "2.5D", 84, 22)
 		elseif(key == 52) then --4
-			question2(84, 20, 2, "2.5DH")
+			question2(8, 80, 2, "2.5DH")
 			--oscout:send("/quest", 1, "2D", 84, 22)
 		elseif(key == 53) then --5
-			question1(20, 1, "2D")
+			question2(59, 38, 2, "2.5D")
 			--oscout:send("/quest", 1,  "3D", 84, 22)
 		elseif(key == 54) then --6
-			question1(20, 1, "3D")
+			question2(59, 38, 2, "2.5DH")
 			--oscout:send("/quest", 1,  "2.5D", 84, 22)
 		elseif(key == 55) then --7
-			question1(20, 1, "2.5D")
+			question2(10, 38, 2, "2.5D")
 			--oscout:send("/quest", 1,  "2.5D", 84, 22)
-		elseif(key == 56) then --7
-			question1(20, 1, "2.5DH")
+		elseif(key == 56) then --8
+			question2(10, 38, 2, "2.5DH")
 			--oscout:send("/quest", 1,  "2.5D", 84, 22)
 		end
 	
@@ -1272,7 +1275,7 @@ function win:mouse(event, btn, x, y, nclk)
 		elseif(mouseinteractmode == 0) then
 			if(selnodes[1] > -1.0 ) then 
 				local amnt = {-xdiff, ydiff, 0.0}
-		        tpd:moveGraph(amnt)
+		        tpd:moveGraph(selnodes[1], amnt)
 			end
 		end
 	end
