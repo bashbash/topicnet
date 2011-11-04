@@ -15,34 +15,13 @@ local Array = require("Array")
 local Image = require("Image")
 local Camera = require("glutils.navcam")
 
-
 local osc = require("osc")
--------------------------------------------------
 
-require("topicnet")
-local TopNet = topicnet.Topicnet
-
-local activedata = 3
-
+Label = require("Label")
 ------------------Parse Data---------------------
-local tpd = TopNet()
 
-local data1 = "/data/coauthor_small.xml"
-local data2 = "/data/coauthor_mid.xml"
-local data3 = "/data/coauthor_large.xml"
-
-
-
-local sources = {}
-local sourcepath1 = script.path .. data1
-local sourcepath2 = script.path .. data2
-local sourcepath3 = script.path .. data3
-
-local sources = {sourcepath1, sourcepath2, sourcepath3}
-
-tpd:loadData(sources[activedata], "author")
-
-
+local datfile = script.path .. "/3dIPadNav_data.lua"
+dofile( datfile )
 
 -------------------------------------------------
 local context = "3d net test"
@@ -57,9 +36,18 @@ win.sync = true
 win.stereo = false
 --win.cursor = false
 
------------------------------------------------------
+--------------------GUI------------------------------
+
+local guifile = script.path .. "/3dIPadNav_gui.lua"
+dofile( guifile )
+
+startGui(context, win.dim)
+
+
 ---------------ip handling---------------------------
-local cur_col = {{0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}, {1.0, 0.0, 0.0}, {1.0, 1.0, 0.0}}
+
+cur_col = {{0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}, {1.0, 0.0, 0.0}, {1.0, 1.0, 0.0}}
+
 local MAX_DEVICE = 4
 local device = 1  --for mouse interaction do device=0
 local device_ips = {}
@@ -69,10 +57,10 @@ device_ips[2] = '169.254.64.200'
 device_ips[3] = '192.168.1.121'
 device_ips[4] = '192.168.1.121'
 
-local testoscout
 
-local ipadlastx = {}
-local ipadlasty = {}
+
+ipadlastx = {}
+ipadlasty = {}
 
 
 
@@ -80,8 +68,10 @@ local send_port = 8080
 local receive_port = 8080
 local oscin  = osc.Recv(receive_port) 
 --local oscout = osc.Send(send_address, send_port) 
+
 local oscout = {} 
 
+local testoscout = osc.Send(send_address, send_port) 
 
 for i=1, MAX_DEVICE do
 	ipadlastx[i] = 0.0
@@ -114,13 +104,13 @@ local n1labels = false
 local addMode = false
 local mouseDown = false
 
-local AREA = 5.0
+AREA = 5.0
 local MAXSTEP = 550
 local TEMP = 0.5
 
 local st = 0
 
-local mouseinteractmode = 0
+
 local boolrotate = false
 
 local lastx = 0.0
@@ -166,78 +156,11 @@ function existshover(list, value)
 end
 
 
--------------------------------------------------
-------------------Save Data----------------------
-local
-function saveGraph()
-    local path = script.path .. "/data"
-    
-    local fileN = "graph".. activedata .."_pos.txt"
-    if(layout3d) then fileN = "graph" .. activedata .."_3Dpos.txt" end
-    
-   
-    --print("path  ", path)
-	local fname = LuaAV.findfileinpath(path, fileN, true)
-	--print("savegraph", fname)
-	local f = io.open(fname, "w")
-	--print(f)
-	
-	for s=1, tpd:graphsize() do
-		local ind = s-1
-	    local p = tpd:graphnodepos(ind)
-        f:write(ind," ", p[1]," ", p[2]," ",  p[3], "\n")
-	end
-	f:close()
-end
 
-
-string.split = function(str, pattern)
-  pattern = pattern or "[^%s]+"
-  if pattern:len() == 0 then pattern = "[^%s]+" end
-  local parts = {__index = table.insert}
-  setmetatable(parts, parts)
-  str:gsub(pattern, parts)
-  setmetatable(parts, nil)
-  parts.__index = nil
-  return parts
-end
-
-
-local
-function loadGraph()
-    local path = script.path .. "/data"
-    --print("path  ", path)
-    
-    local fileN = "graph" .. activedata .. "_pos.txt"
-    if(layout3d) then fileN = "graph" .. activedata .. "_3Dpos.txt" end
-    
-    
-	local fname = LuaAV.findfileinpath(path, fileN, true)
-	--print("loadgraph", fname)
-	local f = io.open(fname, "r")
-	--print(f)
-	
-	local lineNum = 0
-	if f then
-		--print("file open")
-		for line in f:lines() do 
-	    	lineNum = lineNum + 1
-	    	local parts = line:split( "[^,%s]+" )
-	    	local pos = {parts[2], parts[3], parts[4]}
-	    	--print(parts[1], parts[2], parts[3], parts[4])
-	    	tpd:graphnodepos(parts[1], pos)
-	    end
-	end
-	
-	f:close()
-end
 ---------------------colors----------------------
 local winbgcolor = {0.9, 0.9, 0.9}
-local red = {247/255, 59/255, 81/255}
-local pink = {241/255, 93/255, 111/255}
-local green = {104/255, 197/255, 38/255}
-local yellow = {251/255, 252/255, 89/255}
-local blue = {98/255, 152/255, 205/255}
+
+
 local highcol = {}
 highcol[1] = {96/255, 176/255, 71/255}
 highcol[2] = {255/255, 171/255, 52/255}
@@ -245,33 +168,6 @@ highcol[2] = {255/255, 171/255, 52/255}
 -------------------------------------------------
 
 
-
-
--------------------------------------------------
-local Gui = require("gui.Context")
-local Rect = require("gui.Rect")
-local Slider = require("gui.Slider")
-local Button = require("gui.Button")
-local GuiLabel = require("gui.Label")
-
-local Label = require("Label")
--------------------------------------------------
-
-local guilabels = Label{
-	ctx = context,
-	alignment = "LEFT",
-	size = 12,
-	color = {1.0, 0.3, 0.5}
-}
-
-local graphlabels = Label{
-	ctx = context,
-	fontfile = LuaAV.findfile("VeraMono.ttf"),
-	--alignment = "LEFT",
-	--color = {0.8, 0.2, 0.5},
-	size = 14,
-	--bg = true
-}
 
 local pubsText = Label{
 	ctx = context,
@@ -283,85 +179,6 @@ local pubsText = Label{
 	size = 12,
 	maxwidth = 300
 }
-
--- create the gui
-local gui = Gui{
-	ctx = context,
-	dim = win.dim,
-}
-
--- create some widgets
-local mv_nd_btn = Button{
-	rect = Rect(10, 12, 15, 15),
-	value = false,
-}
-
-local nd_btn = Button{
-	rect = Rect(10, 30, 15, 15),
-	value = false,
-}
-
-local pl_btn = Button{
-	rect = Rect(10, 50, 15, 15),
-	value = false,
-}
-
-
-
-local eyesep = Slider{
-	rect = Rect(10, 100, 100, 10),
-	value = 0.1,
-	range = {0, 0.2},
-}
-
-local pointsz = Slider{
-	rect = Rect(10, 150, 100, 10),
-	value = 12,
-	range = {5, 20},
-}
-
-
--- add them to the gui
-gui:add_view(mv_nd_btn)
-gui:add_view(nd_btn)
-gui:add_view(pl_btn)
-
-gui:add_view(eyesep)
-gui:add_view(pointsz)
-
-
--- register for notifications
-
-mv_nd_btn:register("value", function(w)
-	local val = w.value 
-	print(val)
-	if val then 
-		mouseinteractmode = 0 
-		pl_btn.value = false
-		nd_btn.value = false
-	end
-end)
-
-nd_btn:register("value", function(w)
-	local val = w.value 
-	print(val)
-	if val then 
-		mouseinteractmode = 1 
-		pl_btn.value = false
-		mv_nd_btn.value = false
-	end
-end)
-
-pl_btn:register("value", function(w)
-	local val = w.value 
-	print(val)
-	if val then 
-		mouseinteractmode = 2 
-		nd_btn.value = false
-		mv_nd_btn.value = false
-	end
-end)
-
 
 
 -------------------------------------------------
@@ -376,13 +193,7 @@ cam.stereo = false
 cam.eye_sep = -0.07
 
 
-eyesep:register("value", function(w)
-	local val = w.value 
-	print(val)
 
-	cam.eye_sep = -val
-	
-end)
 
 local function redrawgraph()
 	tpd:initGraphLayout()
@@ -396,229 +207,14 @@ end
 
 
 -------------------------------------------------
-local 
-function drawCircle(radius)
-   gl.Begin(GL.QUAD_STRIP)
-   local DEG2RAD = 3.14159/180
-   local halfrad = radius * 0.5
-   for i=0,360, 36 do  
-   		local degInRad = i*DEG2RAD
-        gl.Vertex(math.cos(degInRad)*radius, math.sin(degInRad)*radius, 0.0)
-        gl.Vertex(math.cos(degInRad)*halfrad, math.sin(degInRad)*halfrad, 0.0)
-   end
-   gl.End()
-end
 
+local drawfile = script.path .. "/3dIPadNav_drawings.lua"
+dofile( drawfile )
 
-local 
-function drawSphere (r, lats, longs)
-   for i=1, lats do
-  		local lat0 = math.pi * (-0.5 + (i-1)/lats)
-        local z0 = math.sin(lat0)
-        local zr0 = math.cos(lat0)
-         
-        local lat1 = math.pi * (-0.5 + i/lats)
-        local z1 = math.sin(lat1)
-        local zr1 = math.cos(lat1)
-        
-        gl.Begin(GL.TRIANGLE_STRIP)
-        	for j=1, longs+1 do
-        		local lng = 2 * math.pi * (j - 1) / longs
-        		local x = math.cos(lng)
-        		local y = math.sin(lng)
-        		
-        		gl.Normal(x * zr0, y * zr0, z0)
-                gl.Vertex(x * zr0, y * zr0, z0)
-                gl.Normal(x * zr1, y * zr1, z1)
-                gl.Vertex(x * zr1, y * zr1, z1)
-        	end
-        
-        gl.End()
-	end
-end
-
--------------------------------------------------
-
-local 
-function drawPlane()
-    
-	gl.Enable(GL.BLEND)
-	gl.Disable(GL.DEPTH_TEST)
-	gl.BlendFunc(GL.SRC_ALPHA, GL.ONE_MINUS_SRC_ALPHA)
-		
-    for p=0, tpd:planeCount()-1 do
-       local depth = tpd:planeDepth(p)
-        
-	   if( p == activePlane) then gl.Color(1.0, 0.4, 0.1, 1.0) 
-	   else  gl.Color(1.0, 1.0, 1.0, 0.5) end
-	   gl.LineWidth(0.5)
-	  
-	   
-	   gl.Begin(GL.LINES)
-	   		for div=0, AREA, 0.5 do
-	   		  gl.Vertex(div, AREA, depth)
-	   		  gl.Vertex(div, 0.0, depth)
-	   		  
-	   		  gl.Vertex(AREA, div, depth)
-	   		  gl.Vertex(0.0, div, depth)
-	   		end
-	   gl.End()
-	   
-	   --[[
-		gl.Color(1.0, 1.0, 1.0, 0.08)
-		gl.Begin(GL.POLYGON)
-			gl.Vertex(0.0, AREA, depth)
-			gl.Vertex(0.0, 0.0, depth)
-			gl.Vertex(AREA, 0.0, depth)
-			gl.Vertex(AREA, AREA, depth)	
-	   gl.End()
-	   --]]
-	   
-	   
-    end
-    
-    gl.Enable(GL.DEPTH_TEST)
-	gl.Disable(GL.BLEND)
-end
-
--------------------------------------------------
-
-local 
-function drawMyCursor(dev)
-	
-	local dim = win.dim
-	--local pos = glu.UnProject(lastx, lasty, 0.01)
-	local pos = glu.UnProject(ipadlastx[dev], ipadlasty[dev], 0.01)
-	local sc = 0.0015
-
-    
-    gl.Color(cur_col[dev])
-	gl.Begin(GL.LINES)
-	    
-		gl.Vertex(pos[1], pos[2], pos[3]);
-		gl.Vertex(pos[1]+sc*2, pos[2]-sc*2, pos[3]);
-	    
-		gl.Vertex(pos[1], pos[2], pos[3]);
-		gl.Vertex(pos[1], pos[2]-sc, pos[3]);
-		
-		gl.Vertex(pos[1], pos[2], pos[3]);
-		gl.Vertex(pos[1]+sc, pos[2], pos[3]);
-	
-	gl.End()
-end
-
-
-local 
-function drawAxes()
-	
-	local dim = win.dim
-	local pos = glu.UnProject(50.0, dim[2] - 50.0, 0.5)
-	local sc = 0.02
-
-	gl.Begin(GL.LINES)
-	    gl.Color(1.0, 0.0, 0.0)
-		gl.Vertex(pos[1], pos[2], pos[3]);
-		gl.Vertex(pos[1]+sc, pos[2], pos[3]);
-	
-	
-	    gl.Color(0.0, 1.0, 0.0)
-		gl.Vertex(pos[1], pos[2], pos[3]);
-		gl.Vertex(pos[1], pos[2]+sc, pos[3]);
-	
-	    gl.Color(0.0, 0.0, 1.0)
-		gl.Vertex(pos[1], pos[2], pos[3]);
-		gl.Vertex(pos[1], pos[2], pos[3]+sc);
-			
-	gl.End()
-end
-
-
----------------------------------------------------
-
-
-local shader = Shader{
-	ctx = context,
-	file = LuaAV.findfile("mat.phong.shl"),
-	param = {
-		La = {0.2, 0.2, 0.2},
-		Ka = {0.3, 0.3, 0.3},
-		Ks = {0.4, 0.4, 0.4},
-		Kd = {0.8, 0.5, 0.4},
-	}
-}
-
-local primshader = Shader{
-	ctx = context,
-	file = LuaAV.findfile("stylized_line.shl"),
-	param = {
-		haloColor = {0.4, 0.4, 0.4, 1.0},
-	}
-}
+initShaders(context)
 
 
 
----------------------------------------------------
---------------billboard shader---------------------
-
-local img = Image(LuaAV.findfile("circle.png"))
-local tex = Texture(context)
-tex:fromarray(img:array())
-
-local billshader = Shader{
-	ctx = context,
-	file = LuaAV.findfile("vd.billboard.shl")
-}
-
-local offset = billshader:attr("offset")
-
-
-local
-function drawBillboardCircle(sc)
-	
-    
-    gl.Enable(GL.BLEND)
-	gl.Disable(GL.DEPTH_TEST)
-	
-	gl.Enable(GL.BLEND)
-	gl.Disable(GL.DEPTH_TEST)
-	gl.BlendFunc(GL.SRC_ALPHA, GL.ONE_MINUS_SRC_ALPHA)
-	
-    --gl.Enable(GL.ALPHA_TEST)
-    --gl.AlphaFunc(GL.GREATER,0.9)
-  
-    gl.PushMatrix()
-    local scale = sc*0.05 + 0.22
-    gl.Scale(scale, scale, scale)
-   
-	billshader:bind()
-	tex:bind()
-		gl.Begin(GL.QUADS)
-			offset:submit(-1, 1)
-			gl.TexCoord(0, 0)
-			gl.Vertex(0, 0, 0)
-			
-			offset:submit(1, 1)
-			gl.TexCoord(1, 0)
-			gl.Vertex(0, 0, 0)
-			
-			offset:submit(1, -1)
-			gl.TexCoord(1, 1)
-			gl.Vertex(0, 0, 0)
-			
-			offset:submit(-1, -1)
-			gl.TexCoord(0, 1)
-			gl.Vertex(0, 0, 0)
-		gl.End()
-	tex:unbind()
-	billshader:unbind()
-	
-	gl.PopMatrix()
-    --gl.Disable(GL.ALPHA_TEST)
-    gl.Disable(GL.BLEND)
-end
-
-
----------------------------------------------------
 ---------------------------------------------------
 
 local 
@@ -878,8 +474,6 @@ function win:init()
 	gl.Light(GL.LIGHT0, GL.POSITION, position)
 	
 	gl.Material(GL.FRONT, GL.SHININESS, 100.0)
-	
-	
 end
 
 --start graph layout algorithm
@@ -943,6 +537,8 @@ function win:draw(eye)
     local w, h = unpack(self.dim)
     local h2 = h *0.5 -- half height
     
+    cam.eye_sep = -eyesep.value
+	
 	cam:step()
 	cam:enter((eye == "left") and 1 or 0)
 	
@@ -955,15 +551,13 @@ function win:draw(eye)
 	gl.Translate(-2.5, 0, 0)
 	
 	gl.LineWidth(2.0)
-	drawAxes()
+	drawAxes(win.dim)
 	
 	for d=1, MAX_DEVICE do
-		drawMyCursor(d) -- device number
+		drawMyCursor(win.dim, d) -- device number
     end
 
-	local linescale = 1.5
-	local pointscale = pointsz.value
-	 
+	
 	drawPlane()
 	 
 	if(boolmousepress) then
@@ -974,54 +568,17 @@ function win:draw(eye)
 		
 	end
 
-	gl.Color(blue[1], blue[2], blue[3])
-	if(draw3d) then 
-		primshader:bind()
-			tpd:drawGraphEdges(true, 1.0)
-		primshader:unbind()
-		
-		shader:param ("Kd", {red[1], red[2], red[3]})
-		shader:bind()
-			tpd:drawGraphNodes(true, 0.002*pointscale)
-		shader:unbind()
-		
-		gl.Disable(GL.LIGHTING)
 	
+	if(draw3d) then 
+		drawGraph3D()
 	else
-		gl.Color(blue[1], blue[2], blue[3])
-		gl.Disable(GL.LIGHTING)
-		gl.PushMatrix()
-		gl.Translate(0, 0, -0.005)
-		tpd:drawGraphEdges(false, linescale)
-		gl.PopMatrix()
-		
-		gl.Color(pink)
-		tpd:drawGraphNodes(false, 10)
-		--[[
-		for l=1, tpd:graphsize() do
-			local ind = l-1
-			
-			local p = tpd:graphnodepos(ind)
-			gl.PushMatrix()
-			gl.Translate(p)
-			drawBillboardCircle(0.01)
-			gl.PopMatrix()
-
-		end
-		--]]
+		drawGraph2D()
 	end
+	
 	
 	--draw all labels
 	if(boollabelall) then
-		for l=1, tpd:graphsize() do
-			local ind = l-1
-			local p = tpd:graphnodepos(ind)
-			local labelstr = tpd:getnodelabel(ind)
-			p[2] = p[2]+0.01
-			gl.Color(1.0, 1.0, 1.0)
-			graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
-				
-		end
+		drawAllLabels()
 	end
 	
 	-----------------end draw graph-------------------------

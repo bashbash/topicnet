@@ -303,6 +303,7 @@ int Topicnet_udata :: getnodepubs(lua_State *L) {
 		string allpubs = gn->printPublications();
 		
 		lua_pushstring(L, allpubs.c_str());
+		//printf("allpubs: %s", allpubs.c_str());
 		
 		return 1;
 		

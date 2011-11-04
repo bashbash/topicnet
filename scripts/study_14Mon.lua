@@ -32,7 +32,8 @@ local tpd = TopNet()
 
 local data1 = "/data/coauthor_small.xml"
 local data2 = "/data/coauthor_mid.xml"
-local data3 = "/data/coauthor_large.xml"
+--local data3 = "/data/coauthor_large.xml"
+local data3 = "/data/facebook_Brynjar Gretarsson_2.dnv"
 
 
 
@@ -76,6 +77,15 @@ local boolrotate = false
 local lastx = 0.0
 local lasty = 0.0
 
+local amnt_movex
+local amnt_movey
+local amnt_movez
+local amnt_yaw
+local amnt_pitch
+
+local dt = 0.035
+local dr = 1.25
+
 local cvec1 = {0.0, 0.0, 0.0}
 local cvec2 ={0.0, 0.0, 0.0}
 
@@ -91,7 +101,7 @@ local nodedragged = false
 
 local blockview = false
 
-local boollabelall = false
+local boollabelall = true
 
 local n1high = false
 local n1labels = false
@@ -105,9 +115,9 @@ local TEMP = 0.5
 local st = 0
 
 
-local send_address = '127.0.0.1'	-- or another IP address, or hostname such as 'localhost'
-local send_port = 16447
-local receive_port = 16448
+local send_address = '192.168.1.120'	-- or another IP address, or hostname such as 'localhost'
+local send_port = 12000
+local receive_port = 16000
 
 local oscout = osc.Send(send_address, send_port) 
 local oscin  = osc.Recv(receive_port)   
@@ -193,48 +203,7 @@ highcol[2] = {255/255, 171/255, 52/255}
 
 local shapeTexture = Texture(context)
 
-local 
-function initTexture()
 
-    local res = 256
-    local float1 = Array(4, Array.Float32, {res, res})
-	
-	for i=0, float1.dim[1]-1 do
-	for j=0, float1.dim[2]-1 do
-	
-		--textures for normal coefficient lookup. x is across profile, y is rotation index.
-		--all profile lookups are stored as if they were in an orthogonal projection, making things easier.
-		--red coefficient is stored packed, meaning 0 to 1 really maps to -1 to 1
-		
-		local x = ((j/res) * 2.0) - 1.0
-		local y = i/res
-
-		--r channel contains side vector coefficient
-		--g channel contains up vector coefficient
-		--b channel contains depth correction factor
-
-		local r, g, b
-		
-		local angle = y * math.pi
-		local center = -math.cos(angle)
-
-		if (x < center) then 
-			r = - math.cos(angle*0.5) * 0.5 + 0.5
-			g = math.sin(angle*0.5)
-		else
-			r = math.sin(angle*0.5) * 0.5 + 0.5
-			g = math.cos(angle*0.5)
-		end
-		
-			b = math.sqrt(1.0 - x*x)
-
-		float1:setcell(i, j, {r, g, b, 1.0})
-	end
-	end
-
-	shapeTexture:fromarray(float1)
-	
-end
 -------------------------------------------------
 local Gui = require("gui.Context")
 local Rect = require("gui.Rect")
@@ -886,7 +855,21 @@ function getOSC()
 			local cx, cy, cz =  unpack (msg)
 			print("cameye", cy)
 			cam.eye = {cx, cy, cz}
-		
+		elseif(msg.addr == "/ry") then
+		    amnt_yaw = unpack(msg)
+			amnt_yaw = amnt_yaw * dr
+		elseif(msg.addr == "/rx") then
+		 	amnt_pitch = unpack(msg)
+		 	amnt_pitch = amnt_pitch * dr
+		elseif(msg.addr == "/tx") then
+			amnt_movex = unpack(msg)
+			amnt_movex = amnt_movex * dt
+		elseif(msg.addr == "/ty") then
+			amnt_movey = unpack(msg)
+			amnt_movey = amnt_movey * dt
+		elseif(msg.addr == "/tz") then
+			amnt_movez = unpack(msg)
+			amnt_movez = amnt_movez * dt
 		end
 	end
 end
@@ -902,8 +885,15 @@ function win:draw(eye)
     local h2 = h *0.5 -- half height
     
     --gl.Viewport(0, h2, w, h)
-  
+    
 	cam:step()
+	
+	cam:movex (amnt_movex)
+	cam:movey (amnt_movey)
+	cam:movez (amnt_movez)
+	cam:yaw (amnt_yaw)
+	cam:pitch (amnt_pitch)
+	
 	cam:enter((eye == "left") and 1 or 0)
     --cam:enter(1)
 
@@ -1022,7 +1012,7 @@ function win:draw(eye)
 					local labelstr = tpd:getnodelabel(selectednode)
 					p[2] = p[2]+0.01
 					gl.Color(1.0, 1.0, 1.0)
-					--graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
+					graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
 				end
 				
 				if(n1high) then
@@ -1184,8 +1174,10 @@ function win:key(event, key)
 		elseif(key == 102 or key == 70) then --F
 			mouseinteractmode = 2
 		elseif(key == 104 or key == 72) then --H
-			n1high = not n1high
-			tpd:highlightN1(selnodes[1], n1high)
+			--n1high = not n1high
+			--tpd:highlightN1(selnodes[1], n1high)
+			oscout:send("/handshake", "basak", receive_port)
+			print("sent osc:out", receive_port)
         elseif(key == 111 or key == 79) then --O
 		  boolrotate = not boolrotate
 		elseif(key == 112 or key == 80) then --P

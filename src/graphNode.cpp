@@ -73,7 +73,7 @@ string GraphNode :: printPublications(){
 		Article * tmp = pubs.at(p);
 		//printf(" %i 'th id is:  \n", p);
 		//printf(" article %i: %s, %s \n", p+1, tmp->getId().c_str(), tmp->getTitle().c_str());
-		pubslist += "<li> "+ tmp->getId()+": "+ tmp->getTitle().c_str() + " </li> ";
+		pubslist += tmp->getId()+": "+ tmp->getTitle().c_str() + " \n";
 	}
 	
 	return pubslist;
