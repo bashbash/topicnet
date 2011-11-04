@@ -108,9 +108,9 @@ local TEMP = 0.5
 local st = 0
 
 
-local send_address = '127.0.0.1'	-- or another IP address, or hostname such as 'localhost'
-local send_port = 16447
-local receive_port = 16448
+local send_address = '192.168.0.138'	-- or another IP address, or hostname such as 'localhost'
+local send_port = 8080
+local receive_port = 8080
 
 local oscout = osc.Send(send_address, send_port) 
 local oscin  = osc.Recv(receive_port)   

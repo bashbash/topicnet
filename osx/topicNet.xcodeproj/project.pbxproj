@@ -277,27 +277,23 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_MASTER_OBJECT_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/mysql/include,
-					/Library/Frameworks/LuaAV.framework/Headers/,
-				);
+				HEADER_SEARCH_PATHS = /Library/Frameworks/LuaAV.framework/Headers/;
 				INSTALL_PATH = "$(PROJECT_DIR)/../../../sysbuild/$(CONFIGURATION)/modules";
 				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-undefined",
 					dynamic_lookup,
-					"-lmysqlclient",
 					"-lm",
 					"-lz",
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = $TARGET_NAME;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				SHARED_PRECOMPS_DIR = "";
 				STRIP_STYLE = "non-global";
-				USER_HEADER_SEARCH_PATHS = "$inherited $(SRCROOT)/../../../dev_osx/include";
+				USER_HEADER_SEARCH_PATHS = "$inherited \"$(SRCROOT)/../../../code/LuaAV_trunk/dev_osx/include\" /usr/local/include";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -318,27 +314,23 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GENERATE_MASTER_OBJECT_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/mysql/include,
-					/Library/Frameworks/LuaAV.framework/Headers/,
-				);
+				HEADER_SEARCH_PATHS = /Library/Frameworks/LuaAV.framework/Headers/;
 				INSTALL_PATH = "$(PROJECT_DIR)/../../../sysbuild/$(CONFIGURATION)/modules";
 				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-undefined",
 					dynamic_lookup,
-					"-lmysqlclient",
 					"-lm",
 					"-lz",
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = $TARGET_NAME;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				SHARED_PRECOMPS_DIR = "";
 				STRIP_STYLE = "non-global";
-				USER_HEADER_SEARCH_PATHS = "$inherited $(SRCROOT)/../../../dev_osx/include";
+				USER_HEADER_SEARCH_PATHS = "$inherited \"$(SRCROOT)/../../../code/LuaAV_trunk/dev_osx/include\" /usr/local/include";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -349,16 +341,15 @@
 				ARCHS = i386;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"-lm",
 					"-lz",
-					"-lmysqlclient",
 				);
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../dev/include/** $(PROJECT_DIR)/../../space/**";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../code/LuaAV_trunk/dev/include\"/** \"$(SRCROOT)/../../../code/LuaAV_trunk/modules/space\"/**";
 			};
 			name = Debug;
 		};
@@ -368,16 +359,15 @@
 				ARCHS = i386;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"-lm",
 					"-lz",
-					"-lmysqlclient",
 				);
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../dev/include/** $(PROJECT_DIR)/../../space/**";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../code/LuaAV_trunk/dev/include\"/** \"$(SRCROOT)/../../../code/LuaAV_trunk/modules/space\"/**";
 			};
 			name = Release;
 		};
