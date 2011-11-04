@@ -48,41 +48,20 @@ startGui(context, win.dim)
 
 cur_col = {{0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}, {1.0, 0.0, 0.0}, {1.0, 1.0, 0.0}}
 
-local MAX_DEVICE = 4
 local device = 1  --for mouse interaction do device=0
+local NUM_DEVICES = 0
+
 local device_ips = {}
 
-device_ips[1] = "192.168.1.121"
-device_ips[2] = '169.254.64.200'
-device_ips[3] = '192.168.1.121'
-device_ips[4] = '192.168.1.121'
+ipadlastx = {0.0, 0.0, 0.0, 0.0}
+ipadlasty = {0.0, 0.0, 0.0, 0.0}
 
-
-
-ipadlastx = {}
-ipadlasty = {}
-
-
-
+	
 local send_port = 8080
 local receive_port = 8080
 local oscin  = osc.Recv(receive_port) 
---local oscout = osc.Send(send_address, send_port) 
+local oscouts = {} 
 
-local oscout = {} 
-
-local testoscout = osc.Send(send_address, send_port) 
-
-for i=1, MAX_DEVICE do
-	ipadlastx[i] = 0.0
-	ipadlasty[i] = 0.0
-	
-	local send_address = device_ips[i]	
-	oscout[i] = osc.Send(send_address, send_port) 
-	print(i, send_address, send_port)
-end
-
-  
 
 ------------------global variables---------------
 local boolstereo = false
@@ -96,7 +75,7 @@ local nodedragged = false
 
 local blockview = false
 
-local boollabelall = false
+local boollabelall = true
 
 local n1high = false
 local n1labels = false
@@ -175,7 +154,7 @@ local pubsText = Label{
 	alignment = "LEFT",
 	color = {0.2, 0.2, 0.2},
 	bg = true,
-	bgcolor = {0.9, 0.9, 0.9},
+	bgcolor = {0.8, 0.8, 0.8},
 	size = 12,
 	maxwidth = 300
 }
@@ -321,7 +300,7 @@ function hoverNode(d)
 				screenpos[2] = (winh - screenpos[2]) / winh
 				print("send device id: ", d, device_ips[d], send_port)
 				
-				testoscout:send("/rollover", screenpos[1], screenpos[2], ind, tpd:getnodelabel(ind))  --omit  tpd:getnodeid(ind)
+				oscouts[d]:send("/rollover", screenpos[1], screenpos[2], ind, tpd:getnodelabel(ind))  --omit  tpd:getnodeid(ind)
 				print("sent /rollover:  ", screenpos[1], screenpos[2], ind)
 			end
 			
@@ -390,7 +369,6 @@ local
 function mouseSelectNode()
     print("ipad interaction should not visit here")
 	local p1, p2 = cam:picktheray(lastx, lasty)
-	--local p1, p2 = cam:picktheray(ipadlastx[dev], ipadlasty[dev])
 	cvec1 = p1[1]
 	cvec2 = p2[1]
 	
@@ -408,7 +386,6 @@ function mouseSelectNode()
 		    
 			selectednodeindex = ind
 			
-			
 			--for testing text only
 			displaynodes = {}
 			table.insert (displaynodes, selectednodeindex)
@@ -422,18 +399,12 @@ function mouseSelectNode()
 			screenpos[1] = screenpos[1] / winw
 			screenpos[2] = (winh - screenpos[2]) / winh
 			
-			
-			--oscout[device]:send("/select", screenpos[1], screenpos[2], tpd:getnodeid(ind), ind )
-			--print("sent:  ", screenpos[1], screenpos[2])
-			--print(tpd:getnodepubs(ind))
-			
 			break
 		else
 			selectednodeindex = -1
 			
 		end
 	end
-	--print(selectednodeindex)
 	
 	lastselectnode = -1
 	
@@ -444,9 +415,7 @@ function mouseSelectNode()
 			--add to selected list
 			table.remove (hovernodes, selectednodeindex)
 			table.insert (selectnodes, selectednodeindex)
-			
-		    print("inserted node to selectnodes: ", selectednodeindex)
-		    
+		    --print("inserted node to selectnodes: ", selectednodeindex)
 		    lastselectnode = selectednodeindex
 		else
 			--print("item already in select list: ", selectednodeindex)
@@ -497,23 +466,31 @@ function getOSC()
 	    	ipadaddr = string.sub(ipadaddr, 2)
 	    	--print(string.len(ipadaddr))
 	    	print("hello ipad: ", ipadaddr)
-	    	device_ips[1] = ipadaddr
-	    	--print("typeof: ", type(ipadaddr))
-	    	testoscout = osc.Send(device_ips[1], send_port)
+	    	
+	    	local found = exists(device_ips, ipadaddr)
+	    	if(found[1]) then 
+	    		--do nothing for now, then id is found[2]
+	    	else
+	    	    NUM_DEVICES = NUM_DEVICES + 1
+	    	    local newid = NUM_DEVICES
+	    		device_ips[newid] = ipadaddr
+	    		oscouts[newid] = osc.Send(ipadaddr, send_port)
+	    		--confirm the device id 
+	    		oscouts[newid]:send("/id assigned", newid)
+	    		
+	    	end
 	    	
 	    elseif(msg.addr == "/screencoord") then 
 	    	local device_id, scx, scy = unpack (msg)
 	    	local winw, winh = unpack(win.dim)
-	    	
-	    	ipadlastx[device] = math.floor(scx*winw)
-	    	ipadlasty[device] = math.floor(scy*winh)
+	    	ipadlastx[device_id] = math.floor(scx*winw)
+	    	ipadlasty[device_id] = math.floor(scy*winh)
 	    elseif(msg.addr == "/selectNode") then 
-	    	local device_num, indid = unpack(msg)
+	    	local device_id, indid = unpack(msg)
 	    	print("selected node message: ", device_num, indid)
-	    	
 	    	ipadSelectNode( indid )
-	    	
-	    	testoscout:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
+	    	--testoscout:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
+	    	oscouts[device_id]:sendsend("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
 	    	print(" sent /createNode", tpd:getnodelabel(indid) )
 	    	
 	    elseif(msg.addr == "/deselectNode") then
@@ -525,6 +502,11 @@ function getOSC()
 	    	local device_num, indid = unpack(msg)
 	    	print("disp: ", indid)
 	    	displayNode( indid )
+	    elseif(msg.addr == "/clearAll") then
+	        --later I have to handle this per device
+	    	selectnodes = {}
+			hovernodes = {}
+			displaynodes = {}
 		end
 	end
 end
@@ -553,7 +535,7 @@ function win:draw(eye)
 	gl.LineWidth(2.0)
 	drawAxes(win.dim)
 	
-	for d=1, MAX_DEVICE do
+	for d=1, NUM_DEVICES do
 		drawMyCursor(win.dim, d) -- device number
     end
 
