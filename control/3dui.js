@@ -1,6 +1,6 @@
 gTesting = false;
 
-loadedInterfaceName = "uist";
+loadedInterfaceName = "3DUI";
 interfaceOrientation = "landscape";
  
 gFadeTime = 2000;
@@ -19,22 +19,18 @@ window.lastTap = null;
 control.id = 1;
 
 control.sendCount = 0;
-MultiTouchXY.prototype.output = function(touch) {
+
+window.outputTouchInfo = function(_widget) {
     if(control.sendCount++ % 2 == 0) {
         var valueString = "";
-        if(_protocol == "OSC") {
-            valueString = "|" + this.address;
-            if (this.maxTouches > 1) {
-              valueString += "/" + touch.activeNumber;
-            }
-            valueString += ":" + this.xvalue + "," + this.yvalue;
-        }else if(_protocol == "MIDI") {
-            var xnum = this.midiNumber + (touch.activeNumber * 2) - 2;
-            var ynum = xnum + 1;
-            
-            valueString  = "|" + this.midiType + "," + (this.channel - 1) + "," + xnum + "," + Math.round(this.xvalue);
-            valueString += "|" + this.midiType + "," + (this.channel - 1) + "," + ynum + "," + Math.round(this.yvalue);
+
+        valueString = "|" + _widget.address;
+        if (_widget.maxTouches > 1) {
+          valueString += "/" + touch.activeNumber;
         }
+        
+        valueString += ":" + control.id + "," + _widget.xvalue + "," + _widget.yvalue;
+        
         control.valuesString += valueString;
     }
 };
@@ -65,7 +61,6 @@ $("html").bind('touchmove touchstart touchend', _preventBehavior); // why the he
 $("#selectedInterface").bind('touchmove touchstart touchend', _preventBehavior);            
 $("#SelectedInterfacePage").bind('touchmove touchstart touchend', _preventBehavior);
 
-//$("#selectedInterface").height("768px");
 window.doubletap = function(xvalue, yvalue) {
     console.log("DOUBLE TAP");
     var now = new Date().getTime();
@@ -76,19 +71,18 @@ window.doubletap = function(xvalue, yvalue) {
     }
     
     if(window.lastTap != null) {
-        console.log("in 1");
         if(tap.time - lastTap.time < window.tapTimeDelta) {
-            console.log("in 2");
             var distance = Math.sqrt( Math.pow(tap.xvalue - lastTap.xvalue, 2) + Math.pow(tap.yvalue - lastTap.yvalue, 2) );
             if(distance < .05) {
-                console.log("in 3");
                 var node = window.selectNode();
-                window.clearTimeout(node.timeout);
-                $(node).css("opacity", 1);
-                console.log("SENDING " + control.id + " :: " + node.id);
-                oscManager.sendOSC('/selectNode', 'ii', control.id, node.id);
-                if(gTesting)
-                    window.fakeNode(); 
+                if(node != null) {
+                    window.clearTimeout(node.timeout);
+                    $(node).css("opacity", 1);
+                    console.log("SENDING " + control.id + " :: " + node.id);
+                    oscManager.sendOSC('/selectNode', 'ii', control.id, node.id);
+                    if(gTesting)
+                        window.fakeNode(); 
+                }
             }
         }
     }
@@ -186,8 +180,8 @@ window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
     return tempNode;
 };
  
-window.addNode = function(authorName, pubs, nodeID) {
-        
+window.addNode = function(nodeID, authorName, pubs) {
+    console.log("CREATING");
     /**************************** CREATE NODE ****************************/
     var node = document.createElement("div");
     $(node).css({
@@ -310,6 +304,7 @@ window.addNode = function(authorName, pubs, nodeID) {
 window.deleteNode = function(node) {
     console.log("deleting" + $(node).text());
     document.getElementById("selectedInterface").removeChild(node);
+    node = null;
 };
 
 window.deleteExpandedNode = function(expandedNode) {
@@ -354,9 +349,10 @@ window.oscManager.delegate = {
                 //window.addTempNode(args[0], args[1], args[2]);
                 break;
             case "/createNode":
-                window.addNode(args[1], args[2], args[0]);
+                console.log("CREATING NODE");
+                window.addNode(args[0], args[1], args[2]);
                 break;
-            case "/handshake":
+            case "/idassigned":
                 control.id = args[0];
                 break;
         }
@@ -388,12 +384,11 @@ pages = [[
 {
     "name":"handshake",
     "type": "Button",
-    "colors": ["#ff0", "#0f0", "#fff"] ,
+    "colors": ["#f00", "#000", "#fff"] ,
     "bounds": [.9, .1, .1, .05], 
     "isLocal": "true",
     "label": "handshake",
     "ontouchstart": "oscManager.sendOSC('/handshake', 's', window.ipAddress);", 
-    
     "mode":"contact",
 },
 {
@@ -401,7 +396,7 @@ pages = [[
     "type": "Button", 
     "bounds": [.9,.15,.1,.05], 
     "label": "clear", 
-    "ontouchstart": "window.clearAllNodes(); oscManager.clear('/clear')", 
+    "ontouchstart": "window.clearAllNodes(); oscManager.sendOSC('/clear');", 
     "mode":"contact",    
 },
 {
@@ -422,9 +417,9 @@ pages = [[
     "address":"/screencoord",
     "touchSize":"20px",
     "isLocal":true,
-    "ontouchmove":"oscManager.sendOSC('/screencoord', 'iff', control.id, this.xvalue, this.yvalue);",
+    "ontouchmove":"window.outputTouchInfo(this);",
     "ontouchend": "window.doubletap(this.xvalue, this.yvalue)",
-    "oninit": "window.initInterface();",    
+    "oninit":     "window.initInterface();",    
 },
 
 {
