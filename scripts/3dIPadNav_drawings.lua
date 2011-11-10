@@ -99,15 +99,14 @@ end
 -------------------------------------------------
 
  
-function drawMyCursor(dim, dev)
+function drawMyCursor(dev, dim)
 	
-	--local dim = win.dim
-	--local pos = glu.UnProject(lastx, lasty, 0.01)
 	local pos = glu.UnProject(ipadlastx[dev], ipadlasty[dev], 0.01)
 	local sc = 0.0015
 
-    
     gl.Color(cur_col[dev])
+    
+	gl.LineWidth(4.0)
 	gl.Begin(GL.LINES)
 	    
 		gl.Vertex(pos[1], pos[2], pos[3]);

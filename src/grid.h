@@ -13,8 +13,8 @@
 #include <fstream>
 #include "gridNode.h"
 #include "graph.h"
-#include "vec/vec3.h"
-//#include "space/vec/vec3.h"
+
+
 using namespace std;
 
 class Grid {

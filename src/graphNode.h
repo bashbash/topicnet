@@ -10,11 +10,20 @@
 #ifndef GRAPHNODE_H
 #define GRAPHNODE_H 1
 
+#define AL_OSX
+
+
 #include <fstream>
 #include <vector>
 #include <article.h>
-#include "vec/vec3.h"
-//#include "space/vec/vec3.h"
+
+#include "topic_gl.h"
+
+#if defined(AL_OSX)
+	#include "vec/vec3.h"
+#elif defined(AL_LINUX)
+	#include "space/vec/vec3.h"
+#endif
 
 using namespace std;
 typedef space::Vec3d vec3d;

@@ -298,10 +298,9 @@ function hoverNode(d)
 				
 				screenpos[1] = screenpos[1] / winw
 				screenpos[2] = (winh - screenpos[2]) / winh
-				print("send device id: ", d, device_ips[d], send_port)
 				
 				oscouts[d]:send("/rollover", screenpos[1], screenpos[2], ind, tpd:getnodelabel(ind))  --omit  tpd:getnodeid(ind)
-				print("sent /rollover:  ", screenpos[1], screenpos[2], ind)
+				print("sent /rollover:  ", screenpos[1], screenpos[2], ind, " to device: ", d)
 			end
 			
 			break
@@ -312,7 +311,6 @@ function hoverNode(d)
 	
 	
 	if(selectednodeindex ~= -1 and lasthovernode ~= selectednodeindex and not inselectlist) then 
-	   --add to hover list 
 	     local inlist = existshover (hovernodes, selectednodeindex)
 	     
 	     if(not inlist) then 
@@ -467,16 +465,16 @@ function getOSC()
 	    	--print(string.len(ipadaddr))
 	    	print("hello ipad: ", ipadaddr)
 	    	
-	    	local found = exists(device_ips, ipadaddr)
-	    	if(found[1]) then 
-	    		--do nothing for now, then id is found[2]
+	    	local isinlist, ind = exists(device_ips, ipadaddr)
+	    	if(isinlist) then 
+	    		--do nothing for now, then id is ind
 	    	else
 	    	    NUM_DEVICES = NUM_DEVICES + 1
 	    	    local newid = NUM_DEVICES
 	    		device_ips[newid] = ipadaddr
 	    		oscouts[newid] = osc.Send(ipadaddr, send_port)
 	    		--confirm the device id 
-	    		oscouts[newid]:send("/id assigned", newid)
+	    		oscouts[newid]:send("/idassigned", newid)
 	    		
 	    	end
 	    	
@@ -485,24 +483,25 @@ function getOSC()
 	    	local winw, winh = unpack(win.dim)
 	    	ipadlastx[device_id] = math.floor(scx*winw)
 	    	ipadlasty[device_id] = math.floor(scy*winh)
+	    
 	    elseif(msg.addr == "/selectNode") then 
 	    	local device_id, indid = unpack(msg)
-	    	print("selected node message: ", device_num, indid)
+	    	--print("device, selected node: ", device_id, indid)
 	    	ipadSelectNode( indid )
-	    	--testoscout:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
-	    	oscouts[device_id]:sendsend("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
-	    	print(" sent /createNode", tpd:getnodelabel(indid) )
 	    	
-	    elseif(msg.addr == "/deselectNode") then
-	    	local device_num, indid = unpack(msg)
-	    	print("deselect: ", indid)
+	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )  --
+	    	--print(" sent /createNode", tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
+	   
+	   elseif(msg.addr == "/deselectNode") then
+	    	local device_id, indid = unpack(msg)
+	    	print("device, deselect: ", device_id, indid)
 	    	ipadSelectNode( indid )
 	    	
 	    elseif(msg.addr == "/displayNode") then
-	    	local device_num, indid = unpack(msg)
-	    	print("disp: ", indid)
+	    	local device_id, indid = unpack(msg)
+	    	print("device, disp: ", device_id, indid)
 	    	displayNode( indid )
-	    elseif(msg.addr == "/clearAll") then
+	    elseif(msg.addr == "/clear") then
 	        --later I have to handle this per device
 	    	selectnodes = {}
 			hovernodes = {}
@@ -535,10 +534,6 @@ function win:draw(eye)
 	gl.LineWidth(2.0)
 	drawAxes(win.dim)
 	
-	for d=1, NUM_DEVICES do
-		drawMyCursor(win.dim, d) -- device number
-    end
-
 	
 	drawPlane()
 	 
@@ -546,9 +541,11 @@ function win:draw(eye)
 	    mouseSelectNode() 
 	    boolmousepress = false
 	else
-	    hoverNode(1) 
-		
-	end
+	    for devc=1, NUM_DEVICES do
+			drawMyCursor(devc, win.dim)
+			hoverNode(devc) 
+   		end
+   	end
 
 	
 	if(draw3d) then 

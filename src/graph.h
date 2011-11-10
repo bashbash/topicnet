@@ -10,16 +10,19 @@
 #ifndef GRAPH_H
 #define GRAPH_H 1
 
+
+
 #include "graphNode.h"
 #include "graphEdge.h"
 #include <vector>
 #include <algorithm>
 #include <stdlib.h>
 #include <sstream>
-#include <OpenGL/gl.h>		// Header File For The OpenGL32 Library
-#include <OpenGL/glu.h>		// Header File For The GLu32 Library
 
-//#include "graph_gl.h"
+//NOW ALREADY INCLUDED THROUGH graphNode.h THROUGH topic_gl.h
+//#include <OpenGL/gl.h>		// Header File For The OpenGL32 Library
+//#include <OpenGL/glu.h>		// Header File For The GLu32 Library
+
 
 
 using namespace std;

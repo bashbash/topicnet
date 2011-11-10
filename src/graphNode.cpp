@@ -68,14 +68,17 @@ void GraphNode :: addPub(Article * a){
 
 string GraphNode :: printPublications(){
 	
-	string pubslist;
+	string pubslist = " ";
+	string openli = "<li>";
+	string closeli = " </li> ";
 	for (int p =0; p< pubs.size(); p++){
 		Article * tmp = pubs.at(p);
 		//printf(" %i 'th id is:  \n", p);
 		//printf(" article %i: %s, %s \n", p+1, tmp->getId().c_str(), tmp->getTitle().c_str());
-		pubslist += tmp->getId()+": "+ tmp->getTitle().c_str() + " \n";
+		//pubslist += tmp->getId()+": "+ tmp->getTitle().c_str() + " , ";
+		pubslist += openli+ tmp->getTitle().c_str() + closeli;
 	}
-	
+	//pubslist += "</ul> ";
 	return pubslist;
 	
 }
