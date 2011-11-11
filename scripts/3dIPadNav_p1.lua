@@ -349,6 +349,11 @@ function ipadSelectNode( devc, indeks )
 		else
 			--print("item already in select list: ", selectednodeindex)
 			table.remove(selectnodes, ind)
+			
+			local indisp, dind = exists(displaynodes, selectednodeindex)
+			if(indisp) then table.remove(displaynodes, dind) end
+				
+			
 			selectednodeindex = -1
 			lastselectnode = -1
 		end
@@ -456,7 +461,8 @@ function getOSC()
 	    	
 	    	local isinlist, ind = exists(device_ips, ipadaddr)
 	    	if(isinlist) then 
-	    		--do nothing for now, then id is ind
+	    		--resend the existing id
+	    		oscouts[ind]:send("/idassigned", ind)
 	    	else
 	    	    NUM_DEVICES = NUM_DEVICES + 1
 	    	    local newid = NUM_DEVICES
