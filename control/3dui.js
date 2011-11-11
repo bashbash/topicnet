@@ -1,5 +1,5 @@
 gTesting = false;
-
+console.log("ASD********");
 loadedInterfaceName = "3DUI";
 interfaceOrientation = "landscape";
  
@@ -11,7 +11,7 @@ window.nodeHeight = 380;
 window.rolloverNode = null;
 window.nodeCounter = 0;
 
-window.tapTimeDelta = 500;
+window.tapTimeDelta = 200;
 window.tapDistanceDelta = .5; // in perecentage of widget size
 
 window.lastTap = null;
@@ -77,10 +77,10 @@ window.doubletap = function(xvalue, yvalue) {
             if(distance < .05) {
                 var node = window.selectNode();
                 if(node != null) {
-                    console.log("DOUBLE DOUBLE");
+                    //console.log("DOUBLE DOUBLE");
                     window.clearTimeout(node.timeout);
                     $(node).css("opacity", 1);
-                    console.log("SENDING " + control.id + " :: " + node.id);
+                    //console.log("SENDING " + control.id + " :: " + node.id);
                     oscManager.sendOSC('/selectNode', 'ii', control.id, node.id);
                     if(gTesting)
                         window.fakeNode(); 
@@ -347,7 +347,7 @@ window.deleteExpandedNode = function(expandedNode) {
     // remove smaller node representation
     $(".node").each(function(index) {
         console.log($(this).text());
-        if(nodeName == $(this).text()) {
+        if(expandedNode.id == $(this).text()) {
             $(this).remove();
         }
     });
