@@ -1,5 +1,5 @@
 gTesting = false;
-
+console.log("ASD********");
 loadedInterfaceName = "3DUI";
 interfaceOrientation = "landscape";
  
@@ -11,7 +11,7 @@ window.nodeHeight = 380;
 window.rolloverNode = null;
 window.nodeCounter = 0;
 
-window.tapTimeDelta = 1000;
+window.tapTimeDelta = 200;
 window.tapDistanceDelta = .5; // in perecentage of widget size
 
 window.lastTap = null;
@@ -36,19 +36,19 @@ window.outputTouchInfo = function(_widget) {
 };
 
 function _preventBehavior(e) { // prevent scrolling
-    //console.log(event.target.nodeName);
-    //console.log("preventing " + control.shouldPrevent);
-    //if(control.shouldPrevent) { e.preventDefault(); return; }
-    //e.preventDefault();
-    // if($(e.target).is("div")) {
-    //         e.preventDefault();
-    //     }else{
+     // console.log(event.target.nodeName);
+     // console.log("preventing " + control.shouldPrevent);
+     // if(control.shouldPrevent) { e.preventDefault(); return; }
+     // e.preventDefault();
+    if($(e.target).is("div")) {
+        e.preventDefault();
+    }else{
         //console.log("list height = " + $(e.target).parent().height() + " :: wrapper height = " + $("#wrapper").height());
         //console.log(e.target.nodeName);
-        if(! $(e.target).is("li")) {
+        if(! $(e.target).is("li") && ! $(e.target).is("input")) {
             e.preventDefault();
         }
-    //}
+    }
 };
 
 $("body").unbind('touchmove touchstart touchend', preventBehavior);
@@ -61,6 +61,7 @@ $("html").bind('touchmove touchstart touchend', _preventBehavior); // why the he
 $("#selectedInterface").bind('touchmove touchstart touchend', _preventBehavior);            
 $("#SelectedInterfacePage").bind('touchmove touchstart touchend', _preventBehavior);
 
+//$("#selectedInterface").height("768px");
 window.doubletap = function(xvalue, yvalue) {
     console.log("DOUBLE TAP");
     var now = new Date().getTime();
@@ -76,6 +77,7 @@ window.doubletap = function(xvalue, yvalue) {
             if(distance < .05) {
                 var node = window.selectNode();
                 if(node != null) {
+                    console.log("DOUBLE DOUBLE");
                     window.clearTimeout(node.timeout);
                     $(node).css("opacity", 1);
                     console.log("SENDING " + control.id + " :: " + node.id);
@@ -94,6 +96,7 @@ window.aList = "<li>Name 1</li><li>Name 2</li><li>Name 3</li><li>Name 4</li><li>
 
 window.selectNode = function() {
     return window.rolloverNode;
+    
 };
 
 window.initInterface = function() {
@@ -114,6 +117,24 @@ window.initInterface = function() {
     });
 
     $("#selectedInterface").append(control.nodeHolder);
+    
+    // control.canvas = document.createElement("canvas");
+    // $(control.canvas).css({
+    //    "display": "block",  
+    //    "position": "absolute", 
+    //    "top": "334px", 
+    //    "left": "0", 
+    //    "height": "334px", 
+    //    "width": "1024px",
+    //    "background-color": "#f00", 
+    // });
+    
+    // $("#selectedInterface").append(control.canvas);
+    // 
+    // control.canvasCtx = control.canvas.getContext("2d"); 
+    // control.canvasCtx.fillStyle = "rgba(255,25,0,1)";
+    // control.canvasCtx.fillRect(100,100,50,50); 
+    
     //window.fakeNode();
     oscManager.sendOSC('/handshake', 's', window.ipAddress);
 };
@@ -127,7 +148,7 @@ window.test = function() {
 };
 
 window.fakeNode = function() {
-    window.addNode("Charlie" + window.nodeCounter, window.aList, 3);
+    window.addNode(3, "Charlie" + window.nodeCounter, window.aList);
 };
 
 window.clearAllNodes = function() {
@@ -353,6 +374,7 @@ window.oscManager.delegate = {
                 window.addNode(args[0], args[1], args[2]);
                 break;
             case "/idassigned":
+                idLabel.setValue("id " + args[0]);
                 control.id = args[0];
                 break;
         }
@@ -412,7 +434,7 @@ pages = [[
     "type" : "MultiTouchXY",
     "bounds": [0, .5, 1, .5],
     "isMomentary": false,
-    "colors":["#333", "#000", "#000"],
+    "colors":["rgba(255,0,0,0)", "#000", "#999"],
     "maxTouches": 1,
     "address":"/screencoord",
     "touchSize":"20px",
@@ -428,7 +450,12 @@ pages = [[
     "bounds": [.9, .3, .1, .05], 
     "value":"testaaaaa",
 },
-
+{
+    "name":"idLabel",
+    "type": "Label", 
+    "bounds": [.9, .4, .1, .05], 
+    "value":"no id yet loser",
+},
 ]   
 
 ];
