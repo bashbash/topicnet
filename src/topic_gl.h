@@ -4,7 +4,7 @@
 #ifdef WIN32
 	#include <GL/glew.h>
 #else
-	#include "glew.h"
+	//#include <OpenGL/glew.h> 
 #endif
 
 // OpenGL platform-dependent includes
@@ -12,6 +12,10 @@
 #if defined(AL_OSX)
 	#define AL_GRAPHICS_USE_OPENGL
 	
+	
+	//#include <OpenGL/gl.h>		// Header File For The OpenGL32 Library
+    //#include <OpenGL/glu.h>		// Header File For The GLu32 Library
+    
 	#include <OpenGL/OpenGL.h>
 	#include <OpenGL/gl.h>
 	#include <OpenGL/glext.h>

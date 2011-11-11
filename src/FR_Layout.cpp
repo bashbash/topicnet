@@ -9,7 +9,8 @@
 
 #include "FR_Layout.h"
 
-typedef space::Vec3d vec3d;
+//typedef space::Vec3d vec3d;
+
 
 FR_Layout :: FR_Layout()
 {

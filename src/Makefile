@@ -17,7 +17,6 @@ SRCS = 	$(SRCDIR)/FR_Layout.cpp\
 	    $(SRCDIR)/tinyxml.cpp\
 	    $(SRCDIR)/tinystr.cpp\
 	    $(SRCDIR)/tinyxmlerror.cpp\
-	    $(SRCDIR)/untitled.cpp\
 	    $(SRCDIR)/tinyxmlparser.cpp
 	
 

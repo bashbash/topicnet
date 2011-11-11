@@ -20,6 +20,7 @@
 		7528AF1D11B0EA7C007D216B /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7528AF1B11B0EA7C007D216B /* grid.cpp */; };
 		7528AF3911B0EB7D007D216B /* graphNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7528AF3711B0EB7D007D216B /* graphNode.h */; };
 		7528AF3A11B0EB7D007D216B /* graphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7528AF3811B0EB7D007D216B /* graphNode.cpp */; };
+		7529D0CD146C4A0600A78F3A /* topic_gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7529D0CC146C4A0600A78F3A /* topic_gl.h */; };
 		75378DDD12DE161000E17DB3 /* grid2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 75378DDB12DE161000E17DB3 /* grid2d.h */; };
 		75378DDE12DE161000E17DB3 /* grid2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75378DDC12DE161000E17DB3 /* grid2d.cpp */; };
 		754A0C7411B0F00A00CCBE8C /* graphEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = 754A0C7211B0F00A00CCBE8C /* graphEdge.h */; };
@@ -58,6 +59,7 @@
 		7528AF1B11B0EA7C007D216B /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
 		7528AF3711B0EB7D007D216B /* graphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphNode.h; sourceTree = "<group>"; };
 		7528AF3811B0EB7D007D216B /* graphNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphNode.cpp; sourceTree = "<group>"; };
+		7529D0CC146C4A0600A78F3A /* topic_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topic_gl.h; sourceTree = "<group>"; };
 		75378DDB12DE161000E17DB3 /* grid2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid2d.h; sourceTree = "<group>"; };
 		75378DDC12DE161000E17DB3 /* grid2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid2d.cpp; sourceTree = "<group>"; };
 		754A0C7211B0F00A00CCBE8C /* graphEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphEdge.h; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		DF00B63C0E17FD4700E60A0B /* src */ = {
 			isa = PBXGroup;
 			children = (
+				7529D0CC146C4A0600A78F3A /* topic_gl.h */,
 				758129F41105965000094BA8 /* topnet_module.h */,
 				757338221106601F00E04911 /* lua_topnet.h */,
 				758129F6110596C700094BA8 /* lua_topnet_udata.h */,
@@ -185,6 +188,7 @@
 				750EC8D912D99303000DBFBF /* plane.h in Headers */,
 				75378DDD12DE161000E17DB3 /* grid2d.h in Headers */,
 				750F76671381D4F600C23E42 /* article.h in Headers */,
+				7529D0CD146C4A0600A78F3A /* topic_gl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
