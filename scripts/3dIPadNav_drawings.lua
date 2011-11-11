@@ -11,6 +11,8 @@ local Texture = require("opengl.Texture")
 local Array = require("Array")
 local Image = require("Image")
 
+
+local cur_col = {{0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}, {1.0, 0.0, 0.0}, {1.0, 1.0, 0.0}}
 -------------------------------------------------
  
 function drawCircle(radius)
@@ -55,7 +57,7 @@ end
 
 -------------------------------------------------
  
-function drawPlane()
+function drawPlane(ar)
     
 	gl.Enable(GL.BLEND)
 	gl.Disable(GL.DEPTH_TEST)
@@ -70,11 +72,11 @@ function drawPlane()
 	  
 	   
 	   gl.Begin(GL.LINES)
-	   		for div=0, AREA, 0.5 do
-	   		  gl.Vertex(div, AREA, depth)
+	   		for div=0, ar, 0.5 do
+	   		  gl.Vertex(div, ar, depth)
 	   		  gl.Vertex(div, 0.0, depth)
 	   		  
-	   		  gl.Vertex(AREA, div, depth)
+	   		  gl.Vertex(ar, div, depth)
 	   		  gl.Vertex(0.0, div, depth)
 	   		end
 	   gl.End()
@@ -82,10 +84,10 @@ function drawPlane()
 	   --[[
 		gl.Color(1.0, 1.0, 1.0, 0.08)
 		gl.Begin(GL.POLYGON)
-			gl.Vertex(0.0, AREA, depth)
+			gl.Vertex(0.0, ar, depth)
 			gl.Vertex(0.0, 0.0, depth)
-			gl.Vertex(AREA, 0.0, depth)
-			gl.Vertex(AREA, AREA, depth)	
+			gl.Vertex(ar, 0.0, depth)
+			gl.Vertex(ar, ar, depth)	
 	   gl.End()
 	   --]]
 	   
@@ -99,9 +101,9 @@ end
 -------------------------------------------------
 
  
-function drawMyCursor(dev, dim)
+function drawMyCursor(dev, devpos, dim)
 	
-	local pos = glu.UnProject(ipadlastx[dev], ipadlasty[dev], 0.01)
+    local pos = glu.UnProject(devpos[1], devpos[2], 0.01)
 	local sc = 0.0015
 
     gl.Color(cur_col[dev])
