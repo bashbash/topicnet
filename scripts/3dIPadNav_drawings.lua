@@ -12,7 +12,7 @@ local Array = require("Array")
 local Image = require("Image")
 
 
-local cur_col = {{0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}, {1.0, 0.0, 0.0}, {1.0, 1.0, 0.0}}
+
 -------------------------------------------------
  
 function drawCircle(radius)
@@ -106,7 +106,7 @@ function drawMyCursor(dev, devpos, dim)
     local pos = glu.UnProject(devpos[1], devpos[2], 0.01)
 	local sc = 0.0015
 
-    gl.Color(cur_col[dev])
+    gl.Color(devc_col[dev])
     
 	gl.LineWidth(4.0)
 	gl.Begin(GL.LINES)
@@ -208,22 +208,18 @@ function initShaders(cntx)
 	
 end
 
-function drawBillboardCircle(sc)
+function drawBillboardCircle(sc, booltrans)
 	
-    --[[
-    gl.Enable(GL.BLEND)
-	gl.Disable(GL.DEPTH_TEST)
-	
-	gl.Enable(GL.BLEND)
-	gl.Disable(GL.DEPTH_TEST)
-	gl.BlendFunc(GL.SRC_ALPHA, GL.ONE_MINUS_SRC_ALPHA)
-    -]]
-    
-    gl.Disable(GL.BLEND)
-	gl.Enable(GL.DEPTH_TEST)
-    gl.Enable(GL.ALPHA_TEST)
-    gl.AlphaFunc(GL.GREATER,0.9)
-    
+    if(booltrans) then 
+    	gl.Enable(GL.BLEND)
+		gl.Disable(GL.DEPTH_TEST)
+    	gl.BlendFunc(GL.SRC_ALPHA, GL.ONE_MINUS_SRC_ALPHA)
+    else
+    	gl.Disable(GL.BLEND)
+		gl.Enable(GL.DEPTH_TEST)
+    	gl.Enable(GL.ALPHA_TEST)
+    	gl.AlphaFunc(GL.GREATER, 0.2)
+    end
     
     gl.PushMatrix()
     local scale = sc*0.2 + 0.22
@@ -252,8 +248,13 @@ function drawBillboardCircle(sc)
 	billshader:unbind()
 	
 	gl.PopMatrix()
-    gl.Disable(GL.ALPHA_TEST)
-    gl.Disable(GL.BLEND)
+	
+	 if(booltrans) then
+    	gl.Disable(GL.BLEND)
+    	gl.Enable(GL.DEPTH_TEST)
+    else
+    	gl.Disable(GL.ALPHA_TEST)
+    end
 end
 
 local red = {247/255, 59/255, 81/255}
