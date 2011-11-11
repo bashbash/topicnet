@@ -1,5 +1,5 @@
 gTesting = false;
-console.log("ASD********");
+
 loadedInterfaceName = "3DUI";
 interfaceOrientation = "landscape";
  
@@ -11,7 +11,7 @@ window.nodeHeight = 380;
 window.rolloverNode = null;
 window.nodeCounter = 0;
 
-window.tapTimeDelta = 200;
+window.tapTimeDelta = 500;
 window.tapDistanceDelta = .5; // in perecentage of widget size
 
 window.lastTap = null;
@@ -264,6 +264,7 @@ window.addNode = function(nodeID, authorName, pubs) {
     
     $(dismiss).text("X");
     $(dismiss).bind('touchstart', function(e) {
+        console.log("DELETING DELETING DELeti");
          window.deleteExpandedNode(node); 
     });
     
@@ -273,12 +274,13 @@ window.addNode = function(nodeID, authorName, pubs) {
         "width"     : "30px",
         "height"    : "30px",
         "top"       : "5px",
-        "right"     : "45px",
+        "right"     : "55px",
         "position"  : "absolute",
     });
     
     $(push).text("P");
     $(push).bind('touchstart', function(e) {
+        console.log("PUSH IT BABY, PUSH IT REAL GOOD");
         oscManager.sendOSC('/displayNode', 'ii', control.id, node.id); 
     });
     /**************************** CREATE SCROLL WRAP DIV  *****************/
@@ -329,7 +331,7 @@ window.deleteNode = function(node) {
 };
 
 window.deleteExpandedNode = function(expandedNode) {
-    oscManager.sendOSC('/displayNode',  'ii', control.id, expandedNode.id);
+    //oscManager.sendOSC('/displayNode',  'ii', control.id, expandedNode.id);
     oscManager.sendOSC('/deselectNode', 'ii', control.id, expandedNode.id);
     
     var nodeName = $(expandedNode.headerText).text();
