@@ -70,7 +70,7 @@ string GraphNode :: printPublications(){
 	
 	string pubslist = " ";
 	string openln = " * ";
-	string closeln = " \n ";
+	string closeln = " , ";
 	for (int p =0; p< pubs.size(); p++){
 		Article * tmp = pubs.at(p);
 		//printf(" %i 'th id is:  \n", p);

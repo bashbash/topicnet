@@ -47,7 +47,7 @@ startGui(context, win.dim)
 
 ---------------ip handling---------------------------
 
-local NUM_DEVICES = 0
+local NUM_DEVICES = 1
 
 local device_ips = {}
 local ipadlastpos = {{0.0, 0.0}, {0.0, 0.0}}
@@ -70,12 +70,7 @@ local activePlane = -1
 local boolmousepress = false
 local nodedragged = false
 
-local blockview = false
-
 local boollabelall = true
-
-local n1high = false
-local n1labels = false
 
 local addMode = false
 local mouseDown = false
@@ -85,7 +80,6 @@ local MAXSTEP = 550
 local TEMP = 0.5
 
 local st = 0
-
 
 local boolrotate = false
 
@@ -98,11 +92,15 @@ local cvec2 ={0.0, 0.0, 0.0}
 local ray = {0.0, 0.0, 0.0}
 
 local selectnodes = {}
+	selectnodes[1] = {} --this if for the mouse
+	--MOUSE HAS DEVICE ID ONE
+local visitednodes = {}
+	visitednodes[1] = {} --this if for the mouse
 local hovernodes = {}
 local displaynodes = {}
 
 local lastselectnode = 0
-local lasthovernode = 0
+
 
 local
 function exists(list, value)
@@ -135,11 +133,7 @@ end
 
 ---------------------colors----------------------
 local winbgcolor = {0.9, 0.9, 0.9}
-
-
-local highcol = {}
-highcol[1] = {96/255, 176/255, 71/255}
-highcol[2] = {255/255, 171/255, 52/255}
+devc_col = {{0.0, 0.9, 0.9}, {0.9, 0.0, 0.9}, {0.9, 0.0, 0.0}, {0.0, 9.0, 0.0}}
 
 -------------------------------------------------
 
@@ -225,7 +219,6 @@ end
 local 
 function clearAll()
 	tpd:selectedNode(-1, false)
-	n1high = false
 	while (tpd:planeCount() > 1) do 
 		tpd:removePlane()
 	end
@@ -261,17 +254,20 @@ end
 local 
 function hoverNode(d)
     
-    --local p1, p2 = cam:picktheray(lastx, lasty)
-   local p1, p2 = cam:picktheray(ipadlastpos[d][1], ipadlastpos[d][2])
+   local p1, p2
+   if(d == 1) then 
+    	p1, p2 = cam:picktheray(lastx, lasty)
+   else 
+   		p1, p2 = cam:picktheray(ipadlastpos[d][1], ipadlastpos[d][2])
+   end
     
     cvec1 = p1[1]
 	cvec2 = p2[1]
 	
 	ray = vec3.sub(cvec2, cvec1)
 	local rayscale = vec3.scale (ray, 0.01)
-	local selectednodeindex
+	local hovernodeindex = -1
 	
-	local inselectlist, indx
 	
 	for l=1, tpd:graphsize() do
 		local ind = l-1
@@ -280,43 +276,32 @@ function hoverNode(d)
 		local intersects = rayintersect(cvec1, ray, p, 0.02)
 		--print(ind, " intersects=", intersects)
 		if(intersects) then
-		    
-			selectednodeindex = ind
-			
-			inselectlist, indx = exists (selectnodes, ind)
-			if( not inselectlist and lasthovernode ~= ind) then 
-				
-				local winw, winh = unpack(win.dim)
-				local screenpos = glu.Project(p[1], p[2], p[3])
-				
-				screenpos[1] = screenpos[1] / winw
-				screenpos[2] = (winh - screenpos[2]) / winh
-				
-				oscouts[d]:send("/rollover", screenpos[1], screenpos[2], ind, tpd:getnodelabel(ind))  --omit  tpd:getnodeid(ind)
-				--print("sent /rollover:  ", screenpos[1], screenpos[2], ind, " to device: ", d)
-			end
-			
+		    hovernodeindex = ind
 			break
-		else
-			selectednodeindex = -1
 		end
 	end
 	
-	
-	if(selectednodeindex ~= -1 and lasthovernode ~= selectednodeindex and not inselectlist) then 
-	     local inlist = existshover (hovernodes, selectednodeindex)
-	     
-	     if(not inlist) then 
-	        local hoveritem = {selectednodeindex, now()}
-	     	table.insert(hovernodes, hoveritem)
-	     	--print("inserted node to hover: ", selectednodeindex)
-	     else
-	     	--print("item already in hover list: ", selectednodeindex)
-	     end
-	end
-	
-	lasthovernode = selectednodeindex
-	
+	if(hovernodeindex ~= -1) then 
+		local inselectlist, indx = exists (selectnodes[d], hovernodeindex)
+		local inhoverlist = existshover (hovernodes, hovernodeindex)
+		
+		if(not inselectlist and not inhoverlist)then
+			local hoveritem = {hovernodeindex, now()}
+			table.insert(hovernodes, hoveritem)
+			
+			local hoverpos = tpd:graphnodepos(hovernodeindex)
+			local screenpos = glu.Project(hoverpos[1], hoverpos[2], hoverpos[3])
+			local winw, winh = unpack(win.dim)
+			
+			screenpos[1] = screenpos[1] / winw
+			screenpos[2] = (winh - screenpos[2]) / winh
+			
+			if(d ~=1 ) then 
+				oscouts[d]:send("/rollover", screenpos[1], screenpos[2], hovernodeindex, tpd:getnodelabel(hovernodeindex))  --omit  tpd:getnodeid(ind)
+				--print("sent rollover:  ", screenpos[1], screenpos[2], hovernodeindex, " to device: ", d)	
+			end
+		end
+	end	
 end
 
 local 
@@ -340,15 +325,25 @@ local
 function ipadSelectNode( devc, indeks )
 	local selectednodeindex = indeks
 	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
-		local inlist, ind = exists (selectnodes, selectednodeindex)
+		local inlist, ind = exists (selectnodes[devc], selectednodeindex)
+		local boolvisited, vind = exists(visitednodes[devc], selectednodeindex)
 	    if(not inlist) then 
 			--add to selected list
-			table.insert (selectnodes, selectednodeindex)
+			table.insert (selectnodes[devc], selectednodeindex)
 			lastselectnode = selectednodeindex
-			--print("inserted node to selectnodes: ", selectednodeindex)
+			
+			--if in visited list then remove it
+		   if(boolvisited) then table.remove(visitednodes[devc], vind) end
+			
 		else
-			--print("item already in select list: ", selectednodeindex)
-			table.remove(selectnodes, ind)
+			table.remove(selectnodes[devc], ind)
+			
+			local indisp, dind = exists(displaynodes, selectednodeindex)
+			if(indisp) then table.remove(displaynodes, dind) end
+				
+		    --if in visited list then remove it
+		    if(not boolvisited) then table.insert(visitednodes[devc], selectednodeindex) end
+			
 			selectednodeindex = -1
 			lastselectnode = -1
 		end
@@ -358,7 +353,6 @@ end
 
 local 
 function mouseSelectNode()
-    print("ipad interaction should not visit here")
 	local p1, p2 = cam:picktheray(lastx, lasty)
 	cvec1 = p1[1]
 	cvec2 = p2[1]
@@ -386,7 +380,6 @@ function mouseSelectNode()
 			break
 		else
 			selectednodeindex = -1
-			
 		end
 	end
 	
@@ -394,19 +387,24 @@ function mouseSelectNode()
 	
 	if(selectednodeindex ~= -1 ) then 
 		
-		local inlist, ind = exists (selectnodes, selectednodeindex)
+		local inlist, ind = exists (selectnodes[1], selectednodeindex)
+		local boolvisited, vind = exists (visitednodes[1], selectednodeindex)
+	    
 	    if(not inlist) then 
 			--add to selected list
 			table.remove (hovernodes, selectednodeindex)
-			table.insert (selectnodes, selectednodeindex)
-			table.insert (displaynodes, selectednodeindex)
+			table.insert (selectnodes[1], selectednodeindex)
+			
+			if(boolvisited) then table.remove (visitednodes[1], vind)  end
+			--table.insert (displaynodes, selectednodeindex)
 			
 		    --print("inserted node to selectnodes: ", selectednodeindex)
 		    lastselectnode = selectednodeindex
 		else
 			--print("item already in select list: ", selectednodeindex)
-			table.remove(selectnodes, ind)
-			table.remove (displaynodes, ind)
+			table.remove(selectnodes[1], ind)
+			if(not boolvisited) then table.insert (visitednodes[1], selectednodeindex)  end
+			--table.remove (displaynodes, ind)
 		end
 	end
 end
@@ -456,7 +454,9 @@ function getOSC()
 	    	
 	    	local isinlist, ind = exists(device_ips, ipadaddr)
 	    	if(isinlist) then 
-	    		--do nothing for now, then id is ind
+	    		--resend the existing id
+	    		oscouts[ind]:send("/idassigned", ind)
+	    		print("id assigned: ", ind)
 	    	else
 	    	    NUM_DEVICES = NUM_DEVICES + 1
 	    	    local newid = NUM_DEVICES
@@ -464,9 +464,11 @@ function getOSC()
 	    		oscouts[newid] = osc.Send(ipadaddr, send_port)
 	    		
 	    		ipadlastpos[newid] = {0.0, 0.0}
+	    		selectnodes[newid] = {}
+	    		visitednodes[newid] = {}
 	    		--confirm the device id 
 	    		oscouts[newid]:send("/idassigned", newid)
-	    		
+	    		print("id assigned: ", newid)
 	    	end
 	    	
 	    elseif(msg.addr == "/screencoord") then 
@@ -477,7 +479,7 @@ function getOSC()
 	    
 	    elseif(msg.addr == "/selectNode") then 
 	    	local device_id, indid = unpack(msg)
-	    	--print("device, selected node: ", device_id, indid)
+	    	print("device, selected node: ", device_id, indid)
 	    	ipadSelectNode( device_id, indid )
 	    	
 	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )  --
@@ -533,7 +535,7 @@ function win:draw(eye)
 	    boolmousepress = false
 	else
 	    for devc=1, NUM_DEVICES do
-			drawMyCursor(devc, ipadlastpos[devc], win.dim)
+			if(devc ~= 1 ) then drawMyCursor(devc, ipadlastpos[devc], win.dim) end
 			hoverNode(devc) 
    		end
    	end
@@ -553,28 +555,42 @@ function win:draw(eye)
 	
 	-----------------end draw graph-------------------------
 	-----------------begin draw highlights------------------
-		----[[
-		--handle this in a way better
+		--DISPLAY NODES
 		for k,v in pairs(displaynodes) do  
 			local np = tpd:graphnodepos(v)
-			--pubsText:draw_3d(win.dim, {np[1], np[2], np[3]}, tpd:getnodepubs(v))
 			pubsText:draw_3d_multi(win.dim, {np[1], np[2], np[3]}, tpd:getnodepubs(v))
 		end
-		--]]
 		
-		for k,v in pairs(selectnodes) do
-			--print(k, v)
-			local np = tpd:graphnodepos(v)
-			gl.PushMatrix()
-			gl.Translate(np)
-			gl.Color(highcol[1])
-			
-			drawBillboardCircle(0.2)
-			
-			gl.PopMatrix()
-			
+		
+		
+		--PREVIOUSLY VISITED NODES
+		for d,devlist in pairs(visitednodes) do
+			for n,node in pairs (devlist) do
+				
+				gl.PushMatrix()
+				gl.Translate(tpd:graphnodepos(node))
+				gl.Color(devc_col[d])
+					drawBillboardCircle(0.2, false)
+				gl.PopMatrix()
+			end	
 		end
 		
+		
+		--CURRENTLY SELECTED NODES
+		for d,devlist in pairs(selectnodes) do
+			for n,node in pairs (devlist) do
+			
+				gl.PushMatrix()
+				gl.Translate(tpd:graphnodepos(node))
+				devc_col[d][4] = 0.5
+				gl.Color(devc_col[d])
+					drawBillboardCircle(0.2, true)
+				gl.PopMatrix()
+			end	
+		end
+		
+		
+		--HOVER NODES
 		for k,v in pairs(hovernodes) do
 			--print(k, v)
 			--adjust transparency and removel from list
@@ -585,16 +601,12 @@ function win:draw(eye)
 			if(timeelapsed > 2) then 
 				table.remove( hovernodes, k)
 			else
-			    
-				local np = tpd:graphnodepos(v[1])
 				gl.PushMatrix()
-				gl.Translate(np)
-				local transcol = highcol[2]
-				transcol[4] = 2 - timeelapsed
-				gl.Color(1.0, 1.0, 0.0)
-				
-				drawBillboardCircle(0.2)
-				
+				gl.Translate(tpd:graphnodepos(v[1]))
+				local transcol = {1.0, 1.0, 0.0, 1.0}
+				transcol[4] = (2 - timeelapsed) *0.5
+				gl.Color(transcol)
+					drawBillboardCircle(0.2, true)
 				gl.PopMatrix()
 			end	
 		end
