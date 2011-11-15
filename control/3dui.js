@@ -1,5 +1,5 @@
 gTesting = false;
-console.log("ASD********");
+console.log("JSD********ASD");
 loadedInterfaceName = "3DUI";
 interfaceOrientation = "landscape";
  
@@ -11,10 +11,12 @@ window.nodeHeight = 380;
 window.rolloverNode = null;
 window.nodeCounter = 0;
 
+window.lastTapped = null;
+
 window.tapTimeDelta = 200;
 window.tapDistanceDelta = .5; // in perecentage of widget size
 
-window.lastTap = null;
+window.lastTappedNode = null;
 
 control.id = 1;
 
@@ -78,12 +80,15 @@ window.doubletap = function(xvalue, yvalue) {
                 var node = window.selectNode();
                 if(node != null) {
                     //console.log("DOUBLE DOUBLE");
-                    window.clearTimeout(node.timeout);
-                    $(node).css("opacity", 1);
-                    //console.log("SENDING " + control.id + " :: " + node.id);
-                    oscManager.sendOSC('/selectNode', 'ii', control.id, node.id);
-                    if(gTesting)
-                        window.fakeNode(); 
+                    if(node != window.lastTappedNode) {
+                        window.clearTimeout(node.timeout);
+                        $(node).css("opacity", 1);
+                        //console.log("SENDING " + control.id + " :: " + node.id);
+                        oscManager.sendOSC('/selectNode', 'ii', control.id, node.id);
+                        if(gTesting)
+                            window.fakeNode(); 
+                    }
+                    window.lastTappedNode = node;
                 }
             }
         }
@@ -152,7 +157,8 @@ window.fakeNode = function() {
 };
 
 window.clearAllNodes = function() {
-  $(".node, .expandedNode").remove();  
+    window.nodes.length = 0;
+    $(".node, .expandedNode").remove();  
 };
 
 window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
@@ -202,11 +208,14 @@ window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
 };
  
 window.addNode = function(nodeID, authorName, pubs) {
+    console.log("PUBS = " + pubs);
+    pubs.replace("*", "");
+    var pubsAsLI = pubs.split("|");
     console.log("CREATING");
     /**************************** CREATE NODE ****************************/
     var node = document.createElement("div");
     $(node).css({
-        "background-color"  : "#ccc",
+        "background-color"  : "#000",
         "color"             : "#000",
         "position"          : "absolute",
         "left"              : window.nodes.length * window.nodeWidth + "px",
@@ -215,6 +224,9 @@ window.addNode = function(nodeID, authorName, pubs) {
         "height"            : window.nodeHeight + "px",
         "color"             : "#fff",
         "zIndex"            : 10,
+        "border-width"      : "0px 1px",
+        "border-color"      : "#999",
+        "border-style"      : "solid",
     });
     
     $(node).addClass("expandedNode");
@@ -225,7 +237,7 @@ window.addNode = function(nodeID, authorName, pubs) {
     /**************************** CREATE HEADER **************************/
     var header = document.createElement("div");
     $(header).css({
-        "backgroundColor"   : "#f00",
+        "backgroundColor"   : "#333",
         "width"             : window.nodeWidth - 10 + "px",
         "height"            : "30px",
         "margin"            : 0,
@@ -240,7 +252,7 @@ window.addNode = function(nodeID, authorName, pubs) {
     var headerText = document.createElement("h4");
     $(headerText).text(authorName);
     $(headerText).css({
-        "background-color"  : "#f00",
+        "background-color"  : "#333",
         "width"             : window.nodeWidth - 50 + "px",
         "height"            : "30px",
         "margin"            : 0,
@@ -305,7 +317,15 @@ window.addNode = function(nodeID, authorName, pubs) {
     });
     
     $(pubList).addClass("pubList");
-    $(pubList).html(pubs);
+    console.log("pubs length = " + pubsAsLI.length);
+    for(var i = 0; i < pubsAsLI.length - 1; i++) {
+        pubsAsLI[i].replace("|", "");
+        var appendHTML = "<li style='height:auto; margin-bottom:.5em;'>" + pubsAsLI[i] + "</li>";
+        console.log(appendHTML);
+        //console.log("pubsAsLI = " + pubsAsLI[i]);
+        $(pubList).append(appendHTML);
+    }
+    //$(pubList).html(pubs);
     
     /**************************** FINALIZE & APPEND TO DOM ****************/
     $(header).append(headerText);
@@ -420,7 +440,8 @@ pages = [[
     "type": "Button", 
     "bounds": [.9,.15,.1,.05], 
     "label": "clear", 
-    "ontouchstart": "window.clearAllNodes(); oscManager.sendOSC('/clear');", 
+    "isLocal": true, 
+    "ontouchstart": "window.clearAllNodes(); oscManager.sendOSC('/clear', 'i', control.id);", 
     "mode":"contact",    
 },
 {
