@@ -1,5 +1,5 @@
 gTesting = false;
-console.log("JSD********ASD");
+
 loadedInterfaceName = "3DUI";
 interfaceOrientation = "landscape";
  
@@ -164,7 +164,7 @@ window.clearAllNodes = function() {
 window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
     var tempNode = document.createElement("div");
     $(tempNode).css({
-        "background-color"   : "#a0a",
+        "background-color"   : "rgba(" + control.myColor[0] + "," + control.myColor[1] + "," + control.myColor[2] + ",1)",
         "display"            : "block",
         "position"           : "absolute",
         "left"               : xpos * 1024 + "px",
@@ -200,7 +200,7 @@ window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
     
     window.rolloverNode = tempNode;
     
-    $(tempNode).text(nodeID);
+    $(tempNode).text(nodeName);
 
     $("#selectedInterface").append(tempNode);
     //console.log("adding temp node 4");    
@@ -398,6 +398,7 @@ window.oscManager.delegate = {
             case "/idassigned":
                 idLabel.setValue("id " + args[0]);
                 control.id = args[0];
+                control.myColor = [parseInt(args[1] * 255), parseInt(args[2] * 255), parseInt(args[3] * 255)];
                 break;
         }
     }           
