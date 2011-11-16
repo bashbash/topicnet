@@ -47,9 +47,12 @@ function _preventBehavior(e) { // prevent scrolling
     }else{
         //console.log("list height = " + $(e.target).parent().height() + " :: wrapper height = " + $("#wrapper").height());
         //console.log(e.target.nodeName);
-        if(! $(e.target).is("li") && ! $(e.target).is("input")) {
+        if(! $(e.target).is("li") && ! $(e.target).is("input") && !$(e.target).is("ul")) {
             e.preventDefault();
         }
+        /*if($(e.target).is("ul") && e.type == "touchmove") {
+            window.setTimeout(function() { window.canvasDraw(); }, 5);
+        }*/
     }
 };
 
@@ -63,9 +66,7 @@ $("html").bind('touchmove touchstart touchend', _preventBehavior); // why the he
 $("#selectedInterface").bind('touchmove touchstart touchend', _preventBehavior);            
 $("#SelectedInterfacePage").bind('touchmove touchstart touchend', _preventBehavior);
 
-//$("#selectedInterface").height("768px");
 window.doubletap = function(xvalue, yvalue) {
-    console.log("DOUBLE TAP");
     var now = new Date().getTime();
     var tap = {
         "time": now,
@@ -97,7 +98,7 @@ window.doubletap = function(xvalue, yvalue) {
     window.lastTap = tap;
 };
 
-window.aList = "<li>Name 1</li><li>Name 2</li><li>Name 3</li><li>Name 4</li><li>Name 5</li><li>Name 6</li><li>Name 7</li><li>Name 1</li><li>Name 1</li><li>Name 1</li><li>Name 1</li><li>Name 1</li><li>Name 1</li><li>Name 1</li>";
+window.aList = "+ Name 1 | + Name 2 | + Name 3 | + Name 4 | + Name 5 | + Name 6 | + Name 7 | + Name 8 | + Name 9 | + Name 10",   
 
 window.selectNode = function() {
     return window.rolloverNode;
@@ -122,30 +123,32 @@ window.initInterface = function() {
     });
 
     $("#selectedInterface").append(control.nodeHolder);
+    $(control.nodeHolder).bind('scroll', window.canvasDraw);
     
-    // control.canvas = document.createElement("canvas");
-    // $(control.canvas).css({
-    //    "display": "block",  
-    //    "position": "absolute", 
-    //    "top": "334px", 
-    //    "left": "0", 
-    //    "height": "334px", 
-    //    "width": "1024px",
-    //    "background-color": "#f00", 
-    // });
+    control.canvas = document.createElement("canvas");
+    $(control.canvas).attr("id", "canvas");
+    $(control.canvas).attr("width", 1024);
+    $(control.canvas).attr("height", 384);    
+    $(control.canvas).css({
+       "display": "block",  
+       "position": "absolute", 
+       "top": "384px", 
+       "left": "50", 
+       "background-color": "rgba(25,25,25,1)", 
+       "z-index": -1,
+    });
     
-    // $("#selectedInterface").append(control.canvas);
-    // 
-    // control.canvasCtx = control.canvas.getContext("2d"); 
-    // control.canvasCtx.fillStyle = "rgba(255,25,0,1)";
-    // control.canvasCtx.fillRect(100,100,50,50); 
+    $("#selectedInterface").append(control.canvas);
+    
+    control.canvasCtx = control.canvas.getContext("2d"); 
     
     //window.fakeNode();
     oscManager.sendOSC('/handshake', 's', window.ipAddress);
 };
  
 window.test = function() {
-    var node = window.addTempNode(.4, .4, 1, "Charlie" + window.nodeCounter++);
+    console.log("testing");
+    var node = window.addTempNode(.4, .4, 1, "C" + window.nodeCounter++);
     
     $(node).bind("touchstart", function(e) {
         window.fakeNode();
@@ -153,18 +156,53 @@ window.test = function() {
 };
 
 window.fakeNode = function() {
-    window.addNode(3, "Charlie" + window.nodeCounter, window.aList);
+    window.addNode(1, "Charlie" + window.nodeCounter, window.aList);
 };
 
 window.clearAllNodes = function() {
     window.nodes.length = 0;
     $(".node, .expandedNode").remove();  
 };
+window.tempNodes = [];
 
+window.canvasDraw = function() {
+    var ctx = document.getElementById("canvas").getContext("2d"); 
+    canvas.width = canvas.width;
+    //ctx.clearRect(0,0,1024,384); // this would improve performance... why does it work?
+    ctx.strokeStyle = "#f00";
+    ctx.lineWidth = 1;
+
+    var y1 = 384;
+    for(var i = 0; i < window.nodes.length; i++) {
+        var n1 = window.nodes[i];
+        var xy = $(n1).position();
+        var w  = $(n1).width();
+        var h  = $(n1).height();
+        var x1 = xy.left + (w / 2);
+        
+        ctx.moveTo(x1,xy.top);
+        
+        var n2 = n1.smallNode;
+        var xy2 = $(n2).position();
+        var w2 =  $(n2).width();
+        var h2 =  $(n2).height();
+        var x2 =  xy2.left + (w2 / 2);
+        var y2 =  xy2.top - 384;
+        
+        //console.log("x2 " + x2 + " :: y2 " + y2);
+        
+        ctx.lineTo(x2,y2);
+        
+        ctx.stroke();
+    }
+
+}
 window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
+    console.log("temp node");
     var tempNode = document.createElement("div");
     $(tempNode).css({
-        "background-color"   : "rgba(" + control.myColor[0] + "," + control.myColor[1] + "," + control.myColor[2] + ",1)",
+        // "background-color"   : "rgba(" + control.myColor[0] + "," + control.myColor[1] + "," + control.myColor[2] + ",1)",
+        "background-color"   : "rgba(255,0,0,1)",
         "display"            : "block",
         "position"           : "absolute",
         "left"               : xpos * 1024 + "px",
@@ -203,13 +241,13 @@ window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
     $(tempNode).text(nodeName);
 
     $("#selectedInterface").append(tempNode);
+    tempNodes.push(tempNode);
     //console.log("adding temp node 4");    
     return tempNode;
 };
  
 window.addNode = function(nodeID, authorName, pubs) {
     console.log("PUBS = " + pubs);
-    pubs.replace("*", "");
     var pubsAsLI = pubs.split("|");
     console.log("CREATING");
     /**************************** CREATE NODE ****************************/
@@ -230,6 +268,9 @@ window.addNode = function(nodeID, authorName, pubs) {
     });
     
     $(node).addClass("expandedNode");
+    
+    node.smallNode = window.lastTappedNode;
+    console.log("small node id = " + node.smallNode.id);
     node.id = nodeID;
     node.arrayPos = window.nodes.length;
     window.nodes.push(node);
@@ -321,7 +362,7 @@ window.addNode = function(nodeID, authorName, pubs) {
     for(var i = 0; i < pubsAsLI.length - 1; i++) {
         pubsAsLI[i].replace("|", "");
         var appendHTML = "<li style='height:auto; margin-bottom:.5em;'>" + pubsAsLI[i] + "</li>";
-        console.log(appendHTML);
+        //console.log(appendHTML);
         //console.log("pubsAsLI = " + pubsAsLI[i]);
         $(pubList).append(appendHTML);
     }
@@ -342,6 +383,7 @@ window.addNode = function(nodeID, authorName, pubs) {
 
     //$("#selectedInterface").append(node);
     $(control.nodeHolder).append(node);
+    window.canvasDraw();
 };
 
 window.deleteNode = function(node) {
@@ -365,12 +407,23 @@ window.deleteExpandedNode = function(expandedNode) {
     }
     
     // remove smaller node representation
-    $(".node").each(function(index) {
-        console.log($(this).text());
-        if(expandedNode.id == $(this).text()) {
-            $(this).remove();
+    // $(".node").each(function(index) {
+    //     console.log(this);
+    //     console.log($(this).text());
+    //     if(expandedNode.id == $(this).text()) {
+    //         $(this).remove();
+    //     }
+    // });
+    
+    for(var i =0; i < window.tempNodes.length; i++) {
+        var tempNode = window.tempNodes[i];
+        if(tempNode.id == expandedNode.id) {
+            $(tempNode).remove();
+            window.tempNodes.splice(i,1);
+            break;
         }
-    });
+    }
+    
     
     // remove from DOM
     $(expandedNode).remove();
@@ -422,7 +475,7 @@ pages = [[
     "startingValue": 0,
     "isLocal": true,
     "mode": "contact",
-    "ontouchstart": "interfaceManager.refreshInterface()",
+    "ontouchstart": "$(control.canvas).remove(); interfaceManager.refreshInterface()",
     "stroke": "#fff",
     "label": "refresh",
 },
@@ -458,7 +511,7 @@ pages = [[
     "type" : "MultiTouchXY",
     "bounds": [0, .5, 1, .5],
     "isMomentary": false,
-    "colors":["rgba(255,0,0,0)", "#000", "#999"],
+    "colors":["rgba(0,0,0,0)", "#000", "#999"],
     "maxTouches": 1,
     "address":"/screencoord",
     "touchSize":"20px",
