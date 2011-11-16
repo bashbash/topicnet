@@ -144,7 +144,8 @@ local pubsText = Label{
 	alignment = "LEFT",
 	color = {0.2, 0.2, 0.2},
 	bg = true,
-	bgcolor = {0.8, 0.8, 0.8},
+	bgcolor = {0.8, 0.8, 0.8, 0.5},
+	margin = {10, 10},
 	size = 12,
 	maxwidth = 300
 }
@@ -501,7 +502,7 @@ function getOSC()
 	    	print("device, selected node: ", device_id, indid)
 	    	ipadSelectNode( device_id, indid )
 	    	
-	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )  --
+	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodelabel(indid, true), tpd:getnodepubs(indid) )  --
 	    	--print(" sent /createNode", tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
 	   
 	   elseif(msg.addr == "/deselectNode") then
@@ -665,6 +666,7 @@ function win:draw(eye)
     gl.LineWidth(1.0)
     gl.Color(1.0, 0.0, 0.0)
     
+    --[[
     sketch.enter_ortho(self.dim)
     guilabels:draw({35, 30, 0}, "a")
 	guilabels:draw({35, 50, 0}, "ab")
@@ -677,7 +679,7 @@ function win:draw(eye)
 	sketch.leave_ortho()
 	
 	gui:draw()
-	
+	--]]
 	
 	
 end

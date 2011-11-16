@@ -257,21 +257,22 @@ function drawBillboardCircle(sc, booltrans)
     end
 end
 
-local red = {247/255, 59/255, 81/255}
+--local nodecol = {247/255, 59/255, 81/255}
+local nodecol = {100/255, 100/255, 200/255}
 local pink = {241/255, 93/255, 111/255}
-local blue = {98/255, 152/255, 205/255}
+local edgecol = {98/255, 152/255, 205/255}
 
 local pointscale = pointsz.value
 local linescale = 1.5
 
 
 function drawGraph3D()
-    gl.Color(blue[1], blue[2], blue[3])
+    gl.Color(edgecol[1], edgecol[2], edgecol[3])
 	primshader:bind()
 		tpd:drawGraphEdges(true, 1.0)
 	primshader:unbind()
 	
-	shader:param ("Kd", {red[1], red[2], red[3]})
+	shader:param ("Kd", {nodecol[1], nodecol[2], nodecol[3]})
 	shader:bind()
 		tpd:drawGraphNodes(true, 0.002*pointscale)
 	shader:unbind()
@@ -282,7 +283,7 @@ end
 
 
 function drawGraph2D()
-	gl.Color(blue[1], blue[2], blue[3])
+	gl.Color(edgecol[1], edgecol[2], edgecol[3])
 	gl.Disable(GL.LIGHTING)
 	
 	gl.PushMatrix()

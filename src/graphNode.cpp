@@ -69,7 +69,7 @@ void GraphNode :: addPub(Article * a){
 string GraphNode :: printPublications(){
 	
 	string pubslist = " ";
-	string openln = " + ";
+	string openln = "+ ";
 	string closeln = " | ";
 	for (int p =0; p< pubs.size(); p++){
 		Article * tmp = pubs.at(p);

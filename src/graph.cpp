@@ -649,7 +649,7 @@ void Graph :: drawneighboredges(int ndid, bool forshade, double thick){
 
 void Graph :: drawedges(bool forshade, double thick){
 	
-	double RADIUS = 0.008;
+	double RADIUS = 0.005 * thick;
 	double HALOSIZE = 1.2;
 	
 	
