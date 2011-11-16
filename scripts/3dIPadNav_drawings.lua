@@ -200,7 +200,7 @@ function initShaders(cntx)
 		ctx = cntx,
 		fontfile = LuaAV.findfile("VeraMono.ttf"),
 		--alignment = "LEFT",
-		--color = {0.8, 0.2, 0.5},
+		color = {0.8, 0.2, 0.5},
 		size = 14,
 		--bg = true
 	}
@@ -318,7 +318,8 @@ function drawAllLabels()
 		local p = tpd:graphnodepos(ind)
 		local labelstr = tpd:getnodelabel(ind)
 		p[2] = p[2]+0.01
-		gl.Color(1.0, 1.0, 1.0)
+		--gl.Color(1.0, 1.0, 1.0)
+		gl.Color(0.2, 0.2, 0.2)
 		graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
 			
 	end
