@@ -7,13 +7,13 @@ gFadeTime = 2000;
 
 window.nodes = [];
 window.nodeWidth = 250;
-window.nodeHeight = 380;
+window.nodeHeight = 342;
 window.rolloverNode = null;
 window.nodeCounter = 0;
 
 window.lastTapped = null;
 
-window.tapTimeDelta = 200;
+window.tapTimeDelta = 400;
 window.tapDistanceDelta = .5; // in perecentage of widget size
 
 window.lastTappedNode = null;
@@ -113,13 +113,15 @@ window.initInterface = function() {
     $(control.nodeHolder).css({
         "display"   : "block",
         "position"  : "absolute",
-        "top"       : "0px",
+        "top"       : "38px",
         "left"      : "0px",
         "height"    : window.nodeHeight,
-        "width"     : "900px",
+        "width"     : "1022px",
         "overflow-x": "scroll",
         "-webkit-overflow-scrolling": "touch",
-        "border"    : "1px solid #777",
+        "border-width": "1px 0px",
+        "border-color": "#777",
+        "border-style": "solid",
     });
 
     $("#selectedInterface").append(control.nodeHolder);
@@ -134,7 +136,7 @@ window.initInterface = function() {
        "position": "absolute", 
        "top": "384px", 
        "left": "50", 
-       "background-color": "rgba(25,25,25,1)", 
+       "background-color": "#000", 
        "z-index": -1,
     });
     
@@ -142,7 +144,6 @@ window.initInterface = function() {
     
     control.canvasCtx = control.canvas.getContext("2d"); 
     
-    //window.fakeNode();
     oscManager.sendOSC('/handshake', 's', window.ipAddress);
 };
  
@@ -156,20 +157,23 @@ window.test = function() {
 };
 
 window.fakeNode = function() {
-    window.addNode(1, "Charlie" + window.nodeCounter, window.aList);
+    window.addNode(1, "C" + window.nodeCounter, "Charlie Roberts", window.aList);
 };
 
 window.clearAllNodes = function() {
+    control.canvas.width = control.canvas.width;
     window.nodes.length = 0;
     $(".node, .expandedNode").remove();  
 };
 window.tempNodes = [];
 
 window.canvasDraw = function() {
-    var ctx = document.getElementById("canvas").getContext("2d"); 
-    canvas.width = canvas.width;
+    var ctx = control.canvas.getContext("2d"); 
+    
+    control.canvas.width = control.canvas.width;
+
     //ctx.clearRect(0,0,1024,384); // this would improve performance... why does it work?
-    ctx.strokeStyle = "#f00";
+    ctx.strokeStyle = "#777";
     ctx.lineWidth = 1;
 
     var y1 = 384;
@@ -193,9 +197,8 @@ window.canvasDraw = function() {
         
         ctx.lineTo(x2,y2);
         
-        ctx.stroke();
     }
-
+    ctx.stroke();
 }
 window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
     console.log("temp node");
@@ -213,6 +216,7 @@ window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
         "padding"            : "10px",
         "z-index"            : 10,
         "opacity"            : 1,
+        "borderRadius"       : 5,
         "webkitTransitionProperty"   : "opacity",
         "webkitTransitionDuration"   : gFadeTime + "ms",
     });
@@ -246,7 +250,7 @@ window.addTempNode = function(xpos, ypos, nodeID, nodeName) {
     return tempNode;
 };
  
-window.addNode = function(nodeID, authorName, pubs) {
+window.addNode = function(nodeID, authorName, authorNameFull, pubs) {
     console.log("PUBS = " + pubs);
     var pubsAsLI = pubs.split("|");
     console.log("CREATING");
@@ -387,8 +391,8 @@ window.addNode = function(nodeID, authorName, pubs) {
 };
 
 window.deleteNode = function(node) {
-    console.log("deleting" + $(node).text());
     document.getElementById("selectedInterface").removeChild(node);
+    window.canvasDraw();    
     node = null;
 };
 
@@ -446,7 +450,7 @@ window.oscManager.delegate = {
                 break;
             case "/createNode":
                 console.log("CREATING NODE");
-                window.addNode(args[0], args[1], args[2]);
+                window.addNode(args[0], args[1], args[2], args[3]);
                 break;
             case "/idassigned":
                 idLabel.setValue("id " + args[0]);
@@ -457,11 +461,12 @@ window.oscManager.delegate = {
     }           
 }
 
+window.buttonWidth = (window.nodeWidth / 2) / 1024;
 pages = [[
 {
     "name": "tabButton",
     "type": "Button",
-    "bounds": [.9, 0, .1, .05],
+    "bounds": [.0, 0, window.buttonWidth, .05],
     "mode": "toggle",
     "stroke": "#aaa",
     "isLocal": true,
@@ -471,19 +476,19 @@ pages = [[
 {
     "name": "refresh",
     "type": "Button",
-    "bounds": [.9, .05, .1, .05],
+    "bounds": [window.buttonWidth, .0, window.buttonWidth, .05],
     "startingValue": 0,
     "isLocal": true,
     "mode": "contact",
     "ontouchstart": "$(control.canvas).remove(); interfaceManager.refreshInterface()",
-    "stroke": "#fff",
+    "stroke": "#aaa",
     "label": "refresh",
 },
 {
     "name":"handshake",
     "type": "Button",
-    "colors": ["#f00", "#000", "#fff"] ,
-    "bounds": [.9, .1, .1, .05], 
+    "stroke":"#aaa",
+    "bounds": [window.buttonWidth * 2, .0, window.buttonWidth, .05], 
     "isLocal": "true",
     "label": "handshake",
     "ontouchstart": "oscManager.sendOSC('/handshake', 's', window.ipAddress);", 
@@ -492,7 +497,8 @@ pages = [[
 {
     "name": "clear", 
     "type": "Button", 
-    "bounds": [.9,.15,.1,.05], 
+    "stroke": "#aaa",
+    "bounds": [window.buttonWidth * 3, 0, window.buttonWidth, .05], 
     "label": "clear", 
     "isLocal": true, 
     "ontouchstart": "window.clearAllNodes(); oscManager.sendOSC('/clear', 'i', control.id);", 
@@ -501,7 +507,8 @@ pages = [[
 {
     "name": "testButton", 
     "type": "Button", 
-    "bounds": [.9,.2,.1,.05], 
+    "stroke": "#aaa",    
+    "bounds": [window.buttonWidth * 4, 0, window.buttonWidth, .05], 
     "label": "test", 
     "ontouchstart": "window.test();", 
     "mode":"contact",    
@@ -511,7 +518,7 @@ pages = [[
     "type" : "MultiTouchXY",
     "bounds": [0, .5, 1, .5],
     "isMomentary": false,
-    "colors":["rgba(0,0,0,0)", "#000", "#999"],
+    "colors":["rgba(0,0,0,0)", "rgba(0,0,0,0)", "rgba(0,0,0,0)"],
     "maxTouches": 1,
     "address":"/screencoord",
     "touchSize":"20px",
@@ -524,14 +531,14 @@ pages = [[
 {
     "name":"label",
     "type": "Label", 
-    "bounds": [.9, .3, .1, .05], 
-    "value":"testaaaaa",
+    "bounds": [window.buttonWidth * 5, 0, .25, .05], 
+    "value":"BASAK",
 },
 {
     "name":"idLabel",
     "type": "Label", 
-    "bounds": [.9, .4, .1, .05], 
-    "value":"no id yet loser",
+    "bounds": [.8, 0, .2, .05], 
+    "value":"BASAK BASAK    ",
 },
 ]   
 
