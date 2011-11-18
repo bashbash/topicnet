@@ -260,10 +260,17 @@ int Topicnet_udata :: getnodelabel(lua_State *L) {
 	Self *s = Self::to_udata(L, 1);
 	if(s) {
 		int nodeind = lua_tonumber(L, 2);
-		
+		bool lablen = lua_toboolean(L, 3);
 		GraphNode * gn = s->Base::getGraph()->getGraphNode(nodeind);
-		//string label = gn->getLabel();
-		string label = gn->getShortLabel();
+		string label; 
+		if (lablen) {
+			label = gn->getLabel();
+		}
+		else {
+			label = gn->getShortLabel();
+		}
+
+		
 		lua_pushstring(L, label.c_str());
 		
 		return 1;

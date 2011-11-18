@@ -130,10 +130,9 @@ function existshover(list, value)
 end
 
 
-
 ---------------------colors----------------------
 local winbgcolor = {0.9, 0.9, 0.9}
-devc_col = {{0.0, 0.9, 0.9}, {0.9, 0.0, 0.9}, {0.9, 0.0, 0.0}, {0.0, 9.0, 0.0}}
+devc_col = {{0.9, 0.0, 0.9}, {0.9, 0.0, 0.0}, {0.0, 0.9, 0.9}, {0.0, 9.0, 0.0}}
 
 -------------------------------------------------
 
@@ -145,7 +144,8 @@ local pubsText = Label{
 	alignment = "LEFT",
 	color = {0.2, 0.2, 0.2},
 	bg = true,
-	bgcolor = {0.8, 0.8, 0.8},
+	bgcolor = {0.8, 0.8, 0.8, 0.5},
+	margin = {10, 10},
 	size = 12,
 	maxwidth = 300
 }
@@ -335,19 +335,37 @@ function ipadSelectNode( devc, indeks )
 			--if in visited list then remove it
 		   if(boolvisited) then table.remove(visitednodes[devc], vind) end
 			
-		else
+		elseif (devc == 1) then
 			table.remove(selectnodes[devc], ind)
 			
 			local indisp, dind = exists(displaynodes, selectednodeindex)
 			if(indisp) then table.remove(displaynodes, dind) end
 				
 		    --if in visited list then remove it
-		    if(not boolvisited) then table.insert(visitednodes[devc], selectednodeindex) end
+		    table.insert(visitednodes[devc], selectednodeindex)
+
 			
 			selectednodeindex = -1
 			lastselectnode = -1
 		end
 	end	
+end
+
+local 
+function ipadDeselectNode(devc, indeks)
+
+	table.remove(selectnodes[devc], ind)
+	
+	local indisp, dind = exists(displaynodes, indeks)
+	if(indisp) then table.remove(displaynodes, dind) end
+		
+	table.insert(visitednodes[devc], indeks) 
+
+	
+	selectednodeindex = -1
+	lastselectnode = -1
+		
+
 end
 
 
@@ -389,6 +407,7 @@ function mouseSelectNode()
 		
 		local inlist, ind = exists (selectnodes[1], selectednodeindex)
 		local boolvisited, vind = exists (visitednodes[1], selectednodeindex)
+		--local booldisp, dind = exists (displaynodes, selectednodeindex)
 	    
 	    if(not inlist) then 
 			--add to selected list
@@ -404,7 +423,7 @@ function mouseSelectNode()
 			--print("item already in select list: ", selectednodeindex)
 			table.remove(selectnodes[1], ind)
 			if(not boolvisited) then table.insert (visitednodes[1], selectednodeindex)  end
-			--table.remove (displaynodes, ind)
+		    --if(booldisp) then table.remove (displaynodes, dind) end
 		end
 	end
 end
@@ -455,8 +474,9 @@ function getOSC()
 	    	local isinlist, ind = exists(device_ips, ipadaddr)
 	    	if(isinlist) then 
 	    		--resend the existing id
-	    		oscouts[ind]:send("/idassigned", ind)
-	    		print("id assigned: ", ind)
+	    		
+	    		oscouts[ind]:send("/idassigned", ind, devc_col[ind][1], devc_col[ind][2], devc_col[ind][3] )
+	    		print("id assigned: ", ind, devc_col[ind][1], devc_col[ind][2], devc_col[ind][3] )
 	    	else
 	    	    NUM_DEVICES = NUM_DEVICES + 1
 	    	    local newid = NUM_DEVICES
@@ -467,8 +487,8 @@ function getOSC()
 	    		selectnodes[newid] = {}
 	    		visitednodes[newid] = {}
 	    		--confirm the device id 
-	    		oscouts[newid]:send("/idassigned", newid)
-	    		print("id assigned: ", newid)
+	    		oscouts[newid]:send("/idassigned", newid, devc_col[newid][1], devc_col[newid][2], devc_col[newid][3] )
+	    		print("id assigned: ", newid, devc_col[newid][1], devc_col[newid][2], devc_col[newid][3] )
 	    	end
 	    	
 	    elseif(msg.addr == "/screencoord") then 
@@ -482,23 +502,34 @@ function getOSC()
 	    	print("device, selected node: ", device_id, indid)
 	    	ipadSelectNode( device_id, indid )
 	    	
-	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodepubs(indid) )  --
+	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodelabel(indid, true), tpd:getnodepubs(indid) )  --
 	    	--print(" sent /createNode", tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
 	   
 	   elseif(msg.addr == "/deselectNode") then
 	    	local device_id, indid = unpack(msg)
 	    	--print("device, deselect: ", device_id, indid)
-	    	ipadSelectNode( device_id, indid )
+	    	--ipadSelectNode( device_id, indid )
+	    	ipadDeselectNode(device_id, indid )
 	    	
 	    elseif(msg.addr == "/displayNode") then
 	    	local device_id, indid = unpack(msg)
 	    	--print("device, disp: ", device_id, indid)
 	    	displayNode( indid )
+	    
 	    elseif(msg.addr == "/clear") then
 	        --later I have to handle this per device
-	    	selectnodes = {}
-			hovernodes = {}
+	        local device_id = unpack(msg)
+	    	--print("clear device: ", device_id)
+	    	if(selectnodes[device_id] ~= nil) then 
+				for k,v in pairs(selectnodes[device_id]) do  
+					table.insert ( visitednodes[device_id], v)
+				end
+				selectnodes[device_id] = {}
+				hovernodes[device_id] = {}
+			end
+			
 			displaynodes = {}
+			
 		end
 	end
 end
@@ -506,6 +537,7 @@ end
 
 function win:draw(eye)
 	
+	win.clearcolor = {0.95, 0.95, 0.95}
 	getOSC() 
      
     local w, h = unpack(self.dim)
@@ -555,16 +587,28 @@ function win:draw(eye)
 	
 	-----------------end draw graph-------------------------
 	-----------------begin draw highlights------------------
-		--DISPLAY NODES
-		for k,v in pairs(displaynodes) do  
-			local np = tpd:graphnodepos(v)
-			pubsText:draw_3d_multi(win.dim, {np[1], np[2], np[3]}, tpd:getnodepubs(v))
+		
+		--CURRENTLY SELECTED NODES
+		for d,devlist in pairs(selectnodes) do
+			for n,node in pairs (devlist) do
+			
+				gl.PushMatrix()
+				gl.Translate(tpd:graphnodepos(node))
+				
+				local i, transp = math.modf (now())
+				local i,r = math.modf (i/2)
+				if(r == 0) then devc_col[d][4] = transp 
+				else devc_col[d][4] = 1 - transp end
+				
+				gl.Color(devc_col[d])
+					drawBillboardCircle(0.2, true)
+				gl.PopMatrix()
+			end	
 		end
-		
-		
 		
 		--PREVIOUSLY VISITED NODES
 		for d,devlist in pairs(visitednodes) do
+		    devc_col[d][4] = 1.0
 			for n,node in pairs (devlist) do
 				
 				gl.PushMatrix()
@@ -575,19 +619,13 @@ function win:draw(eye)
 			end	
 		end
 		
-		
-		--CURRENTLY SELECTED NODES
-		for d,devlist in pairs(selectnodes) do
-			for n,node in pairs (devlist) do
-			
-				gl.PushMatrix()
-				gl.Translate(tpd:graphnodepos(node))
-				devc_col[d][4] = 0.5
-				gl.Color(devc_col[d])
-					drawBillboardCircle(0.2, true)
-				gl.PopMatrix()
-			end	
+		--DISPLAY NODES
+		for k,v in pairs(displaynodes) do  
+			local np = tpd:graphnodepos(v)
+			pubsText:draw_3d_multi(win.dim, {np[1], np[2], np[3]}, tpd:getnodepubs(v))
 		end
+		
+		
 		
 		
 		--HOVER NODES
@@ -595,20 +633,21 @@ function win:draw(eye)
 			--print(k, v)
 			--adjust transparency and removel from list
 			local starttime = v[2]
-			
-			local timeelapsed = now() - starttime
-			
-			if(timeelapsed > 2) then 
-				table.remove( hovernodes, k)
-			else
-				gl.PushMatrix()
-				gl.Translate(tpd:graphnodepos(v[1]))
-				local transcol = {1.0, 1.0, 0.0, 1.0}
-				transcol[4] = (2 - timeelapsed) *0.5
-				gl.Color(transcol)
-					drawBillboardCircle(0.2, true)
-				gl.PopMatrix()
-			end	
+			if(starttime ~= nil) then 
+				local timeelapsed = now() - starttime
+				
+				if(timeelapsed > 2) then 
+					table.remove( hovernodes, k)
+				else
+					gl.PushMatrix()
+					gl.Translate(tpd:graphnodepos(v[1]))
+					local transcol = {1.0, 1.0, 0.0, 1.0}
+					transcol[4] = (2 - timeelapsed) *0.5
+					gl.Color(transcol)
+						drawBillboardCircle(0.2, true)
+					gl.PopMatrix()
+				end	
+			end
 		end
 
 	
@@ -627,6 +666,7 @@ function win:draw(eye)
     gl.LineWidth(1.0)
     gl.Color(1.0, 0.0, 0.0)
     
+    --[[
     sketch.enter_ortho(self.dim)
     guilabels:draw({35, 30, 0}, "a")
 	guilabels:draw({35, 50, 0}, "ab")
@@ -639,7 +679,7 @@ function win:draw(eye)
 	sketch.leave_ortho()
 	
 	gui:draw()
-	
+	--]]
 	
 	
 end

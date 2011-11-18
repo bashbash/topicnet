@@ -32,3 +32,10 @@
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# xcode project files #
+######################
+*.pbxindex
+*.pbxbtree
+*.pbxstrings
+*.pbxsymbols
