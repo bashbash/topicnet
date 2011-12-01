@@ -67,7 +67,7 @@ function drawPlane(ar)
        local depth = tpd:planeDepth(p)
         
 	   if( p == activePlane) then gl.Color(1.0, 0.4, 0.1, 1.0) 
-	   else  gl.Color(1.0, 1.0, 1.0, 0.5) end
+	   else  gl.Color(0.2, 0.2, 0.2, 0.5) end
 	   gl.LineWidth(0.5)
 	  
 	   
