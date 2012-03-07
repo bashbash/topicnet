@@ -1,5 +1,5 @@
 Shader{
-	name = "stylized_primitive.shl",
+	name = "stylized_line.shl",
 	description = [[ test normal interpolation ]],
 	language = "GLSL",
 	

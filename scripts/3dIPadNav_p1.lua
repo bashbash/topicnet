@@ -25,7 +25,7 @@ local datfile = script.path .. "/3dIPadNav_data.lua"
 dofile( datfile )
 
 -------------------------------------------------
-local context = "3d net test"
+local context = "3d ipad network demo"
 win = Window{
 	title = context, 
 	origin = {0, 0}, 
@@ -407,7 +407,7 @@ function mouseSelectNode()
 		
 		local inlist, ind = exists (selectnodes[1], selectednodeindex)
 		local boolvisited, vind = exists (visitednodes[1], selectednodeindex)
-		--local booldisp, dind = exists (displaynodes, selectednodeindex)
+	    local booldisp, dind = exists (displaynodes, selectednodeindex)
 	    
 	    if(not inlist) then 
 			--add to selected list
@@ -415,15 +415,15 @@ function mouseSelectNode()
 			table.insert (selectnodes[1], selectednodeindex)
 			
 			if(boolvisited) then table.remove (visitednodes[1], vind)  end
-			--table.insert (displaynodes, selectednodeindex)
+			table.insert (displaynodes, selectednodeindex)
 			
-		    --print("inserted node to selectnodes: ", selectednodeindex)
+		    print("inserted node to selectnodes: ", selectednodeindex, tpd:getnodelabel(selectednodeindex))
 		    lastselectnode = selectednodeindex
 		else
 			--print("item already in select list: ", selectednodeindex)
 			table.remove(selectnodes[1], ind)
 			if(not boolvisited) then table.insert (visitednodes[1], selectednodeindex)  end
-		    --if(booldisp) then table.remove (displaynodes, dind) end
+		    if(booldisp) then table.remove (displaynodes, dind) end
 		end
 	end
 end

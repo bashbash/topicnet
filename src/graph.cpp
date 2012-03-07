@@ -656,17 +656,13 @@ void Graph :: drawedges(bool forshade, double thick){
 	if (forshade) {
 		
 	
+		glBegin(GL_QUADS);
 		for (int e=0; e< edgelist.size(); e++) {
-			
-			//if (! edgelist.at(e)->getHighlight()) {
-				
-			
-				glBegin(GL_QUADS);
 				vec3d point1 = edgelist.at(e)->get_from()->getPos();
 				vec3d point2 = edgelist.at(e)->get_to()->getPos();
 				
 				vec3d tang = point2 - point1;
-				
+			    vec3d::normalize(tang);
 							
 				glNormal3f(tang.x, tang.y, tang.z);
 				
@@ -687,13 +683,8 @@ void Graph :: drawedges(bool forshade, double thick){
 				glTexCoord4f(-1.0*RADIUS * HALOSIZE, RADIUS, 0.0, 0.0);
 				//glTexCoord3f(-1.0, alpha, thick); 
 				glVertex3f(point2.x, point2.y, point2.z);
-				
-				glEnd();
-				
-			//}
-			
 		}	
-		
+		glEnd();
 	}
 	
 	else {

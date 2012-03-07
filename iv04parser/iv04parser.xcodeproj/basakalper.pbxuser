@@ -56,13 +56,10 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 327376761;
-			PBXWorkspaceStateSaveDate = 327376761;
+			PBXPerProjectTemplateStateSaveDate = 344913564;
+			PBXWorkspaceStateSaveDate = 344913564;
 		};
 		perUserProjectItems = {
-			7500F85F1383613D0053FE60 /* PBXTextBookmark */ = 7500F85F1383613D0053FE60 /* PBXTextBookmark */;
-			7500F8601383613D0053FE60 /* PBXTextBookmark */ = 7500F8601383613D0053FE60 /* PBXTextBookmark */;
-			7500F8611383613D0053FE60 /* PBXTextBookmark */ = 7500F8611383613D0053FE60 /* PBXTextBookmark */;
 			750992301304AF56007115EF /* PBXTextBookmark */ = 750992301304AF56007115EF /* PBXTextBookmark */;
 			750992321304AF56007115EF /* PBXTextBookmark */ = 750992321304AF56007115EF /* PBXTextBookmark */;
 			750992CD1304BFFE007115EF /* PBXTextBookmark */ = 750992CD1304BFFE007115EF /* PBXTextBookmark */;
@@ -71,6 +68,9 @@
 			750F76701381D50F00C23E42 /* PBXTextBookmark */ = 750F76701381D50F00C23E42 /* PBXTextBookmark */;
 			750F76761381D52000C23E42 /* PBXTextBookmark */ = 750F76761381D52000C23E42 /* PBXTextBookmark */;
 			750F76D11381E41200C23E42 /* PBXTextBookmark */ = 750F76D11381E41200C23E42 /* PBXTextBookmark */;
+			7523BBE0148F0B5E004BDFF3 /* PBXTextBookmark */ = 7523BBE0148F0B5E004BDFF3 /* PBXTextBookmark */;
+			7523BBE1148F0B5E004BDFF3 /* PBXTextBookmark */ = 7523BBE1148F0B5E004BDFF3 /* PBXTextBookmark */;
+			7523BBE2148F0B5E004BDFF3 /* PBXTextBookmark */ = 7523BBE2148F0B5E004BDFF3 /* PBXTextBookmark */;
 			753A6A6A1324566B00355B20 /* PBXTextBookmark */ = 753A6A6A1324566B00355B20 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7509904B13045678007115EF /* Source Control */;
@@ -79,41 +79,11 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {950, 5213}}";
-			sepNavSelRange = "{1433, 69}";
-			sepNavVisRange = "{452, 999}";
+			sepNavIntBoundsRect = "{{0, 0}, {885, 5265}}";
+			sepNavSelRange = "{1240, 550}";
+			sepNavVisRange = "{1792, 1029}";
 			sepNavWindowFrame = "{{15, 228}, {854, 645}}";
 		};
-	};
-	7500F85F1383613D0053FE60 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
-		name = "main.cpp: 66";
-		rLen = 69;
-		rLoc = 1433;
-		rType = 0;
-		vrLen = 999;
-		vrLoc = 452;
-	};
-	7500F8601383613D0053FE60 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 750990F513048EFA007115EF /* graphNode.h */;
-		name = "graphNode.h: 15";
-		rLen = 0;
-		rLoc = 227;
-		rType = 0;
-		vrLen = 795;
-		vrLoc = 0;
-	};
-	7500F8611383613D0053FE60 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 750990F513048EFA007115EF /* graphNode.h */;
-		name = "graphNode.h: 15";
-		rLen = 0;
-		rLoc = 227;
-		rType = 0;
-		vrLen = 795;
-		vrLoc = 0;
 	};
 	750990431304563E007115EF /* iv04parser */ = {
 		isa = PBXExecutable;
@@ -185,9 +155,9 @@
 	};
 	750990F513048EFA007115EF /* graphNode.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {885, 689}}";
+			sepNavIntBoundsRect = "{{0, 0}, {885, 715}}";
 			sepNavSelRange = "{227, 0}";
-			sepNavVisRange = "{0, 795}";
+			sepNavVisRange = "{0, 840}";
 			sepNavWindowFrame = "{{15, 228}, {854, 645}}";
 		};
 	};
@@ -299,6 +269,36 @@
 		rType = 0;
 		vrLen = 443;
 		vrLoc = 0;
+	};
+	7523BBE0148F0B5E004BDFF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 750990F513048EFA007115EF /* graphNode.h */;
+		name = "graphNode.h: 15";
+		rLen = 0;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 0;
+	};
+	7523BBE1148F0B5E004BDFF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 58";
+		rLen = 550;
+		rLoc = 1240;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 1792;
+	};
+	7523BBE2148F0B5E004BDFF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 58";
+		rLen = 550;
+		rLoc = 1240;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 1792;
 	};
 	753A6A6A1324566B00355B20 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
