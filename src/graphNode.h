@@ -10,7 +10,7 @@
 #ifndef GRAPHNODE_H
 #define GRAPHNODE_H 1
 
-#define AL_OSX
+#define AL_LINUX
 
 
 #include <fstream>
@@ -22,7 +22,7 @@
 #if defined(AL_OSX)
 	#include "vec/vec3.h"
 #elif defined(AL_LINUX)
-	#include "space/vec/vec3.h"
+	#include "../../space/vec/vec3.h"
 #endif
 
 using namespace std;
