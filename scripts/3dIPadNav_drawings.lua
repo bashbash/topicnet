@@ -14,6 +14,8 @@ local Image = require("Image")
 
 
 -------------------------------------------------
+
+activePlane = -1
  
 function drawCircle(radius)
    gl.Begin(GL.QUAD_STRIP)
@@ -66,9 +68,14 @@ function drawPlane(ar)
     for p=0, tpd:planeCount()-1 do
        local depth = tpd:planeDepth(p)
         
-	   if( p == activePlane) then gl.Color(1.0, 0.4, 0.1, 1.0) 
-	   else  gl.Color(0.2, 0.2, 0.2, 0.5) end
-	   gl.LineWidth(0.5)
+   
+	   if( p == activePlane) then 
+	   		gl.Color(1.0, 0.4, 0.1, 1.0) 
+	   else  
+	   		gl.Color(0.78, 0.78, 0.78, 0.7) 
+	   end
+	   
+	   gl.LineWidth(0.8)
 	  
 	   
 	   gl.Begin(GL.LINES)
@@ -320,7 +327,7 @@ function drawAllLabels()
 		local labelstr = tpd:getnodelabel(ind)
 		p[2] = p[2]+0.01
 		--gl.Color(1.0, 1.0, 1.0)
-		gl.Color(0.2, 0.2, 0.2)
+		gl.Color(0.8, 0.8, 0.8)
 		graphlabels:draw_3d(win.dim, {p[1], p[2], p[3]}, labelstr)
 			
 	end

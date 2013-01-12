@@ -39,6 +39,7 @@ public:
 	static int stepLayout(lua_State * L);
 	static int doLayout(lua_State * L);
 	static int graphsize(lua_State * L);
+	static int graphedgesize(lua_State * L);
 	static int randomizeGraph(lua_State * L);
 	static int initGraphLayout(lua_State * L);
 	
@@ -50,6 +51,8 @@ public:
 	static int bringN1(lua_State * L);
 	
 	static int graphnodepos(lua_State * L);
+	
+	static int graphedge(lua_State * L);
 	
 	static int graphnodeplane(lua_State * L);
 	

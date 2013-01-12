@@ -37,6 +37,11 @@ int Graph:: getSize(){
 	return adjlist.size();
 }
 
+int Graph:: getEdgeSize(){ 
+	return edgelist.size();
+}
+
+
 void Graph:: clear(){
 	adjlist.clear();
 	edgelist.clear();

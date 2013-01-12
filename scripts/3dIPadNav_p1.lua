@@ -19,6 +19,41 @@ local osc = require("osc")
 
 Label = require("Label")
 
+
+------------------global variables---------------
+local boolstereo = false
+local layout3d = false
+local draw3d = true
+
+
+
+local boolmousepress = false
+local nodedragged = false
+
+local mouseinteractmode = 1
+
+local boollabelall = true
+
+local addMode = false
+local mouseDown = false
+
+local AREA = 5.0
+local MAXSTEP = 550
+local TEMP = 0.5
+
+local st = 0
+
+local boolrotate = false
+
+local lastx = 0.0
+local lasty = 0.0
+
+local cvec1 = {0.0, 0.0, 0.0}
+local cvec2 ={0.0, 0.0, 0.0}
+
+local ray = {0.0, 0.0, 0.0}
+
+
 ------------------Parse Data---------------------
 
 local datfile = script.path .. "/3dIPadNav_data.lua"
@@ -60,36 +95,6 @@ local oscin  = osc.Recv(receive_port)
 local oscouts = {} 
 
 
-------------------global variables---------------
-local boolstereo = false
-local layout3d = true
-local draw3d = true
-
-local activePlane = -1
-
-local boolmousepress = false
-local nodedragged = false
-
-local boollabelall = true
-
-local addMode = false
-local mouseDown = false
-
-local AREA = 5.0
-local MAXSTEP = 550
-local TEMP = 0.5
-
-local st = 0
-
-local boolrotate = false
-
-local lastx = 0.0
-local lasty = 0.0
-
-local cvec1 = {0.0, 0.0, 0.0}
-local cvec2 ={0.0, 0.0, 0.0}
-
-local ray = {0.0, 0.0, 0.0}
 
 local selectnodes = {}
 	selectnodes[1] = {} --this if for the mouse
@@ -537,7 +542,7 @@ end
 
 function win:draw(eye)
 	
-	win.clearcolor = {0.95, 0.95, 0.95}
+	win.clearcolor = {0.0, 0.0, 0.0}
 	getOSC() 
      
     local w, h = unpack(self.dim)
@@ -701,19 +706,19 @@ function win:key(event, key)
 		if(key == 27) then
 			self.fullscreen = not self.fullscreen
 		elseif(key == 101 or key == 69) then --E
-            
-			self.stereo = not self.stereo
+            self.stereo = not self.stereo
 			cam.stereo = self.stereo
-
 			print("stereo ", self.stereo)
-		elseif(key == 105 or key == 73) then --i
+		--[[
+		elseif(key == 105 or key == 73) then --I
 			tpd:initGraphLayout()
 			tpd:testGrid()
 			st = 0
 			TEMP = 0.5
+		
 		elseif(key == 115 or key == 83) then --S
 		    --disabled for now, pressing accidentally
-		    saveGraph()
+		    --saveGraph()
 		elseif(key == 108 or key == 76) then --L
 		    loadGraph()
 		    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
@@ -722,23 +727,29 @@ function win:key(event, key)
 			redrawgraph()
 		elseif(key == 116 or key == 84) then --T
 			draw3d = not draw3d
+		--]]
 		elseif(key == 103 or key == 71) then --G
 			mouseinteractmode = 1
+		
 		elseif(key == 102 or key == 70) then --F
 			mouseinteractmode = 2
+        
         elseif(key == 111 or key == 79) then --O
 		  boolrotate = not boolrotate
+		
 		elseif(key == 112 or key == 80) then --P
 		  local crrp = tpd:planeCount()
+		  activePlane = crrp
 		  tpd:addPlane(crrp)
-		  crrp = crrp+1
-		  activePlane = tpd:planeCount()-1
 		  
+		elseif(key == 110 or key == 78) then --N
+			tpd:bringN1(lastselectnode)
+		
 		elseif(key == 114 or key == 82) then --R
 		  tpd:removePlane()
 		  activePlane = tpd:planeCount() -1 
 		  if(tpd:planeCount() == 1) then activePlane = -1 end
-		     
+		
 		elseif(key == 106 or key == 74) then --J
 		   activePlane = activePlane + 1
 		   activePlane = activePlane % tpd:planeCount() 

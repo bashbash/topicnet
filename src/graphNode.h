@@ -10,7 +10,7 @@
 #ifndef GRAPHNODE_H
 #define GRAPHNODE_H 1
 
-#define AL_LINUX
+#define AL_OSX
 
 
 #include <fstream>

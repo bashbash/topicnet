@@ -46,6 +46,7 @@ public:
 	GraphNode* getGraphNode(int index);
 	GraphNode* getNextGraphNode();
 	int getSize();
+	int getEdgeSize();
 	
 	void preprocess();
 	void preprocessauthorgraph();

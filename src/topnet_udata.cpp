@@ -41,6 +41,7 @@ const udata::LuaMethod Topicnet_udata :: lua_methods[] = {
 	LUA_METHOD(stepLayout, METHOD),
 	LUA_METHOD(doLayout, METHOD),
 	LUA_METHOD(graphsize, METHOD),
+	LUA_METHOD(graphedgesize, METHOD),
 	
 	LUA_METHOD(selectedNode, METHOD),
 	LUA_METHOD(getnodelabel, METHOD),
@@ -55,6 +56,7 @@ const udata::LuaMethod Topicnet_udata :: lua_methods[] = {
 	LUA_METHOD(moveGraph, METHOD),
 	
 	LUA_METHOD(graphnodepos, METHOD),
+	LUA_METHOD(graphedge, METHOD),
 	
 	LUA_METHOD(graphnodeplane, METHOD),
 	
@@ -288,8 +290,10 @@ int Topicnet_udata :: getnodeid(lua_State *L) {
 		int nodeind = lua_tonumber(L, 2);
 		
 		GraphNode * gn = s->Base::getGraph()->getGraphNode(nodeind);
-		string label = gn->getstrid();
-		lua_pushstring(L, label.c_str());
+		int intid = gn->getnodeid();
+		lua_pushnumber(L, intid);
+		//string label = gn->getstrid();
+		//lua_pushstring(L, label.c_str());
 		
 		return 1;
 		
@@ -394,7 +398,7 @@ int Topicnet_udata :: bringN1(lua_State *L) {
 int Topicnet_udata :: addPlane(lua_State * L){
 	Self *s = Self::to_udata(L, 1);
 	if(s) {
-		double depth = lua_tonumber(L, 2);
+		double depth = lua_tonumber(L, 2)*0.5;
 		s->Base :: addPlane(depth);
 	}
 	return 0;
@@ -550,6 +554,39 @@ int Topicnet_udata :: graphsize(lua_State *L) {
 		luaL_error(L, "Topicnet.graphsize: invalid object or arguments");
 	}
 	return 0;
+}
+
+int Topicnet_udata :: graphedgesize(lua_State *L) {
+	Self *s = Self::to_udata(L, 1);
+	if(s) {
+		
+		int sz = s->Base::getGraph()->getEdgeSize();
+		lua_pushnumber(L, sz);
+		return 1;
+	}
+	else{
+		luaL_error(L, "Topicnet.graphedgesize: invalid object or arguments");
+	}
+	return 0;
+}
+
+
+int Topicnet_udata :: graphedge(lua_State *L) {
+	Self *s = Self::to_udata(L, 1);
+	if(s) {
+		int num = lua_tonumber(L, 2);
+		GraphEdge* eg = s->Base::getGraph()->getGraphEdge(num);
+		
+		int from = eg->get_from()->getnodeid();
+		int to = eg->get_to()->getnodeid();
+			
+		lua_newtable(L);
+		lua_pushnumber(L, from);
+		lua_rawseti(L, -2, 1);
+		lua_pushnumber(L, to);
+		lua_rawseti(L, -2, 2);
+	}
+	return 1;
 }
 
 int Topicnet_udata :: graphnodepos(lua_State *L) {

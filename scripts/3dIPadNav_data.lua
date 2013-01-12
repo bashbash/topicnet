@@ -8,7 +8,7 @@ local data1 = "/data/coauthor_small.xml"
 local data2 = "/data/coauthor_mid.xml"
 local data3 = "/data/coauthor_large.xml"
 
-local activedata = 3
+local activedata = 2
 
 
 
@@ -59,7 +59,11 @@ function loadGraph()
     --print("path  ", path)
     
     local fileN = "graph" .. activedata .. "_pos.txt"
-    if(layout3d) then fileN = "graph" .. activedata .. "_3Dpos.txt" end
+    
+    if(layout3d) then 
+    	fileN = "graph" .. activedata .. "_3Dpos.txt" 
+    	print("loading 3D data")
+    end
     
     
 	local fname = LuaAV.findfileinpath(path, fileN, true)
