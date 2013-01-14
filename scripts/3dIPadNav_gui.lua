@@ -23,12 +23,12 @@ function startGui(cntx, wdim)
 	}
 	
 	-- create some widgets
-	local mv_nd_btn = Button{
+	local labels_btn = Button{
 		rect = Rect(10, 12, 15, 15),
 		value = false,
 	}
 	
-	local nd_btn = Button{
+	local planemode_btn = Button{
 		rect = Rect(10, 30, 15, 15),
 		value = false,
 	}
@@ -54,30 +54,30 @@ function startGui(cntx, wdim)
 	
 	
 	-- add them to the gui
-	gui:add_view(mv_nd_btn)
-	gui:add_view(nd_btn)
-	gui:add_view(pl_btn)
+	gui:add_view(labels_btn)
+	gui:add_view(planemode_btn)
+	--gui:add_view(pl_btn)
 	
-	gui:add_view(eyesep)
-	gui:add_view(pointsz)
+	--gui:add_view(eyesep)
+	--gui:add_view(pointsz)
 	
-	mv_nd_btn:register("value", function(w)
+	labels_btn:register("value", function(w)
 		local val = w.value 
-		print(val)
+		--print(val)
 		if val then 
-			mouseinteractmode = 0 
-			pl_btn.value = false
-			nd_btn.value = false
+			boollabelall = true
+		else
+			boollabelall = false
 		end
 	end)
 	
-	nd_btn:register("value", function(w)
+	planemode_btn:register("value", function(w)
 		local val = w.value 
-		print(val)
+		--print(val)
 		if val then 
+			mouseinteractmode = 2 
+		else
 			mouseinteractmode = 1 
-			pl_btn.value = false
-			mv_nd_btn.value = false
 		end
 	end)
 	

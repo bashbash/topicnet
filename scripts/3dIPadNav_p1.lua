@@ -539,6 +539,7 @@ function getOSC()
 	end
 end
 
+local rotate = 0
 
 function win:draw(eye)
 	
@@ -554,11 +555,11 @@ function win:draw(eye)
 	cam:enter((eye == "left") and 1 or 0)
 	
 	if(boolrotate) then
-	 	gl.PushMatrix()
-	 	gl.Rotate(now()*10, 0, 1, 0)
+	 	rotate = rotate + 1
 	end
 	
-	
+	gl.PushMatrix()
+	gl.Rotate(rotate, 0, 1, 0)
 	gl.Translate(-2.5, 0, 0)
 	
 	gl.LineWidth(2.0)
@@ -662,10 +663,7 @@ function win:draw(eye)
 	 	st = st+1 	
 	end
 
-    if(boolrotate) then
-	 gl.PopMatrix()
-	end
-	
+	gl.PopMatrix()
     cam:leave()
     
     gl.LineWidth(1.0)
@@ -673,12 +671,12 @@ function win:draw(eye)
     
     --[[
     sketch.enter_ortho(self.dim)
-    guilabels:draw({35, 30, 0}, "a")
-	guilabels:draw({35, 50, 0}, "ab")
-	guilabels:draw({35, 70, 0}, "abc")
+    guilabels:draw({35, 30, 0}, "show labels")
+	guilabels:draw({35, 50, 0}, "drag plane mode")
+	--guilabels:draw({35, 70, 0}, "abc")
 	
-	guilabels:draw({10, 100, 0}, "abcd")
-	guilabels:draw({10, 150, 0}, "abcdi")
+	--guilabels:draw({10, 100, 0}, "abcd")
+	--guilabels:draw({10, 150, 0}, "abcdi")
 	
 	
 	sketch.leave_ortho()
@@ -698,6 +696,34 @@ function win:resize()
 	gui:resize(win.dim)
 end
 -------------------------------------------------
+
+local 
+function presetmode()
+
+	local crrp = tpd:planeCount()
+	activePlane = crrp
+	tpd:addPlane(crrp)
+	
+	local currentpos = tpd:graphnodepos(67)
+	currentpos[3] = currentpos[3] + 0.5
+	tpd:graphnodepos(67, currentpos)
+	addNodeToPlane(67)
+	
+	tpd:bringN1(67)
+	tpd:bringN1(60)
+	
+	crrp = tpd:planeCount()
+	activePlane = crrp
+	tpd:addPlane(crrp)
+	
+	currentpos = tpd:graphnodepos(3)
+	currentpos[3] = currentpos[3] + 1.5
+	tpd:graphnodepos(3, currentpos)
+	addNodeToPlane(3)
+	
+	tpd:bringN1(3)
+
+end
 
 function win:key(event, key)
      --print(key)
@@ -728,6 +754,12 @@ function win:key(event, key)
 		elseif(key == 116 or key == 84) then --T
 			draw3d = not draw3d
 		--]]
+		elseif(key == 108 or key == 76) then --L
+			boollabelall = not boollabelall
+			
+		elseif(key == 109 or key == 77) then --M
+			presetmode()
+			
 		elseif(key == 103 or key == 71) then --G
 			mouseinteractmode = 1
 		
