@@ -50,6 +50,7 @@ public:
 	
 	void preprocess();
 	void preprocessauthorgraph();
+	void preprocessgraphml();
 	
 	void normalizeinitpos();
 	void draw();

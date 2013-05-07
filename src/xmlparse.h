@@ -41,6 +41,9 @@ enum Elements { DNVGRAPH, DNVNODE, DNVEDGE, NODEPROPERTY};
 static std::map<std::string, Elements> s_mapElements;
 
 
+enum XMLKEYS { GRAPHML, GRAPH, NODE, EDGE, DATA, KEY, ID, SOURCE, TARGET};
+
+
 void initializeEnums()
 {
 	s_mapElements["DNVGRAPH"] = DNVGRAPH;

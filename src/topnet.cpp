@@ -80,6 +80,33 @@ void Topicnet :: loadAuthorData(const char * filePath){
 }
 
 
+void Topicnet :: loadGraphMLdata(const char * filePath){
+	graph->clear();
+	
+	string path = (string) filePath; 
+	size_t found = path.find_last_of("/");
+	path = path.substr(0,found);
+	//printf("path of file : %s \n", path.c_str());
+	
+	TiXmlDocument doc(filePath);
+	bool loadOkay = doc.LoadFile();
+	if (loadOkay)
+	{
+		printf("\n%s:\n", filePath);
+		srand(5);
+		dump_to_graph3( &doc ); 
+	}
+	else
+	{
+		printf("Failed to load file \"%s\"\n", filePath);
+	}
+	
+	printf("loaded graph with %d nodes and %d edges \n", graph->getNumNodes(), graph->getNumEdges());
+	
+	graph -> preprocessgraphml();
+	
+}
+
 void Topicnet :: loadFaceData(const char * filePath){
 	
 	graph->clear();
@@ -356,6 +383,119 @@ void Topicnet :: dump_to_graph( TiXmlNode* pParent, unsigned int indent){
 	}
 	
 	
+}
+
+
+void Topicnet :: dump_to_graph3(TiXmlNode* pParent, unsigned int indent){
+	if ( !pParent ) return;
+	
+	TiXmlNode* pChild;
+	int t = pParent->Type();
+	
+	
+	std::map<std::string, XMLKEYS> keymap;
+	
+	keymap["graphmml"] = GRAPHML;
+	keymap["graph"] = GRAPH;
+	keymap["node"] = NODE;
+	keymap["edge"] = EDGE;
+	keymap["data"] = DATA;
+	keymap["key"] = KEY;
+	keymap["id"] = ID;
+	keymap["source"] = SOURCE;
+	keymap["target"] = TARGET;
+	
+	
+	string strid;
+	
+	TiXmlElement* pElement;
+	TiXmlAttribute* pAttrib;
+	
+	switch ( t )
+	{
+		case TiXmlNode::TINYXML_DOCUMENT:
+			printf( "Document \n" );
+			break;
+		case TiXmlNode::TINYXML_ELEMENT:
+			switch(keymap[pParent->Value()])
+			{
+				case GRAPHML:
+					printf("Begin graphml doc \n");
+					break;
+				case GRAPH:
+					printf("graph \n");
+					break;
+				case DATA:
+					//printf("graph \n");
+					break;
+				case NODE:{
+					//printf("node \n");
+				
+					pElement = pParent->ToElement();
+					pAttrib=pElement->FirstAttribute();
+					
+					
+					if (pAttrib && keymap[pAttrib->Name()] ==	ID) {
+						strid = strid = pAttrib->Value();
+						
+						int sz = graph->getSize();
+						//printf("node %i %s \n", sz, strid.c_str());
+						GraphNode * nd = new GraphNode(sz, strid, "");
+						graph->addGraphNode(nd);
+						
+						
+						
+					}
+					break;
+					
+				case EDGE:
+					
+					pElement = pParent->ToElement();
+					pAttrib=pElement->FirstAttribute();
+					
+					string to, from;
+					
+					while (pAttrib)
+					{
+						switch(keymap[pAttrib->Name()])
+						{
+							case ID:
+								strid = pAttrib->Value();
+								break;
+							case SOURCE:
+								from = pAttrib->Value();
+								break;
+							case TARGET:
+								to = pAttrib->Value();
+								break;
+							default:
+								break;
+								
+						}
+						pAttrib=pAttrib->Next();
+						
+						
+					}
+					
+					int sz = graph->getEdgeSize();
+					printf("edge %i %s %s \n", sz, from.c_str(), to.c_str());
+					GraphEdge * eg = new GraphEdge(sz, from, to);
+					graph->addGraphEdge(eg);
+					
+					
+					break;
+
+			}
+			break;
+		}
+				
+			
+	}
+	
+	for ( pChild = pParent->FirstChild(); pChild != 0; pChild = pChild->NextSibling()) 
+	{
+		dump_to_graph3( pChild, indent+1 );
+	}
 }
 
 

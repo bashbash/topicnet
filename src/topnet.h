@@ -30,10 +30,12 @@ public:
 	
 	void loadAuthorData(const char * filePath); //now loads xml
 	void loadFaceData(const char * filePath); //now loads xml
+	void loadGraphMLdata(const char * filePath); //now loads xml
 	
 	
 	void dump_to_graph( TiXmlNode* pParent, unsigned int indent = 0 );
 	void dump_to_graph2( TiXmlNode* pParent, unsigned int indent = 0 );
+	void dump_to_graph3( TiXmlNode* pParent, unsigned int indent = 0 );
 	
 	void loadArticlesData(string filepath);
 	

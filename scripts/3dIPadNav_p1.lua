@@ -84,23 +84,24 @@ startGui(context, win.dim)
 
 local NUM_DEVICES = 1
 
-local device_ips = {}
+local device_ids = {}
 local ipadlastpos = {{0.0, 0.0}, {0.0, 0.0}}
 
 
 	
-local send_port = 8080
-local receive_port = 8080
+local send_port = 8083
+local receive_port = 8082
 local oscin  = osc.Recv(receive_port) 
 local oscouts = {} 
 
 
 
+--MOUSE HAS DEVICE ID 100
 local selectnodes = {}
-	selectnodes[1] = {} --this if for the mouse
-	--MOUSE HAS DEVICE ID ONE
+	selectnodes[100] = {} --this if for the mouse
+	
 local visitednodes = {}
-	visitednodes[1] = {} --this if for the mouse
+	visitednodes[100] = {} --this if for the mouse
 local hovernodes = {}
 local displaynodes = {}
 
@@ -138,6 +139,7 @@ end
 ---------------------colors----------------------
 local winbgcolor = {0.9, 0.9, 0.9}
 devc_col = {{0.9, 0.0, 0.9}, {0.9, 0.0, 0.0}, {0.0, 0.9, 0.2}, {0.0, 9.0, 0.0}}
+devc_col[100] = {0.5, 0.5, 0.5}
 
 -------------------------------------------------
 
@@ -259,8 +261,9 @@ end
 local 
 function hoverNode(d)
     
+   
    local p1, p2
-   if(d == 1) then 
+   if(d == 0) then 
     	p1, p2 = cam:picktheray(lastx, lasty)
    else 
    		p1, p2 = cam:picktheray(ipadlastpos[d][1], ipadlastpos[d][2])
@@ -301,10 +304,9 @@ function hoverNode(d)
 			screenpos[1] = screenpos[1] / winw
 			screenpos[2] = (winh - screenpos[2]) / winh
 			
-			if(d ~=1 ) then 
-				oscouts[d]:send("/rollover", screenpos[1], screenpos[2], hovernodeindex, tpd:getnodelabel(hovernodeindex))  --omit  tpd:getnodeid(ind)
-				--print("sent rollover:  ", screenpos[1], screenpos[2], hovernodeindex, " to device: ", d)	
-			end
+			oscouts[d]:send("/clients/"..(d-1).."/rollover", screenpos[1], screenpos[2], hovernodeindex, tpd:getnodelabel(hovernodeindex))  --omit  tpd:getnodeid(ind)
+		    print("sent rollover:  ", screenpos[1], screenpos[2], hovernodeindex, " to device: ", d)	
+		
 		end
 	end	
 end
@@ -331,6 +333,7 @@ function ipadSelectNode( devc, indeks )
 	local selectednodeindex = indeks
 	if(selectednodeindex > -1 and selectednodeindex < (tpd:graphsize() + 1) ) then 
 		local inlist, ind = exists (selectnodes[devc], selectednodeindex)
+	
 		local boolvisited, vind = exists(visitednodes[devc], selectednodeindex)
 	    if(not inlist) then 
 			--add to selected list
@@ -353,6 +356,7 @@ function ipadSelectNode( devc, indeks )
 			selectednodeindex = -1
 			lastselectnode = -1
 		end
+		
 	end	
 end
 
@@ -469,68 +473,69 @@ local
 function getOSC() 
 	for msg in oscin:recv() do
 		
-	    if(msg.addr == "/handshake") then 
-	    	local ipadaddr = " "
-	    	ipadaddr = ipadaddr .. unpack(msg)
-	    	ipadaddr = string.sub(ipadaddr, 2)
-	    	print(string.len(ipadaddr))
-	    	print("hello ipad: ", ipadaddr)
+	    if(msg.addr == "/deviceConnected") then 
+	    	local ipadid = " "
+	    	ipadid = ipadid .. unpack(msg)
+	    	ipadid = string.sub(ipadid, 2)  -- adding 1 to handle the stupid lua indexing 
+	
+	    	print("hello ipad: ", ipadid)
 	    	
-	    	local isinlist, ind = exists(device_ips, ipadaddr)
+	    	local isinlist, ind = exists(device_ids, ipadid)
 	    	if(isinlist) then 
 	    		--resend the existing id
+	    		print("ERROR: device connect. received existing id!")
 	    		
-	    		oscouts[ind]:send("/idassigned", ind, devc_col[ind][1], devc_col[ind][2], devc_col[ind][3] )
-	    		print("id assigned: ", ind, devc_col[ind][1], devc_col[ind][2], devc_col[ind][3] )
 	    	else
-	    	    NUM_DEVICES = NUM_DEVICES + 1
-	    	    local newid = NUM_DEVICES
-	    		device_ips[newid] = ipadaddr
-	    		oscouts[newid] = osc.Send(ipadaddr, send_port)
+	    	    table.insert(device_ids, ipadid)
+	    	   
+	    	    local device_ind = ipadid+1
+	
+	    		ipadlastpos[device_ind] = {0.0, 0.0}
+	    		selectnodes[device_ind] = {}
 	    		
-	    		ipadlastpos[newid] = {0.0, 0.0}
-	    		selectnodes[newid] = {}
-	    		visitednodes[newid] = {}
-	    		--confirm the device id 
-	    		oscouts[newid]:send("/idassigned", newid, devc_col[newid][1], devc_col[newid][2], devc_col[newid][3] )
-	    		print("id assigned: ", newid, devc_col[newid][1], devc_col[newid][2], devc_col[newid][3] )
+	    		print("created selectnodes for: ", device_ind)
+	    		visitednodes[device_ind] = {}
+	    		
+	    		oscouts[device_ind] = osc.Send("127.0.0.1", send_port)
+	    		oscouts[device_ind]:send("/clients/"..ipadid.."/idassigned", devc_col[device_ind][1], devc_col[device_ind][2], devc_col[device_ind][3])
+	    		
 	    	end
 	    	
 	    elseif(msg.addr == "/screencoord") then 
-	    	local device_id, scx, scy = unpack (msg)
+	    	local scx, scy, ipadid = unpack (msg)
 	    	local winw, winh = unpack(win.dim)
-	    	
-	    	ipadlastpos[device_id] = {math.floor(scx*winw), math.floor(scy*winh)}
-	    
+	    	local device_ind = ipadid+1
+	    	ipadlastpos[device_ind] = {math.floor(scx*winw), math.floor(scy*winh)}
+	        --print("coords: ", ipadlastpos[device_ind][1], ipadlastpos[device_ind][2], device_ind, ipadid)
 	    elseif(msg.addr == "/selectNode") then 
-	    	local device_id, indid = unpack(msg)
-	    	print("device, selected node: ", device_id, indid)
-	    	ipadSelectNode( device_id, indid )
+	    	local indid, ipadid = unpack(msg)
+	    	print("device, selected node: ", ipadid, indid)
+	    	local device_ind = ipadid+1
+	    	ipadSelectNode( device_ind, indid )
 	    	
-	    	oscouts[device_id]:send("/createNode", indid, tpd:getnodelabel(indid), tpd:getnodelabel(indid, true), tpd:getnodepubs(indid) )  --
+	    	oscouts[device_ind]:send("/clients/"..ipadid.."/createNode", indid, tpd:getnodelabel(indid), tpd:getnodelabel(indid, true), tpd:getnodepubs(indid) )  --
 	    	--print(" sent /createNode", tpd:getnodelabel(indid), tpd:getnodepubs(indid) )
 	   
 	   elseif(msg.addr == "/deselectNode") then
-	    	local device_id, indid = unpack(msg)
-	    	--print("device, deselect: ", device_id, indid)
-	    	--ipadSelectNode( device_id, indid )
-	    	ipadDeselectNode(device_id, indid )
+	    	local indid, ipadid = unpack(msg)
+	    	local device_ind = ipadid+1
+	    	ipadDeselectNode(device_ind, indid )
 	    	
 	    elseif(msg.addr == "/displayNode") then
-	    	local device_id, indid = unpack(msg)
-	    	--print("device, disp: ", device_id, indid)
+	    	local indid, ipadid = unpack(msg)
 	    	displayNode( indid )
 	    
 	    elseif(msg.addr == "/clear") then
 	        --later I have to handle this per device
-	        local device_id = unpack(msg)
+	        local ipadid = unpack(msg)
+	        local device_ind = ipadid+1
 	    	--print("clear device: ", device_id)
-	    	if(selectnodes[device_id] ~= nil) then 
-				for k,v in pairs(selectnodes[device_id]) do  
-					table.insert ( visitednodes[device_id], v)
+	    	if(selectnodes[device_ind] ~= nil) then 
+				for k,v in pairs(selectnodes[device_ind]) do  
+					table.insert ( visitednodes[device_ind], v)
 				end
-				selectnodes[device_id] = {}
-				hovernodes[device_id] = {}
+				selectnodes[device_ind] = {}
+				hovernodes[device_ind] = {}
 			end
 			
 			displaynodes = {}
@@ -572,10 +577,13 @@ function win:draw(eye)
 	    mouseSelectNode() 
 	    boolmousepress = false
 	else
-	    for devc=1, NUM_DEVICES do
-			if(devc ~= 1 ) then drawMyCursor(devc, ipadlastpos[devc], win.dim) end
-			hoverNode(devc) 
-   		end
+	   
+
+	    for key,devc in pairs(device_ids) do 
+        	drawMyCursor(devc+1, ipadlastpos[devc+1], win.dim) 
+			hoverNode(devc+1) 
+  		end
+        
    	end
 
 	
@@ -603,28 +611,29 @@ function win:draw(eye)
 				
 				local i, transp = math.modf (now())
 				local i,r = math.modf (i/2)
-				if(r == 0) then devc_col[d][4] = transp 
-				else devc_col[d][4] = 1 - transp end
+				if(r == 0) then devc_col[d+1][4] = transp 
+				else devc_col[d+1][4] = 1 - transp end
 				
-				gl.Color(devc_col[d])
+				gl.Color(devc_col[d+1])
 					drawBillboardCircle(0.2, true)
 				gl.PopMatrix()
 			end	
 		end
 		
+		----[[
 		--PREVIOUSLY VISITED NODES
-		for d,devlist in pairs(visitednodes) do
+		for d, devlist in pairs(visitednodes) do
 		    devc_col[d][4] = 1.0
 			for n,node in pairs (devlist) do
 				
 				gl.PushMatrix()
 				gl.Translate(tpd:graphnodepos(node))
-				gl.Color(devc_col[d])
+				gl.Color(devc_col[d+1])
 					drawBillboardCircle(0.2, false)
 				gl.PopMatrix()
 			end	
 		end
-		
+		--]]
 		--DISPLAY NODES
 		for k,v in pairs(displaynodes) do  
 			local np = tpd:graphnodepos(v)
@@ -748,12 +757,13 @@ function win:key(event, key)
 		elseif(key == 108 or key == 76) then --L
 		    loadGraph()
 		    st = MAXSTEP -- TO STOP GRAPH LAYOUT CALC
-		elseif(key == 121 or key == 89) then --Y
-			layout3d = not layout3d
-			redrawgraph()
+		
 		elseif(key == 116 or key == 84) then --T
 			draw3d = not draw3d
 		--]]
+		elseif(key == 121 or key == 89) then --Y
+			layout3d = not layout3d
+			redrawgraph()
 		elseif(key == 108 or key == 76) then --L
 			boollabelall = not boollabelall
 			

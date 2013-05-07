@@ -302,6 +302,52 @@ void Graph :: preprocess(){
 }
 
 
+void Graph :: preprocessgraphml(){
+	//we want all the edges to have pointer to the nodes its connecting
+	//we also want all nodes to know about its adjacency nodes
+	//we will do so by traversing all the edges
+	
+	//for this particular data we have to work with string id's
+	
+	for (int e=0; e< edgelist.size(); e++) {
+		GraphEdge * thedg = edgelist.at(e);
+		
+		string frst = thedg->strfrom;
+		string tostr = thedg->strto;
+		
+		bool foundfrom = false;
+		bool foundto = false;
+		
+		GraphNode * fromend;
+		GraphNode * toend;
+		
+		//find these nodes in the adjlist
+		for (int a=0; a<adjlist.size(); a++) {
+			GraphNode * nd = adjlist.at(a);
+			if (!foundfrom && nd->getstrid() == frst) {
+				fromend = nd;
+				fromend->addAdjacentEdge(thedg);
+				thedg->from = fromend -> getnodeid();
+				thedg->setFrom(fromend);
+				foundfrom = true;
+			}
+			if (!foundto && nd->getstrid() == tostr) {
+				toend = nd;
+				thedg->setTo(toend);
+				toend->addAdjacentEdge(thedg);
+				thedg->to = toend -> getnodeid();
+				foundto = true;
+			}
+			if(foundto && foundfrom){
+				fromend -> addAdjacentNode(toend);
+				toend->addAdjacentNode(fromend);
+				break;
+			}
+		}
+	}
+}	
+
+
 void Graph :: preprocessauthorgraph(){
 	//we want all the edges to have pointer to the nodes its connecting
 	//we also want all nodes to know about its adjacency nodes

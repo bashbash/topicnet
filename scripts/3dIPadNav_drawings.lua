@@ -110,11 +110,11 @@ end
  
 function drawMyCursor(dev, devpos, dim)
 	
+	
     local pos = glu.UnProject(devpos[1], devpos[2], 0.01)
 	local sc = 0.0015
 
     gl.Color(devc_col[dev])
-    
 	gl.LineWidth(4.0)
 	gl.Begin(GL.LINES)
 	    

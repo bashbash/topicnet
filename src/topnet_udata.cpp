@@ -100,6 +100,10 @@ int Topicnet_udata :: loadData(lua_State *L) {
 		else if(type == "face") {
 			s->Base::loadFaceData(filePath);
 		}
+		
+		else if(type == "graphml") {
+			s->Base::loadGraphMLdata(filePath);
+		}
 
 		
 		
